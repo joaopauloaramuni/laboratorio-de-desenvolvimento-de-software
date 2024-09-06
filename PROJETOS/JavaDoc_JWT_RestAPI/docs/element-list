@@ -1,0 +1,6 @@
+com.example.JWT_RestAPI.application
+com.example.JWT_RestAPI.config
+com.example.JWT_RestAPI.controller
+com.example.JWT_RestAPI.model
+com.example.JWT_RestAPI.security
+com.example.JWT_RestAPI.service
