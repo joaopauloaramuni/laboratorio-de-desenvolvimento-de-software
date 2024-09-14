@@ -7,3 +7,6 @@ https://www.jetbrains.com/idea/download/
 <br>https://docs.spring.io/spring-boot/documentation.html
 <br>https://insomnia.rest/download
 <br>https://www.postman.com/downloads/
+<br>https://drawio.com/
+<br>https://astah.net/products/free-student-license/
+<br>https://plantuml.com/
