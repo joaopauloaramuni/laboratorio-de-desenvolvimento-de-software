@@ -13,3 +13,4 @@ https://www.jetbrains.com/idea/download/
 <br>https://www.figma.com/pt-br/templates/
 <br>https://www.docker.com/products/docker-desktop/
 <br>https://fly.io/
+<br>https://www.mongodb.com/products/tools/compass
