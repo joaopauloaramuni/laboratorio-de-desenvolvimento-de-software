@@ -11,3 +11,5 @@ https://www.jetbrains.com/idea/download/
 <br>https://astah.net/products/free-student-license/
 <br>https://plantuml.com/
 <br>https://www.figma.com/pt-br/templates/
+<br>https://www.docker.com/products/docker-desktop/
+<br>https://fly.io/
