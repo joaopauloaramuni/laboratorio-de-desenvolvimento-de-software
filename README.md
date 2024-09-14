@@ -6,6 +6,7 @@ https://www.jetbrains.com/idea/download/
 <br>https://docs.oracle.com/en/java/javase/17/
 <br>https://start.spring.io/
 <br>https://docs.spring.io/spring-boot/documentation.html
+<br>https://www.primefaces.org/
 <br>https://insomnia.rest/download
 <br>https://www.postman.com/downloads/
 <br>https://drawio.com/
