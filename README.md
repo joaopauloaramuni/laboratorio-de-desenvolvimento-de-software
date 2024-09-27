@@ -18,5 +18,6 @@ https://www.jetbrains.com/idea/download/
 <br>https://fly.io/
 <br>https://www.mongodb.com/products/tools/compass
 <br>https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+<br>https://github.com/joaopauloaramuni/banco-de-dados/tree/main/SCRIPTS
 <br>https://grafana.com/
 <br>https://github.com/ICEI-PUC-Minas-PPLES-TI/PLF-ES-2022-2-MON-CursoAPIJava
