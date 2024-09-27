@@ -17,5 +17,6 @@ https://www.jetbrains.com/idea/download/
 <br>https://www.docker.com/products/docker-desktop/
 <br>https://fly.io/
 <br>https://www.mongodb.com/products/tools/compass
+<br>https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 <br>https://grafana.com/
 <br>https://github.com/ICEI-PUC-Minas-PPLES-TI/PLF-ES-2022-2-MON-CursoAPIJava
