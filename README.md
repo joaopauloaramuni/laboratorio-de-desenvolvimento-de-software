@@ -17,6 +17,7 @@ https://www.jetbrains.com/idea/download/
 <br>https://www.figma.com/pt-br/templates/
 <br>https://www.docker.com/products/docker-desktop/
 <br>https://fly.io/
+<br>https://www.mongodb.com/try/download/community
 <br>https://www.mongodb.com/products/tools/compass
 <br>https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 <br>https://github.com/joaopauloaramuni/banco-de-dados/tree/main/SCRIPTS
