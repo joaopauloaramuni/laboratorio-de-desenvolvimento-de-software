@@ -23,3 +23,19 @@ https://www.jetbrains.com/idea/download/
 <br>https://github.com/joaopauloaramuni/banco-de-dados/tree/main/SCRIPTS
 <br>https://grafana.com/
 <br>https://github.com/ICEI-PUC-Minas-PPLES-TI/PLF-ES-2022-2-MON-CursoAPIJava
+
+Comandos úteis:
+
+docker --version
+
+docker build -t minha-aplicacao .
+docker build --platform linux/amd64 -t minha-aplicacao .
+
+docker images
+
+docker run -d -p 8080:8080 minha-aplicacao
+docker run --platform linux/amd64 -d -p 8080:8080 minha-aplicacao
+
+docker ps
+
+docker stats
