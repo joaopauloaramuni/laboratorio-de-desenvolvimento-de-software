@@ -42,6 +42,11 @@ docker stats
 
 <table>
 <tr>
+<td align="center">
+Comandos Docker: Guia Rápido
+</td>
+</tr>
+<tr>
 <td>
 docker run: Executa um novo contêiner a partir de uma imagem.
 </td>
