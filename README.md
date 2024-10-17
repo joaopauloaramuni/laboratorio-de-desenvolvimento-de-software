@@ -108,12 +108,12 @@ docker volume: Gerencia volumes para persistência de dados.
 </tr>
 <tr>
 <td>
-docker-compose up: Inicia e orquestra múltiplos contêineres definidos em um arquivo docker-compose.yml.
+docker-compose up: Inicia e orquestra múltiplos contêineres definidos no docker-compose.yml.
 </td>
 </tr>
 <tr>
 <td>
-docker-compose down: Para e remove os contêineres, redes e volumes definidos em um arquivo docker-compose.yml.
+docker-compose down: Para e remove os contêineres, redes e volumes definidos no docker-compose.yml.
 </td>
 </tr>
 <tr>
