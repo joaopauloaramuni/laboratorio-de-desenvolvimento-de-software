@@ -116,4 +116,104 @@ docker-compose up: Inicia e orquestra múltiplos contêineres definidos em um ar
 docker-compose down: Para e remove os contêineres, redes e volumes definidos em um arquivo docker-compose.yml.
 </td>
 </tr>
+<tr>
+<td>
+docker stats: Exibe estatísticas em tempo real sobre o uso de recursos de contêineres em execução.
+</td>
+</tr>
+<tr>
+<td>
+docker inspect: Mostra informações detalhadas sobre um contêiner ou imagem.
+</td>
+</tr>
+<tr>
+<td>
+docker start: Inicia um contêiner que foi parado.
+</td>
+</tr>
+<tr>
+<td>
+docker stop: Para um contêiner em execução.
+</td>
+</tr>
+<tr>
+<td>
+docker restart: Reinicia um contêiner.
+</td>
+</tr>
+<tr>
+<td>
+docker pause: Pausa um ou mais contêineres em execução.
+</td>
+</tr>
+<tr>
+<td>
+docker unpause: Retoma um ou mais contêineres que foram pausados.
+</td>
+</tr>
+<tr>
+<td>
+docker commit: Cria uma nova imagem a partir das alterações em um contêiner.
+</td>
+</tr>
+<tr>
+<td>
+docker tag: Adiciona uma nova tag a uma imagem existente.
+</td>
+</tr>
+<tr>
+<td>
+docker login: Faz login em um repositório Docker.
+</td>
+</tr>
+<tr>
+<td>
+docker logout: Faz logout de um repositório Docker.
+</td>
+</tr>
+<tr>
+<td>
+docker search: Busca imagens no Docker Hub.
+</td>
+</tr>
+<tr>
+<td>
+docker pull: Baixa uma imagem do Docker Hub ou de um repositório remoto.
+</td>
+</tr>
+<tr>
+<td>
+docker cp: Copia arquivos ou diretórios entre o sistema de arquivos do contêiner e o host.
+</td>
+</tr>
+<tr>
+<td>
+docker volume create: Cria um novo volume Docker.
+</td>
+</tr>
+<tr>
+<td>
+docker volume rm: Remove um ou mais volumes.
+</td>
+</tr>
+<tr>
+<td>
+docker network create: Cria uma nova rede Docker.
+</td>
+</tr>
+<tr>
+<td>
+docker network rm: Remove uma ou mais redes.
+</td>
+</tr>
+<tr>
+<td>
+docker network ls: Lista todas as redes Docker.
+</td>
+</tr>
+<tr>
+<td>
+docker history: Mostra o histórico de camadas de uma imagem.
+</td>
+</tr>
 </table>
