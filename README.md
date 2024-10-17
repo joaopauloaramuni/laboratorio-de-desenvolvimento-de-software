@@ -43,7 +43,7 @@ docker stats
 <table>
 <tr>
 <td align="center">
-Comandos Docker: Guia Rápido
+Comandos Docker: Guia rápido
 </td>
 </tr>
 <tr>
