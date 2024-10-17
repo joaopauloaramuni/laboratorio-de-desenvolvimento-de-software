@@ -39,3 +39,81 @@ docker run -d -p 8080:8080 minha-aplicacao
 docker ps
 
 docker stats
+
+<table>
+<tr>
+<td>
+docker run: Executa um novo contêiner a partir de uma imagem.
+</td>
+</tr>
+<tr>
+<td>
+docker ps: Lista os contêineres em execução.
+</td>
+</tr>
+<tr>
+<td>
+docker ps -a: Lista todos os contêineres, incluindo os que não estão em execução.
+</td>
+</tr>
+<tr>
+<td>
+docker images: Lista todas as imagens locais disponíveis.
+</td>
+</tr>
+<tr>
+<td>
+docker rmi: Remove uma ou mais imagens.
+</td>
+</tr>
+<tr>
+<td>
+docker rm: Remove um ou mais contêineres.
+</td>
+</tr>
+<tr>
+<td>
+docker build: Cria uma nova imagem a partir de um Dockerfile.
+</td>
+</tr>
+<tr>
+<td>
+docker pull: Baixa uma imagem do Docker Hub ou de um repositório remoto.
+</td>
+</tr>
+<tr>
+<td>
+docker push: Envia uma imagem para um repositório remoto no Docker Hub.
+</td>
+</tr>
+<tr>
+<td>
+docker exec: Executa um comando em um contêiner em execução.
+</td>
+</tr>
+<tr>
+<td>
+docker logs: Exibe os logs de um contêiner.
+</td>
+</tr>
+<tr>
+<td>
+docker network: Gerencia redes Docker.
+</td>
+</tr>
+<tr>
+<td>
+docker volume: Gerencia volumes para persistência de dados.
+</td>
+</tr>
+<tr>
+<td>
+docker-compose up: Inicia e orquestra múltiplos contêineres definidos em um arquivo docker-compose.yml.
+</td>
+</tr>
+<tr>
+<td>
+docker-compose down: Para e remove os contêineres, redes e volumes definidos em um arquivo docker-compose.yml.
+</td>
+</tr>
+</table>
