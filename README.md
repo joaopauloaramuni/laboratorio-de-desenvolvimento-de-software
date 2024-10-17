@@ -26,7 +26,8 @@ https://www.jetbrains.com/idea/download/
 
 Comandos Docker úteis:
 
-https://www.docker.com/products/docker-desktop/
+https://docs.docker.com/get-started/docker_cheatsheet.pdf
+<br>https://www.docker.com/products/docker-desktop/
 
 docker --version
 
