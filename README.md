@@ -22,6 +22,7 @@ https://www.jetbrains.com/idea/download/
 <br>https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 <br>https://github.com/joaopauloaramuni/banco-de-dados/tree/main/SCRIPTS
 <br>https://grafana.com/
+<br>https://site.mockito.org/
 <br>https://github.com/ICEI-PUC-Minas-PPLES-TI/PLF-ES-2022-2-MON-CursoAPIJava
 
 Comandos Docker úteis:
