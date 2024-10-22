@@ -43,42 +43,44 @@ spring.jpa.open-in-view=false
 
 - **POST** `/auth/register`
 - Corpo da Requisição:
-  ```json
+```json
   {
     "name": "Aramuni",
     "email": "joaopauloaramuni@gmail.com",
     "password": "senhaSecreta123"
   }
-  ```
+```
 
 - Resposta: Confirmação de registro.
 - Exemplo de resposta:
-  ```json
+
+```json
 {
   "name": "Aramuni",
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cmwtc2hvcnRlbmVyIiwic3ViIjoiam9hb3BhdWxvYXJhbXVuaTJAZ21haWwuY29tIiwiZXhwIjoxNzI5NjI3Njc2fQ.MW5BxAtYvt4xNhwbJX1tFwAHBjbyJFxpJo-pWhRwilA"
 }
-  ```
+```
 
 ### Login de Usuário
 - **POST** `/auth/login`
 - Corpo da Requisição:
-  ```json
+ 
+```json
 {
   "email": "joaopauloaramuni@gmail.com",
   "password": "senhaSecreta123"
 }
-  ```
+```
 
 - Resposta: Retorna o token JWT.
 - Exemplo de resposta:
 
-  ```json
+```json
 {
   "name": "Aramuni",
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cmwtc2hvcnRlbmVyIiwic3ViIjoiam9hb3BhdWxvYXJhbXVuaUBnbWFpbC5jb20iLCJleHAiOjE3Mjk2Mjc4NTB9.bM626pSxeMKnb-iQ4J6sOgVLnIIpz_OVvS4ft34rrrU"
 }
-  ```
+```
 
 ### Encurtar URL
 
@@ -91,16 +93,16 @@ Authorization: Bearer {token}
 - Exemplo:
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cmwtc2hvcnRlbmVyIiwic3ViIjoiam9hb3BhdWxvYXJhbXVuaUBnbWFpbC5jb20iLCJleHAiOjE3Mjk2Mjc4NTB9.bM626pSxeMKnb-iQ4J6sOgVLnIIpz_OVvS4ft34rrrU
 
-  ```json
+```json
   {
     "url": "http://exemplo.com",
     "expirationDate": "2024-12-31T23:59:59"
   }
-  ```
+```
 - Resposta: Retorna a URL encurtada.
 - Exemplo de resposta:
 
-  ```json
+```json
   {
     "createdAt": "2024-10-18T11:10:50.841085",
     "updatedAt": "2024-10-18T11:10:50.841085",
@@ -109,7 +111,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cmwtc2hvc
     "shortUrl": "FtSXgy",
     "expirationDate": "2024-12-31T23:59:59"
   }
-  ```
+```
 
 ### Redirecionar para a URL Original
 
