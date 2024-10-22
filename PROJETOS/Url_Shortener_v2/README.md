@@ -135,19 +135,55 @@ Resposta: Redireciona para a URL original.
 │   │   │           └── urlshortener
 │   │   │               ├── application
 │   │   │               │   └── UrlshortenerApplication.java
+│   │   │               ├── config
+│   │   │               │   └── OpenApiConfig.java
 │   │   │               ├── controller
+│   │   │               │   ├── AuthController.java
 │   │   │               │   └── UrlController.java
 │   │   │               ├── dto
-│   │   │               │   └── UrlRequestDto.java
+│   │   │               │   ├── ErrorResponseDTO.java
+│   │   │               │   └── LoginRequestDTO.java
+│   │   │               │   └── RegisterRequestDTO.java
+│   │   │               │   └── ResponseDTO.java
+│   │   │               │   └── UrlRequestDTO.java
+│   │   │               ├── exception
+│   │   │               │   ├── GlobalExceptionHandler.java
+│   │   │               │   └── UrlExpiredException.java
+│   │   │               │   └── UrlNotFoundException.java
+│   │   │               │   └── UserAlreadyExistsException.java
+│   │   │               │   └── UserNotFoundException.java
+│   │   │               ├── infra
+│   │   │               │   ├── cors
+│   │   │               │   │   └── CorsConfig.java
+│   │   │               │   └── security
+│   │   │               │       ├── CustomUserDetailsService.java
+│   │   │               │       └── SecurityConfig.java
+│   │   │               │       └── SecurityFilter.java
+│   │   │               │       └── TokenService.java
 │   │   │               ├── model
 │   │   │               │   ├── BaseEntity.java
 │   │   │               │   └── Url.java
+│   │   │               │   └── User.java
 │   │   │               ├── repository
-│   │   │               │   └── UrlRepository.java
+│   │   │               │   ├── UrlRepository.java
+│   │   │               │   └── UserRepository.java
 │   │   │               └── service
-│   │   │                   └── UrlService.java
+│   │   │               │   ├── AuthService.java
+│   │   │               │   └── UrlService.java
 │   ├── resources
+│   │   ├── db
+│   │   │   └── migration
+│   │   │       ├── V1__create-table-urls.sql
+│   │   │       └── V2__create-table-users.sql
 │   │   └── application.properties
+├── test
+│   ├── java
+│   │   └── com
+│   │       └── example
+│   │           └── urlshortener
+│   │               ├── UrlControllerTest.java
+│   │               ├── UrlServiceTest.java
+│   │               └── UrlshortenerApplicationTests.java
 ```
 
 ## DTO - `UrlRequestDTO`
