@@ -142,14 +142,14 @@ Resposta: Redireciona para a URL original.
 │   │   │               │   └── UrlController.java
 │   │   │               ├── dto
 │   │   │               │   ├── ErrorResponseDTO.java
-│   │   │               │   └── LoginRequestDTO.java
-│   │   │               │   └── RegisterRequestDTO.java
-│   │   │               │   └── ResponseDTO.java
+│   │   │               │   ├── LoginRequestDTO.java
+│   │   │               │   ├── RegisterRequestDTO.java
+│   │   │               │   ├── ResponseDTO.java
 │   │   │               │   └── UrlRequestDTO.java
 │   │   │               ├── exception
 │   │   │               │   ├── GlobalExceptionHandler.java
-│   │   │               │   └── UrlExpiredException.java
-│   │   │               │   └── UrlNotFoundException.java
+│   │   │               │   ├── UrlExpiredException.java
+│   │   │               │   ├── UrlNotFoundException.java
 │   │   │               │   └── UserAlreadyExistsException.java
 │   │   │               │   └── UserNotFoundException.java
 │   │   │               ├── infra
@@ -157,33 +157,33 @@ Resposta: Redireciona para a URL original.
 │   │   │               │   │   └── CorsConfig.java
 │   │   │               │   └── security
 │   │   │               │       ├── CustomUserDetailsService.java
-│   │   │               │       └── SecurityConfig.java
-│   │   │               │       └── SecurityFilter.java
+│   │   │               │       ├── SecurityConfig.java
+│   │   │               │       ├── SecurityFilter.java
 │   │   │               │       └── TokenService.java
 │   │   │               ├── model
 │   │   │               │   ├── BaseEntity.java
-│   │   │               │   └── Url.java
+│   │   │               │   ├── Url.java
 │   │   │               │   └── User.java
 │   │   │               ├── repository
 │   │   │               │   ├── UrlRepository.java
 │   │   │               │   └── UserRepository.java
 │   │   │               └── service
-│   │   │               │   ├── AuthService.java
-│   │   │               │   └── UrlService.java
-│   ├── resources
-│   │   ├── db
-│   │   │   └── migration
-│   │   │       ├── V1__create-table-urls.sql
-│   │   │       └── V2__create-table-users.sql
-│   │   └── application.properties
-├── test
-│   ├── java
-│   │   └── com
-│   │       └── example
-│   │           └── urlshortener
-│   │               ├── UrlControllerTest.java
-│   │               ├── UrlServiceTest.java
-│   │               └── UrlshortenerApplicationTests.java
+│   │   │                   ├── AuthService.java
+│   │   │                   └── UrlService.java
+│   │   └── resources
+│   │       ├── db
+│   │       │   └── migration
+│   │       │       ├── V1__create-table-urls.sql
+│   │       │       └── V2__create-table-users.sql
+│   │       └── application.properties
+│   └── test
+│       ├── java
+│       │   └── com
+│       │       └── example
+│       │           └── urlshortener
+│       │               ├── UrlControllerTest.java
+│       │               ├── UrlServiceTest.java
+│       │               └── UrlshortenerApplicationTests.java
 ```
 
 ## DTO - `UrlRequestDTO`
