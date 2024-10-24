@@ -69,6 +69,34 @@ Adicione as seguintes dependências ao seu arquivo `pom.xml`:
 </dependency>
 ```
 
+## Métodos do Serviço QrCodeService
+
+### `generateQRCodeImage`
+
+Este método gera um QR Code a partir de um texto fornecido e o retorna como um array de bytes representando a imagem no formato PNG. Os parâmetros que ele recebe são:
+
+- **text**: O texto que será codificado no QR Code.
+- **width**: A largura da imagem do QR Code em pixels.
+- **height**: A altura da imagem do QR Code em pixels.
+
+O método pode lançar duas exceções:
+- **WriterException**: Se ocorrer um erro ao tentar gerar o QR Code.
+- **IOException**: Se houver um problema ao escrever a imagem.
+
+### `saveQRCodeImage`
+
+Este método é responsável por salvar o QR Code gerado como uma imagem PNG no sistema de arquivos. Assim como o método anterior, ele recebe três parâmetros:
+
+- **text**: O texto que será codificado no QR Code.
+- **width**: A largura da imagem do QR Code em pixels.
+- **height**: A altura da imagem do QR Code em pixels.
+
+O método também pode lançar as mesmas exceções:
+- **WriterException**: Se houver um erro ao tentar gerar o QR Code.
+- **IOException**: Se houver um problema ao salvar a imagem no sistema de arquivos.
+
+Esses métodos proporcionam funcionalidades básicas para gerar e armazenar QR Codes em seu projeto.
+
 ## Como Executar
 1. Certifique-se de ter o Java JDK e Maven instalados.
 2. Clone o repositório.
