@@ -1,6 +1,6 @@
 # GetSubs com Spring Boot
 
-Projeto para gerenciamento de legendas com APIs do OpenSubtitles, implementado em Spring Boot. Este README contém a documentação para acessar os endpoints da aplicação.
+Projeto para gerenciamento de legendas com APIs do [OpenSubtitles](https://www.opensubtitles.com/pt-BR), implementado em Spring Boot. Este README contém a documentação para acessar os endpoints da aplicação.
 
 ## Estrutura do projeto
 ```
