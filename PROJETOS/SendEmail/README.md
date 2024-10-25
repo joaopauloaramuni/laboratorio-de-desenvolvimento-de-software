@@ -76,13 +76,16 @@ mvn spring-boot:run
 http://localhost:8080/api/email/send  
 
 ### Body JSON
+```json
 {
   "to": "joaopauloaramuni@gmail.com",
   "subject": "Teste de Envio de Email",
   "body": "Este é um teste de envio de e-mail usando Spring Boot."
 }
+```
 
 ## DTO
+```java
 public class EmailRequestDTO {
 
     private String to;
@@ -90,6 +93,7 @@ public class EmailRequestDTO {
     private String body;
     ...
 }
+```
 
 ## Método sendEmail
 
