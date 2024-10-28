@@ -1,0 +1,125 @@
+# Projeto SecureLogin
+
+## Descrição
+O SecureLogin é um projeto de aplicação web que implementa um sistema de login seguro utilizando Spring Boot e Spring Security. O objetivo é permitir a autenticação de usuários, diferenciando entre usuários comuns e administradores, e garantindo o acesso apropriado às páginas da aplicação.
+
+## Estrutura do Projeto
+
+```
+SecureLogin
+│
+├── src
+│   └── main
+│       ├── java
+│       │   └── com.example.SecureLogin
+│       │       ├── application
+│       │       │   └── SecureLoginApplication.java
+│       │       ├── config
+│       │       │   ├── SecurityConfig.java
+│       │       │   └── UserConfig.java
+│       │       └── controller
+│       │           └── SecureLoginController.java
+│       └── resources
+│           ├── application.properties
+│           ├── static
+│           │   └── css
+│           │       └── style.css
+│           └── templates
+│               ├── admin.html
+│               ├── home.html
+│               └── login.html
+```
+
+## Configuração do application.properties
+
+```properties
+spring.application.name=SecureLogin
+app.user.username=joao
+app.user.password=4321
+app.admin.username=admin
+app.admin.password=1234
+```
+
+## Dependências
+```xml
+<!-- Dependência do Spring Boot Test -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-test</artifactId>
+    <scope>test</scope>
+</dependency>
+
+<!-- Dependência do Spring Security -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-security</artifactId>
+</dependency>
+
+<!-- Dependência do Thymeleaf para o Spring Boot -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-thymeleaf</artifactId>
+</dependency>
+```
+
+# Thymeleaf
+
+Thymeleaf é um motor de templates para Java que permite a criação de páginas HTML dinâmicas de forma simples e eficiente. Ele é frequentemente utilizado em aplicações Spring, proporcionando uma maneira intuitiva de gerar conteúdo HTML e manipular dados diretamente nas páginas.
+
+## Principais Características
+
+- **Natural Templating**: Os templates Thymeleaf são válidos como documentos HTML, permitindo que sejam visualizados em navegadores sem processamento.
+- **Integração com Spring**: Thymeleaf se integra perfeitamente com o Spring Framework, facilitando a injeção de dependências e o acesso a beans do Spring.
+- **Expressões de Template**: Utiliza uma sintaxe simples e expressiva para manipular dados, permitindo a criação de lógicas condicionais e loops diretamente nas páginas.
+
+## Exemplo de Uso
+
+Aqui está um exemplo simples de um template Thymeleaf:
+
+```html
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Exemplo Thymeleaf</title>
+</head>
+<body>
+    <h1 th:text="${titulo}">Título do Documento</h1>
+    <ul>
+        <li th:each="item : ${itens}" th:text="${item}"></li>
+    </ul>
+</body>
+</html>
+```
+
+Neste exemplo, o título e a lista de itens são preenchidos dinamicamente com dados fornecidos pelo controlador Spring.
+
+Thymeleaf é uma escolha poderosa para desenvolvedores que desejam criar interfaces web dinâmicas e interativas em aplicações Java. Com sua sintaxe intuitiva e forte integração com o Spring, ele se tornou uma ferramenta popular no ecossistema de desenvolvimento Java.
+
+## Métodos da Classe SecurityConfig
+
+### @Configuration
+Indica que a classe contém métodos de configuração que geram beans para o contexto da aplicação.
+
+### @EnableWebSecurity
+Ativa a segurança da web, permitindo a configuração de regras de segurança para as URLs da aplicação.
+
+### public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception
+Configura as regras de segurança das requisições HTTP, permitindo o acesso público às páginas de login e arquivos CSS, restringindo o acesso às páginas do administrador.
+
+### public UserDetailsService userDetailsService()
+Configura o gerenciamento de usuários em memória, criando um usuário comum e um administrador, codificando as senhas.
+
+### public PasswordEncoder passwordEncoder()
+Define o codificador de senhas a ser utilizado na aplicação, utilizando o BCryptPasswordEncoder.
+
+## Urls do projeto:
+http://localhost:8080/login
+
+http://localhost:8080/login?logout=true
+
+http://localhost:8080/home
+
+http://localhost:8080/admin
+
+## Licença
+Este projeto está licenciado sob a MIT License.

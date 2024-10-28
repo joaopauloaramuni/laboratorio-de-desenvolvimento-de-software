@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+<div class="home-container">
+    <h2>Bem-vindo à página inicial!</h2>
+    <p class="home-message">Login realizado com sucesso.</p>
+    <form  th:action="@{/logout}" method="post" style="margin-top: 20px;">
+        <button type="submit" class="home-btn">Sair</button>
+    </form>
+</div>
+</body>
+</html>
