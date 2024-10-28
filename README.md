@@ -25,6 +25,8 @@ https://www.jetbrains.com/idea/download/
 <br>https://site.mockito.org/
 <br>https://github.com/ICEI-PUC-Minas-PPLES-TI/PLF-ES-2022-2-MON-CursoAPIJava
 
+Apresentação em grupo:
+
 [Exemplo de apresentação de laboratório](https://github.com/joaopedro-braga/student-currency-system/blob/main/docs/project-architecture-and-technologies.pdf)
 
 Comandos Docker úteis:
