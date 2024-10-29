@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Speed Test</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.4.0/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+</head>
+<body>
+<h2>Progresso do Upload</h2>
+
+<!-- Barra de progresso -->
+<progress id="progressBar" value="0" max="100"></progress>
+
+<!-- Text area -->
+<textarea id="progress" readonly></textarea>
+
+<!-- Referência ao script externo -->
+<script th:src="@{/js/script.js}"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+/* Reseta margens e padding, e inclui bordas e padding no tamanho total do elemento */
+* {
+    box-sizing: border-box; /* Inclui padding e bordas no tamanho total */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove padding padrão */
+}
+
+/* Estilização do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    background-color: #e9ecef; /* Cor de fundo suave */
+    display: flex; /* Configura layout flexível */
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da tela */
+    overflow: hidden; /* Impede scroll desnecessário */
+}
+
+/* Estilos para o título (h2) */
+h2 {
+    color: #007BFF; /* Azul claro */
+    text-align: center; /* Alinha texto ao centro */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte mais estilizada */
+    font-size: 1.5em; /* Tamanho da fonte */
+    font-weight: normal; /* Remove o bold */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Sombra suave para o texto */
+}
+
+/* Estilos para o campo de texto (textarea) */
+textarea {
+    width: 100%; /* Largura total do container */
+    max-width: 650px; /* Largura máxima para a textarea */
+    min-width: 500px; /* Largura mínima da textarea */
+    height: 600px; /* Altura fixa */
+    font-size: 16px; /* Tamanho do texto interno */
+    padding: 10px; /* Espaço interno */
+    border: 2px solid #007BFF; /* Cor da borda azul */
+    border-radius: 5px; /* Bordas arredondadas */
+    resize: none; /* Impede o redimensionamento */
+    background-color: #fff; /* Fundo branco */
+    color: #333; /* Cor do texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos quando o campo de texto está em foco */
+textarea:focus {
+    border-color: #0056b3; /* Azul mais escuro ao focar */
+    outline: none; /* Remove contorno padrão */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra ao focar */
+}
+
+/* Estilos para a barra de progresso */
+#progressBar {
+    width: 100%; /* Largura total do container */
+    max-width: 650px; /* Largura máxima para a barra de progresso */
+    min-width: 500px; /* Largura mínima da barra de progresso */
+    height: 20px; /* Altura da barra de progresso */
+    border: 2px solid #007BFF; /* Cor da borda azul */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    color: #007BFF; /* Azul claro para o interior */
+    margin-bottom: 10px; /* Espaço abaixo da barra */
+}
+
+/* Estilo do fundo da barra para navegadores baseados em WebKit */
+#progressBar::-webkit-progress-bar {
+    background-color: #f3f3f3; /* Fundo claro do container da barra */
+}
+
+/* Estilo da parte preenchida da barra para navegadores baseados em WebKit */
+#progressBar::-webkit-progress-value {
+    background-color: #007BFF; /* Azul claro para a parte preenchida */
+}
+
+/* Estilo da parte preenchida da barra para navegadores Firefox */
+#progressBar::-moz-progress-bar {
+    background-color: #007BFF; /* Azul claro para a parte preenchida */
+}
