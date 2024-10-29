@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Download Speed Test</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.4.0/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+</head>
+<body>
+<h2>Progresso do Download</h2>
+<textarea id="progress" readonly></textarea>
+
+<script>
+    const socket = new SockJS('/ws');
+    const stompClient = Stomp.over(socket);
+    stompClient.connect({}, function (frame) {
+        stompClient.subscribe('/topic/speedtest', function (message) {
+            const progressArea = document.getElementById('progress');
+            progressArea.value += message.body + '\n';
+            progressArea.scrollTop = progressArea.scrollHeight; // Auto scroll to the bottom
+        });
+    });
+</script>
+</body>
+</html>
