@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif; /* Define a fonte do corpo como Arial ou uma fonte sans-serif */
+    background-color: #f9f9f9; /* Define a cor de fundo do corpo como um cinza claro */
+    color: #333; /* Define a cor do texto como um cinza escuro */
+    display: flex; /* Define o layout do corpo como flexível */
+    justify-content: center; /* Centraliza horizontalmente os itens dentro do corpo */
+    align-items: center; /* Centraliza verticalmente os itens dentro do corpo */
+    height: 100vh; /* Define a altura do corpo para 100% da altura da janela de visualização */
+    margin: 0; /* Remove margens padrão do corpo */
+}
+
+.container {
+    max-width: 600px; /* Define a largura máxima do contêiner para 600 pixels */
+    min-height: 250px; /* Adiciona uma altura mínima ao contêiner */
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+    background-color: #fff; /* Define a cor de fundo do contêiner como branco */
+    padding: 30px; /* Adiciona um espaçamento interno de 30 pixels ao redor do conteúdo do contêiner */
+    border-radius: 8px; /* Adiciona cantos arredondados ao contêiner */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil ao contêiner */
+    width: 90%; /* Define a largura do contêiner para 90% da largura disponível */
+}
+
+h2 {
+    color: #FF0000; /* Define a cor do cabeçalho como vermelho do YouTube */
+}
+
+.input-group {
+    margin: 20px 0; /* Adiciona uma margem de 20 pixels acima e abaixo do grupo de entrada */
+}
+
+label {
+    display: block; /* Faz com que o rótulo ocupe toda a largura disponível */
+    font-weight: bold; /* Define o peso da fonte do rótulo como negrito */
+    margin-bottom: 5px; /* Adiciona um espaço abaixo do rótulo */
+    color: #333; /* Define a cor do rótulo como um cinza escuro */
+}
+
+#statusLabel {
+    display: block; /* Faz com que o label de status ocupe toda a largura disponível */
+    color: #333; /* Define a cor do texto do label de status */
+}
+
+input[type="text"] {
+    width: 100%; /* Define a largura do campo de texto para 100% do seu elemento pai */
+    min-width: 300px; /* Define uma largura mínima para o campo de texto para evitar cortes em URLs longas */
+    padding: 10px; /* Adiciona um espaçamento interno de 10 pixels ao redor do campo de texto */
+    font-size: 1em; /* Define o tamanho da fonte do campo de texto */
+    border: 1px solid #ccc; /* Define a borda do campo de texto como uma linha sólida cinza claro */
+    border-radius: 4px; /* Adiciona cantos arredondados ao campo de texto */
+    box-sizing: border-box; /* Inclui o padding e a borda nas dimensões totais do campo de texto */
+}
+
+.btn-download {
+    background-color: #FF0000; /* Define a cor de fundo do botão como vermelho do YouTube */
+    color: #fff; /* Define a cor do texto do botão como branco */
+    padding: 10px 20px; /* Adiciona um espaçamento interno de 10 pixels em cima e embaixo, e 20 pixels à esquerda e à direita */
+    font-size: 1em; /* Define o tamanho da fonte do botão */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 4px; /* Adiciona cantos arredondados ao botão */
+    cursor: pointer; /* Altera o cursor para um ponteiro quando o mouse passa sobre o botão */
+    transition: background-color 0.3s; /* Adiciona uma transição suave para a cor de fundo do botão ao passar o mouse */
+    margin-bottom: 20px; /* Adiciona uma margem abaixo do botão */
+}
+
+.btn-download:hover {
+    background-color: #cc0000; /* Altera a cor de fundo do botão para um vermelho mais escuro quando o mouse está sobre ele */
+}
