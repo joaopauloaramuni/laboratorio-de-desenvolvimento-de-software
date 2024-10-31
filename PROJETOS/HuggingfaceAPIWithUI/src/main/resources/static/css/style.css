@@ -1,0 +1,70 @@
+* {
+    margin: 0; /* Remove a margem padrão de todos os elementos */
+    padding: 0; /* Remove o preenchimento padrão de todos os elementos */
+    box-sizing: border-box; /* Garante que a largura e altura incluam o padding e bordas */
+    font-family: Arial, sans-serif; /* Define a fonte padrão para Arial */
+}
+
+body {
+    display: flex; /* Permite alinhamento flexível dos elementos filhos */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Define a altura como a altura total da tela */
+    background-color: #f3f4f6; /* Define a cor de fundo */
+}
+
+.container {
+    background-color: #fff; /* Define o fundo do container como branco */
+    padding: 20px; /* Adiciona preenchimento ao redor do conteúdo */
+    border-radius: 8px; /* Arredonda os cantos do container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra ao redor do container */
+    width: 500px; /* Define a largura do container */
+    height: 450px; /* Define a altura do container (valor aumentado) */
+    text-align: center; /* Centraliza o texto dentro do container */
+}
+
+h2 {
+    font-size: 1.5em; /* Define o tamanho da fonte para o título */
+    color: #333; /* Define a cor do texto */
+    margin-bottom: 50px; /* Aumenta o espaço abaixo do título */
+}
+
+label {
+    display: block; /* Faz o label ocupar a linha inteira */
+    margin-top: 20px; /* Adiciona espaço extra acima do label */
+    margin-bottom: 8px; /* Adiciona espaço extra abaixo do label */
+    color: #666; /* Define a cor do texto */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+}
+
+input[type="text"] {
+    width: 100%; /* Faz o campo ocupar toda a largura do container */
+    padding: 8px; /* Adiciona preenchimento interno */
+    margin-bottom: 16px; /* Adiciona espaço extra abaixo do campo */
+    border: 1px solid #ccc; /* Define uma borda cinza */
+    border-radius: 4px; /* Arredonda os cantos do campo */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra interna ao campo */
+}
+
+button {
+    width: 100%; /* Faz o botão ocupar toda a largura do container */
+    padding: 10px 15px; /* Define o preenchimento interno do botão */
+    background-color: #4CAF50; /* Define a cor de fundo do botão */
+    color: white; /* Define a cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 4px; /* Arredonda os cantos do botão */
+    cursor: pointer; /* Define o cursor como "mãozinha" ao passar sobre o botão */
+    transition: background-color 0.3s; /* Define uma transição para a cor de fundo ao passar o mouse */
+    margin-top: 20px; /* Adiciona espaço acima do botão */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do botão */
+}
+
+button:hover {
+    background-color: #45a049; /* Define a cor de fundo do botão ao passar o mouse */
+}
+
+#mensagem {
+    margin-top: 15px; /* Adiciona espaço acima da mensagem */
+    font-size: 0.9em; /* Define o tamanho da fonte da mensagem */
+    color: #333; /* Define a cor do texto da mensagem */
+}

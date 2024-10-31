@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>HuggingfaceAPIWithUI</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="container">
+    <h2>HuggingfaceAPIWithUI</h2>
+
+    <form id="imageForm">
+        <div class="input-group">
+            <label for="texto">Digite a descrição para a imagem:</label>
+            <input type="text" id="texto" name="texto" required placeholder="Astronaut riding a horse">
+
+            <label for="diretorio">Escolha o diretório onde a imagem será salva:</label>
+            <input type="text" id="diretorio" name="diretorio" placeholder="Ex: C:/imagens" required>
+        </div>
+
+        <button type="submit">Gerar Imagem</button>
+    </form>
+
+    <!-- Label para exibir mensagens de status -->
+    <label id="statusLabel">Insira a descrição e escolha um diretório.</label>
+</div>
+
+<!-- Referência ao script externo -->
+<script th:src="@{/js/script.js}"></script>
+
+</body>
+</html>
