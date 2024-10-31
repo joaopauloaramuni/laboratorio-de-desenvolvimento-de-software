@@ -8,7 +8,6 @@ As configurações do projeto podem ser encontradas no arquivo `application.prop
 
 ```properties
 spring.application.name=ImageCompressor
-# Define o limite máximo para o tamanho de upload
 spring.servlet.multipart.max-file-size=10MB
 spring.servlet.multipart.max-request-size=10MB
 ```
