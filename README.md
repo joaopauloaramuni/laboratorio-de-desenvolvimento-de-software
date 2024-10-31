@@ -29,6 +29,10 @@ Apresentação em grupo:
 
 [Exemplo de apresentação de laboratório](https://github.com/joaopedro-braga/student-currency-system/blob/main/docs/project-architecture-and-technologies.pdf)
 
+Exemplo de portfólio profissional: 
+
+[https://henryheffernan.com/](https://henryheffernan.com/)
+
 Comandos Docker úteis:
 
 https://docs.docker.com/get-started/docker_cheatsheet.pdf
