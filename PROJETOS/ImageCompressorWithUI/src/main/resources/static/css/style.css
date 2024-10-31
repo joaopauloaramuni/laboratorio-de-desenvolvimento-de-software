@@ -1,0 +1,65 @@
+/* Define a fonte padrão do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte Arial, com uma alternativa sans-serif */
+    background-color: #f4f4f9; /* Cor de fundo suave */
+    display: flex; /* Usar Flexbox para layout */
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+    height: 100vh; /* Altura total da janela de visualização */
+    margin: 0; /* Remove margens padrão do corpo */
+}
+
+/* Estiliza o contêiner principal */
+.container {
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+    background-color: #ffffff; /* Fundo branco para o contêiner */
+    padding: 20px; /* Espaçamento interno de 20px */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil para efeito de profundidade */
+    width: 300px; /* Largura fixa do contêiner */
+}
+
+/* Estiliza o título principal */
+h1 {
+    font-size: 24px; /* Tamanho da fonte do título */
+    color: #333; /* Cor do texto do título */
+    margin-bottom: 30px; /* Espaçamento inferior de 30px para separar do próximo elemento */
+}
+
+/* Estiliza os rótulos dos campos de entrada */
+label {
+    display: block; /* Faz com que o rótulo ocupe toda a largura */
+    margin: 10px 0 5px; /* Margens: 10px acima, 0 à direita/esquerda, 5px abaixo */
+    font-weight: bold; /* Deixa o texto do rótulo em negrito */
+    color: #555; /* Cor do texto do rótulo */
+}
+
+/* Estiliza os campos de entrada de arquivo e número */
+input[type="file"],
+input[type="number"] {
+    width: 100%; /* Largura total do campo */
+    padding: 8px; /* Espaçamento interno de 8px */
+    margin-bottom: 20px; /* Espaçamento inferior de 20px para separar dos próximos elementos */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-sizing: border-box; /* Inclui padding e borda no cálculo da largura total */
+}
+
+/* Estiliza o botão */
+button {
+    width: 100%; /* Largura total do botão */
+    padding: 10px; /* Espaçamento interno de 10px */
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Remove borda padrão do botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte do texto no botão */
+    cursor: pointer; /* Cursor muda para indicar que é clicável */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo ao passar o mouse */
+    margin-top: 10px; /* Espaçamento superior de 10px para separar do elemento acima */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+    background-color: #45a049; /* Cor de fundo verde mais escuro ao passar o mouse */
+}

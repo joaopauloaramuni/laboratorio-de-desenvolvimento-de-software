@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Compressor</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Image Compressor</h1>
+    <form action="/images/compress" method="post" enctype="multipart/form-data">
+        <label for="file">Selecione a imagem:</label>
+        <input type="file" id="file" name="file" required>
+
+        <label for="quality">Qualidade de compressão (0.1 - 1.0):</label>
+        <input type="number" id="quality" name="quality" step="0.1" min="0.1" max="1.0" value="0.7" required>
+
+        <button type="submit">Comprimir imagem</button>
+    </form>
+</div>
+</body>
+</html>
