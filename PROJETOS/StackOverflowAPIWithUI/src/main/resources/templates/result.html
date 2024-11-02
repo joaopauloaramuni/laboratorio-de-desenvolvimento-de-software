@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados da Busca</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="result-main-container">
+    <h2 th:text="'Resultados para ' + ${query}"></h2>
+    <div class="result-container">
+        <ul>
+            <li th:each="question : ${questions}">
+                <!-- Link to the question -->
+                <a th:href="${question.link}" th:text="${question.title}"></a>
+
+                <!-- Display answer status -->
+                <p class="label">Answered: <span th:text="${question.isAnswered ? 'Yes' : 'No'}"></span></p>
+
+                <!-- Display view count, answer count, and score -->
+                <p class="label">Views: <span th:text="${question.viewCount}"></span></p>
+                <p class="label">Answers: <span th:text="${question.answerCount}"></span></p>
+                <p class="label">Score: <span th:text="${question.score}"></span></p>
+
+                <!-- Display tags -->
+                <p class="label">Tags:
+                    <span th:each="tag, iterStat : ${question.tags}">
+                        <span th:text="${tag}"></span><span th:if="${!iterStat.last}">,</span>
+                    </span>
+                </p>
+
+                <!-- Display dates -->
+                <p class="label">Last Activity Date: <span th:text="${question.lastActivityDate}"></span></p>
+                <p class="label">Creation Date: <span th:text="${question.creationDate}"></span></p>
+                <p class="label">Last Edit Date: <span th:text="${question.lastEditDate}"></span></p>
+
+                <!-- Question ID -->
+                <p class="label">Question ID: <span th:text="${question.questionId}"></span></p>
+            </li>
+        </ul>
+    </div>
+    <a href="/" class="button-return">Nova busca</a> <!-- Link para voltar à página de busca -->
+</div>
+</body>
+</html>

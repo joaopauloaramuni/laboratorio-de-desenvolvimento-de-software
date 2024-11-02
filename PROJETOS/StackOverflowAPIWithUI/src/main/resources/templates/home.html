@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StackOverflowAPI Search</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="container">
+    <h2>StackOverflowAPI Search</h2>
+    <form action="/result" method="get">
+        <label for="query">Questão</label>
+        <input type="text" id="query" name="query" placeholder="Digite o tópico da questão (Ex: What is a NullPointerException?)" required>
+        <button type="submit">Buscar</button>
+    </form>
+</div>
+</body>
+</html>
