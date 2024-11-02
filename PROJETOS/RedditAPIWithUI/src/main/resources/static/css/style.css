@@ -1,0 +1,174 @@
+/* Importando a fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html, body {
+    height: 100%; /* Define a altura de html e body como 100% da altura da viewport */
+    overflow: hidden; /* Impede a rolagem, desativando a barra de rolagem da página */
+}
+
+* {
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura e altura de elementos */
+    margin: 0; /* Remove a margem padrão de todos os elementos */
+    padding: 0; /* Remove o padding padrão de todos os elementos */
+    font-family: 'Roboto', sans-serif; /* Define a fonte padrão para todos os elementos */
+
+}
+
+body {
+    display: flex; /* Usa flexbox para alinhar os itens do corpo */
+    justify-content: center; /* Centraliza horizontalmente os itens no corpo */
+    align-items: center; /* Centraliza verticalmente os itens no corpo */
+    height: 100vh; /* Define a altura do corpo como 100% da altura da janela */
+    background-color: #f6f6f6; /* Define a cor de fundo do corpo */
+}
+
+.container {
+    width: 400px; /* Aumenta a largura do container */
+    height: 400px; /* Aumenta a altura do container */
+    padding: 30px; /* Adiciona um padding interno ao container */
+    border: 2px solid #FF4500; /* Adiciona uma borda de 2 pixels na cor laranja do Reddit */
+    border-radius: 8px; /* Arredonda as bordas do container */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave ao container */
+    background-color: white; /* Define a cor de fundo do container */
+    text-align: center; /* Centraliza o texto dentro do container */
+    margin: 20px auto; /* Margem superior e inferior, centraliza horizontalmente */
+}
+
+h2 {
+    color: #e03e00; /* Define a cor do título */
+    margin-bottom: 20px; /* Adiciona uma margem inferior ao título */
+    font-size: 24px; /* Define o tamanho da fonte do título */
+    border-bottom: 1px solid #FF4500; /* Adiciona uma borda inferior */
+}
+
+form {
+    display: flex; /* Usa flexbox para organizar os elementos do formulário */
+    flex-direction: column; /* Alinha os elementos do formulário em uma coluna */
+}
+
+label {
+    font-size: 14px; /* Define o tamanho da fonte dos rótulos */
+    margin: 20px 0 5px; /* Adiciona margem superior e inferior aos rótulos */
+    color: #333; /* Define a cor do texto dos rótulos */
+}
+
+input[type="text"] {
+    padding: 10px; /* Adiciona padding interno aos campos de texto */
+    border: 1px solid #FF4500; /* Define a borda dos campos de texto na cor laranja do Reddit */
+    border-radius: 5px; /* Arredonda as bordas dos campos de texto */
+    outline: none; /* Remove o contorno padrão dos campos de texto */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave aos campos de texto */
+    transition: box-shadow 0.3s; /* Define uma transição suave para a sombra */
+    margin-bottom: 20px; /* Adiciona uma margem inferior aos campos de texto */
+}
+
+input[type="text"]:focus {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao focar no campo de texto */
+}
+
+button {
+    margin-top: 30px; /* Adiciona uma margem superior ao botão */
+    margin-bottom: 10px; /* Adiciona uma margem inferior ao botão */
+    padding: 10px; /* Adiciona padding interno ao botão */
+    font-size: 16px; /* Define o tamanho da fonte do botão */
+    color: white; /* Define a cor do texto do botão */
+    background-color: #FF4500; /* Define a cor de fundo do botão na cor laranja do Reddit */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 5px; /* Arredonda as bordas do botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave ao botão */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Define uma transição suave para a cor de fundo e sombra */
+}
+
+button:hover {
+    background-color: #e03e00; /* Altera a cor de fundo ao passar o mouse sobre o botão */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Aumenta a sombra ao passar o mouse sobre o botão */
+}
+
+.result-main-container {
+    width: 700px; /* Aumenta a largura do container pai */
+    height: 730px; /* Aumenta a altura do container */
+    padding: 30px; /* Adiciona um padding interno ao container */
+    border: 2px solid #FF4500; /* Borda na mesma cor do tema */
+    border-radius: 8px; /* Arredonda as bordas */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    background-color: white; /* Cor de fundo branca para o container */
+    text-align: center; /* Centraliza o texto dentro do container */
+    margin: 20px auto; /* Margem superior e inferior, centraliza horizontalmente */
+}
+
+.result-container {
+    width: 100%; /* Largura total do container */
+    max-height: 550px; /* Altura máxima para que a barra de rolagem apareça */
+    overflow-y: auto; /* Habilita a rolagem vertical */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #FF4500; /* Borda semelhante ao container principal */
+    border-radius: 5px; /* Arredondar bordas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: #f9f9f9; /* Fundo claro para o container de resultados */
+    margin-top: 30px; /* Margem superior para espaçamento com o título */
+}
+
+.result-container ul {
+    list-style-type: none; /* Remove os marcadores padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    margin: 0; /* Remove a margem padrão */
+}
+
+.result-container li {
+    padding: 15px; /* Espaçamento interno para cada item */
+    border-bottom: 1px solid #e0e0e0; /* Linha separadora entre os itens */
+    transition: background-color 0.3s; /* Transição suave ao passar o mouse */
+}
+
+.result-container li:hover {
+    background-color: #f1f1f1; /* Cor de fundo ao passar o mouse */
+}
+
+.result-container a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #FF4500; /* Cor do texto */
+    font-weight: bold; /* Texto em negrito para os títulos */
+}
+
+.result-container a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+
+.result-container p {
+    margin: 5px 0; /* Margem em cima e embaixo dos parágrafos */
+    color: #555; /* Cor do texto dos parágrafos */
+}
+
+.justified-text{
+    color: #555;
+    margin-right: 5px;
+    text-align: justify; /* Texto com alinhamento justificado */
+    overflow-wrap: break-word; /* Para quebrar palavras longas */
+    word-wrap: break-word; /* Compatibilidade com navegadores mais antigos */
+}
+
+.label {
+    font-weight: bold;
+    color: #555;
+    margin-right: 5px;
+}
+
+.button-return {
+    display: inline-block; /* Permite que o botão tenha um comportamento de bloco em linha */
+    padding: 10px 20px; /* Espaçamento interno para aumentar a área clicável */
+    font-size: 16px; /* Tamanho da fonte do texto no botão */
+    color: white; /* Cor do texto */
+    background-color: #FF4500; /* Cor de fundo do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Arredonda as bordas do botão */
+    text-decoration: none; /* Remove o sublinhado do texto */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+    margin-top: 20px; /* Margem superior para espaçamento com o result-container */
+    margin-bottom: 20px; /* Margem inferior para espaçamento com o result-main-container */
+}
+
+.button-return:hover {
+    background-color: #e03e00; /* Altera a cor de fundo ao passar o mouse sobre o botão */
+}

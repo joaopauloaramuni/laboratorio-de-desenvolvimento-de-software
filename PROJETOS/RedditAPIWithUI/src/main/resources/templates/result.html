@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados da Busca</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="result-main-container">
+    <h2 th:text="'Resultados para ' + ${query} + ' na comunidade ' + ${community}"></h2>
+    <div class="result-container">
+        <ul>
+            <li th:each="discussion : ${discussions}">
+                <a th:href="${discussion.url}" th:text="${discussion.title}"></a>
+                <p class="label">Autor: <span th:text="${discussion.author}"></span></p>
+                <p class="justified-text"><span th:text="${discussion.selftext}"></span></p>
+                <p class="label">Data: <span th:text="${discussion.createdDate}"></span></p>
+            </li>
+        </ul>
+    </div>
+    <a href="/" class="button-return">Nova busca</a> <!-- Link para voltar à página de busca -->
+</div>
+</body>
+</html>
