@@ -14,7 +14,7 @@ A interface gráfica proporciona uma experiência de usuário mais intuitiva e i
 
 ## Capturas de Tela
 
-- **Tela Inicial - Home**: Campo para inserir o link do vídeo e botão de download.
+- **Tela Inicial - Home**: Campos para inserir a comunidade e a discussão.
 - **Tela de Resultados**: Exibe o resultado da pesquisa com um botão de nova busca que permite ao usuário retornar à página inicial.
 
 | ![Tela Inicial - Home](imgs/home.png) | ![Tela de Progresso](imgs/result.png) |
