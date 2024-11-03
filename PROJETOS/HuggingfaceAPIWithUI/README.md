@@ -69,7 +69,7 @@ A interface gráfica permite que o usuário faça upload de imagens para compres
 
 | <img src="imagens/home2.png" alt="Home" width="600"/> |
 |:------------------------:|
-|         Home         |
+|         Home             |
 
 **Exemplo de Uso**
 
