@@ -1,0 +1,88 @@
+/* Importando a fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilo para o corpo da página */
+body {
+    font-family: 'Roboto', sans-serif; /* Aplicando a fonte Roboto ao corpo */
+    background-color: #f4f4f4; /* Cor de fundo clara */
+    color: #333; /* Cor do texto */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+}
+
+/* Estilo para o contêiner principal */
+.container {
+    width: 1400px; /* Largura fixa de 1400px */
+    margin: 20px auto; /* Centraliza o contêiner na tela */
+    padding: 20px; /* Preenchimento interno de 20px */
+    background: white; /* Cor de fundo branca */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    border-radius: 15px; /* Bordas arredondadas */
+    border: 2px solid blue; /* Borda azul */
+}
+
+/* Estilo para o cabeçalho */
+h1 {
+    text-align: center; /* Centraliza o texto */
+    color: #007bff; /* Cor azul para o cabeçalho */
+    margin-bottom: 20px; /* Espaçamento abaixo do cabeçalho */
+}
+
+/* Estilo para a tabela */
+table {
+    width: 100%; /* Tabela ocupa toda a largura do contêiner */
+    border-collapse: collapse; /* Remove espaços entre as células */
+    margin-top: 20px; /* Espaçamento acima da tabela */
+}
+
+/* Estilo para as células da tabela */
+th, td {
+    padding: 12px; /* Preenchimento interno de 12px */
+    text-align: left; /* Alinhamento à esquerda do texto */
+    border-bottom: 1px solid #ddd; /* Borda inferior leve */
+}
+
+/* Estilo para a coluna de nomes das estações */
+td.break-word {
+    word-wrap: break-word; /* Permite que o texto quebre para a próxima linha */
+    overflow-wrap: break-word; /* Similar ao word-wrap, para compatibilidade */
+    max-width: 200px; /* Limita a largura do nome da rádio */
+    white-space: normal; /* Permite que o texto quebre em múltiplas linhas */
+}
+
+/* Estilo para os cabeçalhos da tabela */
+th {
+    background-color: #007bff; /* Cor de fundo azul para cabeçalhos */
+    color: white; /* Cor do texto dos cabeçalhos em branco */
+}
+
+/* Estilo para o efeito hover nas linhas da tabela */
+tr:hover {
+    background-color: #f1f1f1; /* Cor de fundo leve ao passar o mouse */
+}
+
+/* Estilo para links */
+a {
+    color: #007bff; /* Cor azul para links */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    display: block; /* Faz o link ocupar toda a largura disponível */
+}
+
+/* Estilo para o efeito hover nos links */
+a:hover {
+    text-decoration: underline; /* Sublinha o texto ao passar o mouse */
+}
+
+/* Estilo para o favicon das estações */
+.favicon {
+    width: 64px;   /* Defina a largura do favicon */
+    height: 64px;  /* Defina a altura do favicon */
+}
+
+/* Estilo para a div de audio */
+.audio-container {
+    border: 2px solid blue; /* Borda azul */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #f0f0f0; /* Cor de fundo leve */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}

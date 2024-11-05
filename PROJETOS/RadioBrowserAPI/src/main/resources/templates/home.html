@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estações de Rádio em BH</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+<body>
+<div class="container">
+    <h1>AraDio - Estações de rádio em Belo Horizonte</h1>
+    <table>
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Favicon</th>
+            <th>Nome</th>
+            <th>URL</th>
+            <th>Tags</th>
+            <th>Votos</th>
+            <th>Cliques</th>
+            <th>Bitrate</th>
+            <th>Codec</th>
+            <th>Player</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- Loop através das estações de rádio -->
+        <tr th:each="station, iterStat : ${stations}">
+            <td th:text="${iterStat.index + 1}"></td> <!-- Numeração -->
+            <td>
+                <img class="favicon"
+                     th:src="${station.favicon}"
+                     th:alt="Favicon"/>
+            </td>
+            <td class="break-word">
+                <a th:href="${station.homepage}" th:text="${station.name}"></a>
+            </td>
+            <td class="break-word"><a th:href="${station.url}" th:text="${station.url}"></a></td>
+            <td class="break-word" th:text="${station.tags}"></td>
+            <td th:text="${station.votes}"></td>
+            <td th:text="${station.clickcount}"></td>
+            <td th:text="${station.bitrate}"></td>
+            <td th:text="${station.codec}"></td>
+            <td>
+                <div class="audio-container">
+                    <audio controls>
+                        <source th:src="${station.url}" type="audio/mpeg">
+                        Seu navegador não suporta o elemento audio.
+                    </audio>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
