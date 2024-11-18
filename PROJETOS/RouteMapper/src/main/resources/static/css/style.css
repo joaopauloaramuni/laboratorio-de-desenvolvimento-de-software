@@ -1,0 +1,76 @@
+/* Importando a fonte Roboto do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Configurações gerais do corpo da página */
+body {
+    font-family: 'Roboto', Arial, sans-serif; /* Define a fonte principal como Roboto */
+    background-color: #f9f9f9; /* Define a cor de fundo do corpo */
+    margin: 0; /* Remove a margem padrão do body */
+    padding: 0; /* Remove o preenchimento padrão do body */
+    height: 100%; /* Garantir que o corpo ocupe toda a altura da janela */
+}
+
+/* Configurações do contêiner principal que envolve o conteúdo */
+.container {
+    max-width: 800px; /* Define a largura máxima do contêiner */
+    margin: 20px auto; /* Adiciona uma margem de 20px no topo e na parte inferior, e centraliza horizontalmente */
+    background: #fff; /* Define o fundo do contêiner como branco */
+    padding: 20px; /* Adiciona preenchimento interno de 20px */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Aplica uma sombra suave no contêiner */
+    text-align: center; /* Centraliza o conteúdo do contêiner */
+}
+
+/* Configuração do título */
+h1 {
+    color: #333; /* Define a cor do texto do título */
+    margin-bottom: 20px; /* Adiciona uma margem de 20px abaixo do título */
+}
+
+/* Estilos para o formulário */
+form {
+    display: flex; /* Define o formulário como um flex container */
+    flex-direction: column; /* Organiza os elementos do formulário em uma coluna */
+}
+
+/* Estilo dos rótulos (labels) do formulário */
+label {
+    margin: 10px 0 5px; /* Adiciona uma margem de 10px acima e 5px abaixo do rótulo */
+    text-align: left; /* Alinha o texto do rótulo à esquerda */
+}
+
+/* Estilos dos campos de entrada (inputs) */
+input {
+    padding: 10px; /* Adiciona um preenchimento interno de 10px */
+    border: 1px solid #ddd; /* Define a borda do input com cor cinza clara */
+    border-radius: 5px; /* Adiciona bordas arredondadas aos inputs */
+    margin-bottom: 15px; /* Adiciona uma margem de 15px abaixo dos campos de entrada */
+}
+
+/* Estilo do botão */
+button {
+    padding: 10px; /* Adiciona um preenchimento interno de 10px */
+    background-color: #007BFF; /* Define a cor de fundo do botão */
+    color: white; /* Define a cor do texto do botão como branco */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
+    cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
+    transition: background-color 0.3s; /* Adiciona uma transição suave de 0.3 segundos na cor de fundo */
+    width: 100%; /* Garante que o botão ocupe toda a largura do contêiner */
+}
+
+/* Efeito quando o botão é hover (passa o mouse sobre ele) */
+button:hover {
+    background-color: #0056b3; /* Altera a cor de fundo do botão quando o mouse passa por cima */
+}
+
+/* Estilos para o bloco de resultado */
+.result {
+    margin: 20px auto; /* Adiciona uma margem de 20px no topo e na parte inferior, e centraliza horizontalmente */
+    text-align: left; /* Alinha o texto à esquerda */
+    background: #f8f8f8; /* Define o fundo do bloco de resultado como cinza claro */
+    padding: 10px; /* Adiciona um preenchimento interno de 10px */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    border: 1px solid #ddd; /* Define a borda do bloco de resultado com cor cinza clara */
+    overflow-x: auto; /* Permite rolagem horizontal no bloco de resultado, se necessário */
+}

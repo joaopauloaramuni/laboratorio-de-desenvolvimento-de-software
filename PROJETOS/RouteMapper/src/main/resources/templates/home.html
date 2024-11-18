@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Route Mapper</title>
+    <!-- Inclusão do CSS usando Thymeleaf -->
+    <link th:href="@{/css/style.css}" rel="stylesheet">
+    <!-- CSS do Leaflet (CDN) -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Adicionando o CSS do Leaflet Routing Machine -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css" />
+</head>
+<body>
+<div class="container">
+    <h1>Route Mapper</h1>
+    <!-- Formulário com atributos do Thymeleaf -->
+    <form th:action="@{/route}" method="get">
+        <label for="start">Start Location:</label>
+        <input type="text" id="start" name="start" placeholder="Longitude, Latitude" required
+               th:value="${start}">
+        <label for="end">End Location:</label>
+        <input type="text" id="end" name="end" placeholder="Longitude, Latitude" required
+               th:value="${end}">
+        <button type="submit">Encontrar rota</button>
+    </form>
+
+    <!-- Renderização condicional do resultado -->
+    <div th:if="${routeData}">
+        <div class="result">
+            <h3>Route Data:</h3>
+            <!-- Exibição do dado da rota -->
+            <pre th:text="${routeData}"></pre>
+        </div>
+
+        <!-- Botão para copiar os dados da rota (dentro da mesma condição) -->
+        <button id="copyButton" onclick="copyRouteData()">Copiar dados da rota</button>
+    </div>
+
+    <!-- Mapa do Leaflet -->
+    <div id="map" style="height: 500px; margin-top: 20px;"></div>
+
+</div>
+
+<!-- JavaScript do Leaflet (CDN) -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<!-- Adicionando o script do Leaflet Routing Machine -->
+<script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+
+<script th:inline="javascript">
+    console.log('O JavaScript foi carregado!');
+
+    // Inicializa o mapa em Belo Horizonte
+    const map = L.map('map').setView([-19.9191, -43.9378], 12);
+
+    // Adiciona a camada de mapa do OpenStreetMap
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Função para atualizar o mapa com as coordenadas recebidas
+    function updateMap(routeData) {
+        console.log('Dados recebidos para a rota:', routeData);
+
+        if (routeData) {
+            try {
+                console.log('Tentando converter routeData em array...');
+                const parsedData = JSON.parse(routeData); // Converte os dados em formato JSON para objeto
+                console.log('Coordenadas convertidas:', parsedData);
+
+                // Extraímos as coordenadas de "features" -> "geometry" -> "coordinates"
+                const coordinates = parsedData.features[0].geometry.coordinates;
+                console.log('Coordenadas extraídas:', coordinates);
+
+                // Marca a origem e o destino
+                const start = coordinates[0];  // Primeira coordenada (origem)
+                const end = coordinates[coordinates.length - 1];  // Última coordenada (destino)
+
+                // Adiciona os marcadores para a origem e destino
+                const startMarker = L.marker([start[1], start[0]]).addTo(map).bindPopup("Start Location");
+                const endMarker = L.marker([end[1], end[0]]).addTo(map).bindPopup("End Location");
+
+                // Adicionando a rota real com OpenRouteService ou outro serviço de roteamento
+                const routeControl = L.Routing.control({
+                    waypoints: [
+                        L.latLng(start[1], start[0]),  // Coordenadas de origem
+                        L.latLng(end[1], end[0])       // Coordenadas de destino
+                    ],
+                    routeWhileDragging: true,
+                    createMarker: function() { return null; }  // Não cria marcadores intermediários
+                }).addTo(map);
+
+                // Ajusta o mapa para cobrir a área entre os dois marcadores
+                map.fitBounds(routeControl.getBounds());
+
+            } catch (e) {
+                console.error('Erro ao processar os dados da rota:', e);
+            }
+        } else {
+            console.log('routeData não está definido ou vazio');
+        }
+    }
+
+    // Injeção do valor de routeData com Thymeleaf
+    var routeData = /*[[${routeData}]]*/ null;
+
+    // Verifica se existe um valor em 'routeData' para renderizar a rota
+    console.log('Valor de routeData recebido de Thymeleaf:', routeData);
+
+    if (routeData !== null) {
+        updateMap(routeData);
+    } else {
+        console.log('routeData está vazio ou nulo');
+    }
+
+    // Função para copiar o conteúdo da rota para a área de transferência
+    function copyRouteData() {
+        const routeText = document.querySelector('.result pre').textContent; // Obtém o conteúdo da rota
+
+        // Usando a nova API Clipboard para copiar
+        navigator.clipboard.writeText(routeText)
+            .then(() => {
+                alert('Dados da rota copiados para a área de transferência!'); // Exibe um alerta em português
+            })
+            .catch(err => {
+                console.error('Erro ao copiar o texto: ', err);
+                alert('Falha ao copiar os dados da rota.');
+            });
+    }
+
+</script>
+
+</body>
+</html>
