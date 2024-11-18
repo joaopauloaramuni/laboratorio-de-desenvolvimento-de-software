@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI ChatBot</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="container">
+    <h1>AI ChatBot</h1>
+    <form th:action="@{/ask}" method="POST">
+        <label for="question">Pergunte algo:</label>
+        <input type="text" id="question" name="question" placeholder="Digite sua pergunta aqui..." required>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div class="response" th:if="${question != null}">
+        <h3>Sua Pergunta:</h3>
+        <p th:text="${question}">Pergunta será exibida aqui</p>
+
+        <h3>Resposta do Bot:</h3>
+        <p th:text="${response}">Resposta será exibida aqui</p>
+
+        <!-- Exibir erro caso a requisição não tenha sucesso -->
+        <div th:if="${!isSuccess}">
+            <h3>Erro ao obter resposta:</h3>
+            <p th:text="'Código de erro: ' + ${errorCode}"></p>
+            <p th:text="'Mensagem de erro: ' + ${errorMessage}"></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
