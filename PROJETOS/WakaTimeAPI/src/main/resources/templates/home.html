@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>Wakatime Stats - All Time</title>
+	<link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="container">
+	<h1>Wakatime Stats - All Time</h1>
+	<div class="card">
+		<!-- Exibindo dados do Wakatime -->
+		<h2>Data:</h2>
+		<p th:text="'Created At: ' + ${data.created_at}"></p>
+		<p th:text="'Daily Average: ' + ${data.daily_average}"></p>
+		<p th:text="'Daily Average Including Other Language: ' + ${data.daily_average_including_other_language}"></p>
+		<p th:text="'Days Including Holidays: ' + ${data.days_including_holidays}"></p>
+		<p th:text="'Days Minus Holidays: ' + ${data.days_minus_holidays}"></p>
+		<p th:text="'Human Readable Daily Average: ' + ${data.human_readable_daily_average}"></p>
+		<p th:text="'Human Readable Daily Average Including Other Language: ' + ${data.human_readable_daily_average_including_other_language}"></p>
+		<p th:text="'Human Readable Range: ' + ${data.human_readable_range}"></p>
+		<p th:text="'Human Readable Total: ' + ${data.human_readable_total}"></p>
+		<p th:text="'Human Readable Total Including Other Language: ' + ${data.human_readable_total_including_other_language}"></p>
+		<p th:text="'ID: ' + ${data.id}"></p>
+		<p th:text="'Is Already Updating: ' + ${data.is_already_updating}"></p>
+		<p th:text="'Is Cached: ' + ${data.is_cached}"></p>
+		<p th:text="'Is Coding Activity Visible: ' + ${data.is_coding_activity_visible}"></p>
+		<p th:text="'Is Including Today: ' + ${data.is_including_today}"></p>
+		<p th:text="'Is Other Usage Visible: ' + ${data.is_other_usage_visible}"></p>
+		<p th:text="'Is Stuck: ' + ${data.is_stuck}"></p>
+		<p th:text="'Is Up To Date: ' + ${data.is_up_to_date}"></p>
+		<p th:text="'Is Up To Date Pending Future: ' + ${data.is_up_to_date_pending_future}"></p>
+		<p th:text="'Modified At: ' + ${data.modified_at}"></p>
+		<p th:text="'Range: ' + ${data.range}"></p>
+		<p th:text="'Start: ' + ${data.start}"></p>
+		<p th:text="'End: ' + ${data.end}"></p>
+		<p th:text="'Status: ' + ${data.status}"></p>
+		<p th:text="'Timeout: ' + ${data.timeout}"></p>
+		<p th:text="'Timezone: ' + ${data.timezone}"></p>
+		<p th:text="'Total Seconds: ' + ${data.total_seconds}"></p>
+		<p th:text="'Total Seconds Including Other Language: ' + ${data.total_seconds_including_other_language}"></p>
+		<p th:text="'User ID: ' + ${data.user_id}"></p>
+		<p th:text="'Username: ' + ${data.username}"></p>
+		<p th:text="'Writes Only: ' + ${data.writes_only}"></p>
+		<p th:text="'Holidays: ' + ${data.holidays}"></p>
+		<p th:text="'Percent Calculated: ' + ${data.percent_calculated}"></p>
+
+		<!-- Exibindo a melhor data (best_day) -->
+		<h2>Best Day:</h2>
+		<p th:text="'Date: ' + ${data.best_day.date}"></p>
+		<p th:text="'Time Spent: ' + ${data.best_day.text}"></p>
+		<p th:text="'Total Seconds: ' + ${data.best_day.total_seconds}"></p>
+
+		<!-- Exibindo as categorias -->
+		<h2>Categories:</h2>
+		<ul>
+			<li th:each="category : ${data.categories}">
+				<span th:text="'Category Name: ' + ${category.name}"></span>
+				<span th:text="'Time Spent: ' + ${category.text}"></span>
+				<span th:text="'Time in Decimal: ' + ${category.decimal}"></span>
+				<span th:text="'Time in Digital: ' + ${category.digital}"></span>
+				<span th:text="'Hours: ' + ${category.hours}"></span>
+				<span th:text="'Minutes: ' + ${category.minutes}"></span>
+				<span th:text="'Percent: ' + ${category.percent}"></span>
+				<span th:text="'Total Seconds: ' + ${category.total_seconds}"></span>
+			</li>
+		</ul>
+
+		<!-- Exibindo as informações de Languages -->
+		<h2>Languages:</h2>
+		<ul>
+			<li th:each="language : ${data.languages}">
+				<span th:text="'Name: ' + ${language.name}"></span>
+				<span th:text="'Time in Decimal: ' + ${language.decimal}"></span>
+				<span th:text="'Time in Digital: ' + ${language.digital}"></span>
+				<span th:text="'Hours: ' + ${language.hours}"></span>
+				<span th:text="'Minutes: ' + ${language.minutes}"></span>
+				<span th:text="'Percent: ' + ${language.percent}"></span>
+				<span th:text="'Total Seconds: ' + ${language.total_seconds}"></span>
+			</li>
+		</ul>
+
+		<!-- Exibindo as informações de Machines -->
+		<h2>Machines:</h2>
+		<ul>
+			<li th:each="machine : ${data.machines}">
+				<span th:text="'Name: ' + ${machine.name}"></span>
+				<span th:text="'Time in Decimal: ' + ${machine.decimal}"></span>
+				<span th:text="'Time in Digital: ' + ${machine.digital}"></span>
+				<span th:text="'Hours: ' + ${machine.hours}"></span>
+				<span th:text="'Minutes: ' + ${machine.minutes}"></span>
+				<span th:text="'Percent: ' + ${machine.percent}"></span>
+				<span th:text="'Total Seconds: ' + ${machine.total_seconds}"></span>
+			</li>
+		</ul>
+
+		<!-- Exibindo as informações de Projects -->
+		<h2>Projects:</h2>
+		<ul>
+			<li th:each="project : ${data.projects}">
+				<span th:text="'Name: ' + ${project.name}"></span>
+				<span th:text="'Time in Decimal: ' + ${project.decimal}"></span>
+				<span th:text="'Time in Digital: ' + ${project.digital}"></span>
+				<span th:text="'Hours: ' + ${project.hours}"></span>
+				<span th:text="'Minutes: ' + ${project.minutes}"></span>
+				<span th:text="'Percent: ' + ${project.percent}"></span>
+				<span th:text="'Total Seconds: ' + ${project.total_seconds}"></span>
+			</li>
+		</ul>
+
+		<!-- Exibindo as informações de Editors -->
+		<h2>Editors:</h2>
+		<ul>
+			<li th:each="editor : ${data.editors}">
+				<span th:text="'Editor Name: ' + ${editor.name}"></span>
+				<span th:text="'Percent: ' + ${editor.percent}"></span>
+				<span th:text="'Total Seconds: ' + ${editor.total_seconds}"></span>
+			</li>
+		</ul>
+
+		<!-- Exibindo as informações de Dependencies -->
+		<h2>Dependencies:</h2>
+		<ul>
+			<li th:each="dependency : ${data.dependencies}">
+				<span th:text="'Dependency Name: ' + ${dependency.name}"></span>
+				<span th:text="'Total Seconds: ' + ${dependency.total_seconds}"></span>
+			</li>
+		</ul>
+
+		<!-- Exibindo as informações de Operating Systems -->
+		<h2>Operating Systems:</h2>
+		<ul>
+			<li th:each="os : ${data.operating_systems}">
+				<span th:text="'OS Name: ' + ${os.name}"></span>
+				<span th:text="'Percent: ' + ${os.percent}"></span>
+				<span th:text="'Total Seconds: ' + ${os.total_seconds}"></span>
+			</li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>

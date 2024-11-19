@@ -1,0 +1,100 @@
+/* Importando a fonte Roboto do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Geral */
+body {
+	font-family: 'Roboto', sans-serif; /* Definindo a fonte do corpo do texto como Roboto */
+	background-color: #f0f4f8; /* Fundo claro e suave */
+	margin: 0; /* Remove a margem padrão */
+	padding: 0; /* Remove o padding padrão */
+	height: 100%; /* Garantir que o body ocupe toda a altura da tela */
+	display: block; /* Voltar ao layout padrão de bloco */
+}
+
+/* Container */
+.container {
+	background-color: #fff; /* Fundo branco do container */
+	border-radius: 15px; /* Cantos arredondados */
+	box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor do container */
+	width: 80%; /* Largura do container de 80% da tela */
+	padding: 20px; /* Espaçamento interno do container */
+	max-width: 800px; /* Largura máxima de 800px */
+	margin: 0 auto; /* Centraliza horizontalmente */
+	box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+	overflow: hidden; /* Impede que o conteúdo ultrapasse o container */
+	margin-top: 20px; /* Distância do topo da tela */
+	margin-bottom: 20px; /* Distância do rodapé da tela */
+}
+
+/* Título principal */
+h1 {
+	text-align: center; /* Alinha o título no centro */
+	color: #00796b; /* Cor do título */
+	font-size: 1.6em; /* Tamanho da fonte do título (diminuído para 1.6em) */
+	margin-bottom: 20px; /* Espaço abaixo do título */
+	font-weight: 600; /* Peso da fonte */
+	word-wrap: break-word; /* Garante que o título se ajuste em telas pequenas */
+	overflow-wrap: break-word; /* Outra maneira de garantir que o título se ajuste em telas pequenas */
+	text-overflow: ellipsis; /* Adiciona "..." se o título for muito longo */
+	display: block; /* Faz com que o título ocupe toda a largura */
+	width: 100%; /* Garante que o título ocupe toda a largura do contêiner */
+}
+
+/* Card */
+.card {
+	background-color: #fff; /* Fundo branco do card */
+	border-radius: 12px; /* Cantos arredondados do card */
+	padding: 20px; /* Espaçamento interno do card */
+	margin-top: 10px; /* Distância menor do topo da tela */
+	margin-bottom: 30px; /* Espaço abaixo do card */
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12); /* Sombra suave ao redor do card */
+	transition: all 0.3s ease; /* Transição suave em todos os efeitos */
+}
+
+.card:hover {
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao passar o mouse */
+}
+
+/* Títulos dos cards */
+.card h2 {
+	color: #00796b; /* Cor do título dos cards */
+	font-size: 1.2em; /* Tamanho da fonte do título dos cards (diminuído para 1.2em) */
+	margin-bottom: 20px; /* Espaço abaixo do título dos cards */
+	font-weight: 600; /* Peso da fonte */
+}
+
+/* Texto das informações */
+.card p, .card span {
+	color: #555; /* Cor do texto das informações */
+	font-size: 1em; /* Tamanho da fonte do texto (diminuído para 1em) */
+	line-height: 1.6; /* Altura da linha para melhorar a legibilidade */
+	margin-bottom: 12px; /* Espaço abaixo de cada parágrafo ou span */
+}
+
+/* Lista de itens (Languages, Machines, Projects) */
+ul {
+	list-style-type: none; /* Remove os pontos de lista */
+	padding: 0; /* Remove o padding padrão da lista */
+}
+
+ul li {
+	margin-bottom: 5px; /* Espaço abaixo de cada item */
+	padding: 20px; /* Espaçamento interno de cada item */
+	background-color: #f9f9f9; /* Cor de fundo dos itens da lista */
+	border-radius: 10px; /* Cantos arredondados dos itens da lista */
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor dos itens da lista */
+	transition: all 0.3s ease; /* Transição suave em todos os efeitos */
+}
+
+ul li:hover {
+	background-color: #e1f5fe; /* Cor de fundo ao passar o mouse sobre os itens */
+	cursor: pointer; /* Aponta o cursor para indicar interatividade */
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); /* Aumenta a sombra ao passar o mouse */
+}
+
+ul li span {
+	display: block; /* Faz o span ocupar a linha inteira */
+	margin-bottom: 6px; /* Espaço abaixo de cada span */
+	color: #616161; /* Cor do texto dos spans */
+	font-size: 1em; /* Tamanho da fonte dos spans (diminuído para 1em) */
+}
