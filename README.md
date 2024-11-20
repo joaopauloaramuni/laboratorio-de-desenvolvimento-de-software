@@ -3,7 +3,7 @@
 <div align="center">
     <table>
         <tr>
-         <td align="center" colspan="1"></td>
+         <td align="center"></td>
         </tr> 
         <tr>
             <td>
@@ -11,7 +11,7 @@
             </td>
         </tr>
         <tr>
-            <td align="center" colspan="1"></td>
+            <td align="center"></td>
         </tr> 
     </table>
 </div>
