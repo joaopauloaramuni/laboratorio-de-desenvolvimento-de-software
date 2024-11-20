@@ -1,5 +1,24 @@
 # laboratorio-de-desenvolvimento-de-software
-Repo Laboratório de Desenvolvimento de Software
+
+<div align="center">
+    <table>
+        <tr>
+         <td align="center" colspan="1"></td>
+        </tr> 
+        <tr>
+            <td>
+                <img alt="pucminas" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/engsoft.png?raw=true"/>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="1"></td>
+        </tr> 
+    </table>
+</div>
+
+-----
+
+# Repo Laboratório de Desenvolvimento de Software
 
 Disciplina do curso de Engenharia de Software da PUC Minas 
 
