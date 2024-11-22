@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>NBA Games</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="container">
+    <h1>Upcoming NBA Games</h1>
+    <div class="games">
+        <div th:each="game : ${games}" class="game-card">
+            <div class="team-info">
+                <img th:src="${game['teams']['home']['logo']}" alt="Home Logo" class="team-logo">
+                <h2 th:text="${game['teams']['home']['name']}"></h2>
+            </div>
+            <div class="team-info">
+                <img th:src="${game['teams']['visitors']['logo']}" alt="Visitor Logo" class="team-logo">
+                <h2 th:text="${game['teams']['visitors']['name']}"></h2>
+            </div>
+            <div class="game-info">
+                <p><strong>Status:</strong> <span th:text="${game['status']['long']}"></span></p>
+                <p><strong>Current Period:</strong> <span th:text="${game['periods']['current']}"></span></p>
+                <p><strong>Location:</strong> <span th:text="${game['arena']['name']} + ', ' + ${game['arena']['city']}"></span></p>
+                <!--<p><strong>Game Date:</strong> <span th:text="${game['date']}"></span></p>-->
+                <p><strong>Game Date:</strong> <span th:text="${game['date']['start']}"></span></p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
