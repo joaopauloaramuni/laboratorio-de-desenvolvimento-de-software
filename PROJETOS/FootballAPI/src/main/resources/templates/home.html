@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Upcoming Football Games</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="container">
+    <h1>Upcoming Football Games</h1>
+
+    <!-- Loop through all games -->
+    <div th:each="game : ${upcomingGames}">
+        <div class="game-card">
+            <!-- Home Team -->
+            <div class="team-info">
+                <img th:src="${game['home_team']['logo']}" alt="Home Logo" class="team-logo">
+                <h2 th:text="${game['home_team']['name']}"></h2>
+            </div>
+
+            <!-- Game Info -->
+            <div class="game-info">
+                <p><strong>Game Date:</strong> <span th:text="${game['date']}"></span></p>
+
+                <!-- League Info -->
+                <p><strong>League:</strong> <span th:text="${game['league_name']}"></span></p>
+                <img th:src="${game['league_logo']}" alt="League Logo" class="league-logo">
+            </div>
+
+            <!-- Away Team -->
+            <div class="team-info">
+                <img th:src="${game['away_team']['logo']}" alt="Away Logo" class="team-logo">
+                <h2 th:text="${game['away_team']['name']}"></h2>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
