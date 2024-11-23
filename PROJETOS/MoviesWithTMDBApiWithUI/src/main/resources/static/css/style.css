@@ -1,0 +1,103 @@
+/* Importando a fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); /* Importa a fonte Roboto do Google Fonts */
+
+/* Reset básico de margens e padding */
+* {
+    margin: 0; /* Remove as margens de todos os elementos */
+    padding: 0; /* Remove o padding de todos os elementos */
+    box-sizing: border-box; /* Define o modelo de box-sizing para incluir padding e bordas no cálculo do tamanho total */
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Define a fonte da página para 'Roboto' */
+    background-color: #f4f4f4; /* Define a cor de fundo do corpo da página */
+    color: #333; /* Define a cor do texto como um tom de cinza escuro */
+}
+
+header {
+    background-color: #333; /* Define o fundo do header como um tom escuro de cinza */
+    color: white; /* Define a cor do texto do header como branca */
+    padding: 20px; /* Adiciona um padding de 20px dentro do header */
+    text-align: center; /* Centraliza o conteúdo dentro do header */
+}
+
+header h1 {
+    margin-bottom: 40px; /* Adiciona uma margem inferior de 40px abaixo do título h1 */
+}
+
+nav ul {
+    list-style: none; /* Remove o estilo de lista (pontos ou números) do menu de navegação */
+    padding: 0; /* Remove o padding da lista de navegação */
+    margin-top: 20px; /* Adiciona um espaço de 20px acima da lista de navegação */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista em linha (horizontalmente) */
+    margin-right: 20px; /* Adiciona um espaço de 20px à direita de cada item de lista */
+}
+
+nav ul li a {
+    color: white; /* Define a cor do texto dos links como branca */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    font-size: 18px; /* Define o tamanho da fonte para os links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Adiciona sublinhado aos links quando o mouse passa sobre eles */
+}
+
+main {
+    padding: 20px; /* Adiciona um padding de 20px dentro da seção principal */
+}
+
+h2 {
+    text-align: center; /* Centraliza o título h2 */
+    margin-bottom: 20px; /* Adiciona uma margem inferior de 10px ao título */
+}
+
+.movie-list {
+    display: grid; /* Utiliza o layout de grid para exibir os filmes em uma estrutura de colunas */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Cria colunas de tamanho variável, com um mínimo de 250px */
+    gap: 20px; /* Adiciona um espaçamento de 20px entre os itens do grid */
+}
+
+.movie-card {
+    background-color: white; /* Define o fundo dos cards de filmes como branco */
+    border-radius: 15px; /* Arredonda as bordas dos cards de filmes */
+    overflow: hidden; /* Garante que o conteúdo que ultrapassar as bordas do card seja escondido */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve ao redor dos cards */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Define a transição suave de sombra e transformação ao passar o mouse */
+}
+
+.movie-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra do card quando o mouse passa sobre ele */
+    transform: translateY(-5px); /* Move o card para cima em 5px quando o mouse passa sobre ele */
+}
+
+.movie-card img {
+    width: 100%; /* Define que a imagem ocupa 100% da largura do card */
+    height: auto; /* Ajusta a altura da imagem automaticamente para manter a proporção */
+    border-bottom: 5px solid #f1f1f1; /* Adiciona uma borda inferior de 5px ao card de filmes */
+}
+
+.movie-info {
+    padding: 15px; /* Adiciona um padding de 15px dentro da área de informações do filme */
+}
+
+.movie-info h3 {
+    font-size: 18px; /* Define o tamanho da fonte para o título da série ou filme */
+    margin-bottom: 10px; /* Adiciona uma margem inferior de 10px ao título */
+}
+
+.movie-info p {
+    font-size: 14px; /* Define o tamanho da fonte dos parágrafos de descrição */
+    color: #666; /* Define a cor do texto dos parágrafos como um cinza mais claro */
+}
+
+footer {
+    background-color: #333; /* Define o fundo do footer como um tom escuro de cinza */
+    color: white; /* Define a cor do texto do footer como branca */
+    text-align: center; /* Centraliza o texto no footer */
+    padding: 10px; /* Adiciona um padding de 10px dentro do footer */
+    margin-top: 20px; /* Adiciona um espaço de 20px acima do footer */
+}

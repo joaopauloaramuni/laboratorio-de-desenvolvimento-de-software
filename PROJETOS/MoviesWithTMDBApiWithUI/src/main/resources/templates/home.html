@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorar Filmes e Séries</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<header>
+    <h1>Explorar Filmes e Séries</h1>
+    <nav>
+        <ul>
+            <li><a href="/">Populares</a></li>
+            <li><a href="/now-playing">Agora em Cartaz</a></li>
+            <li><a href="/top-rated">Mais Bem Avaliados</a></li>
+            <li><a href="/upcoming">Em Estreia</a></li>
+            <li><a href="/horror/2024">Terror 2024</a></li>
+            <li><a href="/tv-shows/2024">Séries 2024</a></li>
+            <li><a href="/tv-shows/top-rated">Top Rated Séries 2024</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- Se houver séries de TV, mostra a seção de séries -->
+    <section th:if="${tvShows}">
+        <h2>Séries de TV</h2>
+        <div class="movie-list">
+            <div th:each="tvShow : ${tvShows}" class="movie-card">
+                <img th:src="'https://image.tmdb.org/t/p/w500' + ${tvShow['poster_path']}" alt="Poster da Série">
+                <div class="movie-info">
+                    <h3 th:text="${tvShow['name']}"></h3>
+                    <p><strong>Avaliação:</strong> <span th:text="${tvShow['vote_average']}"></span></p>
+                    <p th:text="${tvShow['overview']}"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Caso contrário, mostra a seção de filmes -->
+    <section th:if="${movies}">
+        <h2>Filmes</h2>
+        <div class="movie-list">
+            <div th:each="movie : ${movies}" class="movie-card">
+                <img th:src="'https://image.tmdb.org/t/p/w500' + ${movie['poster_path']}" alt="Poster do Filme">
+                <div class="movie-info">
+                    <h3 th:text="${movie['title']}"></h3>
+                    <p><strong>Avaliação:</strong> <span th:text="${movie['vote_average']}"></span></p>
+                    <p th:text="${movie['overview']}"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Filmes e Séries com TMDB API</p>
+</footer>
+</body>
+</html>
