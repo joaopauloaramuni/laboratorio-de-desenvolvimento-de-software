@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>ArAfinador</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="container">
+    <h1>ArAfinador</h1>
+    <h2 id="nota">#</h2>
+    <p id="frequencia">Frequência base: Hz</p>
+    <button onclick="startListening()">Iniciar afinação</button>
+    <div id="frequencia-bar-container">
+        <div id="frequencia-bar"></div>
+    </div>
+</div>
+<script src="/js/afinador.js"></script>
+</body>
+</html>
