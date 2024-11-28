@@ -15,12 +15,10 @@ import java.util.Collections;
 @Service
 public class MpCheckoutProService {
 
-    @Autowired
-    private ApiConfig apiConfig;
+    // private final ApiConfig apiConfig;
 
     public MpCheckoutProService(ApiConfig apiConfig) {
-        this.apiConfig = apiConfig;
-
+        // this.apiConfig = apiConfig;
         // Configurando o token do Mercado Pago ao iniciar o serviço
         MercadoPagoConfig.setAccessToken(apiConfig.getAccessToken());
     }
