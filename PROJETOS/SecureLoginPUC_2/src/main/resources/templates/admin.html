@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Admin Page</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="container">
+    <h2>Admin Page</h2>
+    <p>Bem-vindo à área administrativa!</p>
+    <form  th:action="@{/logout}" method="post" style="margin-top: 20px;">
+        <button type="submit" class="home-btn">Sair</button>
+    </form>
+</div>
+</body>
+</html>
