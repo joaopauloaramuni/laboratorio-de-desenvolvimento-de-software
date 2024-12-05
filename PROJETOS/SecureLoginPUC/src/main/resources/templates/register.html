@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" th:href="@{/css/register.css}">
+</head>
+
+<body>
+<div class="register-container">
+    <div class="register-image-logo-container">
+        <img th:src="@{/images/logo-puc-minas.jpg}" alt="Logo PUC Minas">
+    </div>
+    <div class="register-form">
+        <form th:action="@{/register}" method="post" class="register-form">
+            <h4 class="register-title">Registro</h4>
+
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf" name="cpf" placeholder="999.999.999-99" required>
+
+            <label for="rg">RG</label>
+            <input type="text" id="rg" name="rg" required>
+
+            <label for="endereco">Endereço</label>
+            <input type="text" id="endereco" name="endereco" required>
+
+            <label for="instituicao">Instituição de ensino</label>
+            <select id="instituicao" name="instituicao" required>
+                <option value="">Selecione</option>
+                <option value="1">PUC Minas</option>
+                <option value="2">Outra Instituição</option>
+            </select>
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" required>
+
+            <div class="register-button-container">
+                <button type="submit">Registrar</button>
+            </div>
+        </form>
+        <p class="register-redirect-options">
+            Já tem uma conta?
+            <a href="/login">Faça login</a>
+        </p>
+    </div>
+</div>
+</body>
+
+</html>
