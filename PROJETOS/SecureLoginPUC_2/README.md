@@ -26,6 +26,7 @@ SecureLoginPUC
 │           │   │   ├── login.css
 │           │   │   └── style.css
 │           │   └── images
+│           │       ├── apc-login-bg.png
 │           │       └── logo-puc-minas.jpg
 │           └── templates
 │               ├── admin.html
