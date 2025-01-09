@@ -44,17 +44,23 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - [Mockito](https://site.mockito.org/)
 - [Curso de monitoria - Como criar uma API RESTful com Spring Boot](https://github.com/ICEI-PUC-Minas-PPLES-TI/PLF-ES-2022-2-MON-CursoAPIJava)
 
+-----
+
 #### Apresentações:
 
 Apresentação em grupo:
 
 [Exemplo de apresentação de laboratório](https://github.com/joaopedro-braga/student-currency-system/blob/main/docs/project-architecture-and-technologies.pdf)
 
+-----
+
 #### Portfólios:
 
 Exemplo de portfólio profissional: 
 
 [https://henryheffernan.com/](https://henryheffernan.com/)
+
+-----
 
 #### Comandos Docker úteis:
 
