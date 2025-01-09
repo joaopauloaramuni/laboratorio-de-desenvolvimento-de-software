@@ -66,9 +66,10 @@ Exemplo de portfólio profissional:
 
 #### Comandos Docker úteis:
 
-https://docs.docker.com/get-started/docker_cheatsheet.pdf
-<br>https://www.docker.com/products/docker-desktop/
+- [Docker Cheatsheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
+```
 docker --version
 
 docker build -t minha-aplicacao .
@@ -82,8 +83,10 @@ docker run -d -p 8080:8080 minha-aplicacao
 docker ps
 
 docker stats
+```
 
-Sugestão de vídeo: https://www.youtube.com/watch?v=3c-iBn73dDE
+Sugestão de vídeo:
+- [Docker Tutorial for Beginners [FULL COURSE in 3 Hours]](https://www.youtube.com/watch?v=3c-iBn73dDE)
 
 <table>
 <tr>
