@@ -42,7 +42,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - [Banco de Dados - Scripts no GitHub](https://github.com/joaopauloaramuni/banco-de-dados/tree/main/SCRIPTS)
 - [Grafana](https://grafana.com/)
 - [Mockito](https://site.mockito.org/)
-- [Projeto Curso API Java no GitHub](https://github.com/ICEI-PUC-Minas-PPLES-TI/PLF-ES-2022-2-MON-CursoAPIJava)
+- [Curso de monitoria - Como criar uma API RESTful com Spring Boot](https://github.com/ICEI-PUC-Minas-PPLES-TI/PLF-ES-2022-2-MON-CursoAPIJava)
 
 #### Apresentações:
 
