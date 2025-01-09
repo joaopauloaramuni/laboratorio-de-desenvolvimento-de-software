@@ -11,39 +11,52 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - 2°Sem 2024
 - 1°Sem 2025
 
-https://www.jetbrains.com/idea/download/
-<br>https://www.jetbrains.com/shop/eform/students
-<br>https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
-<br>https://docs.oracle.com/en/java/javase/17/
-<br>https://start.spring.io/
-<br>https://docs.spring.io/spring-boot/documentation.html
-<br>https://www.primefaces.org/
-<br>https://mantine.dev/
-<br>https://insomnia.rest/download
-<br>https://www.postman.com/downloads/
-<br>https://drawio.com/
-<br>https://astah.net/products/free-student-license/
-<br>https://plantuml.com/
-<br>https://www.figma.com/pt-br/templates/
-<br>https://www.docker.com/products/docker-desktop/
-<br>https://fly.io/
-<br>https://www.mongodb.com/try/download/community
-<br>https://www.mongodb.com/products/tools/compass
-<br>https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
-<br>https://github.com/joaopauloaramuni/banco-de-dados/tree/main/SCRIPTS
-<br>https://grafana.com/
-<br>https://site.mockito.org/
-<br>https://github.com/ICEI-PUC-Minas-PPLES-TI/PLF-ES-2022-2-MON-CursoAPIJava
+### Sumário:
+- [Aulas em PDF](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/tree/main/PDF)
+- [Cronograma](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/tree/main/CRONOGRAMA)
+- [Atalhos](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/tree/main/ATALHOS)
+- [Laboratórios](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/tree/main/LABORATÓRIOS)
+- [Projetos com Spring Boot](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/tree/main/PROJETOS)
+- [Docker CLI Cheat Sheet](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/tree/main/DOCKER%20CLI%20CHEAT%20SHEET)
+
+#### Links úteis:
+- [JetBrains IntelliJ IDEA Downloads](https://www.jetbrains.com/idea/download/)
+- [JetBrains - Licença gratuita para estudantes](https://www.jetbrains.com/shop/eform/students)
+- [Oracle JDK 17 - Downloads](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+- [Documentação Java SE 17](https://docs.oracle.com/en/java/javase/17/)
+- [Spring Initializr](https://start.spring.io/)
+- [Documentação Spring Boot](https://docs.spring.io/spring-boot/documentation.html)
+- [PrimeFaces](https://www.primefaces.org/)
+- [Mantine](https://mantine.dev/)
+- [Insomnia REST Client - Downloads](https://insomnia.rest/download)
+- [Postman - Downloads](https://www.postman.com/downloads/)
+- [Draw.io (Diagramas)](https://drawio.com/)
+- [Astah - Licença gratuita para estudantes](https://astah.net/products/free-student-license/)
+- [PlantUML (Diagramas UML)](https://plantuml.com/)
+- [Figma - Templates](https://www.figma.com/pt-br/templates/)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- [Fly.io](https://fly.io/)
+- [MongoDB Community Server - Downloads](https://www.mongodb.com/try/download/community)
+- [MongoDB Compass](https://www.mongodb.com/products/tools/compass)
+- [PostgreSQL - Downloads](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
+- [Banco de Dados - Scripts no GitHub](https://github.com/joaopauloaramuni/banco-de-dados/tree/main/SCRIPTS)
+- [Grafana](https://grafana.com/)
+- [Mockito](https://site.mockito.org/)
+- [Projeto Curso API Java no GitHub](https://github.com/ICEI-PUC-Minas-PPLES-TI/PLF-ES-2022-2-MON-CursoAPIJava)
+
+#### Apresentações:
 
 Apresentação em grupo:
 
 [Exemplo de apresentação de laboratório](https://github.com/joaopedro-braga/student-currency-system/blob/main/docs/project-architecture-and-technologies.pdf)
 
+#### Portfólios:
+
 Exemplo de portfólio profissional: 
 
 [https://henryheffernan.com/](https://henryheffernan.com/)
 
-Comandos Docker úteis:
+#### Comandos Docker úteis:
 
 https://docs.docker.com/get-started/docker_cheatsheet.pdf
 <br>https://www.docker.com/products/docker-desktop/
