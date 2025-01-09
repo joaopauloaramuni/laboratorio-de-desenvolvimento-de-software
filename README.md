@@ -73,12 +73,12 @@ Exemplo de portfólio profissional:
 docker --version
 
 docker build -t minha-aplicacao .
-<br>docker build --platform linux/amd64 -t minha-aplicacao .
+docker build --platform linux/amd64 -t minha-aplicacao .
 
 docker images
 
 docker run -d -p 8080:8080 minha-aplicacao
-<br>docker run --platform linux/amd64 -d -p 8080:8080 minha-aplicacao
+docker run --platform linux/amd64 -d -p 8080:8080 minha-aplicacao
 
 docker ps
 
