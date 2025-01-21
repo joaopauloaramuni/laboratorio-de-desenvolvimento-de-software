@@ -278,4 +278,3 @@ docker history: Mostra o histórico de camadas de uma imagem.
 </div>
 
 -----
-
