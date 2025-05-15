@@ -28,11 +28,11 @@ A **Leaflet Routing Machine** é uma biblioteca JavaScript que facilita a criaç
 
 ### Home
 
-![Home](imgs/home.png)
+![Home](https://joaopauloaramuni.github.io/java-imgs/RouteMapper/imgs/home.png)
 
 ### Resultado
 
-![Resultado](imgs/result.png)
+![Resultado](https://joaopauloaramuni.github.io/java-imgs/RouteMapper/imgs/result.png)
 
 ## Dependências
 As dependências principais do projeto são:
