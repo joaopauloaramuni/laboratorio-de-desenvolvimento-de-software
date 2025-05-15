@@ -14,7 +14,7 @@ Graças à integração do Thymeleaf, a aplicação é capaz de gerar dinamicame
 
 - **Home**: Exibe as 90 rádios recuperadas da cidade de Belo Horizonte
 
-| ![Home](imgs/home.png) |
+| ![Home](https://joaopauloaramuni.github.io/java-imgs/RadioBrowserAPI/imgs/home.png) |
 |:--------------------:|
 |         Home         |
 
