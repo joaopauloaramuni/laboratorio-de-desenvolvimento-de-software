@@ -103,7 +103,7 @@ A interface gráfica permite ao usuário inserir seus dados de login e, após a 
 
 - **Login**: Possui os campos para inserir o username e o password.
 
-| <img src="imgs/login.png" alt="Login" width="400"/> |
+| <img src="https://joaopauloaramuni.github.io/java-imgs/SecureLogin/imgs/login.png" alt="Login" width="400"/> |
 |:------------------------:|
 |         Login            |
 
