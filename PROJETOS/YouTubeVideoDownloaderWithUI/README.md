@@ -163,7 +163,7 @@ A interface gráfica permite que o usuário insira o link do vídeo, visualize e
 
 - **Home**: Campo para inserir o link do vídeo e botão de download.
 
-| ![Home](imgs/download.png) |
+| ![Home](https://joaopauloaramuni.github.io/java-imgs/YouTubeVideoDownloaderWithUI/imgs/download.png) |
 |:--------------------:|
 |         Home         |
 
