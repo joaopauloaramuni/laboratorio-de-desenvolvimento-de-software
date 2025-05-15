@@ -6,15 +6,15 @@ A funcionalidade principal do projeto é a detecção da nota musical gerada pel
 
 ## Captura de Tela
 
-| <img src="https://joaopauloaramuni.github.io/java-imgs/AIChatBotAPI/imgs/home.png" alt="Home" width="1200"/> |
+| <img src="https://joaopauloaramuni.github.io/java-imgs/ArAfinador/imgs/home.png" alt="Home" width="1200"/> |
 |:-------:|
 | Home |
 
-| <img src="https://joaopauloaramuni.github.io/java-imgs/AIChatBotAPI/imgs/mizinha.png" alt="Mizinha" width="600"/> | <img src="imgs/mizona.png" alt="Mizona" width="600"/> |
+| <img src="https://joaopauloaramuni.github.io/java-imgs/ArAfinador/imgs/mizinha.png" alt="Mizinha" width="600"/> | <img src="imgs/mizona.png" alt="Mizona" width="600"/> |
 |:-------:|:------:|
 | Mizinha | Mizona | 
 
-| <img src="https://joaopauloaramuni.github.io/java-imgs/AIChatBotAPI/imgs/desafinada.png" alt="Desafinada" width="600"/> | <img src="imgs/acima440.png" alt="Acima440Hz" width="600"/> |
+| <img src="https://joaopauloaramuni.github.io/java-imgs/ArAfinador/imgs/desafinada.png" alt="Desafinada" width="600"/> | <img src="imgs/acima440.png" alt="Acima440Hz" width="600"/> |
 |:-------:|:------:|
 | Desafinada | Acima de 440Hz | 
 
