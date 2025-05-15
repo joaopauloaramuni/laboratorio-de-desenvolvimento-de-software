@@ -4,7 +4,7 @@ Este projeto utiliza a NBA API para acessar dados sobre os próximos jogos da NB
 
 ## Captura de tela:
 
-| <img src="imgs/Home.png" alt="Home" width="800"/> |
+| <img src="https://joaopauloaramuni.github.io/java-imgs/BasketballAPI/imgs/Home.png" alt="Home" width="800"/> |
 |:------------------------:|
 |         Home            |
 
