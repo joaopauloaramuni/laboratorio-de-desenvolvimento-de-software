@@ -30,7 +30,7 @@ A interface gráfica proporciona uma experiência de usuário mais intuitiva e i
 - **Tela Inicial - Home**: Campo para inserir a busca por perguntas e botão para realizar a pesquisa.
 - **Tela de Resultados**: Exibe o resultado da pesquisa com um botão de nova busca que permite ao usuário retornar à página inicial.
 
-| ![Tela Inicial - Home](imgs/home.png) | ![Tela de Progresso](imgs/result.png) |
+| ![Tela Inicial - Home](https://joaopauloaramuni.github.io/java-imgs/StackOverflowAPIWithUI/imgs/home.png) | ![Tela de Progresso](https://joaopauloaramuni.github.io/java-imgs/StackOverflowAPIWithUI/imgs/result.png) |
 |:--:|:--:|
 | Tela Inicial - Home | Tela de Resultados |
 
