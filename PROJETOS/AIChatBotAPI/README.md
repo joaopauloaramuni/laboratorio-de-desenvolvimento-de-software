@@ -71,7 +71,7 @@ public String askAI(@RequestParam("question") String question, Model model) {
 
 ## Capturas de Tela
 
-| <img src="imgs/home2.png" alt="home2" width="600"/> | <img src="imgs/home3.png" alt="home3" width="600"/> |
+| <img src="https://joaopauloaramuni.github.io/java-imgs/AIChatBotAPI/imgs/home2.png" alt="home2" width="600"/> | <img src="https://joaopauloaramuni.github.io/java-imgs/AIChatBotAPI/imgs/home3.png" alt="home3" width="600"/> |
 |:----------------------:|:----------------------:|
 |         Home 1         |         Home 2         | 
 
