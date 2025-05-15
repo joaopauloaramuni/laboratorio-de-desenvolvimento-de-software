@@ -7,31 +7,31 @@ Ele permite criar preferências de pagamento e redirecionar o cliente para o flu
 
 - **Tela Mercado Pago**: O link gerado pelo controller redireciona para esta tela.
 
-| ![Tela Mercado Pago](imgs/mp.png) |
+| ![Tela Mercado Pago](https://joaopauloaramuni.github.io/java-imgs/InternetVelocityTestWithUI/imgs/mp.png) |
 |:-------------------:|
 | Tela Mercado Pago |
 
 - **Tela Suas integrações**: Para criar a aplicação.
 
-| ![Tela Suas integrações](imgs/apps.png) |
+| ![Tela Suas integrações](https://joaopauloaramuni.github.io/java-imgs/InternetVelocityTestWithUI/imgs/apps.png) |
 |:---------------------:|
 | Tela Suas integrações |
 
 - **Tela Credenciais de produção**: Para obter o Access Token.
 
-| ![Tela Credenciais de produção](imgs/credenciais.png) |
+| ![Tela Credenciais de produção](https://joaopauloaramuni.github.io/java-imgs/InternetVelocityTestWithUI/imgs/credenciais.png) |
 |:----------------------------:|
 | Tela Credenciais de produção |
 
 - **Tela Contas de teste**: Para criar contas fictícias de vendedor e comprador.
 
-| ![Tela Contas de teste](imgs/contasdeteste.png) |
+| ![Tela Contas de teste](https://joaopauloaramuni.github.io/java-imgs/InternetVelocityTestWithUI/imgs/contasdeteste.png) |
 |:--------------------:|
 | Tela Contas de teste |
 
 - **Tela Vendedor (fictício)**: Exibe o saldo atual e a venda realizada (R$ 10,00 neste exemplo com taxa de serviço de R$0,50).
 
-| ![Tela Vendedor (fictício)](imgs/venda.png) |
+| ![Tela Vendedor (fictício)](https://joaopauloaramuni.github.io/java-imgs/InternetVelocityTestWithUI/imgs/venda.png) |
 |:------------------------:|
 | Tela Vendedor (fictício) |
 
