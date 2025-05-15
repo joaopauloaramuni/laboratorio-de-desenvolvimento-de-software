@@ -67,7 +67,7 @@ A interface gráfica permite que o usuário faça upload de imagens para compres
 
 - **Tela de Home**: A tela inicial apresenta um formulário onde o usuário pode inserir uma descrição para a imagem que deseja gerar, especificar o diretório onde a imagem será salva e iniciar o processo de criação. Além disso, há um rótulo para exibir mensagens de status, orientando o usuário sobre as etapas necessárias.
 
-| <img src="imagens/home2.png" alt="Home" width="600"/> |
+| <img src="https://joaopauloaramuni.github.io/java-imgs/HuggingfaceAPIWithUI/imagens/home2.png" alt="Home" width="600"/> |
 |:--------------------:|
 |         Home         |
 
