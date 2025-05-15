@@ -4,7 +4,7 @@ Este projeto utiliza a API Football para acessar dados sobre as ligas de futebol
 
 ## Captura de tela:
 
-| <img src="imgs/home.png" alt="Home" width="800"/> |
+| <img src="https://joaopauloaramuni.github.io/java-imgs/FootballAPI/imgs/home.png" alt="Home" width="800"/> |
 |:------------------------:|
 |         Home            |
 
