@@ -110,11 +110,11 @@ A interface gráfica permite ao usuário inserir seus dados de login e, após a 
 
 - **Login**: A página de login possui campos para inserir o nome de usuário e a senha. Ela  também exibe o logo da PUC Minas, proporcionando uma identificação visual clara da instituição. Abaixo do formulário de login, existem links para os usuários que ainda não possuem cadastro, direcionando-os para a página de registro, e para aqueles que esqueceram a senha, levando-os à página de recuperação de senha.
 
-| <img src="imgs/login.png" alt="Login" width="1000"/> |
+| <img src="https://joaopauloaramuni.github.io/java-imgs/SecureLoginPUC/imgs/login.png" alt="Login" width="1000"/> |
 |:----------------------------------------------------:|
 |                        Login                         |
 
-| <img src="imgs/registro.png" alt="Registro" width="1000"/> |
+| <img src="https://joaopauloaramuni.github.io/java-imgs/SecureLoginPUC/imgs/registro.png" alt="Registro" width="1000"/> |
 |:----------------------------------------------------------:|
 |                          Registro                          |
 
