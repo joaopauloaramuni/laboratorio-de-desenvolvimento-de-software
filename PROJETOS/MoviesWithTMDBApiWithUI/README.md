@@ -4,7 +4,7 @@ Este projeto é uma aplicação que integra com a API do The Movie Database (TMD
 
 ## Captura de Tela:
 
-| <img src="imgs/home.png" alt="Home"/> |
+| <img src="https://joaopauloaramuni.github.io/java-imgs/MoviesWithTMDBApiWithUI/imgs/home.png" alt="Home"/> |
 |:------------------------:|
 |         Home            |
 
