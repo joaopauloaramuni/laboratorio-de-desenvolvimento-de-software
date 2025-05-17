@@ -7,7 +7,7 @@ A funcionalidade principal do projeto é a detecção da nota musical gerada pel
 ## Captura de Tela
 
 | <img src="https://joaopauloaramuni.github.io/java-imgs/ArAfinador/imgs/home.png" alt="Home" width="1200"/> |
-| <img src="imgs/mizinha.png"|
+| <img src="imgs/mizinha.png"/>|
 |:-------:|
 | Home |
 
