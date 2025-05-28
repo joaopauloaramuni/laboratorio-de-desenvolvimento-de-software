@@ -45,6 +45,8 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - [Grafana](https://grafana.com/)
 - [Mockito](https://site.mockito.org/)
 - [Curso de monitoria - Como criar uma API RESTful com Spring Boot](https://github.com/ICEI-PUC-Minas-PPLES-TI/PLF-ES-2022-2-MON-CursoAPIJava)
+- [PMD](https://pmd.github.io/)
+- [SonarQube](https://www.sonarsource.com/products/sonarqube/)
 
 -----
 
