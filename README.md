@@ -71,7 +71,7 @@ Exemplos de portfólio profissional:
 ##### Flávio Júnior (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
 - [Portfólio](https://flaviojunior-portfolio.vercel.app/)
 - Lib utilizada - Shadcn: [https://ui.shadcn.com/](https://ui.shadcn.com/)
-- Shadcn - Docs: [https://ui.shadcn.com/docs/registry/getting-started](https://ui.shadcn.com/docs/registry/getting-started)
+- Shadcn Docs: [https://ui.shadcn.com/docs/registry/getting-started](https://ui.shadcn.com/docs/registry/getting-started)
 - [GitHub](https://github.com/flaviojuniordev)
 
 ##### Henry Heffernan:
