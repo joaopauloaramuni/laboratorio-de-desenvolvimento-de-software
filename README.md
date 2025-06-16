@@ -62,12 +62,20 @@ Apresentação em grupo:
 
 #### Portfólios:
 
-Exemplo de portfólio profissional: 
+Exemplos de portfólio profissional:
 
-[https://henryheffernan.com/](https://henryheffernan.com/)
+##### Luca Azalim (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
+- [Portifólio](http://azal.im/)
+- [GitHub](https://github.com/lucaazalim)
 
-##### Lib:
-[https://threejs.org/docs/](https://threejs.org/docs/)
+##### Flávio Júnior (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
+- [Portifólio](https://flaviojunior-portfolio.vercel.app/)
+- [GitHub](https://github.com/flaviojuniordev)
+
+##### Henry Heffernan:
+- [Portifólio](https://henryheffernan.com/)
+- Lib utilizada: [https://threejs.org/docs/](https://threejs.org/docs/)
+- [GitHub](https://github.com/henryjeff)
 
 -----
 
