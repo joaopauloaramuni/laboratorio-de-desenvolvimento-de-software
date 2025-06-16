@@ -56,7 +56,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 Apresentação em grupo:
 
-[Exemplo de apresentação de laboratório](https://github.com/joaopedro-braga/student-currency-system/blob/main/docs/project-architecture-and-technologies.pdf)
+- [Exemplo de apresentação de laboratório](https://github.com/joaopedro-braga/student-currency-system/blob/main/docs/project-architecture-and-technologies.pdf)
 
 -----
 
