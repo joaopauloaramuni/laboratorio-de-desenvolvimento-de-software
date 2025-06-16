@@ -74,7 +74,8 @@ Exemplos de portfólio profissional:
 
 ##### Henry Heffernan:
 - [Portfólio](https://henryheffernan.com/)
-- Lib utilizada: [https://threejs.org/docs/](https://threejs.org/docs/)
+- Lib utilizada - Three JS: [https://threejs.org/](https://threejs.org/)
+- Three JS Docs: [https://threejs.org/docs/](https://threejs.org/docs/)
 - [GitHub](https://github.com/henryjeff)
 
 -----
