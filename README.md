@@ -96,6 +96,16 @@ Exemplos de portfólio profissional:
 ###### E-book: Building an Effective Dev Portfolio
 - https://storage.googleapis.com/joshwcomeau/building-an-effective-dev-portfolio.pdf
 
+##### Outros perfis:
+
+- https://portfolio-starter-template.webflow.io/
+- https://craig-roush-portfolio-template.webflow.io/
+- https://alex-grant-template.webflow.io/
+- https://dexter-morgan.webflow.io/
+- https://novo-demo.squarespace.com/?nochrome=true
+- https://kester-demo.squarespace.com/?nochrome=true
+- https://pt.wix.com/website-template/view/html/1913
+
 -----
 
 #### Comandos Docker úteis:
