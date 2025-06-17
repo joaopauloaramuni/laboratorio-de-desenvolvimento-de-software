@@ -102,8 +102,8 @@ Exemplos de portfólio profissional:
 - https://craig-roush-portfolio-template.webflow.io/
 - https://alex-grant-template.webflow.io/
 - https://dexter-morgan.webflow.io/
-- https://novo-demo.squarespace.com/?nochrome=true
-- https://kester-demo.squarespace.com/?nochrome=true
+- https://novo-demo.squarespace.com/
+- https://kester-demo.squarespace.com/
 - https://pt.wix.com/website-template/view/html/1913
 
 -----
