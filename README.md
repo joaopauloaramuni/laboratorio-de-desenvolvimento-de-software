@@ -89,6 +89,13 @@ Exemplos de portfólio profissional:
 - [Repositório do website](https://github.com/henryjeff/portfolio-website)
 - [GitHub](https://github.com/henryjeff)
 
+##### Josh W. Comeau:
+- [Portfólio](https://www.joshwcomeau.com/)
+- [GitHub](https://github.com/joshwcomeau)
+
+###### E-book: Building an Effective Dev Portfolio
+- https://storage.googleapis.com/joshwcomeau/building-an-effective-dev-portfolio.pdf
+
 -----
 
 #### Comandos Docker úteis:
