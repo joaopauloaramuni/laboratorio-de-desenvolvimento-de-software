@@ -68,6 +68,14 @@ Exemplos de portfólio profissional:
 - [Portfólio](http://azal.im/)
 - [GitHub](https://github.com/lucaazalim)
 
+##### Gabriel Victor (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
+- [Portfólio](https://gabrielvictor.web.app/)
+- [GitHub](https://github.com/G4BR-13-L)
+
+##### Pedro Braga (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
+- [Portfólio](https://www.pedrobragadev.com/)
+- [GitHub](https://github.com/bragap)
+
 ##### Flávio Júnior (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
 - [Portfólio](https://flaviojunior-portfolio.vercel.app/)
 - Lib utilizada - Shadcn: [https://ui.shadcn.com/](https://ui.shadcn.com/)
