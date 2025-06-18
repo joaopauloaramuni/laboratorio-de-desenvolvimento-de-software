@@ -43,12 +43,18 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - [PostgreSQL - Downloads](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 - [Banco de Dados - Scripts no GitHub](https://github.com/joaopauloaramuni/banco-de-dados/tree/main/SCRIPTS)
 - [Grafana](https://grafana.com/)
+- [Grafana - GitHub](https://github.com/grafana/grafana)
 - [Mockito](https://site.mockito.org/)
-- [Curso de monitoria - Como criar uma API RESTful com Spring Boot](https://github.com/ICEI-PUC-Minas-PPLES-TI/PLF-ES-2022-2-MON-CursoAPIJava)
+- [Mockito - GitHub](https://github.com/mockito/mockito)
 - [PMD](https://pmd.github.io/)
+- [PMD - GitHub](https://github.com/pmd/pmd)
 - [SonarQube](https://www.sonarsource.com/products/sonarqube/)
+- [SonarQube - GitHub](https://github.com/SonarSource/sonarqube)
 - [JNose](https://jnosetest.github.io/)
 - [JNose - GitHub](https://github.com/arieslab/jnose)
+- [Selenide](https://selenide.org/)
+- [Selenide - GitHub](https://github.com/selenide/selenide)
+- [Curso de monitoria - Como criar uma API RESTful com Spring Boot](https://github.com/ICEI-PUC-Minas-PPLES-TI/PLF-ES-2022-2-MON-CursoAPIJava)
 
 -----
 
