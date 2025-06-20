@@ -22,40 +22,112 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - [Docker CLI Cheat Sheet](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/tree/main/DOCKER%20CLI%20CHEAT%20SHEET)
 
 #### Links úteis:
+
+##### 💻 Ambientes de Desenvolvimento
+
+#### IDEs
 - [JetBrains IntelliJ IDEA Downloads](https://www.jetbrains.com/idea/download/)
 - [JetBrains - Licença gratuita para estudantes](https://www.jetbrains.com/shop/eform/students)
-- [Oracle JDK 17 - Downloads](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
-- [Documentação Java SE 17](https://docs.oracle.com/en/java/javase/17/)
-- [Spring Initializr](https://start.spring.io/)
-- [Documentação Spring Boot](https://docs.spring.io/spring-boot/documentation.html)
-- [PrimeFaces](https://www.primefaces.org/)
-- [Mantine](https://mantine.dev/)
-- [Insomnia REST Client - Downloads](https://insomnia.rest/download)
-- [Postman - Downloads](https://www.postman.com/downloads/)
+
+#### Ferramentas de Design e Diagramas
 - [Draw.io (Diagramas)](https://drawio.com/)
 - [Astah - Licença gratuita para estudantes](https://astah.net/products/free-student-license/)
 - [PlantUML (Diagramas UML)](https://plantuml.com/)
 - [Figma - Templates](https://www.figma.com/pt-br/templates/)
+
+---
+
+##### ☕ Java e Spring
+
+#### Java SE 17
+- [Oracle JDK 17 - Downloads](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+- [Documentação Java SE 17](https://docs.oracle.com/en/java/javase/17/)
+
+#### Spring Boot
+- [Spring Initializr](https://start.spring.io/)
+- [Documentação Spring Boot](https://docs.spring.io/spring-boot/documentation.html)
+- [Curso de monitoria - Como criar uma API RESTful com Spring Boot](https://github.com/ICEI-PUC-Minas-PPLES-TI/PLF-ES-2022-2-MON-CursoAPIJava)
+
+---
+
+##### 🎨 Frameworks de Interface
+
+- [PrimeFaces](https://www.primefaces.org/)
+- [Mantine](https://mantine.dev/)
+
+---
+
+##### 🌐 Clientes REST
+
+- [Insomnia REST Client - Downloads](https://insomnia.rest/download)
+- [Postman - Downloads](https://www.postman.com/downloads/)
+
+---
+
+##### 🐳 Docker, Deploy e Cloud
+
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- [Docker Hub](https://hub.docker.com/)
 - [Fly.io](https://fly.io/)
+- [Heroku](https://www.heroku.com/)
+- [Vercel](https://vercel.com/)
+
+---
+
+##### 🗃️ Bancos de Dados
+
+#### MongoDB
 - [MongoDB Community Server - Downloads](https://www.mongodb.com/try/download/community)
 - [MongoDB Compass](https://www.mongodb.com/products/tools/compass)
+
+#### PostgreSQL
 - [PostgreSQL - Downloads](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
+
+#### Scripts e Repositório
 - [Banco de Dados - Scripts no GitHub](https://github.com/joaopauloaramuni/banco-de-dados/tree/main/SCRIPTS)
+
+---
+
+##### 📊 Observabilidade
+
 - [Grafana](https://grafana.com/)
 - [Grafana - GitHub](https://github.com/grafana/grafana)
+- [Prometheus](https://prometheus.io/)
+
+---
+
+##### 🧪 Testes e Qualidade
+
+#### Frameworks de Teste
+- [JUnit](https://junit.org/)
+- [JUnit - GitHub](https://github.com/junit-team)
+
+#### Mocks e Testes Automatizados
 - [Mockito](https://site.mockito.org/)
 - [Mockito - GitHub](https://github.com/mockito/mockito)
+- [Selenide](https://selenide.org/)
+- [Selenide - GitHub](https://github.com/selenide/selenide)
+- [Selenium](https://www.selenium.dev/)
+- [Selenium - GitHub](https://github.com/SeleniumHQ/selenium)
+
+---
+
+##### 🧹 Análise de Código
+
 - [PMD](https://pmd.github.io/)
 - [PMD - GitHub](https://github.com/pmd/pmd)
 - [SonarQube](https://www.sonarsource.com/products/sonarqube/)
 - [SonarQube - GitHub](https://github.com/SonarSource/sonarqube)
 - [JNose](https://jnosetest.github.io/)
 - [JNose - GitHub](https://github.com/arieslab/jnose)
-- [Selenide](https://selenide.org/)
-- [Selenide - GitHub](https://github.com/selenide/selenide)
-- [Curso de monitoria - Como criar uma API RESTful com Spring Boot](https://github.com/ICEI-PUC-Minas-PPLES-TI/PLF-ES-2022-2-MON-CursoAPIJava)
+
+---
+
+##### 📈 Tendências e Relatórios
+
 - [Dev Skiller Report 2025](https://devskiller.com/it-skills-report/)
+- [Stack Overflow Developer Survey 2024](https://survey.stackoverflow.co/2024/)
+- [JetBrains Developer Ecosystem 2024](https://www.jetbrains.com/pt-br/lp/devecosystem-2024/)
 
 -----
 
