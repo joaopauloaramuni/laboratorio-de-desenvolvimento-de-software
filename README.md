@@ -290,7 +290,7 @@ A classe `UserService` atualmente contém lógica de acesso direto ao banco de d
 
 #### 📚 Link oficial da documentação do GitHub
 
-[Commenting on a pull request](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request)
+- [Commenting on a pull request](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request)
 
 -----
 
