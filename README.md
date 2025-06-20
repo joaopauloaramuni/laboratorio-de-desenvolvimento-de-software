@@ -218,188 +218,43 @@ docker stats
   <summary>Comandos Docker: Guia rápido</summary>
 
 ```
-<table>
-<tr>
-<td align="center">
-Comandos Docker: Guia rápido
-</td>
-</tr>
-<tr>
-<td>
-docker run: Executa um novo contêiner a partir de uma imagem.
-</td>
-</tr>
-<tr>
-<td>
-docker ps: Lista os contêineres em execução.
-</td>
-</tr>
-<tr>
-<td>
-docker ps -a: Lista todos os contêineres, incluindo os que não estão em execução.
-</td>
-</tr>
-<tr>
-<td>
-docker images: Lista todas as imagens locais disponíveis.
-</td>
-</tr>
-<tr>
-<td>
-docker rmi: Remove uma ou mais imagens.
-</td>
-</tr>
-<tr>
-<td>
-docker rm: Remove um ou mais contêineres.
-</td>
-</tr>
-<tr>
-<td>
-docker build: Cria uma nova imagem a partir de um Dockerfile.
-</td>
-</tr>
-<tr>
-<td>
-docker pull: Baixa uma imagem do Docker Hub ou de um repositório remoto.
-</td>
-</tr>
-<tr>
-<td>
-docker push: Envia uma imagem para um repositório remoto no Docker Hub.
-</td>
-</tr>
-<tr>
-<td>
-docker exec: Executa um comando em um contêiner em execução.
-</td>
-</tr>
-<tr>
-<td>
-docker logs: Exibe os logs de um contêiner.
-</td>
-</tr>
-<tr>
-<td>
-docker network: Gerencia redes Docker.
-</td>
-</tr>
-<tr>
-<td>
-docker volume: Gerencia volumes para persistência de dados.
-</td>
-</tr>
-<tr>
-<td>
-docker-compose up: Inicia e orquestra múltiplos contêineres definidos no docker-compose.yml.
-</td>
-</tr>
-<tr>
-<td>
-docker-compose down: Para e remove os contêineres, redes e volumes definidos no docker-compose.yml.
-</td>
-</tr>
-<tr>
-<td>
-docker stats: Exibe estatísticas em tempo real sobre o uso de recursos de contêineres em execução.
-</td>
-</tr>
-<tr>
-<td>
-docker inspect: Mostra informações detalhadas sobre um contêiner ou imagem.
-</td>
-</tr>
-<tr>
-<td>
-docker start: Inicia um contêiner que foi parado.
-</td>
-</tr>
-<tr>
-<td>
-docker stop: Para um contêiner em execução.
-</td>
-</tr>
-<tr>
-<td>
-docker restart: Reinicia um contêiner.
-</td>
-</tr>
-<tr>
-<td>
-docker pause: Pausa um ou mais contêineres em execução.
-</td>
-</tr>
-<tr>
-<td>
-docker unpause: Retoma um ou mais contêineres que foram pausados.
-</td>
-</tr>
-<tr>
-<td>
-docker commit: Cria uma nova imagem a partir das alterações em um contêiner.
-</td>
-</tr>
-<tr>
-<td>
-docker tag: Adiciona uma nova tag a uma imagem existente.
-</td>
-</tr>
-<tr>
-<td>
-docker login: Faz login em um repositório Docker.
-</td>
-</tr>
-<tr>
-<td>
-docker logout: Faz logout de um repositório Docker.
-</td>
-</tr>
-<tr>
-<td>
-docker search: Busca imagens no Docker Hub.
-</td>
-</tr>
-<tr>
-<td>
-docker pull: Baixa uma imagem do Docker Hub ou de um repositório remoto.
-</td>
-</tr>
-<tr>
-<td>
-docker cp: Copia arquivos ou diretórios entre o sistema de arquivos do contêiner e o host.
-</td>
-</tr>
-<tr>
-<td>
-docker volume create: Cria um novo volume Docker.
-</td>
-</tr>
-<tr>
-<td>
-docker volume rm: Remove um ou mais volumes.
-</td>
-</tr>
-<tr>
-<td>
-docker network create: Cria uma nova rede Docker.
-</td>
-</tr>
-<tr>
-<td>
-docker network rm: Remove uma ou mais redes.
-</td>
-</tr>
-<tr>
-<td>
-docker network ls: Lista todas as redes Docker.
-</td>
-</tr>
-<tr>
-<td>
-docker history: Mostra o histórico de camadas de uma imagem.
-</td>
-</tr>
-</table>
+| Comandos Docker: Guia rápido                                                                                    |
+|-----------------------------------------------------------------------------------------------------------------|
+| docker run: Executa um novo contêiner a partir de uma imagem.                                                   |
+| docker ps: Lista os contêineres em execução.                                                                    |
+| docker ps -a: Lista todos os contêineres, incluindo os que não estão em execução.                               |
+| docker images: Lista todas as imagens locais disponíveis.                                                       |
+| docker rmi: Remove uma ou mais imagens.                                                                         |
+| docker rm: Remove um ou mais contêineres.                                                                       |
+| docker build: Cria uma nova imagem a partir de um Dockerfile.                                                   |
+| docker pull: Baixa uma imagem do Docker Hub ou de um repositório remoto.                                        |
+| docker push: Envia uma imagem para um repositório remoto no Docker Hub.                                         |
+| docker exec: Executa um comando em um contêiner em execução.                                                    |
+| docker logs: Exibe os logs de um contêiner.                                                                     |
+| docker network: Gerencia redes Docker.                                                                          |
+| docker volume: Gerencia volumes para persistência de dados.                                                     |
+| docker-compose up: Inicia e orquestra múltiplos contêineres definidos no docker-compose.yml.                    |
+| docker-compose down: Para e remove os contêineres, redes e volumes definidos no docker-compose.yml.             |
+| docker stats: Exibe estatísticas em tempo real sobre o uso de recursos de contêineres em execução.              |
+| docker inspect: Mostra informações detalhadas sobre um contêiner ou imagem.                                     |
+| docker start: Inicia um contêiner que foi parado.                                                               |
+| docker stop: Para um contêiner em execução.                                                                     |
+| docker restart: Reinicia um contêiner.                                                                          |
+| docker pause: Pausa um ou mais contêineres em execução.                                                         |
+| docker unpause: Retoma um ou mais contêineres que foram pausados.                                               |
+| docker commit: Cria uma nova imagem a partir das alterações em um contêiner.                                    |
+| docker tag: Adiciona uma nova tag a uma imagem existente.                                                       |
+| docker login: Faz login em um repositório Docker.                                                               |
+| docker logout: Faz logout de um repositório Docker.                                                             |
+| docker search: Busca imagens no Docker Hub.                                                                     |
+| docker pull: Baixa uma imagem do Docker Hub ou de um repositório remoto.                                        |
+| docker cp: Copia arquivos ou diretórios entre o sistema de arquivos do contêiner e o host.                      |
+| docker volume create: Cria um novo volume Docker.                                                               |
+| docker volume rm: Remove um ou mais volumes.                                                                    |
+| docker network create: Cria uma nova rede Docker.                                                               |
+| docker network rm: Remove uma ou mais redes.                                                                    |
+| docker network ls: Lista todas as redes Docker.                                                                 |
+| docker history: Mostra o histórico de camadas de uma imagem.                                                    |
 
 ```
 </details>
