@@ -64,7 +64,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 ---
 
-##### 🐳 Docker, Deploy e Cloud
+##### 🐳 Docker, Deploy e Cloud ☁️
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - [Docker Hub](https://hub.docker.com/)
@@ -123,7 +123,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 ---
 
-##### 📈 Tendências e pesquisas
+##### 📊 Tendências e pesquisas
 
 - [Dev Skiller Report 2025](https://devskiller.com/it-skills-report/)
 - [Stack Overflow Developer Survey 2024](https://survey.stackoverflow.co/2024/)
@@ -175,7 +175,7 @@ Exemplos de portfólio profissional:
 ###### E-book: Building an Effective Dev Portfolio
 - https://storage.googleapis.com/joshwcomeau/building-an-effective-dev-portfolio.pdf
 
-##### Outros perfis:
+##### 👤 Outros perfis:
 
 - https://portfolio-starter-template.webflow.io/
 - https://craig-roush-portfolio-template.webflow.io/
@@ -187,7 +187,7 @@ Exemplos de portfólio profissional:
 
 -----
 
-#### Comandos Docker úteis:
+#### 🐳 Comandos Docker úteis:
 
 - [Docker Cheatsheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
