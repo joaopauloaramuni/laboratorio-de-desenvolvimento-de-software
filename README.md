@@ -187,11 +187,16 @@ Exemplos de portfólio profissional:
 
 -----
 
-#### 🐳 Comandos Docker úteis:
+#### 🐳 Docker:
 
 - [Docker Cheatsheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- [Docker Hub](https://hub.docker.com/)
 
+##### ▶️ Docker - Vídeo tutorial
+- [Docker Tutorial for Beginners - FULL COURSE in 3 Hours](https://www.youtube.com/watch?v=3c-iBn73dDE)
+
+##### 🛠️ Comandos Docker úteis:
 ```
 docker --version
 
@@ -208,9 +213,11 @@ docker ps
 docker stats
 ```
 
-Sugestão de vídeo:
-- [Docker Tutorial for Beginners [FULL COURSE in 3 Hours]](https://www.youtube.com/watch?v=3c-iBn73dDE)
+##### 🔎 Veja mais sobre docker:
+<details>
+  <summary>Comandos Docker: Guia rápido</summary>
 
+```
 <table>
 <tr>
 <td align="center">
@@ -393,6 +400,43 @@ docker history: Mostra o histórico de camadas de uma imagem.
 </td>
 </tr>
 </table>
+
+```
+</details>
+
+-----
+
+### 💬 Exemplo de comentário em Code Review
+
+> **Obs:** clique na linha do código onde você irá inserir o comentário.
+
+-----
+
+#### 🔍 Sugestão de melhoria
+
+A classe `UserService` atualmente contém lógica de acesso direto ao banco de dados usando `EntityManager`. Para seguir o princípio da **separação de responsabilidades** e melhorar a testabilidade do código, considere **extrair essa lógica para um DAO (`UserDAO`)**.
+
+-----
+
+#### Benefícios da mudança
+
+- Redução do acoplamento entre a camada de serviço e a persistência.  
+- Facilidade para substituir a implementação do DAO futuramente (por exemplo, ao trocar Hibernate por outra tecnologia).  
+- Facilidade para criar mocks e testar a lógica de negócio isoladamente.
+
+-----
+
+#### 📌 Sugestão de implementação
+
+- Criar uma classe `UserDAO` com métodos como `findById(Long id)` e `save(User user)`.  
+- Injetar essa classe no `UserService`.  
+- Mover a lógica de persistência para o DAO.
+
+-----
+
+#### 📚 Link oficial da documentação do GitHub
+
+[Commenting on a pull request](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request)
 
 -----
 
