@@ -131,7 +131,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 -----
 
-#### Apresentações:
+#### 🗣️ Apresentações:
 
 Apresentação em grupo:
 
@@ -139,7 +139,7 @@ Apresentação em grupo:
 
 -----
 
-#### Portfólios:
+#### 📝 Portfólios:
 
 Exemplos de portfólio profissional:
 
