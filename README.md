@@ -21,8 +21,6 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - [Projetos com Spring Boot](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/tree/main/PROJETOS)
 - [Docker CLI Cheat Sheet](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/tree/main/DOCKER%20CLI%20CHEAT%20SHEET)
 
------
-
 #### Links úteis:
 
 ##### 💻 Ambientes de Desenvolvimento
