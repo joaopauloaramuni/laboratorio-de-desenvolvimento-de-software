@@ -55,6 +55,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - [Selenide](https://selenide.org/)
 - [Selenide - GitHub](https://github.com/selenide/selenide)
 - [Curso de monitoria - Como criar uma API RESTful com Spring Boot](https://github.com/ICEI-PUC-Minas-PPLES-TI/PLF-ES-2022-2-MON-CursoAPIJava)
+- [Dev Skiller Report 2025](https://devskiller.com/it-skills-report/)
 
 -----
 
