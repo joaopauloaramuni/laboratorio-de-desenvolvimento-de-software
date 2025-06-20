@@ -23,13 +23,13 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 #### Links úteis:
 
-##### 💻 Ambientes de Desenvolvimento
+##### 💻 Ambientes de desenvolvimento
 
 #### IDEs
 - [JetBrains IntelliJ IDEA Downloads](https://www.jetbrains.com/idea/download/)
 - [JetBrains - Licença gratuita para estudantes](https://www.jetbrains.com/shop/eform/students)
 
-#### Ferramentas de Design e Diagramas
+#### Ferramentas de design e diagramas
 - [Draw.io (Diagramas)](https://drawio.com/)
 - [Astah - Licença gratuita para estudantes](https://astah.net/products/free-student-license/)
 - [PlantUML (Diagramas UML)](https://plantuml.com/)
@@ -50,7 +50,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 ---
 
-##### 🎨 Frameworks de Interface
+##### 🎨 Frameworks de interface
 
 - [PrimeFaces](https://www.primefaces.org/)
 - [Mantine](https://mantine.dev/)
@@ -74,7 +74,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 ---
 
-##### 🗃️ Bancos de Dados
+##### 🗃️ Bancos de dados
 
 #### MongoDB
 - [MongoDB Community Server - Downloads](https://www.mongodb.com/try/download/community)
@@ -83,7 +83,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 #### PostgreSQL
 - [PostgreSQL - Downloads](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 
-#### Scripts e Repositório
+#### Scripts
 - [Banco de Dados - Scripts no GitHub](https://github.com/joaopauloaramuni/banco-de-dados/tree/main/SCRIPTS)
 
 ---
@@ -96,7 +96,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 ---
 
-##### 🧪 Testes e Qualidade
+##### 🧪 Testes e qualidade
 
 #### Frameworks de Teste
 - [JUnit](https://junit.org/)
@@ -112,7 +112,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 ---
 
-##### 🧹 Análise de Código
+##### 🧹 Análise de código
 
 - [PMD](https://pmd.github.io/)
 - [PMD - GitHub](https://github.com/pmd/pmd)
@@ -123,7 +123,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 ---
 
-##### 📈 Tendências e Relatórios
+##### 📈 Tendências e pesquisas
 
 - [Dev Skiller Report 2025](https://devskiller.com/it-skills-report/)
 - [Stack Overflow Developer Survey 2024](https://survey.stackoverflow.co/2024/)
