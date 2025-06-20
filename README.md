@@ -144,36 +144,36 @@ Apresentação em grupo:
 Exemplos de portfólio profissional:
 
 ##### Luca Azalim (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
-- [Portfólio](http://azal.im/)
+- 🌐 [Portfólio](http://azal.im/)
 - :octocat: [GitHub](https://github.com/lucaazalim)
 
 ##### Gabriel Victor (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
-- [Portfólio](https://gabrielvictor.web.app/)
+- 🌐 [Portfólio](https://gabrielvictor.web.app/)
 - :octocat: [GitHub](https://github.com/G4BR-13-L)
 
 ##### Pedro Braga (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
-- [Portfólio](https://www.pedrobragadev.com/)
+- 🌐 [Portfólio](https://www.pedrobragadev.com/)
 - :octocat: [GitHub](https://github.com/bragap)
 
 ##### Flávio Júnior (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
-- [Portfólio](https://flaviojunior-portfolio.vercel.app/)
+- 🌐 [Portfólio](https://flaviojunior-portfolio.vercel.app/)
 - Lib utilizada - Shadcn: [https://ui.shadcn.com/](https://ui.shadcn.com/)
 - Shadcn Docs: [https://ui.shadcn.com/docs/registry/getting-started](https://ui.shadcn.com/docs/registry/getting-started)
 - :octocat: [GitHub](https://github.com/flaviojuniordev)
 
 ##### Henry Heffernan:
-- [Portfólio](https://henryheffernan.com/)
+- 🌐 [Portfólio](https://henryheffernan.com/)
 - Lib utilizada - Three JS: [https://threejs.org/](https://threejs.org/)
 - Three JS Docs: [https://threejs.org/docs/](https://threejs.org/docs/)
 - [Repositório do website](https://github.com/henryjeff/portfolio-website)
 - :octocat: [GitHub](https://github.com/henryjeff)
 
 ##### Josh W. Comeau:
-- [Portfólio](https://www.joshwcomeau.com/)
+- 🌐 [Portfólio](https://www.joshwcomeau.com/)
 - :octocat: [GitHub](https://github.com/joshwcomeau)
 
-###### E-book: Building an Effective Dev Portfolio
-- https://storage.googleapis.com/joshwcomeau/building-an-effective-dev-portfolio.pdf
+###### 📚 E-book: Building an Effective Dev Portfolio
+- [Building an Effective Dev Portfolio](https://storage.googleapis.com/joshwcomeau/building-an-effective-dev-portfolio.pdf)
 
 ##### 👤 Outros perfis:
 
