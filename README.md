@@ -145,32 +145,32 @@ Exemplos de portfólio profissional:
 
 ##### Luca Azalim (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
 - [Portfólio](http://azal.im/)
-- [GitHub](https://github.com/lucaazalim)
+- :octocat: [GitHub](https://github.com/lucaazalim)
 
 ##### Gabriel Victor (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
 - [Portfólio](https://gabrielvictor.web.app/)
-- [GitHub](https://github.com/G4BR-13-L)
+- :octocat: [GitHub](https://github.com/G4BR-13-L)
 
 ##### Pedro Braga (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
 - [Portfólio](https://www.pedrobragadev.com/)
-- [GitHub](https://github.com/bragap)
+- :octocat: [GitHub](https://github.com/bragap)
 
 ##### Flávio Júnior (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
 - [Portfólio](https://flaviojunior-portfolio.vercel.app/)
 - Lib utilizada - Shadcn: [https://ui.shadcn.com/](https://ui.shadcn.com/)
 - Shadcn Docs: [https://ui.shadcn.com/docs/registry/getting-started](https://ui.shadcn.com/docs/registry/getting-started)
-- [GitHub](https://github.com/flaviojuniordev)
+- :octocat: [GitHub](https://github.com/flaviojuniordev)
 
 ##### Henry Heffernan:
 - [Portfólio](https://henryheffernan.com/)
 - Lib utilizada - Three JS: [https://threejs.org/](https://threejs.org/)
 - Three JS Docs: [https://threejs.org/docs/](https://threejs.org/docs/)
 - [Repositório do website](https://github.com/henryjeff/portfolio-website)
-- [GitHub](https://github.com/henryjeff)
+- :octocat: [GitHub](https://github.com/henryjeff)
 
 ##### Josh W. Comeau:
 - [Portfólio](https://www.joshwcomeau.com/)
-- [GitHub](https://github.com/joshwcomeau)
+- :octocat: [GitHub](https://github.com/joshwcomeau)
 
 ###### E-book: Building an Effective Dev Portfolio
 - https://storage.googleapis.com/joshwcomeau/building-an-effective-dev-portfolio.pdf
