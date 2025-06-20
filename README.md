@@ -25,11 +25,11 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 ##### 💻 Ambientes de desenvolvimento
 
-#### IDEs
+###### IDEs
 - [JetBrains IntelliJ IDEA Downloads](https://www.jetbrains.com/idea/download/)
 - [JetBrains - Licença gratuita para estudantes](https://www.jetbrains.com/shop/eform/students)
 
-#### Ferramentas de design e diagramas
+###### Ferramentas de design e diagramas
 - [Draw.io (Diagramas)](https://drawio.com/)
 - [Astah - Licença gratuita para estudantes](https://astah.net/products/free-student-license/)
 - [PlantUML (Diagramas UML)](https://plantuml.com/)
@@ -39,11 +39,11 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 ##### ☕ Java e Spring
 
-#### Java SE 17
+###### Java SE 17
 - [Oracle JDK 17 - Downloads](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 - [Documentação Java SE 17](https://docs.oracle.com/en/java/javase/17/)
 
-#### Spring Boot
+###### Spring Boot
 - [Spring Initializr](https://start.spring.io/)
 - [Documentação Spring Boot](https://docs.spring.io/spring-boot/documentation.html)
 - [Curso de monitoria - Como criar uma API RESTful com Spring Boot](https://github.com/ICEI-PUC-Minas-PPLES-TI/PLF-ES-2022-2-MON-CursoAPIJava)
@@ -76,14 +76,14 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 ##### 🗃️ Bancos de dados
 
-#### MongoDB
+###### MongoDB
 - [MongoDB Community Server - Downloads](https://www.mongodb.com/try/download/community)
 - [MongoDB Compass](https://www.mongodb.com/products/tools/compass)
 
-#### PostgreSQL
+###### PostgreSQL
 - [PostgreSQL - Downloads](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 
-#### Scripts
+###### Scripts
 - [Banco de Dados - Scripts no GitHub](https://github.com/joaopauloaramuni/banco-de-dados/tree/main/SCRIPTS)
 
 ---
@@ -98,11 +98,11 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 ##### 🧪 Testes e qualidade
 
-#### Frameworks de Teste
+###### Frameworks de Teste
 - [JUnit](https://junit.org/)
 - [JUnit - GitHub](https://github.com/junit-team)
 
-#### Mocks e Testes Automatizados
+###### Mocks e Testes Automatizados
 - [Mockito](https://site.mockito.org/)
 - [Mockito - GitHub](https://github.com/mockito/mockito)
 - [Selenide](https://selenide.org/)
