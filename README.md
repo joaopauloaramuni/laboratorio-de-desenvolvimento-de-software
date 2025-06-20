@@ -262,7 +262,7 @@ docker stats
 
 ### 💬 Exemplo de comentário em Code Review
 
-> **Obs:** clique na linha do código onde você irá inserir o comentário.
+> **Obs**: Para iniciar um code review, você precisa abrir um pull request (PR) no repositório. O PR é a solicitação para mesclar suas alterações no branch principal. Depois de aberto, você e seus colegas podem navegar pelas mudanças, clicar nas linhas de código para adicionar comentários e discutir melhorias diretamente no PR.
 
 -----
 
