@@ -157,14 +157,14 @@ Exemplos de portfólio profissional:
 
 ##### Flávio Júnior (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
 - 🌐 [Portfólio](https://flaviojunior-portfolio.vercel.app/)
-- Lib utilizada - Shadcn: [https://ui.shadcn.com/](https://ui.shadcn.com/)
-- Shadcn Docs: [https://ui.shadcn.com/docs/registry/getting-started](https://ui.shadcn.com/docs/registry/getting-started)
+- 📦 Lib utilizada - Shadcn: [https://ui.shadcn.com/](https://ui.shadcn.com/)
+- 📖 Shadcn Docs: [https://ui.shadcn.com/docs/registry/getting-started](https://ui.shadcn.com/docs/registry/getting-started)
 - :octocat: [GitHub](https://github.com/flaviojuniordev)
 
 ##### Henry Heffernan:
 - 🌐 [Portfólio](https://henryheffernan.com/)
-- Lib utilizada - Three JS: [https://threejs.org/](https://threejs.org/)
-- Three JS Docs: [https://threejs.org/docs/](https://threejs.org/docs/)
+- 📦 Lib utilizada - Three JS: [https://threejs.org/](https://threejs.org/)
+- 📖 Three JS Docs: [https://threejs.org/docs/](https://threejs.org/docs/)
 - [Repositório do website](https://github.com/henryjeff/portfolio-website)
 - :octocat: [GitHub](https://github.com/henryjeff)
 
