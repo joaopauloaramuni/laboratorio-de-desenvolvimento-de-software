@@ -131,11 +131,11 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 -----
 
-#### 🗣️ Apresentação de trabalho:
+#### 🗣️ Apresentação de laboratório:
 
-🧑‍🤝‍🧑 Exemplo de apresentação em grupo:
+🧑‍🤝‍🧑 Exemplo de slides para apresentação em grupo:
 
-- 🎤 [Exemplo de apresentação de laboratório](https://github.com/joaopedro-braga/student-currency-system/blob/main/docs/project-architecture-and-technologies.pdf)
+- 🎤 [Arquitetura e tecnologias do projeto - Visão geral do sistema MeritCoin](https://github.com/joaopedro-braga/student-currency-system/blob/main/docs/project-architecture-and-technologies.pdf)
 
 -----
 
@@ -143,7 +143,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 📘 Exemplo de README de projeto:
 
-- 🌐 [Exemplo de README de projeto - Tech Fotebol Clube](https://github.com/ligiabicalho/Tech-Futebol-Clube)
+- 🌐 [Tech Fotebol Clube](https://github.com/ligiabicalho/Tech-Futebol-Clube)
 - :octocat: [GitHub Lígia Bicalho](https://github.com/ligiabicalho)
 
 -----
