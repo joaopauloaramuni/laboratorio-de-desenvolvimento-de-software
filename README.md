@@ -144,7 +144,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 📘 Exemplos de README de projeto:
 
 - 🌐 [Tech Fotebol Clube](https://github.com/ligiabicalho/Tech-Futebol-Clube)
-- :octocat: [GitHub Lígia Bicalho](https://github.com/ligiabicalho)
+- :octocat: [GitHub Lígia Bicalho](https://github.com/ligiabicalho)  
 
 - 🌐 [FeeduP-Mobile](https://github.com/FeedUp-Hub/FeeduP-Mobile)
 - :octocat: [GitHub Fernando Santiago](https://github.com/fsaantiago)
