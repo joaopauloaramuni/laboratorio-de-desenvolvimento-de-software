@@ -36,7 +36,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - [PlantUML (Diagramas UML)](https://plantuml.com/)
 - [Figma - Templates](https://www.figma.com/pt-br/templates/)
 
----
+-----
 
 ##### ☕ Java e Spring
 
@@ -49,21 +49,21 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - [Documentação Spring Boot](https://docs.spring.io/spring-boot/documentation.html)
 - [Curso de monitoria - Como criar uma API RESTful com Spring Boot](https://github.com/ICEI-PUC-Minas-PPLES-TI/PLF-ES-2022-2-MON-CursoAPIJava)
 
----
+-----
 
 ##### 🎨 Frameworks de interface
 
 - [PrimeFaces](https://www.primefaces.org/)
 - [Mantine](https://mantine.dev/)
 
----
+-----
 
 ##### 🌐 Clientes REST
 
 - [Insomnia REST Client - Downloads](https://insomnia.rest/download)
 - [Postman - Downloads](https://www.postman.com/downloads/)
 
----
+-----
 
 ##### 🐳 Docker, Deploy e Cloud ☁️
 
@@ -73,7 +73,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - [Heroku](https://www.heroku.com/)
 - [Vercel](https://vercel.com/)
 
----
+-----
 
 ##### 🗃️ Bancos de dados
 
@@ -87,7 +87,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 ###### Scripts
 - [Banco de Dados - Scripts no GitHub](https://github.com/joaopauloaramuni/banco-de-dados/tree/main/SCRIPTS)
 
----
+-----
 
 ##### 📊 Observabilidade
 
@@ -95,7 +95,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - [Grafana - GitHub](https://github.com/grafana/grafana)
 - [Prometheus](https://prometheus.io/)
 
----
+-----
 
 ##### 🧪 Testes e qualidade
 
@@ -111,7 +111,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - [Selenium](https://www.selenium.dev/)
 - [Selenium - GitHub](https://github.com/SeleniumHQ/selenium)
 
----
+-----
 
 ##### 🧹 Análise de código
 
@@ -130,7 +130,7 @@ Ferramentas para análise estatística de código, detecção de *code smells*, 
   - 🌐 [Code Climate](https://codeclimate.com/)
   - :octocat: [Code Climate - GitHub](https://github.com/codeclimate)
 
----
+-----
 
 ##### 📊 Tendências e pesquisas
 
