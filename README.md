@@ -115,12 +115,20 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 ##### 🧹 Análise de código
 
-- [PMD](https://pmd.github.io/)
-- [PMD - GitHub](https://github.com/pmd/pmd)
-- [SonarQube](https://www.sonarsource.com/products/sonarqube/)
-- [SonarQube - GitHub](https://github.com/SonarSource/sonarqube)
-- [JNose](https://jnosetest.github.io/)
-- [JNose - GitHub](https://github.com/arieslab/jnose)
+Ferramentas para análise estatística de código, detecção de *code smells*, métricas de qualidade e identificação de más práticas de programação.
+
+- **PMD**: Ferramenta que verifica problemas comuns em código Java, como variáveis não utilizadas, duplicação de código e estilos de codificação.
+  - 🌐 [PMD](https://pmd.github.io/)
+  - :octocat: [PMD - GitHub](https://github.com/pmd/pmd)
+- **SonarQube**: Plataforma para análise contínua de qualidade de código, cobrindo múltiplas linguagens. Avalia bugs, vulnerabilidades e cobertura de testes.
+  - 🌐 [SonarQube](https://www.sonarsource.com/products/sonarqube/)
+  - :octocat: [SonarQube - GitHub](https://github.com/SonarSource/sonarqube)
+- **JNose**: Ferramenta focada na identificação de *test smells* e *design smells* em código Java. Ajuda na compreensão de problemas relacionados à testabilidade e manutenibilidade.
+  - 👃 [JNose](https://jnosetest.github.io/)
+  - :octocat: [JNose - GitHub](https://github.com/arieslab/jnose)
+- **Code Climate**: Ferramenta de análise contínua de qualidade de código que gera métricas como complexidade ciclomática, duplicação, cobertura de testes e *code smells*. Suporta diversas linguagens e se integra com GitHub, GitLab e outros.
+  - 🌐 [Code Climate](https://codeclimate.com/)
+  - :octocat: [Code Climate - GitHub](https://github.com/codeclimate)
 
 ---
 
