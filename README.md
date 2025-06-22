@@ -113,7 +113,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 -----
 
-#### 🧹 Análise de Código
+##### 🧹 Análise de código
 
 Ferramentas para análise estatística de código, detecção de *code smells*, métricas de qualidade e identificação de más práticas de programação.
 
