@@ -116,7 +116,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 ##### 💰 Pagamentos e APIs Financeiras
 
-- [Mercado Pago - ](https://www.mercadopago.com.br)
+- 🌐 [Mercado Pago - Plataforma de pagamentos](https://www.mercadopago.com.br)
   - :octocat: [Mercado Pago GitHub oficial](https://github.com/mercadopago)  
   - :octocat: [SDK Java Mercado Pago](https://github.com/mercadopago/sdk-java)  
   - :octocat: [Checkout Payment Sample Mercado Pago](https://github.com/mercadopago/checkout-payment-sample)  
