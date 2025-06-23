@@ -67,25 +67,25 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 ##### 🐳 Docker, Deploy e Cloud ☁️
 
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- [Docker Hub](https://hub.docker.com/)
-- [Fly.io](https://fly.io/)
-- [Heroku](https://www.heroku.com/)
-- [Vercel](https://vercel.com/)
+- 🐳 [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- 🐳 [Docker Hub](https://hub.docker.com/)
+- ☁️ [Fly.io](https://fly.io/)
+- ☁️ [Heroku](https://www.heroku.com/)
+- ☁️ [Vercel](https://vercel.com/)
 
 -----
 
 ##### 🗃️ Bancos de dados
 
-###### MongoDB
-- [MongoDB Community Server - Downloads](https://www.mongodb.com/try/download/community)
-- [MongoDB Compass](https://www.mongodb.com/products/tools/compass)
+###### 🍃 MongoDB
+- 🌐 [MongoDB Community Server - Downloads](https://www.mongodb.com/try/download/community)
+- 🧭 [MongoDB Compass](https://www.mongodb.com/products/tools/compass)
 
-###### PostgreSQL
-- [PostgreSQL - Downloads](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
+###### 🐘 PostgreSQL
+- 🌐 [PostgreSQL - Downloads](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 
-###### Scripts
-- [Banco de Dados - Scripts no GitHub](https://github.com/joaopauloaramuni/banco-de-dados/tree/main/SCRIPTS)
+###### 📜 Scripts
+- :octocat: [Banco de Dados - Scripts no GitHub](https://github.com/joaopauloaramuni/banco-de-dados/tree/main/SCRIPTS)
 
 -----
 
