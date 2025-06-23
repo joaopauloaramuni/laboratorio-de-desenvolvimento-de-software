@@ -91,32 +91,49 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 ##### 📊 Observabilidade
 
-- [Grafana](https://grafana.com/)
-- [Grafana - GitHub](https://github.com/grafana/grafana)
-- [Prometheus](https://prometheus.io/)
+- 🌐 [Grafana](https://grafana.com/)
+- :octocat: [Grafana - GitHub](https://github.com/grafana/grafana)
+- 🌐 [Prometheus](https://prometheus.io/)
+- :octocat: [Prometheus - GitHub](https://github.com/prometheus/prometheus)
 
 -----
 
 ##### 🧪 Testes e qualidade
 
 ###### Frameworks de Teste
-- [JUnit](https://junit.org/)
-- [JUnit - GitHub](https://github.com/junit-team)
+- 🌐 [JUnit](https://junit.org/)
+- :octocat: [JUnit - GitHub](https://github.com/junit-team)
 
 ###### Mocks e Testes Automatizados
-- [Mockito](https://site.mockito.org/)
-- [Mockito - GitHub](https://github.com/mockito/mockito)
-- [Selenide](https://selenide.org/)
-- [Selenide - GitHub](https://github.com/selenide/selenide)
-- [Selenium](https://www.selenium.dev/)
-- [Selenium - GitHub](https://github.com/SeleniumHQ/selenium)
+- 🌐 [Mockito](https://site.mockito.org/)
+- :octocat: [Mockito - GitHub](https://github.com/mockito/mockito)
+- 🌐 [Selenide](https://selenide.org/)
+- :octocat: [Selenide - GitHub](https://github.com/selenide/selenide)
+- 🌐 [Selenium](https://www.selenium.dev/)
+- :octocat: [Selenium - GitHub](https://github.com/SeleniumHQ/selenium)
 
 -----
 
 ##### 💰 Pagamentos e APIs Financeiras
 
-- [Stripe - Plataforma de pagamentos](https://stripe.com/br)  
+- 🌐 [Stripe - Plataforma de pagamentos](https://stripe.com/br)  
 - :octocat: [stripe-java - SDK oficial Java](https://github.com/stripe/stripe-java)
+
+-----
+
+##### 📞 Comunicação via API
+
+- 🌐 [Twilio - Plataforma de comunicação (SMS, voz, WhatsApp etc.)](https://www.twilio.com/pt-br)  
+- :octocat: [twilio - Repositório oficial no GitHub](https://github.com/twilio)  
+- 📚 [Twilio Docs](https://www.twilio.com/docs)
+
+-----
+
+##### 📘 APIs RESTful e Documentação
+
+- 🌐 [Swagger - Ferramenta para design, documentação e testes de APIs REST](https://swagger.io/)  
+- :octocat: [swagger-api - Repositório oficial no GitHub](https://github.com/swagger-api)
+- 📚 [Swagger Docs](https://swagger.io/docs/)  
 
 -----
 
