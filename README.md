@@ -24,30 +24,70 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 #### Links úteis:
 
-##### 💻 Ambientes de desenvolvimento
+##### 🛠️ IDEs e Ferramentas
 
-###### IDEs
-- [JetBrains IntelliJ IDEA Downloads](https://www.jetbrains.com/idea/download/)
-- [JetBrains - Licença gratuita para estudantes](https://www.jetbrains.com/shop/eform/students)
+###### ⚙️ Ambientes de desenvolvimento para produtividade e depuração  
+IDE (Ambiente de Desenvolvimento Integrado) e editores especializados ajudam a escrever, depurar e manter código com mais eficiência. Ferramentas como **IntelliJ IDEA** e **VS Code** oferecem recursos como autocompletar, depuração visual, integração com Git, suporte a frameworks como Spring e muito mais.
 
-###### Ferramentas de design e diagramas
-- [Draw.io (Diagramas)](https://drawio.com/)
-- [Astah - Licença gratuita para estudantes](https://astah.net/products/free-student-license/)
-- [PlantUML (Diagramas UML)](https://plantuml.com/)
-- [Figma - Templates](https://www.figma.com/pt-br/templates/)
+- [💡 IntelliJ IDEA - IDE da JetBrains](https://www.jetbrains.com/pt-br/idea/)
+- [🧩 Visual Studio Code - Editor leve e extensível da Microsoft](https://code.visualstudio.com/)
+
+-----
+
+###### 🎓 Como obter o IntelliJ IDEA Ultimate gratuitamente com o GitHub Student Pack
+Ao se cadastrar no **GitHub Student Developer Pack**, você garante acesso gratuito à **versão Ultimate das ferramentas da JetBrains**, como o **IntelliJ IDEA Ultimate** 🧠💻. Essa é uma excelente oportunidade para utilizar recursos avançados de desenvolvimento — tudo **sem custo** para estudantes! 🚀
+
+###### ✅ Passo a passo:
+1️⃣ **Adicione seu e-mail institucional** da PUC Minas (terminado em `@sga.pucminas.br`) como **e-mail secundário** na sua conta do GitHub em [https://github.com/settings/emails](https://github.com/settings/emails)  
+2️⃣ Acesse a caixa de entrada do e-mail e **clique no link de confirmação** enviado pelo GitHub.  
+3️⃣ Ao acessar o [GitHub Student Pack](https://education.github.com/pack), **permita que o navegador compartilhe sua localização atual** 🌍.  
+4️⃣ **Selecione "PUC Minas"** como sua instituição, envie um **print da sua carteirinha digital do app PUC Mobile** ou um **comprovante de matrícula recente** como forma de verificação. Depois, aguarde até **2 dias úteis** para que o selo **GitHub Pro** 🏅 seja ativado na sua conta.  
+5️⃣ Acesse: [https://www.jetbrains.com/shop/eform/students](https://www.jetbrains.com/shop/eform/students)  
+ ➡ Vá até a aba **GitHub** e clique em **"Authorize with GitHub"** 🔑.  
+6️⃣ **Instale o IntelliJ IDEA** e, ao abrir o programa, vá em **"Ativar licença"**. Escolha a opção **"Log in with GitHub"**, faça login com sua conta GitHub (que já possui o selo **GitHub Pro** 🏅 e que você autorizou previamente no site da JetBrains — [passo 5](https://www.jetbrains.com/shop/eform/students)), e a **licença Ultimate será ativada automaticamente** 🎉.
+
+🏁 Pronto! Agora você pode aproveitar todos os benefícios do **GitHub Pro** 🏅, incluindo:
+
+- Acesso gratuito às **ferramentas profissionais da JetBrains**, como o **IntelliJ IDEA Ultimate** 🧠💻  
+- **GitHub Copilot** com sugestões inteligentes de código (com testes gratuitos por tempo limitado) 🤖  
+- Repositórios privados ilimitados 🔒  
+- **Insights avançados de contribuições**, métricas e estatísticas dos seus projetos 📊  
+- Ferramentas de CI/CD integradas com GitHub Actions ⚙️  
+- Integrações com dezenas de serviços e ferramentas educacionais 🧩
+
+Esses recursos ajudam a **elevar seu aprendizado, organizar seus projetos e turbinar sua produtividade como desenvolvedor** 💼🚀
+
+🔗 Confira todos os detalhes do plano GitHub Pro para estudantes aqui:  
+- [https://docs.github.com/pt/get-started/learning-about-github/githubs-plans#github-pro](https://docs.github.com/pt/get-started/learning-about-github/githubs-plans#github-pro)
+
+-----
+
+##### 📚 Documentação oficial
+
+###### 🧾 Fontes confiáveis e completas sobre a linguagem Java e seu ecossistema  
+A documentação oficial é a principal referência para aprender, consultar funcionalidades e entender o comportamento da linguagem Java e suas bibliotecas padrão. Essencial tanto para iniciantes quanto para desenvolvedores experientes.
+
+- [📖 Documentação Java SE 17](https://docs.oracle.com/en/java/javase/17/)
 
 -----
 
 ##### ☕ Java e Spring
 
 ###### Java SE 17
-- [Oracle JDK 17 - Downloads](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
-- [Documentação Java SE 17](https://docs.oracle.com/en/java/javase/17/)
+- [🔗 Oracle JDK 17 - Downloads](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 
 ###### Spring Boot
-- [Spring Initializr](https://start.spring.io/)
-- [Documentação Spring Boot](https://docs.spring.io/spring-boot/documentation.html)
-- [Curso de monitoria - Como criar uma API RESTful com Spring Boot](https://github.com/ICEI-PUC-Minas-PPLES-TI/PLF-ES-2022-2-MON-CursoAPIJava)
+- [🚀 Spring Initializr - Gerador de projetos Spring](https://start.spring.io/)
+- [📘 Documentação Spring Boot](https://docs.spring.io/spring-boot/documentation.html)
+- [🎓 Curso de monitoria - Como criar uma API RESTful com Spring Boot](https://github.com/ICEI-PUC-Minas-PPLES-TI/PLF-ES-2022-2-MON-CursoAPIJava)
+
+-----
+
+##### 🖼️ Ferramentas de design e diagramas
+- [Draw.io (Diagramas)](https://drawio.com/)
+- [Astah - Licença gratuita para estudantes](https://astah.net/products/free-student-license/)
+- [PlantUML (Diagramas UML)](https://plantuml.com/)
+- [Figma - Templates](https://www.figma.com/pt-br/templates/)
 
 -----
 
