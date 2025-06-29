@@ -73,6 +73,9 @@ A documentação oficial é a principal referência para aprender, consultar fun
 
 ##### ☕ Java e Spring
 
+###### 🔧 Frameworks e ferramentas modernas para desenvolvimento backend com Java  
+O ecossistema Spring oferece suporte completo para criação de aplicações Java robustas, modulares e escaláveis. O Spring Boot, em especial, simplifica a configuração e o desenvolvimento de APIs RESTful, facilitando a integração com bancos de dados, autenticação, mensageria, entre outros.
+
 ###### Java SE 17
 - [🔗 Oracle JDK 17 - Downloads](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 
@@ -84,6 +87,10 @@ A documentação oficial é a principal referência para aprender, consultar fun
 -----
 
 ##### 🖼️ Ferramentas de design e diagramas
+
+###### 📐 Criação visual de fluxos, arquitetura e UML  
+Essas ferramentas facilitam a representação visual de sistemas, fluxos de dados, entidades e componentes, sendo úteis tanto na fase de modelagem quanto na documentação de projetos.
+
 - [Draw.io (Diagramas)](https://drawio.com/)
 - [Astah - Licença gratuita para estudantes](https://astah.net/products/free-student-license/)
 - [PlantUML (Diagramas UML)](https://plantuml.com/)
@@ -93,6 +100,9 @@ A documentação oficial é a principal referência para aprender, consultar fun
 
 ##### 🎨 Frameworks de interface
 
+###### 💻 Estilização e componentes de UI para aplicações web Java  
+Frameworks frontend ajudam a criar interfaces responsivas e modernas, muitas vezes utilizados junto com tecnologias como JSF, Thymeleaf ou APIs REST em Java.
+
 - [PrimeFaces](https://www.primefaces.org/)
 - [Mantine](https://mantine.dev/)
 
@@ -100,12 +110,18 @@ A documentação oficial é a principal referência para aprender, consultar fun
 
 ##### 🌐 Clientes REST
 
+###### 🔌 Ferramentas para testar, consumir e depurar APIs REST  
+Clientes REST permitem enviar requisições HTTP (GET, POST, PUT, DELETE), testar endpoints, autenticações e visualizar respostas com facilidade.
+
 - [Insomnia REST Client - Downloads](https://insomnia.rest/download)
 - [Postman - Downloads](https://www.postman.com/downloads/)
 
 -----
 
 ##### 🐳 Docker, Deploy e Cloud ☁️
+
+###### 🚢 Empacotamento e publicação de aplicações em ambientes em nuvem  
+Ferramentas como Docker, Fly.io, Vercel e Heroku permitem criar ambientes isolados, implantar APIs e serviços em nuvem de forma simples, escalável e muitas vezes gratuita para projetos educacionais.
 
 - 🐳 [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - 🐳 [Docker Hub](https://hub.docker.com/)
@@ -116,6 +132,9 @@ A documentação oficial é a principal referência para aprender, consultar fun
 -----
 
 ##### 🗃️ Bancos de dados
+
+###### 💾 Sistemas de gerenciamento de dados relacionais e NoSQL  
+Essas ferramentas são fundamentais para persistência de dados em aplicações Java. MongoDB (NoSQL) e PostgreSQL (relacional) são amplamente utilizados em projetos web modernos.
 
 ###### 🍃 MongoDB
 - 🌐 [MongoDB Community Server - Downloads](https://www.mongodb.com/try/download/community)
@@ -131,6 +150,9 @@ A documentação oficial é a principal referência para aprender, consultar fun
 
 ##### 📊 Observabilidade
 
+###### 📈 Monitoramento de métricas e visualização de desempenho  
+Ferramentas como Grafana e Prometheus permitem acompanhar o comportamento da aplicação, uso de recursos e definir alertas para garantir estabilidade em ambientes produtivos.
+
 - 🌐 [Grafana](https://grafana.com/)
 - :octocat: [Grafana - GitHub](https://github.com/grafana/grafana)
 - 🌐 [Prometheus](https://prometheus.io/)
@@ -139,6 +161,9 @@ A documentação oficial é a principal referência para aprender, consultar fun
 -----
 
 ##### 🧪 Testes e qualidade
+
+###### ✅ Testes automatizados e validação de código em aplicações Java  
+Frameworks como JUnit e Mockito são essenciais para escrever testes unitários e mocks. Selenium e Selenide permitem testes automatizados em navegadores, garantindo qualidade e confiança em cada entrega.
 
 ###### Frameworks de Teste
 - 🌐 [JUnit](https://junit.org/)
@@ -156,6 +181,9 @@ A documentação oficial é a principal referência para aprender, consultar fun
 
 ##### 💰 Pagamentos e APIs Financeiras
 
+###### 💳 Integração de sistemas Java com plataformas de pagamento  
+Plataformas como Mercado Pago e Stripe oferecem SDKs para Java que facilitam pagamentos online, geração de cobranças, webhooks e checkout transparente.
+
 - 🌐 [Mercado Pago - Plataforma de pagamentos](https://www.mercadopago.com.br)
   - :octocat: [Mercado Pago GitHub oficial](https://github.com/mercadopago)  
   - :octocat: [SDK Java Mercado Pago](https://github.com/mercadopago/sdk-java)  
@@ -171,6 +199,9 @@ A documentação oficial é a principal referência para aprender, consultar fun
 
 ##### 📞 Comunicação via API
 
+###### 📲 APIs para envio de mensagens e integração com canais de comunicação  
+O Twilio permite envio de SMS, ligações, mensagens de WhatsApp e muito mais, podendo ser facilmente integrado a backends Java para notificações automatizadas e comunicação em tempo real.
+
 - 🌐 [Twilio - Plataforma de comunicação (SMS, voz, WhatsApp etc.)](https://www.twilio.com/pt-br)  
 - :octocat: [twilio - Repositório oficial no GitHub](https://github.com/twilio)  
 - 📚 [Twilio Docs](https://www.twilio.com/docs)
@@ -178,6 +209,9 @@ A documentação oficial é a principal referência para aprender, consultar fun
 -----
 
 ##### 📘 APIs RESTful e Documentação
+
+###### 📑 Design, documentação e testes de APIs com Swagger  
+Swagger facilita a criação de APIs REST bem documentadas, com suporte a testes via interface gráfica e geração automática de contratos e documentação OpenAPI para serviços Java.
 
 - 🌐 [Swagger - Ferramenta para design, documentação e testes de APIs REST](https://swagger.io/)  
 - :octocat: [swagger-api - Repositório oficial no GitHub](https://github.com/swagger-api)
@@ -207,6 +241,9 @@ Ferramentas para análise estatística de código, detecção de *code smells*, 
 -----
 
 ##### 📊 Tendências e pesquisas
+
+###### 📈 Relatórios e estudos sobre o mercado de tecnologia e comportamento de desenvolvedores  
+Relatórios anuais e pesquisas globais ajudam a entender as principais linguagens, ferramentas, salários, preferências e tendências no mercado de desenvolvimento de software. São ótimos para orientar decisões de carreira e identificar habilidades em alta.
 
 - [Dev Skiller Report 2025](https://devskiller.com/it-skills-report/)
 - [Stack Overflow Developer Survey 2024](https://survey.stackoverflow.co/2024/)
