@@ -237,6 +237,9 @@ Ferramentas para análise estatística de código, detecção de *code smells*, 
 - **CodeQL**: Plataforma de análise de segurança e qualidade de código da GitHub, que permite executar consultas para detectar vulnerabilidades, bugs e más práticas em diversos tipos de código fonte.
   - 🌐 [CodeQL](https://securitylab.github.com/tools/codeql)
   - :octocat: [CodeQL - GitHub](https://github.com/github/codeql)
+- **CK**: Ferramenta de linha de comando para análise estática de código Java. Extrai métricas como CBO, LCOM, WMC, RFC, DIT, NOM e LOC, úteis para avaliar a complexidade e a qualidade do código.
+  - 🌐 [CK – Página do Projeto](https://github.com/mauricioaniche/ck)
+  - :octocat: [CK - GitHub](https://github.com/mauricioaniche/ck)
 
 -----
 
