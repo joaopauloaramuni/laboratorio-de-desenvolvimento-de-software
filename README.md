@@ -229,6 +229,9 @@ Ferramentas para análise estatística de código, detecção de *code smells*, 
 - **SonarQube**: Plataforma para análise contínua de qualidade de código, cobrindo múltiplas linguagens. Avalia bugs, vulnerabilidades e cobertura de testes.
   - 🌐 [SonarQube](https://www.sonarsource.com/products/sonarqube/)
   - :octocat: [SonarQube - GitHub](https://github.com/SonarSource/sonarqube)
+- **Qodana**: Plataforma de análise estática de código desenvolvida pela JetBrains. Integra-se com IDEs, CI/CD e repositórios para detectar *code smells*, vulnerabilidades de segurança e violações de boas práticas, com suporte a múltiplas linguagens como Java, Kotlin, PHP, Python e JavaScript.  
+  - 🌐 [Qodana](https://www.jetbrains.com/qodana/)  
+  - :octocat: [Qodana - GitHub](https://github.com/JetBrains/Qodana)
 - **JNose**: Ferramenta focada na identificação de *test smells* e *design smells* em código Java. Ajuda na compreensão de problemas relacionados à testabilidade e manutenibilidade.
   - 👃 [JNose](https://jnosetest.github.io/)
   - :octocat: [JNose - GitHub](https://github.com/arieslab/jnose)
