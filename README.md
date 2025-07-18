@@ -35,13 +35,13 @@ IDE (Ambiente de Desenvolvimento Integrado) e editores especializados ajudam a e
 
 -----
 
-###### 🎓 Como obter o IntelliJ IDEA Ultimate gratuitamente com o GitHub Student Pack
+###### 🎓 Como obter o IntelliJ IDEA Ultimate gratuitamente com o GitHub Student Developer Pack
 Ao se cadastrar no **GitHub Student Developer Pack**, você garante acesso gratuito à **versão Ultimate das ferramentas da JetBrains**, como o **IntelliJ IDEA Ultimate** 🧠💻. Essa é uma excelente oportunidade para utilizar recursos avançados de desenvolvimento — tudo **sem custo** para estudantes! 🚀
 
 ###### ✅ Passo a passo:
 1️⃣ **Adicione seu e-mail institucional** da PUC Minas (terminado em `@sga.pucminas.br`) como **e-mail secundário** na sua conta do GitHub em [https://github.com/settings/emails](https://github.com/settings/emails)  
 2️⃣ Acesse a caixa de entrada do e-mail e **clique no link de confirmação** enviado pelo GitHub.  
-3️⃣ Ao acessar o [GitHub Student Pack](https://education.github.com/pack), **permita que o navegador compartilhe sua localização atual** 🌍.  
+3️⃣ Ao acessar o [GitHub Student Developer Pack](https://education.github.com/pack), **permita que o navegador compartilhe sua localização atual** 🌍.  
 4️⃣ **Selecione "PUC Minas"** como sua instituição, envie um **print da sua carteirinha digital do app PUC Mobile** ou um **comprovante de matrícula recente** como forma de verificação. Depois, aguarde até **2 dias úteis** para que o selo **GitHub Pro** 🏅 seja ativado na sua conta.  
 5️⃣ Acesse: [https://www.jetbrains.com/shop/eform/students](https://www.jetbrains.com/shop/eform/students)  
  ➡ Vá até a aba **GitHub** e clique em **"Authorize with GitHub"** 🔑.  
