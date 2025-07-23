@@ -442,9 +442,15 @@ Confira abaixo o papel fundamental de cada componente ilustrado no GIF:
 
 -----
 
+#### 🍃 Arquitetura Spring Boot
+
 <div align="center">
   <img align="center" width="600px" alt="arquitetura" src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/arquitetura_spring.gif"/>
 </div>
+
+##### 📚 Referências
+
+- 📘 [Victor Targino Von Melentovytch](https://www.linkedin.com/posts/vtargino_java-spring-springboot-activity-7353401071878184961-7-eR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAT1ji8BieepxAWNeP6atgR296ccyrPEeqk)
 
 -----
 
