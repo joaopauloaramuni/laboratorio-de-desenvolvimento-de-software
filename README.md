@@ -432,6 +432,62 @@ A classe `UserService` atualmente contém lógica de acesso direto ao banco de d
 
 -----
 
+### 🧠 Entendendo a Arquitetura de um App Spring Boot
+
+A arquitetura de um app **Spring Boot** é como um ecossistema bem orquestrado, onde cada componente tem um papel essencial para garantir a **escalabilidade**, **manutenibilidade** e **organização** do sistema.
+
+> 🔍 *Entender a fundo cada uma dessas peças é o que diferencia um bom desenvolvedor!*
+
+Confira abaixo o papel fundamental de cada componente ilustrado no GIF:
+
+📽️ ![Arquitetura Spring Boot](https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/arquitetura_spring.gif)
+
+-----
+
+#### 🧩 Componentes da Arquitetura Spring Boot
+
+- **🧭 Controller**  
+  É a primeira linha de contato, recebendo as **requisições HTTP** e devolvendo as respostas. Atua como a **interface da aplicação**.
+
+- **🧠 Service**  
+  Contém as regras de negócio da aplicação. É onde a **lógica central** é executada, separada da interface e da persistência.
+
+- **💾 Repository**  
+  Responsável pela **comunicação com o banco de dados**, abstraindo as operações de persistência e consulta.
+
+- **🔗 JPA (Java Persistence API)**  
+  Atua como uma **ponte entre objetos Java e tabelas do banco de dados**, facilitando o mapeamento e a persistência dos dados.
+
+- **🌐 REST**  
+  Define os **padrões de comunicação via HTTP**, essenciais para a construção de APIs modernas e interoperáveis.
+
+- **📦 Entity**  
+  Representa uma **tabela do banco de dados** como um objeto Java. Base para o mapeamento e a persistência dos dados.
+
+- **🧪 Testes**  
+  Garante que todas as funcionalidades funcionem como esperado. Pilar para a **qualidade e robustez** do software.
+
+- **📤 DTOs (Data Transfer Objects)**  
+  Objetos leves usados para **transportar dados entre camadas**, evitando o envio de informações desnecessárias.
+
+- **📚 Swagger**  
+  Ferramenta que gera uma **documentação interativa da API**, facilitando o entendimento e uso por outros desenvolvedores.
+
+- **🔐 Security**  
+  Cuida da **autenticação (quem você é)** e **autorização (o que você pode fazer)**, protegendo os recursos da aplicação.
+
+- **⚙️ Configuration**  
+  Centraliza as **configurações da aplicação**, como portas, credenciais e parâmetros de comportamento.
+
+- **🚨 Exception Handler**  
+  Centraliza o **tratamento de erros**, permitindo respostas consistentes e amigáveis em caso de falhas.
+
+-----
+
+> ✅ Conhecer a arquitetura do Spring Boot ajuda a escrever sistemas **mais limpos, coesos e testáveis**. Cada camada tem sua função e respeitar essa separação é o primeiro passo para a excelência no desenvolvimento backend.
+
+-----
+
 <div align="center">
   <img width="70%" alt="pucminas" src="https://joaopauloaramuni.github.io/image/engsoft2.svg?raw=true"/>
 </div>
