@@ -489,6 +489,8 @@ O roadmap abaixo vai te guiar desde os conceitos fundamentais até os tópicos m
 
 #### 🍃 Roadmap Spring Boot
 
+Um **roadmap** é um guia visual que apresenta etapas, habilidades ou conhecimentos necessários para atingir um objetivo específico. Ele ajuda a organizar o aprendizado ou desenvolvimento ao longo do tempo, mostrando caminhos recomendados e prioridades.
+
 <div align="center">
   <img align="center" alt="roadmap" src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/spring-boot-roadmap.png"/>
 </div>
