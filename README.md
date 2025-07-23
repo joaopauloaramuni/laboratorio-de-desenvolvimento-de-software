@@ -330,6 +330,7 @@ Exemplos de portfólio profissional:
 - [Docker Cheatsheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - [Docker Hub](https://hub.docker.com/)
+- [Docker Roadmap](https://roadmap.sh/docker)
 
 ##### ▶️ Docker - Vídeo tutorial
 - [Docker Tutorial for Beginners - FULL COURSE in 3 Hours](https://www.youtube.com/watch?v=3c-iBn73dDE)
