@@ -450,7 +450,7 @@ Confira abaixo o papel fundamental de cada componente ilustrado no GIF:
 
 ##### 📚 Referências
 
-- 📘 [Victor Targino Von Melentovytch](https://www.linkedin.com/posts/vtargino_java-spring-springboot-activity-7353401071878184961-7-eR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAT1ji8BieepxAWNeP6atgR296ccyrPEeqk)
+- 🎬 Gif criado por [Victor Targino Von Melentovytch](https://www.linkedin.com/posts/vtargino_java-spring-springboot-activity-7353401071878184961-7-eR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAT1ji8BieepxAWNeP6atgR296ccyrPEeqk)
 
 -----
 
