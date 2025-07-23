@@ -438,6 +438,7 @@ A classe `UserService` atualmente contém lógica de acesso direto ao banco de d
 Um **roadmap** é um guia visual que apresenta etapas, habilidades ou conhecimentos necessários para atingir um objetivo específico. Ele ajuda a organizar o aprendizado ou desenvolvimento ao longo do tempo, mostrando caminhos recomendados e prioridades.
 
 - 🗺️ [Roadmap Code Review - Roadmap.sh](https://roadmap.sh/code-review)
+- 🗺️ [Roadmap Best Practices - Code Review - Roadmap.sh](https://roadmap.sh/best-practices/code-review)
 
 -----
 
