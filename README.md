@@ -432,7 +432,7 @@ A classe `UserService` atualmente contém lógica de acesso direto ao banco de d
 
 -----
 
-### 🧠 Entendendo a Arquitetura de um App Spring Boot
+### 🏛️ Entendendo a Arquitetura de um App Spring Boot
 
 A arquitetura de um app **Spring Boot** é como um ecossistema bem orquestrado, onde cada componente tem um papel essencial para garantir a **escalabilidade**, **manutenibilidade** e **organização** do sistema.
 
