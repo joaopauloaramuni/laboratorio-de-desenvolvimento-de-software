@@ -440,6 +440,11 @@ Um **roadmap** é um guia visual que apresenta etapas, habilidades ou conhecimen
 - 🗺️ [Roadmap Code Review - Roadmap.sh](https://roadmap.sh/code-review)
 - 🗺️ [Roadmap Best Practices - Code Review - Roadmap.sh](https://roadmap.sh/best-practices/code-review)
 
+Veja também:
+
+- 🧭 [Roadmap Design System - Roadmap.sh](https://roadmap.sh/design-system)
+- 📐 [Roadmap UX Design - Roadmap.sh](https://roadmap.sh/ux-design)
+
 -----
 
 ### 🏛️ Entendendo a Arquitetura de um App Spring Boot
