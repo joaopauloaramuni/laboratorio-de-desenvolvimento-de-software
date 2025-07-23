@@ -487,6 +487,11 @@ O roadmap abaixo vai te guiar desde os conceitos fundamentais até os tópicos m
   <img align="center" alt="roadmap" src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/spring-boot-roadmap.png"/>
 </div>
 
+##### 📚 Referências
+
+- [Spring Boot Roadmap 2025 – AmigosCode](https://amigoscode.com/blogs/spring-boot-roadmap-2025)  
+- [Spring Boot Roadmap – roadmap.sh](https://roadmap.sh/spring-boot)
+
 -----
 
 <div align="center">
