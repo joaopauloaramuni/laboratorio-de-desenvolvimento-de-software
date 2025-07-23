@@ -489,8 +489,9 @@ O roadmap abaixo vai te guiar desde os conceitos fundamentais até os tópicos m
 
 ##### 📚 Referências
 
-- [Spring Boot Roadmap 2025 – AmigosCode](https://amigoscode.com/blogs/spring-boot-roadmap-2025)  
-- [Spring Boot Roadmap – roadmap.sh](https://roadmap.sh/spring-boot)
+- 📘 [Spring Boot Roadmap 2025 – AmigosCode](https://amigoscode.com/blogs/spring-boot-roadmap-2025)  
+- 📗 [Spring Boot Roadmap – roadmap.sh](https://roadmap.sh/spring-boot)  
+- :octocat: [Java Developer Roadmap – kamranahmedse/developer-roadmap (GitHub)](https://github.com/kamranahmedse/developer-roadmap)
 
 -----
 
