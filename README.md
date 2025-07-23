@@ -433,6 +433,14 @@ A classe `UserService` atualmente contém lógica de acesso direto ao banco de d
 
 -----
 
+#### 🏗️ Roadmap Code Review
+
+Um **roadmap** é um guia visual que apresenta etapas, habilidades ou conhecimentos necessários para atingir um objetivo específico. Ele ajuda a organizar o aprendizado ou desenvolvimento ao longo do tempo, mostrando caminhos recomendados e prioridades.
+
+- 🗺️ [Roadmap Code Review - Roadmap.sh](https://roadmap.sh/code-review)
+
+-----
+
 ### 🏛️ Entendendo a Arquitetura de um App Spring Boot
 
 A arquitetura de um app **Spring Boot** é como um ecossistema bem orquestrado, onde cada componente tem um papel essencial para garantir a **escalabilidade**, **manutenibilidade** e **organização** do sistema.
