@@ -440,7 +440,11 @@ A arquitetura de um app **Spring Boot** é como um ecossistema bem orquestrado, 
 
 Confira abaixo o papel fundamental de cada componente ilustrado no GIF:
 
-📽️ ![Arquitetura Spring Boot](https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/arquitetura_spring.gif)
+-----
+
+<div align="center">
+  <img align="center" alt="Arquitetura" src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/arquitetura_spring.gif"/>
+</div>
 
 -----
 
