@@ -256,6 +256,7 @@ Relatórios anuais e pesquisas globais ajudam a entender as principais linguagen
 - [Stack Overflow Developer Survey 2025](https://survey.stackoverflow.co/2025/)
 - [Stack Overflow Developer Survey 2024](https://survey.stackoverflow.co/2024/)
 - [JetBrains Developer Ecosystem 2024](https://www.jetbrains.com/pt-br/lp/devecosystem-2024/)
+- [GitHub Octoverse 2024](https://github.blog/news-insights/octoverse/octoverse-2024/)
 
 -----
 
