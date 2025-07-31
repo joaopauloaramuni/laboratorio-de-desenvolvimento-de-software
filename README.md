@@ -38,8 +38,8 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - 📘 [Engenharia de Software Moderna - Marco Tulio Valente](https://engsoftmoderna.info/)  
   Livro gratuito e atualizado que trata da engenharia de software com foco em práticas modernas, como integração contínua, microserviços e DevOps, com exemplos em Java e Python.
 
-- 📗 [Designing Software Architectures* – Humberto Cervantes & Rick Kazman](https://www.amazon.com.br/Designing-Software-Architectures-Humberto-Cervantes/dp/0138108021)  
-  Guia prático para projetar arquiteturas de software usando uma abordagem baseada em atributos de qualidade e decisões arquiteturais fundamentadas.
+- 📙 [Análise e Projeto de Sistemas – Alan Dennis, Barbara Haley Wixom, Roberta M. Roth](https://www.amazon.com.br/An%C3%A1lise-Projeto-Sistemas-Alan-Dennis/dp/852162509X)  
+  Livro que aborda metodologias e técnicas modernas para análise e projeto de sistemas, incluindo modelagem de processos, requisitos e diagramas UML, com forte aplicação prática em projetos reais.
 
 - 📚 [IEEE SWEBOK – Software Engineering Body of Knowledge](https://www.computer.org/education/bodies-of-knowledge/software-engineering)  
   - [PDF](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/SWEBOK/swebok-v4.pdf) - Guia oficial do IEEE que organiza e descreve o corpo de conhecimento essencial da engenharia de software, servindo como referência para profissionais, educadores e certificações.
@@ -52,6 +52,8 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - 📄 [Blog - Clean Architecture - Robert C. Martin (Uncle Bob)](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html)  
 - 📙 [Clean Architecture – Robert C. Martin (Uncle Bob)](https://www.amazon.com.br/Arquitetura-Limpa-Artes%C3%A3o-Estrutura-Software/dp/8550804606)
 - 📘 [Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions - Gregor Hohpe, Bobby Woolf](https://www.amazon.com.br/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683)
+- 📔 [Introdução à Arquitetura de Design de Software – Paulo Silveira, Guilherme Silveira, Fabio Kung, Guilherme Moreira](https://www.amazon.com.br/Introdu%C3%A7%C3%A3o-%C3%A0-Arquitetura-Design-Software/dp/8535250298)
+- 📙 [Designing Software Architectures – Humberto Cervantes & Rick Kazman](https://www.amazon.com.br/Designing-Software-Architectures-Humberto-Cervantes/dp/0138108021)
 - 📗 [Software Architecture in Practice – Len Bass, Paul Clements, Rick Kazman](https://www.amazon.com.br/Software-Architecture-Practice-Len-Bass/dp/0136886094)
 - 📒 [Fundamentals of Software Architecture – Mark Richards & Neal Ford](https://www.amazon.com.br/Fundamentos-Arquitetura-Software-Abordagem-Engenharia/dp/8550819859)
 - 📄 [Architectural Styles and the Design of Network-based Software Architectures – Roy Fielding (REST)](https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf)  
@@ -61,6 +63,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 ###### 🖼️ Modelagem Estrutural e Comportamental
 
+- 📙 [Princípios de Análise e Projeto de Sistemas com UML - Eduardo Bezerra](https://www.amazon.com.br/Princ%C3%ADpios-An%C3%A1lise-Projetos-Sistemas-com/dp/8535226265)
 - 📘 [UML Distilled – Martin Fowler](https://www.amazon.com.br/UML-Distilled-Standard-Modeling-Language/dp/0321193687)
 - 📕 [UML Essencial - Martin Fowler](https://www.amazon.com/UML-Essencial-Linguagem-Padrao-Modelagem-Portuguese-ebook/dp/B019IQOFRK)
 - 📒 [Applying UML and Patterns – Craig Larman](https://www.amazon.com.br/Applying-UML-Patterns-Introduction-Object-Oriented/dp/0131489062)
