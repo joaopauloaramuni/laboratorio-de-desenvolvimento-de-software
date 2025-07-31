@@ -42,7 +42,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
   Guia prático para projetar arquiteturas de software usando uma abordagem baseada em atributos de qualidade e decisões arquiteturais fundamentadas.
 
 - 📚 [IEEE SWEBOK – Software Engineering Body of Knowledge](https://www.computer.org/education/bodies-of-knowledge/software-engineering)  
-  - [PDF](https://github.com/joaopauloaramuni/projeto-de-software/blob/main/SWEBOK/swebok-v4.pdf) - Guia oficial do IEEE que organiza e descreve o corpo de conhecimento essencial da engenharia de software, servindo como referência para profissionais, educadores e certificações.
+  - [PDF](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/SWEBOK/swebok-v4.pdf) - Guia oficial do IEEE que organiza e descreve o corpo de conhecimento essencial da engenharia de software, servindo como referência para profissionais, educadores e certificações.
 
 ###### 🏛️ Arquitetura de Software
 
