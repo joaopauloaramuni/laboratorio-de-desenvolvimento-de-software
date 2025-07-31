@@ -93,6 +93,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - 📈 [Journal of Software: Evolution and Process (Wiley)](https://onlinelibrary.wiley.com/journal/20477481)
 - 📄 [IEEE Software - Measuring Software Quality](https://ieeexplore.ieee.org/document/544241)
 - 📖 [IEEE - Transactions on Software Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32)
+- 📦 [Requirements Engineering - Springer](https://link.springer.com/journal/766)
 
 -----
 
