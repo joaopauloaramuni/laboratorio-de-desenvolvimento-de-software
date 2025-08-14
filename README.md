@@ -395,6 +395,10 @@ Exemplos de portfólio profissional:
 - 📖 Shadcn Docs: [https://ui.shadcn.com/docs/registry/getting-started](https://ui.shadcn.com/docs/registry/getting-started)
 - :octocat: [GitHub](https://github.com/flaviojuniordev)
 
+##### Guilherme Tadeu:
+- 🌐 [Portfólio](https://guilhermetadeu.com.br/)
+- 🌐 [Portfólio - Netlify](https://guilherme-tadeu.netlify.app/)
+
 ##### Henry Heffernan:
 - 🌐 [Portfólio](https://henryheffernan.com/)
 - 📦 Lib utilizada - Three JS: [https://threejs.org/](https://threejs.org/)
