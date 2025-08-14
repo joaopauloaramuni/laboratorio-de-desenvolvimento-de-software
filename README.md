@@ -381,8 +381,13 @@ Exemplos de portfólio profissional:
 ##### Davi Mendes (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
 - 🌐 [Portfólio](https://curriculo-davi-mendes.vercel.app/)
 - 📦 Lib utilizada - VantaJS: [https://www.vantajs.com/)
-- 📖 VantaJS GitHub: [https://github.com/tengbao/vanta)
+- 📖 VantaJS GitHub: [https://github.com/tengbao/vanta](https://github.com/tengbao/vanta)
 - :octocat: [GitHub](https://github.com/dmendes7)
+
+##### João Marcelo Carvalho (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
+- 🌐 [Portfólio](https://joaomarcelocpa.vercel.app/)
+- 📦 Lib utilizada - NextJS: [https://nextjs.org/](https://nextjs.org/)
+- :octocat: [GitHub](https://github.com/joaomarcelocpa)
 
 ##### Flávio Júnior (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
 - 🌐 [Portfólio](https://flaviojunior-portfolio.vercel.app/)
