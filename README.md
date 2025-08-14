@@ -378,6 +378,10 @@ Exemplos de portfólio profissional:
 - 🌐 [Portfólio](https://www.pedrobragadev.com/)
 - :octocat: [GitHub](https://github.com/bragap)
 
+##### Davi Mendes (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
+- 🌐 [Portfólio](https://curriculo-davi-mendes.vercel.app/)
+- :octocat: [GitHub](https://github.com/dmendes7)
+
 ##### Flávio Júnior (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
 - 🌐 [Portfólio](https://flaviojunior-portfolio.vercel.app/)
 - 📦 Lib utilizada - Shadcn: [https://ui.shadcn.com/](https://ui.shadcn.com/)
