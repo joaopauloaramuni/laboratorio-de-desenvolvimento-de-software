@@ -425,6 +425,12 @@ Exemplos de portfólio profissional:
 
 -----
 
+#### ✍️ Fonts:
+
+- [FiraCode](https://github.com/tonsky/FiraCode)
+
+-----
+
 #### 🐳 Docker:
 
 - [Docker Cheatsheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf)
