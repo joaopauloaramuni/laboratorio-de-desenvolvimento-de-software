@@ -399,6 +399,10 @@ Exemplos de portfólio profissional:
 - 🌐 [Portfólio](https://guilhermetadeu.com.br/)
 - 🌐 [Portfólio - Netlify](https://guilherme-tadeu.netlify.app/)
 
+###### Sat Naing:
+- 🌐 [Portfólio](https://terminal.satnaing.dev/)
+- :octocat: [GitHub](https://github.com/satnaing/terminal-portfolio)
+
 ###### Henry Heffernan:
 - 🌐 [Portfólio](https://henryheffernan.com/)
 - 📦 Lib utilizada - Three JS: [https://threejs.org/](https://threejs.org/)
