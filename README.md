@@ -425,6 +425,49 @@ Exemplos de portfólio profissional:
 
 -----
 
+##### 🎨 Figma
+
+###### 👨‍🏫 Figma - Education
+- [Figma Education](https://www.figma.com/pt-br/education/)
+- [Figma Education - Apply](https://www.figma.com/education/apply)
+
+###### 🎨 Figma - Templates
+
+###### 🗂️ Figma - Templates gerais
+- [Figma - Templates](https://www.figma.com/pt-br/modelos/)
+- [Figma - Templates - Engineering](https://www.figma.com/templates/engineering/)
+
+###### 💻 Figma - Portfólios Dev
+- [Figma - Community - Template - Dev 1](https://www.figma.com/community/file/1116246660507537002)
+- [Figma - Community - Template - Dev 2](https://www.figma.com/community/file/1387080701963671866)
+- [Figma - Community - Template - Dev 3](https://www.figma.com/community/file/1199400234468163757)
+- [Figma - Community - Template - Dev 4](https://www.figma.com/community/file/1308487677104759760)
+- [Figma - Community - Template - Dev 5](https://www.figma.com/community/file/1006095821656678611)
+
+###### ☁️ Figma - Templates AWS / Arquitetura de sistemas
+- [Figma - Templates - AWS Diagram Software](https://www.figma.com/templates/aws-diagram-software/)
+- [Figma - Community - Template - AWS Diagram Software](https://www.figma.com/community/file/989585391556898521)
+- [Figma - Community - Template - Architecture Diagram Components](https://www.figma.com/community/file/989635781221754599)
+- [Figma - Community - Example - Architecture Diagram Components - Multiplayer](https://www.figma.com/community/file/989634471195357925)
+
+###### 🔁 Figma - Diagramas de Sequência e de Classe
+- [Figma - Templates - Sequence Diagram](https://www.figma.com/templates/sequence-diagram-example/)
+- [Figma - Community - Template - Class Diagram](https://www.figma.com/community/widget/1223307422838321651)
+
+###### 🌐 Figma - APIs e Microserviços
+- [Figma - Community - Template - REST API](https://www.figma.com/community/file/1275291490973723744)
+- [Figma - Community - Template - Microservices](https://www.figma.com/community/file/1289282634966901135)
+
+###### 👤 Figma - User Persona Template
+- [Figma - Community - Template - User Persona](https://www.figma.com/community/file/881830156311997001)
+
+###### 🧱 Figma - C4 Model (Arquitetura de Software)
+- [Figma - Templates - C4 Model Examples](https://www.figma.com/templates/c4-model-examples/)
+- [Figma - Community - The C4 Model for Figma](https://www.figma.com/community/file/1122907722147721168/the-c4-model-for-figma)
+- [Figma - Community - Free Flowchart C4 Model for Visualising Software Architecture](https://www.figma.com/community/file/993021410825878148/free-flowchart-c4-model-for-visualising-software-architecture)
+
+-----
+
 #### ✍️ Fonts:
 
 - [FiraCode](https://github.com/tonsky/FiraCode)
