@@ -403,6 +403,11 @@ Exemplos de portfólio profissional:
 - 🌐 [Portfólio](https://terminal.satnaing.dev/)
 - :octocat: [GitHub](https://github.com/satnaing/terminal-portfolio)
 
+###### Template para Terminal:
+
+- Componente React: https://github.com/jonmbake/react-terminal-ui
+- Demonstração: https://jonmbake.github.io/react-terminal-ui/demo/
+
 ###### Henry Heffernan:
 - 🌐 [Portfólio](https://henryheffernan.com/)
 - 📦 Lib utilizada - Three JS: [https://threejs.org/](https://threejs.org/)
