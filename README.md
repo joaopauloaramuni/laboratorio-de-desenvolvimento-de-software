@@ -427,11 +427,16 @@ Exemplos de portfólio profissional:
 
 ##### 🎨 Figma
 
+###### 🖌️ Design de interfaces e prototipagem com Figma
+O Figma é uma das principais ferramentas de design de interfaces e prototipagem colaborativa do mercado. Permite criar layouts, fluxos de navegação e componentes reutilizáveis de forma integrada entre designers e desenvolvedores. Com recursos de colaboração em tempo real, facilita a iteração rápida e a validação de ideias, sendo amplamente adotado por equipes ágeis e projetos orientados à experiência do usuário (UX/UI).
+
 ###### 👨‍🏫 Figma - Education
 - [Figma Education](https://www.figma.com/pt-br/education/)
 - [Figma Education - Apply](https://www.figma.com/education/apply)
 
 ###### 🎨 Figma - Templates
+
+O Figma é uma das principais ferramentas de design de interfaces e prototipagem colaborativa do mercado. Permite criar layouts, fluxos de navegação e componentes reutilizáveis de forma integrada entre designers e desenvolvedores. Com recursos de colaboração em tempo real, facilita a iteração rápida e a validação de ideias, sendo amplamente adotado por equipes ágeis e projetos orientados à experiência do usuário (UX/UI).
 
 ###### 🗂️ Figma - Templates gerais
 - [Figma - Templates](https://www.figma.com/pt-br/modelos/)
