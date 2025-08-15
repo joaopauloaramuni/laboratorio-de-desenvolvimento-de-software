@@ -395,6 +395,11 @@ Exemplos de portfólio profissional:
 - 📖 Shadcn Docs: [https://ui.shadcn.com/docs/registry/getting-started](https://ui.shadcn.com/docs/registry/getting-started)
 - :octocat: [GitHub](https://github.com/flaviojuniordev)
 
+###### Mateus Nascimento
+
+- 🌐 [Portfólio](https://archlinux-drab.vercel.app/)
+- :octocat: [GitHub](https://github.com/Mateusnasciment)
+
 ###### Guilherme Tadeu:
 - 🌐 [Portfólio](https://guilhermetadeu.com.br/)
 - 🌐 [Portfólio - Netlify](https://guilherme-tadeu.netlify.app/)
@@ -405,8 +410,8 @@ Exemplos de portfólio profissional:
 
 ###### Template para Terminal:
 
-- Componente React: https://github.com/jonmbake/react-terminal-ui
-- Demonstração: https://jonmbake.github.io/react-terminal-ui/demo/
+- Componente React: [react-terminal-ui](https://github.com/jonmbake/react-terminal-ui)
+- Demonstração: [react-terminal-ui/demo](https://jonmbake.github.io/react-terminal-ui/demo/)
 
 ###### Henry Heffernan:
 - 🌐 [Portfólio](https://henryheffernan.com/)
@@ -418,6 +423,10 @@ Exemplos de portfólio profissional:
 ###### Josh W. Comeau:
 - 🌐 [Portfólio](https://www.joshwcomeau.com/)
 - :octocat: [GitHub](https://github.com/joshwcomeau)
+
+###### Bohr.io
+- 🌐 [Portfólio](https://portfolio-template-bohr-io.bohr.io/)
+- :octocat: [GitHub](https://github.com/bohr-io/portfolio-template)
 
 ###### 📚 E-book: Building an Effective Dev Portfolio
 - [Building an Effective Dev Portfolio](https://storage.googleapis.com/joshwcomeau/building-an-effective-dev-portfolio.pdf)
