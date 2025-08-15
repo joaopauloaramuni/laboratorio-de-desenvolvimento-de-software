@@ -343,7 +343,7 @@ Relatórios anuais e pesquisas globais ajudam a entender as principais linguagen
 
 -----
 
-#### 🗣️ Apresentação de laboratório:
+##### 🗣️ Apresentação de laboratório:
 
 🧑‍🤝‍🧑 Exemplo de slides para apresentação em grupo:
 
@@ -351,7 +351,7 @@ Relatórios anuais e pesquisas globais ajudam a entender as principais linguagen
 
 -----
 
-#### 📄 README de projeto:
+##### 📄 README de projeto:
 
 📘 Exemplos de README de projeto:
 
@@ -362,58 +362,58 @@ Relatórios anuais e pesquisas globais ajudam a entender as principais linguagen
 
 -----
 
-#### 📝 Portfólios:
+##### 📝 Portfólios:
 
 Exemplos de portfólio profissional:
 
-##### Luca Azalim (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
+###### Luca Azalim (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
 - 🌐 [Portfólio](http://azal.im/)
 - :octocat: [GitHub](https://github.com/lucaazalim)
 
-##### Gabriel Victor (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
+###### Gabriel Victor (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
 - 🌐 [Portfólio](https://gabrielvictor.web.app/)
 - :octocat: [GitHub](https://github.com/G4BR-13-L)
 
-##### Pedro Braga (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
+###### Pedro Braga (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
 - 🌐 [Portfólio](https://www.pedrobragadev.com/)
 - :octocat: [GitHub](https://github.com/bragap)
 
-##### Davi Mendes (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
+###### Davi Mendes (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
 - 🌐 [Portfólio](https://curriculo-davi-mendes.vercel.app/)
 - 📦 Lib utilizada - VantaJS: [https://www.vantajs.com/](https://www.vantajs.com/)
 - 📖 VantaJS GitHub: [https://github.com/tengbao/vanta](https://github.com/tengbao/vanta)
 - :octocat: [GitHub](https://github.com/dmendes7)
 
-##### João Marcelo Carvalho (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
+###### João Marcelo Carvalho (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
 - 🌐 [Portfólio](https://joaomarcelocpa.vercel.app/)
 - 📦 Lib utilizada - NextJS: [https://nextjs.org/](https://nextjs.org/)
 - :octocat: [GitHub](https://github.com/joaomarcelocpa)
 
-##### Flávio Júnior (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
+###### Flávio Júnior (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
 - 🌐 [Portfólio](https://flaviojunior-portfolio.vercel.app/)
 - 📦 Lib utilizada - Shadcn: [https://ui.shadcn.com/](https://ui.shadcn.com/)
 - 📖 Shadcn Docs: [https://ui.shadcn.com/docs/registry/getting-started](https://ui.shadcn.com/docs/registry/getting-started)
 - :octocat: [GitHub](https://github.com/flaviojuniordev)
 
-##### Guilherme Tadeu:
+###### Guilherme Tadeu:
 - 🌐 [Portfólio](https://guilhermetadeu.com.br/)
 - 🌐 [Portfólio - Netlify](https://guilherme-tadeu.netlify.app/)
 
-##### Henry Heffernan:
+###### Henry Heffernan:
 - 🌐 [Portfólio](https://henryheffernan.com/)
 - 📦 Lib utilizada - Three JS: [https://threejs.org/](https://threejs.org/)
 - 📖 Three JS Docs: [https://threejs.org/docs/](https://threejs.org/docs/)
 - [Repositório do website](https://github.com/henryjeff/portfolio-website)
 - :octocat: [GitHub](https://github.com/henryjeff)
 
-##### Josh W. Comeau:
+###### Josh W. Comeau:
 - 🌐 [Portfólio](https://www.joshwcomeau.com/)
 - :octocat: [GitHub](https://github.com/joshwcomeau)
 
 ###### 📚 E-book: Building an Effective Dev Portfolio
 - [Building an Effective Dev Portfolio](https://storage.googleapis.com/joshwcomeau/building-an-effective-dev-portfolio.pdf)
 
-##### 👤 Outros perfis:
+###### 👤 Outros perfis:
 
 - https://portfolio-starter-template.webflow.io/
 - https://craig-roush-portfolio-template.webflow.io/
@@ -425,13 +425,13 @@ Exemplos de portfólio profissional:
 
 -----
 
-#### 🎨 Figma
+##### 🎨 Figma
 
-##### 👨‍🏫 Figma - Education
+###### 👨‍🏫 Figma - Education
 - [Figma Education](https://www.figma.com/pt-br/education/)
 - [Figma Education - Apply](https://www.figma.com/education/apply)
 
-##### 🎨 Figma - Templates
+###### 🎨 Figma - Templates
 
 ###### 🗂️ Figma - Templates gerais
 - [Figma - Templates](https://www.figma.com/pt-br/modelos/)
@@ -469,24 +469,24 @@ Exemplos de portfólio profissional:
 
 -----
 
-#### ✍️ Fonts:
+##### ✍️ Fonts:
 
 - [FiraCode](https://github.com/tonsky/FiraCode)
 - [Fira_Code_v6.2.zip](https://github.com/user-attachments/files/21781725/Fira_Code_v6.2.zip)
 
 -----
 
-#### 🐳 Docker:
+##### 🐳 Docker:
 
 - [Docker Cheatsheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - [Docker Hub](https://hub.docker.com/)
 - [Docker Roadmap](https://roadmap.sh/docker)
 
-##### ▶️ Docker - Vídeo tutorial
+###### ▶️ Docker - Vídeo tutorial
 - [Docker Tutorial for Beginners - FULL COURSE in 3 Hours](https://www.youtube.com/watch?v=3c-iBn73dDE)
 
-##### 🛠️ Comandos Docker úteis:
+###### 🛠️ Comandos Docker úteis:
 ```
 docker --version
 
@@ -503,7 +503,7 @@ docker ps
 docker stats
 ```
 
-##### 🔎 Veja mais sobre docker:
+###### 🔎 Veja mais sobre docker:
 
 <details>
   <summary>Comandos Docker: Guia rápido</summary>
@@ -550,19 +550,19 @@ docker stats
 
 -----
 
-### 💬 Exemplo de comentário em Code Review
+#### 💬 Exemplo de comentário em Code Review
 
 > **Obs**: Para iniciar um code review, você precisa abrir um pull request (PR) no repositório. O PR é a solicitação para mesclar suas alterações no branch principal. Depois de aberto, você e seus colegas podem navegar pelas mudanças, clicar nas linhas de código para adicionar comentários e discutir melhorias diretamente no PR.
 
 -----
 
-#### 🔍 Sugestão de melhoria
+##### 🔍 Sugestão de melhoria
 
 A classe `UserService` atualmente contém lógica de acesso direto ao banco de dados usando `EntityManager`. Para seguir o princípio da **separação de responsabilidades** e melhorar a testabilidade do código, considere **extrair essa lógica para um DAO (`UserDAO`)**.
 
 -----
 
-#### Benefícios da mudança
+##### Benefícios da mudança
 
 - Redução do acoplamento entre a camada de serviço e a persistência.  
 - Facilidade para substituir a implementação do DAO futuramente (por exemplo, ao trocar Hibernate por outra tecnologia).  
@@ -570,7 +570,7 @@ A classe `UserService` atualmente contém lógica de acesso direto ao banco de d
 
 -----
 
-#### 📌 Sugestão de implementação
+##### 📌 Sugestão de implementação
 
 - Criar uma classe `UserDAO` com métodos como `findById(Long id)` e `save(User user)`.  
 - Injetar essa classe no `UserService`.  
@@ -578,7 +578,7 @@ A classe `UserService` atualmente contém lógica de acesso direto ao banco de d
 
 -----
 
-#### 📚 Link oficial da documentação do GitHub
+##### 📚 Link oficial da documentação do GitHub
 
 - [Commenting on a pull request](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request)
 
@@ -598,7 +598,7 @@ Veja também:
 
 -----
 
-### 🏛️ Entendendo a Arquitetura de um App Spring Boot
+#### 🏛️ Entendendo a Arquitetura de um App Spring Boot
 
 A arquitetura de um app **Spring Boot** é como um ecossistema bem orquestrado, onde cada componente tem um papel essencial para garantir a **escalabilidade**, **manutenibilidade** e **organização** do sistema.
 
@@ -608,19 +608,19 @@ Confira abaixo o papel fundamental de cada componente ilustrado no GIF:
 
 -----
 
-#### 🍃 Arquitetura Spring Boot
+##### 🍃 Arquitetura Spring Boot
 
 <div align="center">
   <img align="center" width="600px" alt="arquitetura" src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/arquitetura_spring.gif"/>
 </div>
 
-##### 📚 Referências
+###### 📚 Referências
 
 - 🎬 Gif criado por [Victor Targino Von Melentovytch](https://www.linkedin.com/posts/vtargino_java-spring-springboot-activity-7353401071878184961-7-eR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAT1ji8BieepxAWNeP6atgR296ccyrPEeqk)
 
 -----
 
-#### 🧩 Componentes da Arquitetura Spring Boot
+###### 🧩 Componentes da Arquitetura Spring Boot
 
 | Componente | Descrição |
 |------------|-----------|
@@ -643,7 +643,7 @@ Confira abaixo o papel fundamental de cada componente ilustrado no GIF:
 
 -----
 
-### 🚀 Domine o Spring Boot em 2025
+###### 🚀 Domine o Spring Boot em 2025
 
 O Spring Boot continua sendo uma das ferramentas mais poderosas e utilizadas por desenvolvedores Java. Sua proposta de simplificar o desenvolvimento de aplicações robustas e prontas para produção o tornou o padrão de fato no desenvolvimento backend moderno.
 
