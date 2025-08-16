@@ -412,6 +412,7 @@ Exemplos de portfólio profissional:
 
 - Componente React: [react-terminal-ui](https://github.com/jonmbake/react-terminal-ui)
 - Demonstração: [react-terminal-ui/demo](https://jonmbake.github.io/react-terminal-ui/demo/)
+- Styling: [https://github.com/ines/termynal](https://github.com/ines/termynal)
 
 ###### Henry Heffernan:
 - 🌐 [Portfólio](https://henryheffernan.com/)
