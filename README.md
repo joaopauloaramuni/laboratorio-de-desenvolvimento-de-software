@@ -515,6 +515,12 @@ O Figma é uma das principais ferramentas de design de interfaces e prototipagem
 - [Ubuntu Font](https://design.ubuntu.com/font)
 - [Ubuntu Mono - Google Fonts](https://fonts.google.com/specimen/Ubuntu+Mono)
 
+###### IBM Plex Mono
+
+- [IBM Plex](https://www.ibm.com/plex/)
+- [IBM Plex - GitHub](https://github.com/IBM/plex)
+- [IBM Plex Mono - Google Fonts](https://fonts.google.com/specimen/IBM+Plex+Mono)
+
 -----
 
 ##### 🐳 Docker:
