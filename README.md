@@ -523,20 +523,20 @@ O Figma é uma das principais ferramentas de design de interfaces e prototipagem
 
 ###### Hack
 
-- [Hack - GitHub](https://github.com/source-foundry/Hack)
 - [Hack - Oficial](https://sourcefoundry.org/hack/)
+- [Hack - GitHub](https://github.com/source-foundry/Hack)
 
 ###### Orbitron
 
-- [Orbitron - Google Fonts](https://fonts.google.com/specimen/Orbitron)
 - [Orbitron - Adobe Fonts](https://fonts.adobe.com/fonts/orbitron)
+- [Orbitron - Google Fonts](https://fonts.google.com/specimen/Orbitron)
 - [Orbitron - Download](https://font.download/font/orbitron)
 
 ###### Source Code Pro
 
+- [Source Code Pro - Adobe Fonts](https://fonts.adobe.com/fonts/source-code-pro)
 - [Source Code Pro - Google Fonts](https://fonts.google.com/specimen/Source+Code+Pro)
 - [Source Code Pro - GitHub](https://github.com/adobe-fonts/source-code-pro)
-- [Source Code Pro - Adobe Fonts](https://fonts.adobe.com/fonts/source-code-pro)
 
 -----
 
