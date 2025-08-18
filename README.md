@@ -170,18 +170,6 @@ O ecossistema Spring oferece suporte completo para criação de aplicações Jav
 
 -----
 
-##### 🖼️ Ferramentas de design e diagramas
-
-###### 📐 Criação visual de fluxos, arquitetura e UML  
-Essas ferramentas facilitam a representação visual de sistemas, fluxos de dados, entidades e componentes, sendo úteis tanto na fase de modelagem quanto na documentação de projetos.
-
-- [Draw.io (Diagramas)](https://drawio.com/)
-- [Astah - Licença gratuita para estudantes](https://astah.net/products/free-student-license/)
-- [PlantUML (Diagramas UML)](https://plantuml.com/)
-- [Figma - Templates](https://www.figma.com/pt-br/templates/)
-
------
-
 ##### 🎨 Frameworks de interface
 
 ###### 💻 Estilização e componentes de UI para aplicações web Java  
