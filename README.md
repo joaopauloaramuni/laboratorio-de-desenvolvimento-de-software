@@ -505,6 +505,16 @@ O Figma é uma das principais ferramentas de design de interfaces e prototipagem
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 - [JetBrains Mono - GitHub](https://github.com/JetBrains/JetBrainsMono)
 
+###### Cascadia Code
+
+- [Cascadia Code - Microsoft Docs](https://learn.microsoft.com/en-us/windows/terminal/cascadia-code)
+- [Cascadia Code - GitHub](https://github.com/microsoft/cascadia-code)
+
+###### Ubuntu Mono
+
+- [Ubuntu Font](https://design.ubuntu.com/font)
+- [Ubuntu Mono - Google Fonts](https://fonts.google.com/specimen/Ubuntu+Mono)
+
 -----
 
 ##### 🐳 Docker:
