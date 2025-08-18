@@ -521,6 +521,11 @@ O Figma é uma das principais ferramentas de design de interfaces e prototipagem
 - [IBM Plex - GitHub](https://github.com/IBM/plex)
 - [IBM Plex Mono - Google Fonts](https://fonts.google.com/specimen/IBM+Plex+Mono)
 
+###### Hack
+
+- [Hack - GitHub](https://github.com/source-foundry/Hack)
+- [Hack - Oficial](https://sourcefoundry.org/hack/)
+
 -----
 
 ##### 🐳 Docker:
