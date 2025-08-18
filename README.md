@@ -495,8 +495,15 @@ O Figma é uma das principais ferramentas de design de interfaces e prototipagem
 
 ##### ✍️ Fonts:
 
+###### FiraCode
+
 - [FiraCode](https://github.com/tonsky/FiraCode)
 - [Fira_Code_v6.2.zip](https://github.com/user-attachments/files/21781725/Fira_Code_v6.2.zip)
+
+###### JetBrains Mono
+
+- [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+- [JetBrains Mono - GitHub](https://github.com/JetBrains/JetBrainsMono)
 
 -----
 
