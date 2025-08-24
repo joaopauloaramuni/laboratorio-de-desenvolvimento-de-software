@@ -519,6 +519,10 @@ O Figma é uma das principais ferramentas de design de interfaces e prototipagem
 
 ##### ✍️ Fonts:
 
+###### 🖋️ Fontes para desenvolvimento e design de portfólios
+
+As fontes monoespaçadas e estilizadas desempenham um papel essencial no desenvolvimento de software, design e prototipagem. Elas impactam diretamente a legibilidade do código, a produtividade e até a estética de interfaces. Fontes como FiraCode, JetBrains Mono e Cascadia Code oferecem recursos como ligaduras, clareza visual e otimização para telas digitais. Além de melhorar a experiência do programador, também são amplamente utilizadas em projetos de identidade visual, portfólios, prototipagem e apresentações, unindo funcionalidade e estilo.
+
 ###### FiraCode
 
 - [FiraCode](https://github.com/tonsky/FiraCode)
