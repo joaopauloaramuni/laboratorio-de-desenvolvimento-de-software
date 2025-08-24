@@ -85,8 +85,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - 📗 [Domain-Driven Design Distilled - Vaughn Vernon](https://www.amazon.com.br/Domain-driven-Design-Destilado-Vaughn-Vernon/dp/8550821241)
 - 📂 [design-patterns-for-humans (Explicações simples)](https://github.com/kamranahmedse/design-patterns-for-humans)  
 - 📦 [Refactoring.Guru – Exemplos em múltiplas linguagens](https://github.com/RefactoringGuru)
-- 📦 [Refactoring.Guru - Design Patterns](https://refactoring.guru/design-patterns)
-
+- 🦊 [Refactoring.Guru - Design Patterns](https://refactoring.guru/design-patterns)
 
 ###### ✔️ Qualidade de Projeto
 
