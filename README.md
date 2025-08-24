@@ -50,7 +50,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - 📕 [Patterns of Enterprise Application Architecture - Martin Fowler](https://www.amazon.com.br/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420)
 - 📕 [Refactoring: Improving the Design of Existing Code - Martin Fowler](https://www.amazon.com.br/Refatora%C3%A7%C3%A3o-Aperfei%C3%A7oando-Design-C%C3%B3digos-Existentes/dp/8575227246)
 - 📄 [Blog - Clean Architecture - Robert C. Martin (Uncle Bob)](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html)  
-- 📙 [Clean Architecture – Robert C. Martin (Uncle Bob)](https://www.amazon.com.br/Arquitetura-Limpa-Artes%C3%A3o-Estrutura-Software/dp/8550804606)
+- 📙 [Arquitetura Limpa: o Guia do Artesão Para Estrutura e Design de Software – Robert C. Martin (Uncle Bob)](https://www.amazon.com.br/Arquitetura-Limpa-Artes%C3%A3o-Estrutura-Software/dp/8550804606)
 - 📘 [Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions - Gregor Hohpe, Bobby Woolf](https://www.amazon.com.br/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683)
 - 📔 [Introdução à Arquitetura de Design de Software – Paulo Silveira, Guilherme Silveira, Fabio Kung, Guilherme Moreira](https://www.amazon.com.br/Introdu%C3%A7%C3%A3o-%C3%A0-Arquitetura-Design-Software/dp/8535250298)
 - 📙 [Designing Software Architectures – Humberto Cervantes & Rick Kazman](https://www.amazon.com.br/Designing-Software-Architectures-Humberto-Cervantes/dp/0138108021)  
