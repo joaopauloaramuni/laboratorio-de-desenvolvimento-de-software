@@ -472,7 +472,7 @@ O Figma é uma das principais ferramentas de design de interfaces e prototipagem
 - [Figma - Community - Example - Architecture Diagram Components - Multiplayer](https://www.figma.com/community/file/989634471195357925)
 
 ###### 🔁 Figma - Diagramas de Classe
-- [Figma - Community - Template - Class Diagram Template 1](figma.com/community/widget/1223307422838321651/class-diagram-template)
+- [Figma - Community - Template - Class Diagram Template 1](https://www.figma.com/community/widget/1223307422838321651/class-diagram-template)
 - [Figma - Community - Template - Class Diagram Template 2](https://www.figma.com/community/file/1382466485963045247)
 - [Figma - Community - Template - Class Diagram Kit](https://www.figma.com/community/file/1080957210729895033/class-diagram-kit)
 - [Figma - Community - Template - Class Diagram Components](https://www.figma.com/community/file/1212086403033670342)
