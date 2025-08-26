@@ -37,6 +37,9 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 
 - 📘 [Engenharia de Software Moderna - Marco Tulio Valente](https://engsoftmoderna.info/)  
   Livro gratuito e atualizado que trata da engenharia de software com foco em práticas modernas, como integração contínua, microserviços e DevOps, com exemplos em Java e Python.
+   
+   - 🎵 [Podcast / Audiobook no Spotify](https://open.spotify.com/show/4yEKBtRMbtwLtgXP8Gq0Fa)  
+     Engenharia de Software Moderna está também disponível no formato de podcast, com resumos de seções do livro gerados por IA por meio do NotebookLM do Google.
 
 - 📙 [Análise e Projeto de Sistemas – Alan Dennis, Barbara Haley Wixom, Roberta M. Roth](https://www.amazon.com.br/An%C3%A1lise-Projeto-Sistemas-Alan-Dennis/dp/852162509X)  
   Livro que aborda metodologias e técnicas modernas para análise e projeto de sistemas, incluindo modelagem de processos, requisitos e diagramas UML, com forte aplicação prática em projetos reais.
