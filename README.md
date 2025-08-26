@@ -55,6 +55,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - 📄 [Blog - Clean Architecture - Robert C. Martin (Uncle Bob)](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html)  
 - 📙 [Arquitetura Limpa: o Guia do Artesão Para Estrutura e Design de Software – Robert C. Martin (Uncle Bob)](https://www.amazon.com.br/Arquitetura-Limpa-Artes%C3%A3o-Estrutura-Software/dp/8550804606)
 - 📘 [Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions - Gregor Hohpe, Bobby Woolf](https://www.amazon.com.br/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683)
+- 📗 [Just Enough Software Architecture: A Risk-Driven Approach - George Fairbanks](https://www.amazon.com.br/Just-Enough-Software-Architecture-Risk-Driven/dp/0984618104)
 - 📔 [Introdução à Arquitetura de Design de Software – Paulo Silveira, Guilherme Silveira, Fabio Kung, Guilherme Moreira](https://www.amazon.com.br/Introdu%C3%A7%C3%A3o-%C3%A0-Arquitetura-Design-Software/dp/8535250298)
 - 📙 [Designing Software Architectures – Humberto Cervantes & Rick Kazman](https://www.amazon.com.br/Designing-Software-Architectures-Humberto-Cervantes/dp/0138108021)  
 - 📗 [Software Architecture in Practice – Len Bass, Paul Clements, Rick Kazman](https://www.amazon.com.br/Software-Architecture-Practice-Len-Bass/dp/0136886094)
