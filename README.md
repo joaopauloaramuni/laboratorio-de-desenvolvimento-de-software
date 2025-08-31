@@ -401,7 +401,7 @@ Exemplos de portfólio profissional:
 - :octocat: [GitHub](https://github.com/flaviojuniordev)
 
 ###### Gabriel Chagas Lage (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
-- 🌐 [Portfólio](https://flaviojunior-portfolio.vercel.app/)
+- 🌐 [Portfólio](https://gabriel-chagas-lage.vercel.app/)
 - 📦 Lib utilizada - react-terminal-ui: [https://github.com/jonmbake/react-terminal-ui](https://github.com/jonmbake/react-terminal-ui)
 - :octocat: [Repo Portfólio](https://github.com/gabrielchagas13/gabriel-chagas-lage)
 - :octocat: [GitHub](https://github.com/gabrielchagas13)
