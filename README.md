@@ -372,35 +372,45 @@ Exemplos de portfólio profissional:
 
 ###### Luca Azalim (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
 - 🌐 [Portfólio](http://azal.im/)
+- :octocat: [Repo Portfólio](https://github.com/lucaazalim/azal.im)
 - :octocat: [GitHub](https://github.com/lucaazalim)
-
-###### Gabriel Victor (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
-- 🌐 [Portfólio](https://gabrielvictor.web.app/)
-- :octocat: [GitHub](https://github.com/G4BR-13-L)
 
 ###### Pedro Braga (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
 - 🌐 [Portfólio](https://www.pedrobragadev.com/)
+- :octocat: [Repo Portfólio](https://github.com/bragap/pedrobragadev)
 - :octocat: [GitHub](https://github.com/bragap)
 
 ###### Davi Mendes (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
 - 🌐 [Portfólio](https://curriculo-davi-mendes.vercel.app/)
 - 📦 Lib utilizada - VantaJS: [https://www.vantajs.com/](https://www.vantajs.com/)
 - 📖 VantaJS GitHub: [https://github.com/tengbao/vanta](https://github.com/tengbao/vanta)
+- :octocat: [Repo Portfólio](https://github.com/DMendes7/Lab-Projeto-de-Software/tree/main/Projetos/Lab01%20-%20Portfo%CC%81lio%20Profissional/Davi)
 - :octocat: [GitHub](https://github.com/dmendes7)
 
 ###### João Marcelo Carvalho (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
 - 🌐 [Portfólio](https://joaomarcelocpa.vercel.app/)
 - 📦 Lib utilizada - NextJS: [https://nextjs.org/](https://nextjs.org/)
+- :octocat: [Repo Portfólio](https://github.com/joaomarcelocpa/MyPortfolio)
 - :octocat: [GitHub](https://github.com/joaomarcelocpa)
 
 ###### Flávio Júnior (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
 - 🌐 [Portfólio](https://flaviojunior-portfolio.vercel.app/)
 - 📦 Lib utilizada - Shadcn: [https://ui.shadcn.com/](https://ui.shadcn.com/)
 - 📖 Shadcn Docs: [https://ui.shadcn.com/docs/registry/getting-started](https://ui.shadcn.com/docs/registry/getting-started)
+- :octocat: [Repo Portfólio](https://github.com/flaviojuniordev/flaviojunior-portfolio)
 - :octocat: [GitHub](https://github.com/flaviojuniordev)
 
-###### Mateus Nascimento
+###### Gabriel Chagas Lage (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
+- 🌐 [Portfólio](https://flaviojunior-portfolio.vercel.app/)
+- 📦 Lib utilizada - react-terminal-ui: [https://github.com/jonmbake/react-terminal-ui](https://github.com/jonmbake/react-terminal-ui)
+- :octocat: [Repo Portfólio](https://github.com/gabrielchagas13/gabriel-chagas-lage)
+- :octocat: [GitHub](https://github.com/gabrielchagas13)
 
+###### Gabriel Victor (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
+- 🌐 [Portfólio](https://gabrielvictor.web.app/)
+- :octocat: [GitHub](https://github.com/G4BR-13-L)
+
+###### Mateus Nascimento
 - 🌐 [Portfólio](https://archlinux-drab.vercel.app/)
 - :octocat: [GitHub](https://github.com/Mateusnasciment)
 
