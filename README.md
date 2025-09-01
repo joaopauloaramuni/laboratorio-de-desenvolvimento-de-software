@@ -370,6 +370,11 @@ Relatórios anuais e pesquisas globais ajudam a entender as principais linguagen
 
 Exemplos de portfólio profissional:
 
+###### João Paulo Aramuni (Professor do curso de Engenharia de Software da PUC Minas):
+- 🌐 [Portfólio](http://aramuni.dev/)
+- :octocat: [Repo Portfólio](https://github.com/joaopauloaramuni/joaopauloaramuni-portfolio)
+- :octocat: [GitHub](https://github.com/joaopauloaramuni)
+
 ###### Luca Azalim (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
 - 🌐 [Portfólio](http://azal.im/)
 - :octocat: [Repo Portfólio](https://github.com/lucaazalim/azal.im)
@@ -422,12 +427,6 @@ Exemplos de portfólio profissional:
 - 🌐 [Portfólio](https://terminal.satnaing.dev/)
 - :octocat: [GitHub](https://github.com/satnaing/terminal-portfolio)
 
-###### Template para Terminal:
-
-- Componente React: [react-terminal-ui](https://github.com/jonmbake/react-terminal-ui)
-- Demonstração: [react-terminal-ui/demo](https://jonmbake.github.io/react-terminal-ui/demo/)
-- Styling: [ines/termynal](https://github.com/ines/termynal)
-
 ###### Henry Heffernan:
 - 🌐 [Portfólio](https://henryheffernan.com/)
 - 📦 Lib utilizada - Three JS: [https://threejs.org/](https://threejs.org/)
@@ -442,6 +441,11 @@ Exemplos de portfólio profissional:
 ###### Bohr.io
 - 🌐 [Portfólio](https://portfolio-template-bohr-io.bohr.io/)
 - :octocat: [GitHub](https://github.com/bohr-io/portfolio-template)
+
+###### Template para Terminal:
+- Componente React: [react-terminal-ui](https://github.com/jonmbake/react-terminal-ui)
+- Demonstração: [react-terminal-ui/demo](https://jonmbake.github.io/react-terminal-ui/demo/)
+- Styling: [ines/termynal](https://github.com/ines/termynal)
 
 ###### 📚 E-book: Building an Effective Dev Portfolio
 - [Building an Effective Dev Portfolio](https://storage.googleapis.com/joshwcomeau/building-an-effective-dev-portfolio.pdf)
