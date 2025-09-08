@@ -27,9 +27,11 @@ SecureLoginPUC
 │           │   │   ├── register.css
 │           │   │   └── style.css
 │           │   └── images
-│           │       └── logo-puc-minas.jpg
+│           │       ├── logo-puc-minas.png
+│           │       └── logo-puc-minas-old.jpg
 │           └── templates
 │               ├── admin.html
+│               ├── error.html
 │               ├── home.html
 │               ├── login.html
 │               ├── recoverpassword.html
