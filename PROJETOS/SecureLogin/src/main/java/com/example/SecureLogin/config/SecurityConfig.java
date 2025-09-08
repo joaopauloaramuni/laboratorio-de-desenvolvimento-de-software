@@ -44,6 +44,9 @@ public class SecurityConfig {
                                 response.sendRedirect("/home"); // Redireciona para /home
                             }
                         })
+                        .failureHandler((request, response, authentication) -> {
+                            response.sendRedirect("/error"); // Redireciona para /error em caso de falha
+                        })
                 )
                 .logout(logout -> logout
                         .logoutUrl("/logout") // Define a URL para logout
