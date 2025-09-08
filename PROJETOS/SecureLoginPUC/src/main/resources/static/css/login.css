@@ -29,6 +29,7 @@ body, html {
 
 .login-image-logo-container img {
     width: 100%;
+    max-width: 200px;
     border-radius: 10px 0 0 10px;
     object-fit: contain;
 }
@@ -104,3 +105,4 @@ body, html {
     padding: 0;
     box-sizing: border-box;
 }
+
