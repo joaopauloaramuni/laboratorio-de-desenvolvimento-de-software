@@ -40,7 +40,7 @@ body, html {
     justify-content: flex-start;
     align-items: center;
     width: 50%;
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 0 10px 10px 0;
 }
 
