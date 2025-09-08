@@ -13,6 +13,11 @@ public class SecureLoginController {
         return "login";
     }
 
+    @GetMapping("/error")
+    public String error() {
+        return "error";
+    }
+
     @GetMapping("/home")
     public String home() {
         return "home";
