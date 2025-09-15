@@ -30,6 +30,7 @@ SecureLoginPUC
 │           │       └── logo-puc-minas.jpg
 │           └── templates
 │               ├── admin.html
+│               ├── error.html
 │               ├── home.html
 │               ├── login.html
 │               ├── recoverpassword.html
