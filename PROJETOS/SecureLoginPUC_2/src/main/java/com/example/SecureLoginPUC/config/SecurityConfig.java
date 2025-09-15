@@ -33,6 +33,7 @@ public class SecurityConfig {
                         .requestMatchers(HttpMethod.POST, "/register").permitAll() // Permitir envio do formulário de registro
                         .requestMatchers(HttpMethod.GET, "/recoverpassword").permitAll() // Permitir acesso à página de recuperação de senha
                         .requestMatchers(HttpMethod.POST, "/recoverpassword").permitAll() // Permitir acesso à página de recuperação de senha
+                        .requestMatchers(HttpMethod.GET, "/error").permitAll() // Permitir acesso à página de erro
                         .requestMatchers("/admin/**").hasRole("ADMIN") // Proteger URLs que começam com /admin para apenas ADMIN
                         .anyRequest().authenticated() // Proteger todas as outras URLs
                 )
@@ -49,9 +50,9 @@ public class SecurityConfig {
                                 response.sendRedirect("/home"); // Redireciona para /home
                             }
                         })
-                        //.failureHandler((request, response, authentication) -> {
-                        //    response.sendRedirect("/error"); // Redireciona para /error em caso de falha
-                        //})
+                        .failureHandler((request, response, authentication) -> {
+                            response.sendRedirect("/error"); // Redireciona para /error em caso de falha
+                        })
                 )
                 .logout(logout -> logout
                         .logoutUrl("/logout") // Define a URL para logout
