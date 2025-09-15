@@ -143,6 +143,8 @@ http://localhost:8080/login?logout=true
 
 http://localhost:8080/home
 
+http://localhost:8080/error
+
 http://localhost:8080/admin
 
 http://localhost:8080/register
