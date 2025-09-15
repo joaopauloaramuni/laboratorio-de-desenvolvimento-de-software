@@ -18,6 +18,11 @@ public class SecureLoginController {
         return "home";
     }
 
+    @GetMapping("/error")
+    public String error() {
+        return "error";
+    }
+
     @GetMapping("/admin")
     public String admin() {
         return "admin";
