@@ -141,6 +141,8 @@ http://localhost:8080/home
 
 http://localhost:8080/admin
 
+http://localhost:8080/error
+
 http://localhost:8080/register
 
 http://localhost:8080/recoverpassword
