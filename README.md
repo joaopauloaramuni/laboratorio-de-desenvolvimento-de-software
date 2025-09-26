@@ -201,6 +201,7 @@ Frameworks e bibliotecas de frontend auxiliam na criação de interfaces moderna
 - [Mantine](https://mantine.dev/) — Biblioteca de componentes React com foco em usabilidade e design consistente.  
 - [Radix-UI](https://www.radix-ui.com/) — Conjunto de componentes de baixo nível para criar interfaces acessíveis e customizáveis em React.  
 - [Material UI](https://mui.com/) — Implementação popular do Google Material Design para React.  
+- [Three.js](https://threejs.org/) — Biblioteca JavaScript para criação e renderização de gráficos 3D no navegador usando WebGL.  
 
 -----
 
