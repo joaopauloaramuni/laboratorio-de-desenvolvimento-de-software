@@ -196,12 +196,16 @@ Frameworks e bibliotecas de frontend auxiliam na criação de interfaces moderna
 ###### 🌐 Ecossistema Java (server-side)  
 - [Thymeleaf](https://www.thymeleaf.org/) — Template engine moderna, muito usada com Spring MVC, que facilita renderização de páginas dinâmicas no servidor.  
 - [PrimeFaces](https://www.primefaces.org/) — Framework rico em componentes UI voltado para aplicações Java Server Faces (JSF).  
+- [Vaadin](https://vaadin.com/) — Framework Java para criação de UIs modernas e responsivas, com componentes prontos e integração nativa com Spring.  
 
 ###### ⚛️ Ecossistema JavaScript (frontend SPA integrado a REST/GraphQL)  
 - [Mantine](https://mantine.dev/) — Biblioteca de componentes React com foco em usabilidade e design consistente.  
 - [Radix-UI](https://www.radix-ui.com/) — Conjunto de componentes de baixo nível para criar interfaces acessíveis e customizáveis em React.  
 - [Material UI](https://mui.com/) — Implementação popular do Google Material Design para React.  
 - [Three.js](https://threejs.org/) — Biblioteca JavaScript para criação e renderização de gráficos 3D no navegador usando WebGL.  
+- [Svelte](https://svelte.dev/) — Framework frontend reativo que compila componentes em JavaScript otimizado, com alta performance e sintaxe simples.  
+- [Astro](https://astro.build/) — Framework de sites estáticos e híbridos, baseado na arquitetura de “ilhas”, focado em velocidade e SEO, podendo integrar React, Vue ou Svelte.  
+- [Tailwind CSS](https://tailwindcss.com/) — Framework de utilitários CSS altamente customizável, usado para construir interfaces modernas e responsivas de forma ágil.  
 
 -----
 
