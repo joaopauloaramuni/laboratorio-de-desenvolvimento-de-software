@@ -193,11 +193,14 @@ O ecossistema Spring oferece suporte completo para criação de aplicações Jav
 Ao desenvolver aplicações web em Java, a camada de apresentação é fundamental para garantir uma boa experiência do usuário.  
 Frameworks e bibliotecas de frontend auxiliam na criação de interfaces modernas, responsivas e acessíveis, podendo ser integrados a tecnologias como **JSF**, **Thymeleaf** ou **APIs REST**.  
 
-A seguir, alguns exemplos:  
+### 🌐 Ecossistema Java (server-side)  
+- [Thymeleaf](https://www.thymeleaf.org/) — Template engine moderna, muito usada com Spring MVC, que facilita renderização de páginas dinâmicas no servidor.  
+- [PrimeFaces](https://www.primefaces.org/) — Framework rico em componentes UI voltado para aplicações Java Server Faces (JSF).  
 
+### ⚛️ Ecossistema JavaScript (frontend SPA integrado a REST/GraphQL)  
 - [Mantine](https://mantine.dev/) — Biblioteca de componentes React com foco em usabilidade e design consistente.  
 - [Radix-UI](https://www.radix-ui.com/) — Conjunto de componentes de baixo nível para criar interfaces acessíveis e customizáveis em React.  
-- [PrimeFaces](https://www.primefaces.org/) — Framework rico em componentes UI voltado para aplicações Java Server Faces (JSF).  
+- [Material UI](https://mui.com/) — Implementação popular do Google Material Design para React.  
 
 -----
 
