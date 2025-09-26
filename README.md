@@ -217,7 +217,7 @@ Frameworks e bibliotecas de frontend auxiliam na criação de interfaces moderna
 - [Bulma](https://bulma.io/) — Framework CSS moderno baseado em Flexbox, leve e sem dependência de JavaScript.  
 
 ###### 🌐 Web Components  
-- [Shoelace](https://shoelace.style/) — Biblioteca de componentes baseada em Web Components, independente de framework, altamente customizável
+- [Shoelace](https://shoelace.style/) — Biblioteca de componentes baseada em Web Components, independente de framework, altamente customizável.  
 
 -----
 
