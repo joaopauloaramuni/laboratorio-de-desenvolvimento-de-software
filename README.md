@@ -188,11 +188,16 @@ O ecossistema Spring oferece suporte completo para criação de aplicações Jav
 
 ##### 🎨 Frameworks de interface
 
-###### 💻 Estilização e componentes de UI para aplicações web Java  
-Frameworks frontend ajudam a criar interfaces responsivas e modernas, muitas vezes utilizados junto com tecnologias como JSF, Thymeleaf ou APIs REST em Java.
+###### 💻 Estilização e Componentes de UI para Aplicações Web em Java  
 
-- [PrimeFaces](https://www.primefaces.org/)
-- [Mantine](https://mantine.dev/)
+Ao desenvolver aplicações web em Java, a camada de apresentação é fundamental para garantir uma boa experiência do usuário.  
+Frameworks e bibliotecas de frontend auxiliam na criação de interfaces modernas, responsivas e acessíveis, podendo ser integrados a tecnologias como **JSF**, **Thymeleaf** ou **APIs REST**.  
+
+A seguir, alguns exemplos:  
+
+- [Mantine](https://mantine.dev/) — Biblioteca de componentes React com foco em usabilidade e design consistente.  
+- [Radix-UI](https://www.radix-ui.com/) — Conjunto de componentes de baixo nível para criar interfaces acessíveis e customizáveis em React.  
+- [PrimeFaces](https://www.primefaces.org/) — Framework rico em componentes UI voltado para aplicações Java Server Faces (JSF).  
 
 -----
 
