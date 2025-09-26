@@ -199,21 +199,25 @@ Frameworks e bibliotecas de frontend auxiliam na criação de interfaces moderna
 - [Vaadin](https://vaadin.com/) — Framework Java para criação de UIs modernas e responsivas, com componentes prontos e integração nativa com Spring.  
 
 ###### ⚛️ Ecossistema JavaScript (frontend SPA integrado a REST/GraphQL)  
-- [Mantine](https://mantine.dev/) — Biblioteca de componentes React com foco em usabilidade e design consistente.  
-- [Radix-UI](https://www.radix-ui.com/) — Conjunto de componentes de baixo nível para criar interfaces acessíveis e customizáveis em React.  
-- [Material UI](https://mui.com/) — Implementação popular do Google Material Design para React.  
 - [Three.js](https://threejs.org/) — Biblioteca JavaScript para criação e renderização de gráficos 3D no navegador usando WebGL.  
 - [Svelte](https://svelte.dev/) — Framework frontend reativo que compila componentes em JavaScript otimizado, com alta performance e sintaxe simples.  
 - [Astro](https://astro.build/) — Framework de sites estáticos e híbridos, baseado na arquitetura de “ilhas”, focado em velocidade e SEO, podendo integrar React, Vue ou Svelte.  
 
-###### 🎨 Estilização e Componentização CSS  
+###### 📦 Bibliotecas de Componentes React  
+- [Mantine](https://mantine.dev/) — Componentes React com foco em usabilidade e design consistente.  
+- [Radix-UI](https://www.radix-ui.com/) — Componentes de baixo nível, acessíveis e altamente customizáveis para React.  
+- [Material UI](https://mui.com/) — Implementação do Google Material Design para React.  
+- [Chakra UI](https://chakra-ui.com/) — Componentes React com foco em acessibilidade e design system.  
+- [Ant Design](https://ant.design/) — Sistema de design robusto para aplicações corporativas.  
+
+###### 🎨 Estilização CSS e utilitários  
 - [Tailwind CSS](https://tailwindcss.com/) — Framework de utilitários CSS altamente customizável, usado para construir interfaces modernas e responsivas de forma ágil.  
-- [daisyUI](https://daisyui.com/) — Biblioteca de componentes pronta sobre Tailwind, que adiciona botões, cards, menus e temas sem perder a flexibilidade do Tailwind.  
+- [daisyUI](https://daisyui.com/) — Extensão de Tailwind com componentes prontos e temas.   
 - [Bootstrap](https://getbootstrap.com/) — Framework CSS mais popular, com grid responsivo, componentes prontos e suporte a JS.  
 - [Bulma](https://bulma.io/) — Framework CSS moderno baseado em Flexbox, leve e sem dependência de JavaScript.  
-- [Chakra UI](https://chakra-ui.com/) — Biblioteca de componentes React com foco em acessibilidade e design system.  
-- [Ant Design](https://ant.design/) — Sistema de design robusto, muito usado em projetos corporativos e UIs enterprise.  
-- [Shoelace](https://shoelace.style/) — Biblioteca de componentes baseada em Web Components, independente de framework, altamente customizável.  
+
+###### 🌐 Web Components  
+- [Shoelace](https://shoelace.style/) — Biblioteca de componentes baseada em Web Components, independente de framework, altamente customizável
 
 -----
 
