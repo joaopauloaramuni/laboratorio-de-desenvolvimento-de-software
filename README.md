@@ -205,7 +205,15 @@ Frameworks e bibliotecas de frontend auxiliam na criação de interfaces moderna
 - [Three.js](https://threejs.org/) — Biblioteca JavaScript para criação e renderização de gráficos 3D no navegador usando WebGL.  
 - [Svelte](https://svelte.dev/) — Framework frontend reativo que compila componentes em JavaScript otimizado, com alta performance e sintaxe simples.  
 - [Astro](https://astro.build/) — Framework de sites estáticos e híbridos, baseado na arquitetura de “ilhas”, focado em velocidade e SEO, podendo integrar React, Vue ou Svelte.  
+
+###### 🎨 Estilização e Componentização CSS  
 - [Tailwind CSS](https://tailwindcss.com/) — Framework de utilitários CSS altamente customizável, usado para construir interfaces modernas e responsivas de forma ágil.  
+- [daisyUI](https://daisyui.com/) — Biblioteca de componentes pronta sobre Tailwind, que adiciona botões, cards, menus e temas sem perder a flexibilidade do Tailwind.  
+- [Bootstrap](https://getbootstrap.com/) — Framework CSS mais popular, com grid responsivo, componentes prontos e suporte a JS.  
+- [Bulma](https://bulma.io/) — Framework CSS moderno baseado em Flexbox, leve e sem dependência de JavaScript.  
+- [Chakra UI](https://chakra-ui.com/) — Biblioteca de componentes React com foco em acessibilidade e design system.  
+- [Ant Design](https://ant.design/) — Sistema de design robusto, muito usado em projetos corporativos e UIs enterprise.  
+- [Shoelace](https://shoelace.style/) — Biblioteca de componentes baseada em Web Components, independente de framework, altamente customizável.  
 
 -----
 
