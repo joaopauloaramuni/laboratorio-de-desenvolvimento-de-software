@@ -24,6 +24,7 @@ SecureLoginPUC
 │           ├── static
 │           │   ├── css
 │           │   │   ├── login.css
+│           │   │   ├── register.css
 │           │   │   └── style.css
 │           │   └── images
 │           │       ├── apc-login-bg.png
