@@ -209,6 +209,7 @@ Frameworks e bibliotecas de frontend auxiliam na criação de interfaces moderna
 - [Material UI](https://mui.com/) — Implementação do Google Material Design para React.  
 - [Chakra UI](https://chakra-ui.com/) — Componentes React com foco em acessibilidade e design system.  
 - [Ant Design](https://ant.design/) — Sistema de design robusto para aplicações corporativas.  
+- [Shadcn UI](https://ui.shadcn.com/) — Componentes React prontos e acessíveis, estilizados com Tailwind CSS, integráveis em qualquer projeto React.  
 
 ###### 🎨 Estilização CSS e utilitários  
 - [Tailwind CSS](https://tailwindcss.com/) — Framework de utilitários CSS altamente customizável, usado para construir interfaces modernas e responsivas de forma ágil.  
