@@ -522,6 +522,10 @@ O Figma é uma das principais ferramentas de design de interfaces e prototipagem
 - [Figma - Community - Template - Class Diagram Kit](https://www.figma.com/community/file/1080957210729895033/class-diagram-kit)
 - [Figma - Community - Template - Class Diagram Components](https://www.figma.com/community/file/1212086403033670342)
 
+###### ↔️ Figma - Diagramas de Estado
+- [Figma - Community - Template - State Diagram](https://www.figma.com/community/file/1421434533409803988)
+- [Figma - Community - Template - State Diagram](https://www.figma.com/community/file/1296294416175574183)
+
 ###### ➡️ Figma - Diagramas de Sequência
 - [Figma - Templates - Sequence Diagram](https://www.figma.com/templates/sequence-diagram-example/)
 - [Figma - Article - What is a Sequence Diagram](https://www.figma.com/resource-library/what-is-a-sequence-diagram/)
