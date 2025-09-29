@@ -2,11 +2,35 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Registro</title>
-    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <link rel="stylesheet" th:href="@{/css/register.css}">
 </head>
 <body>
-<div class="home-container">
-    <h2>Bem-vindo à página de registro!</h2>
+<div class="register-container">
+    <div class="register-image-logo-container">
+        <img th:src="@{/images/apc-login-bg.png}" alt="Logo PUC Minas">
+    </div>
+
+    <div class="register-form">
+        <h2 class="register-title">Crie sua conta</h2>
+
+        <form th:action="@{/register}" method="post">
+            <input type="text" name="nome" placeholder="Nome completo" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <input type="text" name="cpf" placeholder="CPF" required>
+            <input type="text" name="rg" placeholder="RG" required>
+            <input type="text" name="endereco" placeholder="Endereço" required>
+            <input type="text" name="instituicao" placeholder="Instituição" required>
+            <input type="password" name="senha" placeholder="Senha" required>
+
+            <div class="register-button-container">
+                <button type="submit">Registrar</button>
+            </div>
+        </form>
+
+        <div class="register-redirect-options">
+            Já possui conta? <a th:href="@{/login}">Faça login</a>
+        </div>
+    </div>
 </div>
 </body>
 </html>
