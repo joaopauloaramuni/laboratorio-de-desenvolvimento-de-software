@@ -111,9 +111,15 @@ A interface gráfica permite ao usuário inserir seus dados de login e, após a 
 
 - **Login**: A página de login possui campos para inserir o nome de usuário e a senha. Ela  também exibe o logo da PUC Minas, proporcionando uma identificação visual clara da instituição. Abaixo do formulário de login, existem links para os usuários que ainda não possuem cadastro, direcionando-os para a página de registro, e para aqueles que esqueceram a senha, levando-os à página de recuperação de senha.
 
-| <img src="https://joaopauloaramuni.github.io/java-imgs/SecureLoginPUC_2/imgs/login.png" alt="Login" width="1000"/> |
+- **Register**: A página de registro permite que novos usuários criem uma conta na plataforma. Ela inclui campos para inserir **nome completo, e-mail, CPF, RG, endereço, instituição e senha**, garantindo que todas as informações necessárias para cadastro sejam coletadas. A lateral exibe o **logo da PUC Minas**, mantendo a identidade visual da instituição. Abaixo do formulário, há um link para os usuários que já possuem conta, direcionando-os de volta para a página de login.
+
+| <img src="https://joaopauloaramuni.github.io/java-imgs/SecureLoginPUC_2/imgs/Login.png" alt="Login" width="1000"/> |
 |:----------------------------------------------------:|
 |                        Login                         |
+
+| <img src="https://joaopauloaramuni.github.io/java-imgs/SecureLoginPUC_2/imgs/Register.png" alt="Register" width="1000"/> |
+|:-------------------------------------------------------:|
+|                        Register                         |
 
 ## Métodos da Classe SecurityConfig
 
