@@ -129,6 +129,71 @@ SELECT * FROM book_entity
 
 ---
 
+## ⚠️ Observação Importante sobre o Banco de Dados
+
+Antes de executar o projeto, certifique-se de que o **PostgreSQL** está **instalado e em execução** na sua máquina.
+Sem o banco ativo, a aplicação **não conseguirá conectar ao banco de dados**.
+
+### ▶️ Como iniciar o PostgreSQL
+
+#### 🪟 **Windows**
+
+* O PostgreSQL geralmente é instalado como um serviço do Windows.
+* Para iniciar manualmente:
+
+  1. Pressione `Win + R`, digite `services.msc` e pressione Enter.
+  2. Localize **PostgreSQL** na lista.
+  3. Clique com o botão direito e selecione **Iniciar**.
+* Alternativamente, use o **pgAdmin** (interface gráfica oficial) e verifique se o servidor está rodando.
+
+#### 🍎 **macOS**
+
+* Se instalado via **Homebrew**, você pode iniciar o serviço com:
+
+  ```bash
+  brew services start postgresql
+  ```
+* Para verificar o status:
+
+  ```bash
+  brew services list
+  ```
+* Para parar o serviço:
+
+  ```bash
+  brew services stop postgresql
+  ```
+
+#### 🐧 **Linux (Ubuntu/Debian)**
+
+* Para iniciar o PostgreSQL:
+
+  ```bash
+  sudo systemctl start postgresql
+  ```
+* Para verificar o status:
+
+  ```bash
+  sudo systemctl status postgresql
+  ```
+* Para habilitar inicialização automática:
+
+  ```bash
+  sudo systemctl enable postgresql
+  ```
+
+---
+
+💡 **Dica:** Após o PostgreSQL estar rodando, você pode confirmar o acesso executando no terminal:
+
+```bash
+psql -U aramuni -d livraria
+```
+
+Se conectar com sucesso, o banco está pronto para uso pela aplicação.
+
+---
+
 ## ▶️ Executando o Projeto
 
 ### ✅ Pré-requisitos
