@@ -213,10 +213,54 @@ A aplicação ficará disponível em:
 
 ## 🧪 Testando a API
 
+### Inserindo um novo livro
+
 Exemplo de requisição `POST` via **cURL**:
 
 ```bash
-curl -X POST http://localhost:8080/books      -H "Content-Type: application/json"      -d '{"title":"Clean Code","author":"Robert C. Martin"}'
+curl -X POST http://localhost:8080/books \
+     -H "Content-Type: application/json" \
+     -d '{"title":"Clean Code","author":"Robert C. Martin"}'
+```
+
+### Listando todos os livros
+
+Exemplo de requisição `GET` via **cURL**:
+
+```bash
+curl -X GET http://localhost:8080/books
+```
+
+#### Exemplo de saída no terminal:
+
+```json
+[
+  {
+    "id": 1,
+    "title": "O Hobbit",
+    "author": "J.R.R. Tolkien"
+  },
+  {
+    "id": 2,
+    "title": "O Senhor dos Anéis",
+    "author": "J.R.R. Tolkien"
+  },
+  {
+    "id": 3,
+    "title": "1984",
+    "author": "George Orwell"
+  },
+  {
+    "id": 4,
+    "title": "A Metamorfose",
+    "author": "Franz Kafka"
+  },
+  {
+    "id": 5,
+    "title": "Clean Code",
+    "author": "Robert C. Martin"
+  }
+]
 ```
 
 ---
