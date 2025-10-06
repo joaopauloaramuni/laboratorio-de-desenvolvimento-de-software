@@ -57,6 +57,48 @@ BD_RestAPI_PostgreSQL/
 
 ---
 
+## 🛠️ Serviços da Aplicação
+
+A camada de **Serviços** (Service Layer) da aplicação encapsula a lógica de negócio e interage com o repositório de dados. No projeto **BD_RestAPI_PostgreSQL**, temos o seguinte serviço:
+
+### BookService
+
+Responsável por gerenciar todas as operações relacionadas à entidade **BookEntity**:
+
+- **getAllBooks()**  
+  Retorna todos os livros cadastrados no banco de dados.
+
+- **obterPorId(Long id)**  
+  Retorna um livro específico pelo ID. Retorna `null` se não encontrado.
+
+- **inserir(BookEntity book)**  
+  Insere um novo livro no banco de dados.
+
+- **atualizar(Long id, BookEntity book)**  
+  Atualiza os dados de um livro existente. Retorna `null` se o livro não existir.
+
+- **excluir(Long id)**  
+  Remove um livro do banco de dados pelo ID.
+
+- **buscarPorTitulo(String titulo)**  
+  Retorna uma lista de livros com o título exato informado.
+
+- **buscarPorAutor(String autor)**  
+  Retorna uma lista de livros escritos pelo autor informado.
+
+- **buscarPorTituloEAutor(String titulo, String autor)**  
+  Retorna uma lista de livros que correspondem tanto ao título quanto ao autor informados.
+
+- **buscarPorTituloQueComecaCom(String prefixo)**  
+  Retorna livros cujo título começa com o prefixo informado.
+
+- **buscarPorTituloQueContem(String contem)**  
+  Retorna livros cujo título contém o texto informado.
+
+💡 **Dica:** Esta camada é útil para centralizar regras de negócio, validações e interações com múltiplos repositórios, mantendo os **controllers** mais limpos e focados em lidar com as requisições HTTP.
+
+---
+
 ## 🧠 Exemplo de Entidade
 
 ```java
