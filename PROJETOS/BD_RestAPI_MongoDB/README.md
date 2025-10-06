@@ -49,7 +49,7 @@ BD_RestAPI_MongoDB/
 | **DELETE** | `/users/{id}`                                | Exclui um usuário                                       |
 |   **GET**  | `/users/buscarPorNome/{nome}`                | Busca usuários por nome exato                           |
 |   **GET**  | `/users/buscarPorEmail/{email}`              | Busca usuários por email                                |
-|   **GET**  | `/users/buscarPorNomeEEmail?nome=X&email=Y`  | Busca por nome e email                                  |
+|   **GET**  | `/users/buscarPorNomeEEmail?nome=X&email=Y` | Busca usuários por nome e email                          |
 |   **GET**  | `/users/buscarPorNomeQueComecaCom/{prefixo}` | Busca usuários cujo nome começa com determinado prefixo |
 |   **GET**  | `/users/buscarPorNomeQueContem/{substring}`  | Busca usuários cujo nome contém determinada substring   |
 
@@ -63,34 +63,34 @@ A camada de **Serviços** (Service Layer) da aplicação encapsula a lógica de 
 
 Responsável por gerenciar todas as operações relacionadas à entidade **UserEntity**:
 
-* **getAllUsers()**
+- **obterTodos()**  
   Retorna todos os usuários cadastrados no banco de dados.
 
-* **obterPorId(String id)**
+- **obterPorId(String id)**  
   Retorna um usuário específico pelo ID. Retorna `null` se não encontrado.
 
-* **inserir(UserEntity user)**
+- **inserir(UserEntity user)**  
   Insere um novo usuário no banco de dados.
 
-* **atualizar(String id, UserEntity user)**
+- **atualizar(String id, UserEntity user)**  
   Atualiza os dados de um usuário existente. Retorna `null` se o usuário não existir.
 
-* **excluir(String id)**
+- **excluir(String id)**  
   Remove um usuário do banco de dados pelo ID.
 
-* **buscarPorNome(String nome)**
+- **buscarPorNome(String nome)**  
   Retorna uma lista de usuários com o nome exato informado.
 
-* **buscarPorEmail(String email)**
+- **buscarPorEmail(String email)**  
   Retorna uma lista de usuários com o email exato informado.
 
-* **buscarPorNomeEEmail(String nome, String email)**
+- **buscarPorNomeEEmail(String nome, String email)**  
   Retorna usuários que correspondem tanto ao nome quanto ao email informados.
 
-* **buscarPorNomeQueComecaCom(String prefixo)**
+- **buscarPorNomeQueComecaCom(String prefixo)**  
   Retorna usuários cujo nome começa com o prefixo informado.
 
-* **buscarPorNomeQueContem(String substring)**
+- **buscarPorNomeQueContem(String substring)**  
   Retorna usuários cujo nome contém a substring informada.
 
 💡 **Dica:** Esta camada centraliza regras de negócio e mantém os **controllers** mais limpos, focados em lidar com as requisições HTTP.
@@ -98,7 +98,6 @@ Responsável por gerenciar todas as operações relacionadas à entidade **UserE
 ---
 
 ## 🧠 Exemplo de Entidade
-
 
 ```java
 @Document(collection = "user")
