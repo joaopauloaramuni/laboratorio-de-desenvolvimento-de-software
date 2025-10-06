@@ -193,7 +193,7 @@ Se receber um status `ok: 1`, o banco está pronto para uso pela aplicação.
 mvn spring-boot:run
 ```
 
-A aplicação ficará disponível em:
+A aplicação ficará disponível em:  
 👉 **http://localhost:8080/users**
 
 ---
