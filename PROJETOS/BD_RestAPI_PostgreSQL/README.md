@@ -1,4 +1,4 @@
-# 📘 BD_RestAPI_PostgreSQL
+# 📘 Projeto BD_RestAPI_PostgreSQL
 
 ## 🧩 Sobre o Projeto
 
