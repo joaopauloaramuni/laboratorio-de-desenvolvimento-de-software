@@ -188,6 +188,6 @@ curl -X POST http://localhost:8080/books      -H "Content-Type: application/json
 
 ## 📜 Licença
 
-Distribuído sob a licença **MIT**. Veja o arquivo `LICENSE` para mais detalhes.
+Este projeto está licenciado sob a Licença **MIT**.
 
 ---
