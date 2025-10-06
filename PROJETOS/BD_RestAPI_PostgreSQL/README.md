@@ -273,7 +273,6 @@ curl -X GET http://localhost:8080/books
 
 ### 🗃️ Spring Data JPA
 - [Documentação Oficial do Spring Data JPA](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/)
-- [JPQL e Métodos de Consulta no Spring Data](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.query-methods.query-creation)
 - [Baeldung: Spring Data JPA Query Methods](https://www.baeldung.com/spring-data-derived-queries)
 
 ### 🐘 PostgreSQL
@@ -284,13 +283,11 @@ curl -X GET http://localhost:8080/books
 ### ⚙️ Maven
 - [Documentação do Maven](https://maven.apache.org/guides/index.html)
 - [Central de Dependências Maven](https://mvnrepository.com/)
-- [Configuração do Plugin Spring Boot Maven](https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/)
 
 ### 🧠 Recursos Extras
 - [Postman – Testando APIs REST](https://www.postman.com/)
 - [JSON Formatter & Validator](https://jsonformatter.curiousconcept.com/)
 - [HTTP Status Codes – Lista Completa](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
-- [Cheat Sheet – Anotações Spring Boot](https://springframework.guru/spring-framework-annotation-cheat-sheet/)
 
 ---
 
