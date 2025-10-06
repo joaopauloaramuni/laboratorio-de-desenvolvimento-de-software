@@ -20,7 +20,7 @@ BD_RestAPI_PostgreSQL/
 │   │   ├── repository/BookRepository.java
 │   │   └── service/BookService.java
 │   └── resources/
-│   │   ├── sql/Script_Livraria.sql
+│       ├── sql/Script_Livraria.sql
 │       └── application.properties
 ├── pom.xml
 └── README.md
