@@ -270,7 +270,6 @@ curl -X GET http://localhost:8080/books
 ### 🧩 Spring Boot
 - [Documentação Oficial do Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/html/)
 - [Guia Rápido – Criando uma API REST com Spring Boot](https://spring.io/guides/gs/rest-service/)
-- [Spring Boot Annotations – Lista Completa](https://www.baeldung.com/spring-annotations)
 
 ### 🗃️ Spring Data JPA
 - [Documentação Oficial do Spring Data JPA](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/)
