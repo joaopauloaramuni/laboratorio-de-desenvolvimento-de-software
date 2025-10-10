@@ -262,6 +262,12 @@ Essas ferramentas são fundamentais para persistência de dados em aplicações 
 ###### 📜 Scripts
 - :octocat: [Banco de Dados - Scripts no GitHub](https://github.com/joaopauloaramuni/banco-de-dados/tree/main/SCRIPTS)
 
+###### 🧩 Modelagem de dados
+- 🗺️ [dbdiagram.io - Criação e visualização de diagramas ER online](https://dbdiagram.io/home)
+- 💡 Permite gerar diagramas a partir de código (DBML, SQL, PostgreSQL, etc.)
+- 🔄 É possível exportar os diagramas para imagens, PDFs ou scripts SQL.
+- 🧰 Excelente para documentar e compartilhar o modelo de dados com equipes de desenvolvimento.
+
 -----
 
 ##### 📊 Observabilidade
