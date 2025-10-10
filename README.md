@@ -235,13 +235,15 @@ Clientes REST permitem enviar requisições HTTP (GET, POST, PUT, DELETE), testa
 ##### 🐳 Docker, Deploy e Cloud ☁️
 
 ###### 🚢 Empacotamento e publicação de aplicações em ambientes em nuvem  
-Ferramentas como Docker, Fly.io, Vercel e Heroku permitem criar ambientes isolados, implantar APIs e serviços em nuvem de forma simples, escalável e muitas vezes gratuita para projetos educacionais.
+Ferramentas como Docker, Fly.io, Vercel, Render, WebDock e Heroku permitem criar ambientes isolados, implantar APIs e serviços em nuvem de forma simples, escalável e muitas vezes gratuita para projetos educacionais.
 
 - 🐳 [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - 🐳 [Docker Hub](https://hub.docker.com/)
 - ☁️ [Fly.io](https://fly.io/)
 - ☁️ [Heroku](https://www.heroku.com/)
 - ☁️ [Vercel](https://vercel.com/)
+- ☁️ [Render](https://render.com/)
+- ☁️ [WebDock](https://webdock.io/en) - O WebDock possui parceria com a PUC Minas!
 
 -----
 
