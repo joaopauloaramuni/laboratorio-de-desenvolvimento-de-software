@@ -245,9 +245,9 @@ Ferramentas como Docker, Fly.io, Vercel, Render, WebDock e Heroku permitem criar
 - ☁️ [Render](https://render.com/)
 - ☁️ [WebDock](https://webdock.io/en)  
   - Oferece acesso via **SFTP com suporte a upload por arrastar e soltar**, facilitando o envio de arquivos diretamente do seu computador.  
-  - Mantém o servidor **ativo mesmo durante períodos de inatividade**, ao contrário de plataformas como o Render, que desligam instâncias ociosas.
+  - Mantém o servidor **ativo mesmo durante períodos de inatividade**, ao contrário de plataformas como o Render, que desligam instâncias ociosas.  
   - O WebDock possui parceria com a PUC Minas!  
-  - Envie um email para: 📧 [rommelcarneiro@pucminas.br](mailto:rommelcarneiro@pucminas.br) solicitando seu acesso.
+    - Envie um email para: 📧 [rommelcarneiro@pucminas.br](mailto:rommelcarneiro@pucminas.br) solicitando seu acesso.
 
 -----
 
