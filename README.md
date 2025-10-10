@@ -243,9 +243,9 @@ Ferramentas como Docker, Fly.io, Vercel, Render, WebDock e Heroku permitem criar
 - ☁️ [Heroku](https://www.heroku.com/)
 - ☁️ [Vercel](https://vercel.com/)
 - ☁️ [Render](https://render.com/)
-- ☁️ [WebDock](https://webdock.io/en)
- - O WebDock possui parceria com a PUC Minas!
- - Envie um email para: 📧 [rommelcarneiro@pucminas.br](mailto:rommelcarneiro@pucminas.br) solicitando seu acesso.
+- ☁️ [WebDock](https://webdock.io/en)  
+  - O WebDock possui parceria com a PUC Minas!  
+  - Envie um email para: 📧 [rommelcarneiro@pucminas.br](mailto:rommelcarneiro@pucminas.br) solicitando seu acesso.
 
 -----
 
