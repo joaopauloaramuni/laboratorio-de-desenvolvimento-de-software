@@ -121,6 +121,8 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - 🎨 [Figma](https://www.figma.com/pt-br/)
 - 🌟 [StarUML](https://staruml.io/)
 - 🧩 [C4 Model – Modelo para visualização de arquitetura de software](https://c4model.com/)
+- 🗺️ [dbdiagram.io - Criação e visualização de diagramas ER online](https://dbdiagram.io/home)
+- 🧱 [BR Modelo Web - Ferramenta brasileira para modelagem de dados](https://www.brmodeloweb.com/lang/pt-br/index.html)
 
 -----
 
