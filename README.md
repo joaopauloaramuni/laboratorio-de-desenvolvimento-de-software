@@ -114,12 +114,12 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 -----
 
 ##### 🛠️ Ferramentas de desenho e diagramas
-- 🖼️ [Draw.io (Diagramas)](https://drawio.com/)
+- 🖼️ [Draw.io - Criação e edição de diagramas online](https://drawio.com/)
 - 🎓 [Astah - Licença gratuita para estudantes](https://astah.net/products/free-student-license/)
 - 📐 [PlantUML - Diagramas UML](https://plantuml.com/)
 - 📖 [PlantUML - Guia oficial](https://plantuml.com/guide)
-- 🎨 [Figma](https://www.figma.com/pt-br/)
-- 🌟 [StarUML](https://staruml.io/)
+- 🎨 [Figma - Design colaborativo de interfaces e protótipos](https://www.figma.com/pt-br/)
+- 🌟 [StarUML - Ferramenta para modelagem UML e design de software](https://staruml.io/)
 - 🧩 [C4 Model – Modelo para visualização de arquitetura de software](https://c4model.com/)
 - 🗺️ [dbdiagram.io - Criação e visualização de diagramas ER online](https://dbdiagram.io/home)
 - 🧱 [BR Modelo Web - Ferramenta brasileira para modelagem de dados](https://www.brmodeloweb.com/lang/pt-br/index.html)
