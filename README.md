@@ -268,9 +268,15 @@ Essas ferramentas são fundamentais para persistência de dados em aplicações 
 
 ###### 🧩 Modelagem de dados
 - 🗺️ [dbdiagram.io - Criação e visualização de diagramas ER online](https://dbdiagram.io/home)
-- 💡 Permite gerar diagramas a partir de código (DBML, SQL, PostgreSQL, etc.)
-- 🔄 É possível exportar os diagramas para imagens, PDFs ou scripts SQL.
-- 🧰 Excelente para documentar e compartilhar o modelo de dados com equipes de desenvolvimento.
+  - 💡 Permite gerar diagramas a partir de código (DBML, SQL, PostgreSQL, etc.)
+  - 🔄 É possível exportar os diagramas para imagens, PDFs ou scripts SQL.
+  - 🧰 Excelente para documentar e compartilhar o modelo de dados com equipes de desenvolvimento.
+
+- 🧱 [BR Modelo Web - Ferramenta brasileira para modelagem de dados](https://www.brmodeloweb.com/lang/pt-br/index.html)
+  - 🇧🇷 Interface em português e totalmente online.
+  - 📘 Permite modelar diagramas Entidade-Relacionamento (ER) com suporte a cardinalidades e atributos compostos.
+  - 💾 Suporte para salvar e exportar modelos, inclusive em formato SQL.
+  - 💻 Código-fonte disponível no GitHub: [brmodeloweb/brmodelo-app](https://github.com/brmodeloweb/brmodelo-app)
 
 -----
 
