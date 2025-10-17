@@ -118,6 +118,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - 🎓 [Astah - Licença gratuita para estudantes](https://astah.net/products/free-student-license/)
 - 📐 [PlantUML - Diagramas UML](https://plantuml.com/)
 - 📖 [PlantUML - Guia oficial](https://plantuml.com/guide)
+- 🧜 [Mermaid - Criação de diagramas a partir de texto Markdown](https://mermaid.js.org/)
 - 🎨 [Figma - Design colaborativo de interfaces e protótipos](https://www.figma.com/pt-br/)
 - 🌟 [StarUML - Ferramenta para modelagem UML e design de software](https://staruml.io/)
 - 🧩 [C4 Model – Modelo para visualização de arquitetura de software](https://c4model.com/)
