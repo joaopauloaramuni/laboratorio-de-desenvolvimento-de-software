@@ -332,14 +332,45 @@ Plataformas como Mercado Pago e Stripe oferecem SDKs para Java que facilitam pag
 
 -----
 
-##### 📞 Comunicação via API
+##### 💬 Integração com WhatsApp e SMS
 
-###### 📲 APIs para envio de mensagens e integração com canais de comunicação  
-O Twilio permite envio de SMS, ligações, mensagens de WhatsApp e muito mais, podendo ser facilmente integrado a backends Java para notificações automatizadas e comunicação em tempo real.
+###### 🔗 Envio e automação de mensagens com Node.js e APIs  
+Existem várias bibliotecas e APIs para integração com mensagens — algumas **oficiais**, oferecidas pela **Meta** (WhatsApp Business Platform) e por parceiros como Twilio, 360Dialog e MessageBird, e outras **não oficiais**, baseadas no WhatsApp Web.  
+Abaixo estão as principais opções, com foco em bots, automação e integração com sistemas Java, Python ou Node.js.
 
-- 🌐 [Twilio - Plataforma de comunicação (SMS, voz, WhatsApp etc.)](https://www.twilio.com/pt-br)  
-- :octocat: [twilio - Repositório oficial no GitHub](https://github.com/twilio)  
-- 📚 [Twilio Docs](https://www.twilio.com/docs)
+###### 🧰 APIs Oficiais (Meta)
+- [WhatsApp Business Cloud API (Meta)](https://developers.facebook.com/docs/whatsapp) — API oficial da Meta para envio de mensagens e integração corporativa.  
+  - [ZapSender - Projeto Exemplo (Python)](https://github.com/joaopauloaramuni/python/tree/main/PROJETOS/Projeto%20ZapSender) —  
+    O **ZapSender** é um script Python (`zapsender.py`) simples, mas funcional, projetado para interagir com a **API de Nuvem do WhatsApp (Meta for Developers)**.  
+    Ele encapsula a lógica necessária para construir o payload JSON e enviar requisições HTTP POST para o endpoint da Meta, permitindo o envio programático de **mensagens pré-aprovadas (Templates)** para números específicos.  
+
+- [Twilio WhatsApp API](https://www.twilio.com/whatsapp) — Plataforma de comunicação com suporte oficial ao WhatsApp, SMS e outros canais.  
+  - :octocat: [twilio - Repositório oficial no GitHub](https://github.com/twilio)  
+  - 📚 [Twilio Docs](https://www.twilio.com/docs)  
+  - [Twilio WhatsApp Messenger - Projeto Exemplo (Java/Spring Boot)](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/tree/main/PROJETOS/TwilioWhatsAppMessenger) —  
+    Este projeto é uma aplicação **Spring Boot** que utiliza a **API do Twilio** para enviar mensagens via WhatsApp.  
+    A aplicação permite o envio de **mensagens simples e lembretes de compromissos** para números de WhatsApp.  
+
+- [360Dialog WhatsApp API](https://www.360dialog.com/) — Parceiro oficial da Meta que oferece acesso à API Business via token.  
+- [MessageBird WhatsApp API](https://www.messagebird.com/en/whatsapp/) — Solução comercial para envio e recebimento de mensagens WhatsApp via REST API.
+
+###### 🧩 Bibliotecas e SDKs (não oficiais)
+- [whatsapp-web.js](https://wwebjs.dev/) — API não oficial para automação do WhatsApp Web.  
+  - [wwebjs - GitHub Repository](https://github.com/pedroslopez/whatsapp-web.js) — Código-fonte e exemplos práticos.  
+  - [whatsapp-web.js Guide (wwebjs.dev)](https://wwebjs.dev/guide/) — Guia passo a passo para iniciar o desenvolvimento.  
+  - [wwebjs.dev - Docs API](https://docs.wwebjs.dev/) — Referência completa da API e dos objetos disponíveis.  
+- [Baileys](https://github.com/WhiskeySockets/Baileys) — Biblioteca JavaScript leve e flexível, usada em bots e integrações com suporte a múltiplas conexões.  
+- [Venom Bot](https://github.com/orkestral/venom) — Framework completo em Node.js para criação de bots, com suporte a mensagens, grupos e QR Code.  
+- [open-wa/wa-automate](https://github.com/open-wa/wa-automate-nodejs) — Biblioteca avançada com suporte a automações complexas e API REST opcional.  
+- [WPPConnect](https://github.com/wppconnect-team/wppconnect) — Projeto brasileiro, com API REST pronta e painel de administração para WhatsApp bots.  
+- [go-whatsapp](https://github.com/Rhymen/go-whatsapp) — Implementação em Go para automação e bots com WhatsApp Web.
+
+###### ⚙️ Recursos comuns
+- Envio e recebimento de mensagens (texto, imagem, áudio, vídeo, PDF, etc.).  
+- Leitura e envio de status, contatos e grupos.  
+- Autenticação por QR Code (não oficiais) ou token (oficiais).  
+- Webhooks para receber mensagens em tempo real.  
+- Integração com bancos de dados, chatbots e APIs externas.  
 
 -----
 
