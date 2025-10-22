@@ -490,6 +490,10 @@ Exemplos de portfólio profissional:
 - :octocat: [Repo Portfólio](https://github.com/gabrielchagas13/gabriel-chagas-lage)
 - :octocat: [GitHub](https://github.com/gabrielchagas13)
 
+###### Guilherme Vieira (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
+- 🌐 [Portfólio](https://guilherme-vieira.vercel.app/)
+- :octocat: [GitHub](https://github.com/GuilhermeVieira05/Portifolio_Lab)
+
 ###### Gabriel Victor (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
 - 🌐 [Portfólio](https://gabrielvictor.web.app/)
 - :octocat: [GitHub](https://github.com/G4BR-13-L)
