@@ -334,7 +334,7 @@ Plataformas como Mercado Pago e Stripe oferecem SDKs para Java que facilitam pag
 
 ##### 💬 Integração com WhatsApp e SMS
 
-###### 🔗 Envio e automação de mensagens com Node.js e APIs  
+###### 🔗 Envio e automação de mensagens via APIs e bibliotecas
 Existem várias bibliotecas e APIs para integração com mensagens — algumas **oficiais**, oferecidas pela **Meta** (WhatsApp Business Platform) e por parceiros como Twilio, 360Dialog e MessageBird, e outras **não oficiais**, baseadas no WhatsApp Web.  
 Abaixo estão as principais opções, com foco em bots, automação e integração com sistemas Java, Python ou Node.js.
 
