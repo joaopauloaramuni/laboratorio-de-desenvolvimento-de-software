@@ -86,7 +86,7 @@ Enviar template via ZapSenderController.
 
 ## 🖼️ Captura de Tela
 
-| <img src="https://joaopauloaramuni.github.io/python-imgs/ZapSender/imgs/Chat.png" alt="ZapSender" width="1000"/> |
+| <img src="https://joaopauloaramuni.github.io/java-imgs/ZapSender/imgs/Chat.png" alt="ZapSender" width="1000"/> |
 |:---------:|
 | ZapSender |
 
