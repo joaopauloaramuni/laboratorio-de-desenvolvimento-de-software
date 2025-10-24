@@ -28,7 +28,7 @@ O objetivo é fornecer uma base **simples**, **segura** e **reproduzível** para
 
 ---
 
-## 💬 Fluxo Interativo: Avaliação da Oficina (WhatsApp + Spring Boot)
+## 💬 Fluxo Interativo: Avaliação da Oficina
 
 O **ZapSender** implementa um bot via **WhatsApp Cloud API**, permitindo avaliar a oficina do DevLabs de forma **interativa** e **flexível**.
 
