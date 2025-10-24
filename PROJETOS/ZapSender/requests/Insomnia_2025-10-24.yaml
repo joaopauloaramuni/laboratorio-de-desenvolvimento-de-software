@@ -1,0 +1,142 @@
+type: collection.insomnia.rest/5.0
+name: Coleção ZapSender
+meta:
+  id: wrk_fec96f97c9054681b07f357c31c0870c
+  created: 1761312815914
+  modified: 1761312827520
+  description: ""
+collection:
+  - name: zapsender
+    meta:
+      id: fld_33cd28a015024d2d8a1f3338f1424676
+      created: 1761314861547
+      modified: 1761314861547
+      sortKey: -1761314861547
+      description: ""
+    children:
+      - url: http://localhost:8080/zapsender/enviar-template?numeroDestino=5531980402103&nomeTemplate=hello_world&codigoIdioma=en_US
+        name: zapsender/enviar-template
+        meta:
+          id: req_c73ce42d3ff440539b8080f4667d4ad7
+          created: 1761312834783
+          modified: 1761318360558
+          isPrivate: false
+          description: ""
+          sortKey: -1761314872758
+        method: POST
+        headers:
+          - name: User-Agent
+            value: insomnia/11.6.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+  - name: webhook
+    meta:
+      id: fld_63f9fcaa6dd44e28b1994c0af56daece
+      created: 1761314867859
+      modified: 1761314867859
+      sortKey: -1761314867859
+      description: ""
+    children:
+      - url: http://localhost:8080/webhook/enviar-template?numeroDestino=5531980402103&nomeTemplate=hello_world&codigoIdioma=en_US
+        name: webhook/enviar-template
+        meta:
+          id: req_58e83420c6df44da9b1cda5b6c2ce0f1
+          created: 1761314563541
+          modified: 1761318356319
+          isPrivate: false
+          description: ""
+          sortKey: -1761314877009
+        method: POST
+        headers:
+          - name: User-Agent
+            value: insomnia/11.6.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:8080/webhook/enviar-texto?numeroDestino=5531980402103&texto=Olá%20Mundo
+        name: webhook/enviar-texto
+        meta:
+          id: req_da68dd1b6e374ba681e8d3e166eb4147
+          created: 1761314882168
+          modified: 1761318352489
+          isPrivate: false
+          description: ""
+          sortKey: -1761314877109
+        method: POST
+        headers:
+          - name: User-Agent
+            value: insomnia/11.6.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:8080/webhook/enviar-botoes?numeroDestino=5531980402103
+        name: webhook/enviar-botoes
+        meta:
+          id: req_32d583cd209c4b7fa15c9143a572a442
+          created: 1761314945445
+          modified: 1761318346961
+          isPrivate: false
+          description: ""
+          sortKey: -1761314877209
+        method: POST
+        headers:
+          - name: User-Agent
+            value: insomnia/11.6.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:8080/webhook?hub.mode=subscribe&hub.verify_token=joaopauloaramuni&hub.challenge=12345
+        name: webhook
+        meta:
+          id: req_aa20d137e5674f7a83b12a787070a12d
+          created: 1761316486405
+          modified: 1761318338018
+          isPrivate: false
+          description: ""
+          sortKey: -1761314877309
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.6.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_decb0362a757218614bb83cb319d6d89a1499e50
+    created: 1761312815916
+    modified: 1761312815916
+environments:
+  name: Base Environment
+  meta:
+    id: env_decb0362a757218614bb83cb319d6d89a1499e50
+    created: 1761312815915
+    modified: 1761312815915
+    isPrivate: false
