@@ -26,7 +26,6 @@ O objetivo é fornecer uma base **simples**, **segura** e **reproduzível** para
 * [🤝 Contribuição](#-contribuição)
 * [🧾 Licença](#-licença)
 
-
 ---
 
 ## 💬 Fluxo Interativo: Avaliação da Oficina (WhatsApp + Spring Boot)
