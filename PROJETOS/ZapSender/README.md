@@ -63,22 +63,22 @@ GET http://localhost:8080/webhook?hub.mode=subscribe&hub.verify_token=joaopauloa
 Verificação do webhook.
 
 ```bash
-GET http://localhost:8080/webhook/enviar-botoes?numeroDestino=5531980402103
+POST http://localhost:8080/webhook/enviar-botoes?numeroDestino=5531980402103
 ```
 Enviar mensagem com botões.
 
 ```bash
-GET http://localhost:8080/webhook/enviar-texto?numeroDestino=5531980402103&texto=Olá%20Mundo
+POST http://localhost:8080/webhook/enviar-texto?numeroDestino=5531980402103&texto=Olá%20Mundo
 ```
 Enviar mensagem de texto.
 
 ```bash
-GET http://localhost:8080/webhook/enviar-template?numeroDestino=5531980402103&nomeTemplate=hello_world&codigoIdioma=en_US
+POST http://localhost:8080/webhook/enviar-template?numeroDestino=5531980402103&nomeTemplate=hello_world&codigoIdioma=en_US
 ```
 Enviar template via Webhook.
 
 ```bash
-GET http://localhost:8080/zapsender/enviar-template?numeroDestino=5531980402103&nomeTemplate=hello_world&codigoIdioma=en_US
+POST http://localhost:8080/zapsender/enviar-template?numeroDestino=5531980402103&nomeTemplate=hello_world&codigoIdioma=en_US
 ```
 Enviar template via ZapSenderController.
 
@@ -124,69 +124,160 @@ ZapSender/
 
 ## 📘 Meta for Developers e a Cloud API
 
-Para usar a **WhatsApp Cloud API**, você precisa:
+### O que é o Meta for Developers?
+É a plataforma oficial da **Meta** que fornece APIs, SDKs e ferramentas para desenvolvedores criarem integrações com produtos como **Facebook**, **Instagram** e **WhatsApp**.
 
-1. Criar um aplicativo no [Meta for Developers](https://developers.facebook.com/).
-2. Adicionar o produto **WhatsApp** ao app.
-3. Obter **Access Token** e **Phone Number ID**.
-4. Configurar o **Webhook** para receber mensagens e eventos.
+Para utilizar a **WhatsApp Cloud API**, é necessário:
+1. Criar um aplicativo dentro do [Meta for Developers](https://developers.facebook.com/).  
+2. Adicionar o **produto WhatsApp** ao seu app.  
+3. Obter um **Access Token** e um **Phone Number ID**.  
+4. (Opcional) Configurar um **Webhook** para receber mensagens e eventos automaticamente.
 
 ---
 
 ## 🚀 Passo a Passo para Criar o App no Meta for Developers
 
-1. Acesse [Meta for Developers](https://developers.facebook.com/apps/) e clique em **Criar aplicativo**.
-2. Escolha o tipo: **Negócios (Business)** ou **Outro (Other)**.
-3. Dê um nome ao aplicativo e finalize.
-4. Vincule a conta comercial para habilitar o WhatsApp.
-5. Configure número de telefone e crie templates.
+Antes de enviar mensagens com a **WhatsApp Cloud API**, é necessário criar um **aplicativo** e vinculá-lo a uma **Conta Comercial (Business Portfolio)**.  
+Esse vínculo habilita o produto **WhatsApp** no seu app e permite gerar as credenciais necessárias (Access Token, ID do telefone e endpoint da API).
+
+### 🧩 1. Criar o aplicativo
+
+1. Acesse o portal [Meta for Developers](https://developers.facebook.com/apps/) e clique em **Criar aplicativo**.
+2. Escolha o tipo de aplicativo:
+   - **Negócios (Business)**: para empresas que enviarão mensagens de forma comercial.
+   - **Outro (Other)**: para testes ou integrações simples.
+3. Dê um **nome ao seu aplicativo** e finalize a criação.
+
+---
+
+### 💼 2. Vincular a Conta Comercial (Business Portfolio)
+
+Para que o produto **WhatsApp** apareça como opção no seu app:
+
+1. Certifique-se de ter uma **Conta Comercial ativa** no [Meta Business](https://business.facebook.com/).
+2. No painel do app, vá em **Configurações > Informações do App**.
+3. Vincule o seu **Business Portfolio** à conta do aplicativo.
+4. Após o vínculo, o produto **WhatsApp** será exibido para integração.
+
+> ⚠️ **Observação:** Sem essa etapa, você não conseguirá adicionar o WhatsApp ao app, nem enviar mensagens via Cloud API.
+
+---
+
+### ✅ 3. Próximos passos
+
+- Adicione o produto **WhatsApp** no painel do seu app.
+- Configure um número de telefone (sandbox ou oficial) para testes.
+- Crie templates de mensagens para poder enviar notificações ou mensagens automatizadas.
 
 ---
 
 ## 📝 Mensagens de Template (Message Templates)
 
-Templates são mensagens pré-aprovadas obrigatórias para iniciar conversas fora da janela de 24h.
+### O que é um Template?
+Templates (ou Modelos de Mensagem) são mensagens pré-aprovadas que devem ser usadas para iniciar conversas ou enviar notificações fora da janela de 24 horas de atendimento.  
+Para usar a Cloud API, a primeira mensagem para um novo contato deve ser um Template, como o `hello_world` usado neste projeto.
 
-1. Acesse [Gerenciador de Templates](https://business.facebook.com/latest/whatsapp_manager/message_templates).
-2. Crie o modelo, selecione categoria, idioma e corpo da mensagem.
-3. Envie para aprovação.
+### Passo a passo para criar um Template
+1.  Acesse o **Gerenciador do WhatsApp** através do link: [Gerenciador de Templates](https://business.facebook.com/latest/whatsapp_manager/message_templates).
+2.  Certifique-se de que está na conta de Negócios correta.
+3.  Clique em **"Criar Modelo de Mensagem"**.
+4.  Defina o **Nome** (ex.: `hello_world`), **Categoria** (ex.: Utilidade) e **Idioma**.
+5.  Crie o corpo da mensagem.
+6.  Envie o template para aprovação (em ambientes de teste, templates básicos são aprovados instantaneamente).
+
+### ⏳ Prazo de Aprovação
+O prazo de aprovação de um novo modelo de mensagem pela **Meta** pode levar **até 24 horas**.  
+Esse tempo é necessário para que a equipe da Meta analise o conteúdo e garanta que o template esteja em conformidade com as **políticas do WhatsApp Business API**.
 
 ---
 
 ## 🌐 Criando e Configurando o Webhook
 
-1. Vá em **Produtos → WhatsApp → Configurações → Webhook**.
-2. Configure:
+O **Webhook** é o mecanismo usado pela Meta para **enviar notificações e mensagens recebidas** para o seu servidor.  
+Quando alguém envia uma mensagem para o seu número do WhatsApp Business, a Meta faz uma requisição `POST` para a **URL de callback** configurada no seu app.
 
-   * **Callback URL**: URL pública do seu servidor Spring Boot (ex.: via ngrok: `https://1234abcd.ngrok.io/webhook`).
-   * **Verify Token**: token de validação (deve coincidir com `zapsender.verify.token` em `application.properties`).
-3. Clique em **Verificar e Salvar**.
-4. Assine o campo `messages` para receber notificações.
+---
 
-Para testes locais, use ngrok:
+### ⚙️ 4. Criar o Webhook no Meta for Developers
 
-###
+1. No painel do seu aplicativo, vá em **Produtos → WhatsApp → Configurações**.  
+2. Na seção **Webhook**, clique em **“Configurar Webhook”**.  
+3. Você verá dois campos:
+   - **Callback URL:** o endereço público do seu servidor que receberá os eventos.  
+     Exemplo (usando ngrok): `https://1234abcd.ngrok.io/webhook`
+   - **Verify Token:** uma senha personalizada que você escolhe (ex.: `joaopauloaramuni`).  
+     Esse token deve **coincidir com o valor da variável `VERIFY_TOKEN`** no arquivo `webhook.py`.
 
-ngrok http 8080
+4. Clique em **Verificar e Salvar**.  
+   O Meta enviará uma requisição `GET` ao seu endpoint `/webhook` com parâmetros de verificação.  
+   Se o seu servidor (`webhook.py`) estiver rodando corretamente, ele retornará o `hub.challenge` e a verificação será concluída com sucesso.
 
-###
+---
 
-Copie a URL gerada e use `/webhook` como callback.
+### 🔔 5. Assinar o Campo “messages”
+
+Após configurar o Webhook:
+
+1. Ainda no painel de **Webhooks**, clique em **“Gerenciar campos”**.  
+2. Marque a opção **`messages`** para que seu servidor receba notificações sempre que novas mensagens forem enviadas ou recebidas.  
+3. Clique em **Salvar alterações**.
+
+> 💡 **Importante:** sem assinar o campo `messages`, o seu endpoint `/webhook` não receberá nenhum evento de mensagem.
+
+---
+
+### 🧪 Testando o Webhook
+
+1. Execute o servidor diretamente com:
+   python webhook.py
+
+2. Configure seu ngrok com o token pessoal (somente na primeira execução):
+   ngrok config add-authtoken SEU_TOKEN_AQUI
+
+3. Inicie o túnel HTTPS para expor a porta local 8080:
+   ngrok http 8080
+
+4. Copie o link HTTPS gerado e adicione **`/webhook`** ao final.  
+   Use esse endereço completo como **Callback URL** no painel da Meta.  
+   Exemplo final: `https://1234abcd.ngrok.io/webhook`
+
+5. Envie uma mensagem para o número de teste configurado.  
+   Você verá o **payload JSON** aparecer no terminal, confirmando que o webhook está recebendo os dados corretamente.
+
+---
+
+### 🔍 Inspect / HTTP
+
+- Acesse `http://127.0.0.1:4040` no navegador para abrir o painel do ngrok.
+
+- Vá na aba **Inspect → HTTP** para visualizar todas as requisições recebidas pelo webhook em tempo real.
+
+- Clique em cada requisição para ver detalhes como:
+  - Headers HTTP
+  - Payload JSON
+  - Resposta do servidor
 
 ---
 
 ## 📝 Explicação do Código Java
 
-* **ZapSenderService**: envia mensagens de template.
-* **WebHookService**: envia mensagens de texto, interativas e processa payloads do webhook.
-* **Controllers** expõem endpoints REST para envio e recebimento.
-* **RestTemplate** é usado para fazer requisições HTTP para a API do WhatsApp.
+* **ZapSenderService**: envia mensagens de *template* via WhatsApp Cloud API.  
+* **WebHookService**: envia mensagens de texto, mensagens interativas com botões e processa payloads recebidos pelo webhook.  
+* **ZapSenderController**: endpoints REST para envio de templates via requisição HTTP.  
+* **WebHookController**: endpoints REST para receber webhooks e enviar mensagens interativas ou de texto.  
+* **ApiConfig**: configura tokens, URLs e outras credenciais da API do WhatsApp.  
+* **RestTemplate** é usado para realizar requisições HTTP à API do WhatsApp.
 
-Fluxo de recebimento:
+### 🔄 Fluxo de Requisições
 
-1. WhatsApp envia `POST` para `/webhook`.
-2. WebHookController recebe o JSON.
-3. WebHookService processa e envia respostas automáticas.
+O fluxo de interação ocorre **por meio de requisições HTTP feitas pelo usuário** (Postman, Insomnia ou navegador):
+
+1. Enviar `POST` para `/webhook/enviar-template` ou `/zapsender/enviar-template` → **ZapSenderService** envia o template desejado.  
+2. Enviar `POST` para `/webhook/enviar-botoes` → **WebHookService** envia mensagem interativa com botões.  
+3. Enviar `POST` para `/webhook/enviar-texto` → **WebHookService** envia mensagem de texto simples.  
+4. Receber notificações via webhook (`POST /webhook`) → **WebHookController** recebe o JSON e **WebHookService** processa e responde conforme necessário.  
+
+> 🔹 Observação: **nenhum envio ocorre automaticamente**. Todas as mensagens são acionadas pelas requisições do usuário.
 
 ---
 
@@ -197,8 +288,7 @@ Fluxo de recebimento:
 * Conta Meta for Developers com WhatsApp Cloud API habilitado
 * Dependências Maven:
 
-###
-
+```pom
 <dependencies>
     <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -209,7 +299,7 @@ Fluxo de recebimento:
         <artifactId>spring-boot-starter</artifactId>
     </dependency>
 </dependencies>
-###
+```
 
 ---
 
@@ -218,19 +308,15 @@ Fluxo de recebimento:
 1. Configure **application.properties** com seus tokens e IDs.
 2. Execute o Spring Boot:
 
-###
-
+```bash
 mvn spring-boot:run
-
-###
+```
 
 3. Para enviar um template:
 
-###
-
+```bash
 curl -X POST '[http://localhost:8080/zapsender/enviar-template?numeroDestino=5531980402103&nomeTemplate=hello_world&codigoIdioma=en_US](http://localhost:8080/zapsender/enviar-template?numeroDestino=5531980402103&nomeTemplate=hello_world&codigoIdioma=en_US)'
-
-###
+```
 
 4. Para testar webhook, exponha a porta 8080 com ngrok e envie mensagens para o número configurado.
 
