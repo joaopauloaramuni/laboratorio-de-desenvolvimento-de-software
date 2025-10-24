@@ -228,20 +228,26 @@ Após configurar o Webhook:
 
 ### 🧪 Testando o Webhook
 
-1. Execute o servidor diretamente com:
-   python webhook.py
+1. Execute o servidor Spring Boot diretamente com:
+   ``bash
+   ./mvnw spring-boot:run
+   ```
 
-2. Configure seu ngrok com o token pessoal (somente na primeira execução):
+3. Configure seu ngrok com o token pessoal (somente na primeira execução):
+   ```bash
    ngrok config add-authtoken SEU_TOKEN_AQUI
+   ```
 
-3. Inicie o túnel HTTPS para expor a porta local 8080:
+5. Inicie o túnel HTTPS para expor a porta local 8080:
+   ```bash
    ngrok http 8080
+   ```
 
-4. Copie o link HTTPS gerado e adicione **`/webhook`** ao final.  
+7. Copie o link HTTPS gerado e adicione **`/webhook`** ao final.  
    Use esse endereço completo como **Callback URL** no painel da Meta.  
    Exemplo final: `https://1234abcd.ngrok.io/webhook`
 
-5. Envie uma mensagem para o número de teste configurado.  
+8. Envie uma mensagem para o número de teste configurado.  
    Você verá o **payload JSON** aparecer no terminal, confirmando que o webhook está recebendo os dados corretamente.
 
 ---
