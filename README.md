@@ -675,6 +675,10 @@ As fontes monoespaçadas e estilizadas desempenham um papel essencial no desenvo
 - [Source Code Pro - Google Fonts](https://fonts.google.com/specimen/Source+Code+Pro)
 - [Source Code Pro - GitHub](https://github.com/adobe-fonts/source-code-pro)
 
+###### Quantico
+
+- [Quantico - Google Fonts](https://fonts.google.com/specimen/Quantico)
+
 -----
 
 ##### 🐳 Docker:
