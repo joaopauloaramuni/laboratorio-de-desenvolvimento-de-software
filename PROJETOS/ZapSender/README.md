@@ -229,7 +229,7 @@ Após configurar o Webhook:
 ### 🧪 Testando o Webhook
 
 1. Execute o servidor Spring Boot diretamente com:
-   ``bash
+   ```bash
    ./mvnw spring-boot:run
    ```
 
