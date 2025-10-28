@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Seleção de Estado e Município</title>
+
+    <!-- CSS externo -->
+    <link th:href="@{/css/style.css}" rel="stylesheet">
+
+    <!-- JavaScript externo -->
+    <script th:src="@{/js/municipios.js}" defer></script>
+</head>
+<body>
+<div class="container">
+    <h2>Selecione Estado e Município</h2>
+
+    <label for="ufSelect">Estado:</label>
+    <select id="ufSelect" onchange="carregarMunicipios()">
+        <option value="">Selecione um estado</option>
+        <th:block th:each="uf : ${ufs}">
+            <option th:value="${uf.sigla}" th:text="${uf.nome}"></option>
+        </th:block>
+    </select>
+
+    <label for="municipioSelect">Município:</label>
+    <select id="municipioSelect">
+        <option value="">Selecione um município</option>
+    </select>
+</div>
+
+<footer>
+    &copy; 2025 Consulta IBGE — Exemplo Spring Boot + Thymeleaf
+</footer>
+</body>
+</html>
