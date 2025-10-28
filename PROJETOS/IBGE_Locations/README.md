@@ -19,6 +19,7 @@ Projeto **Spring Boot** + **Thymeleaf** que permite consultar estados e municíp
 * Listar todos os estados (UFs)
 * Carregar municípios dinamicamente ao selecionar um estado
 * Interface simples e responsiva
+* Consumo da API pública do IBGE: [https://servicodados.ibge.gov.br/api/v1/localidades](https://servicodados.ibge.gov.br/api/v1/localidades)
 
 ---
 
@@ -89,7 +90,23 @@ http://localhost:8080
 
 ---
 
-## 📚 Documentação e Links Úteis
+## 🌐 API IBGE
+
+* **Base URL:** `https://servicodados.ibge.gov.br/api/v1/localidades`
+* **Estados:** `/estados`
+* **Municípios de um estado:** `/estados/{UF}/municipios`
+
+Exemplo de requisição para listar municípios de São Paulo (SP):
+
+```
+https://servicodados.ibge.gov.br/api/v1/localidades/estados/SP/municipios
+```
+
+### 📚 Documentação oficial
+
+* [Documentação da API de Localidades IBGE](https://servicodados.ibge.gov.br/api/docs/localidades#api-Municipios-estadosUFMunicipiosGet)
+
+### 🔗 Links úteis
 
 * [Spring Boot](https://spring.io/projects/spring-boot) 🚀
 * [Thymeleaf](https://www.thymeleaf.org/) 📝
@@ -103,4 +120,3 @@ http://localhost:8080
 Este projeto está sob a **Licença MIT**.
 
 ---
-
