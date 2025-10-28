@@ -23,6 +23,14 @@ Projeto **Spring Boot** + **Thymeleaf** que permite consultar estados e municíp
 
 ---
 
+## 🖼️ Captura de Tela
+
+| <img src="https://joaopauloaramuni.github.io/java-imgs/IBGE_Locations/imgs/home.png" alt="Home" width="1000"/> |
+|:---------:|
+| Home |
+
+---
+
 ## 📦 Dependências Maven
 
 * **spring-boot-starter-web**: Para criar a aplicação web.
