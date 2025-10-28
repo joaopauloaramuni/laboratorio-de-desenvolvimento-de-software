@@ -25,8 +25,8 @@ Projeto **Spring Boot** + **Thymeleaf** que permite consultar estados e municíp
 
 ## 🖼️ Captura de Tela
 
-| ![Home](https://joaopauloaramuni.github.io/java-imgs/IBGE_Locations/imgs/home.png) |
-|:---------------------------------------------:|
+| <img src="https://joaopauloaramuni.github.io/java-imgs/IBGE_Locations/imgs/home.png" alt="Home" width="600"/> | 
+|:---------:| 
 | Home |
 
 ---
