@@ -597,6 +597,9 @@ O Figma é uma das principais ferramentas de design de interfaces e prototipagem
 - [Figma - Community - Sequence Diagram Template 2](https://www.figma.com/community/file/1171538979746250052)
 - [Figma - Community - Sequence Diagram Template 3](https://www.figma.com/community/file/1073197708388837434/sequence-diagram-community)
 
+###### 💬 Figma - Diagramas de Comunicação
+- [Figma - Community - Communication Diagram Template](https://www.figma.com/pt-br/comunidade/file/1421434973050580694/uml-communication-diagram-template-the-conference-room)
+
 ###### 🌐 Figma - APIs e Microserviços
 - [Figma - Community - Template - REST API](https://www.figma.com/community/file/1275291490973723744)
 - [Figma - Community - Template - Microservices](https://www.figma.com/community/file/1289282634966901135)
