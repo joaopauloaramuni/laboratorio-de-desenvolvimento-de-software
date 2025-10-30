@@ -635,6 +635,22 @@ O Figma é uma das principais ferramentas de design de interfaces e prototipagem
 
 -----
 
+##### 💬 Templates e exemplos de Diagramas de Comunicação (UML)
+
+###### 📌 Ferramentas com modelos prontos
+- [Lucid – Communication Diagram Templates](https://lucid.co/templates/uml-communication-diagram)  
+- [Miro – UML Communication Diagram Template](https://miro.com/templates/uml-communication-diagram/)  
+- [Figma – UML Communication Diagram Template (The Conference Room)](https://www.figma.com/pt-br/comunidade/file/1421434973050580694/uml-communication-diagram-template-the-conference-room)  
+
+###### 📖 Tutoriais e guias explicativos
+- [Lucidchart – Tutorial UML Communication Diagram](https://www.lucidchart.com/pages/tutorial/uml-communication-diagram)  
+- [Microsoft Visio – Criar um Diagrama de Comunicação UML](https://support.microsoft.com/en-us/office/create-a-uml-communication-diagram-911956f4-5f19-4a58-97a3-bb14110a5ed1)  
+
+###### 📚 Exemplos de referência
+- [UML Diagrams – Exemplos de Communication Diagram](https://www.uml-diagrams.org/communication-diagrams.html)  
+
+-----
+
 ##### ✍️ Fonts:
 
 ###### 🖋️ Fontes para desenvolvimento e design de portfólios
