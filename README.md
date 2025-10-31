@@ -427,11 +427,16 @@ Relatórios anuais e pesquisas globais ajudam a entender as principais linguagen
 
 -----
 
-##### 🗣️ Apresentação de laboratório:
+#### 🗣️ Apresentação de laboratório:
 
 🧑‍🤝‍🧑 Exemplo de slides para apresentação em grupo:
 
-- 🎤 [Arquitetura e tecnologias do projeto - Visão geral do sistema MeritCoin](https://github.com/joaopedro-braga/student-currency-system/blob/main/docs/project-architecture-and-technologies.pdf)
+- 🎤 [Arquitetura e tecnologias do projeto - Sistema MeritCoin](https://github.com/joaopedro-braga/student-currency-system/blob/main/docs/project-architecture-and-technologies.pdf)
+
+💻 Apresentação utilizando Svelte:
+
+- :octocat: [Arquitetura e tecnologias do projeto - Sistema BNP Coin](https://github.com/brenin35/presentation-bnp-coin)  
+- ☁️ [Apresentação hospedada no Railway](https://presentation-bnp-coin-production.up.railway.app/)
 
 -----
 
