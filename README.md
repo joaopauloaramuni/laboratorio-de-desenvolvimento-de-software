@@ -509,6 +509,11 @@ Exemplos de portfólio profissional:
 - :octocat: [Repo Portfólio](https://github.com/raphael-sena/portfolio)
 - :octocat: [GitHub](https://github.com/raphael-sena/)
 
+###### Victor Gabriel Cruz Pereira (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
+- 🌐 [Portfólio](https://www.victorgabrielcruzpereira.com.br/)
+- :octocat: [Repo Portfólio](https://github.com/Victorgabrielcruz/Portfolio_Lab_Software)
+- :octocat: [GitHub](https://github.com/victorgabrielcruz)
+
 ###### Mateus Nascimento
 - 🌐 [Portfólio](https://archlinux-drab.vercel.app/)
 - :octocat: [GitHub](https://github.com/Mateusnasciment)
