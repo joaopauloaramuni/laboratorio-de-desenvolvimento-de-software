@@ -475,7 +475,7 @@ Exemplos de portfólio profissional:
 - :octocat: [GitHub](https://github.com/bragap)
 
 ###### Davi Mendes (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
-- 🌐 [Portfólio](https://curriculo-davi-mendes.vercel.app/)
+- 🌐 [Portfólio](https://davimendes.vercel.app)
 - 📦 Lib utilizada - VantaJS: [https://www.vantajs.com/](https://www.vantajs.com/)
 - 📖 VantaJS GitHub: [https://github.com/tengbao/vanta](https://github.com/tengbao/vanta)
 - :octocat: [Repo Portfólio](https://github.com/DMendes7/Lab-Projeto-de-Software/tree/main/Projetos/Lab01%20-%20Portfo%CC%81lio%20Profissional/Davi)
