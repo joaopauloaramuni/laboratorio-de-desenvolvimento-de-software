@@ -478,7 +478,7 @@ Traz uma sensação de convivência, leveza e ambiente descontraído — ideal p
 
 ###### 🌟 Sites para baixar vídeos de fundo
 
-- **[Pexels Videos](https://www.pexels.com/videos/)**  
+- [Pexels Videos](https://www.pexels.com/videos/)  
   - Muitos vídeos gratuitos em alta resolução.  
   - Licença livre para uso pessoal e comercial.  
   - Categorias: time-lapse, natureza, pessoas, tecnologia.
