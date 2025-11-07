@@ -479,28 +479,28 @@ Traz uma sensação de convivência, leveza e ambiente descontraído — ideal p
 ###### 🌟 Sites para baixar vídeos de fundo
 
 - **[Pexels Videos](https://www.pexels.com/videos/)**  
-  Muitos vídeos gratuitos em alta resolução.  
-  Licença livre para uso pessoal e comercial.  
-  Categorias: time-lapse, natureza, pessoas, tecnologia.
+  - Muitos vídeos gratuitos em alta resolução.  
+  - Licença livre para uso pessoal e comercial.  
+  - Categorias: time-lapse, natureza, pessoas, tecnologia.
 
 - **[Pixabay Videos](https://pixabay.com/videos/)**  
-  Biblioteca vasta de vídeos gratuitos.  
-  Não é necessário atribuir créditos, mas recomendado.  
-  Bom para fundos de interface, cenários urbanos e animações suaves.
+  - Biblioteca vasta de vídeos gratuitos.  
+  - Não é necessário atribuir créditos, mas recomendado.  
+  - Bom para fundos de interface, cenários urbanos e animações suaves.
 
 - **[Videvo](https://www.videvo.net/)**  
-  Mistura de vídeos gratuitos e premium.  
-  Alguns vídeos exigem atribuição, mas muitos podem ser usados livremente.  
-  Possui loops ideais para telas de fundo.
+  - Mistura de vídeos gratuitos e premium.  
+  - Alguns vídeos exigem atribuição, mas muitos podem ser usados livremente.  
+  - Possui loops ideais para telas de fundo.
 
 - **[Coverr](https://coverr.co/)**  
-  Especializado em vídeos de fundo para sites e aplicativos.  
-  Downloads gratuitos e sem necessidade de atribuição.  
-  Ótimo para vídeos curtos de pessoas, cidades e tecnologia.
+  - Especializado em vídeos de fundo para sites e aplicativos.  
+  - Downloads gratuitos e sem necessidade de atribuição.  
+  - Ótimo para vídeos curtos de pessoas, cidades e tecnologia.
 
 - **[Mixkit](https://mixkit.co/free-stock-video/)**  
-  Vídeos HD gratuitos, incluindo time-lapse, negócios e vida urbana.  
-  Ideais para login screens, banners ou apresentações.
+  - Vídeos HD gratuitos, incluindo time-lapse, negócios e vida urbana.  
+  - Ideais para login screens, banners ou apresentações.
 
 -----
 
