@@ -448,6 +448,9 @@ Relatórios anuais e pesquisas globais ajudam a entender as principais linguagen
 
 📘 Exemplos de README de projeto:
 
+- 🌐 [Tuscan](https://github.com/Berohlfs/BachelorsThesisSoftwareEngineering)
+  - :octocat: [GitHub Bernardo Rohlfs](https://github.com/Berohlfs)
+  - :octocat: [GitHub Eric Jardim](https://github.com/ericgcjardim)
 - 🌐 [Tech Fotebol Clube](https://github.com/ligiabicalho/Tech-Futebol-Clube)
   - :octocat: [GitHub Lígia Bicalho](https://github.com/ligiabicalho)  
 - 🌐 [FeeduP-Mobile](https://github.com/FeedUp-Hub/FeeduP-Mobile)
