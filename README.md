@@ -455,6 +455,18 @@ Relatórios anuais e pesquisas globais ajudam a entender as principais linguagen
 
 -----
 
+##### 🎥 Vídeos de fundo sugeridos:
+
+###### 🌆 Time Lapse - PUC Minas Coração Eucarístico
+
+Um vídeo ideal para ser utilizado como **plano de fundo** na tela de login do *Sistema de Moeda Estudantil* (ou, alternativamente, **AraCoin**, **CampusCoin** ou **PUC Pay**).  
+A animação em *time lapse* mostra o movimento do campus e cria uma ambientação moderna e institucional, substituindo fundos estáticos em branco ou preto, trazendo vida e identidade visual à interface.
+
+- [🎬 Time Lapse - PUC Minas Coração Eucarístico (YouTube)](https://www.youtube.com/watch?v=ZJjwCgvnOTg)
+- [⬇️ Link para download direto do vídeo](https://github.com/user-attachments/assets/a3660d92-86ab-4e76-9194-8c08b188cb52)
+
+-----
+
 ##### 📝 Portfólios:
 
 Exemplos de portfólio profissional:
