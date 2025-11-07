@@ -478,29 +478,29 @@ Traz uma sensação de convivência, leveza e ambiente descontraído — ideal p
 
 ###### 🌟 Sites para baixar vídeos de fundo
 
-1️⃣ **[Pexels Videos](https://www.pexels.com/videos/)**  
-- Muitos vídeos gratuitos em alta resolução.  
-- Licença livre para uso pessoal e comercial.  
-- Categorias: time-lapse, natureza, pessoas, tecnologia.
+- **[Pexels Videos](https://www.pexels.com/videos/)**  
+  Muitos vídeos gratuitos em alta resolução.  
+  Licença livre para uso pessoal e comercial.  
+  Categorias: time-lapse, natureza, pessoas, tecnologia.
 
-2️⃣ **[Pixabay Videos](https://pixabay.com/videos/)**  
-- Biblioteca vasta de vídeos gratuitos.  
-- Não é necessário atribuir créditos, mas recomendado.  
-- Bom para fundos de interface, cenários urbanos e animações suaves.
+- **[Pixabay Videos](https://pixabay.com/videos/)**  
+  Biblioteca vasta de vídeos gratuitos.  
+  Não é necessário atribuir créditos, mas recomendado.  
+  Bom para fundos de interface, cenários urbanos e animações suaves.
 
-3️⃣ **[Videvo](https://www.videvo.net/)**  
-- Mistura de vídeos gratuitos e premium.  
-- Alguns vídeos exigem atribuição, mas muitos podem ser usados livremente.  
-- Possui loops ideais para telas de fundo.
+- **[Videvo](https://www.videvo.net/)**  
+  Mistura de vídeos gratuitos e premium.  
+  Alguns vídeos exigem atribuição, mas muitos podem ser usados livremente.  
+  Possui loops ideais para telas de fundo.
 
-4️⃣ **[Coverr](https://coverr.co/)**  
-- Especializado em vídeos de fundo para sites e aplicativos.  
-- Downloads gratuitos e sem necessidade de atribuição.  
-- Ótimo para vídeos curtos de pessoas, cidades e tecnologia.
+- **[Coverr](https://coverr.co/)**  
+  Especializado em vídeos de fundo para sites e aplicativos.  
+  Downloads gratuitos e sem necessidade de atribuição.  
+  Ótimo para vídeos curtos de pessoas, cidades e tecnologia.
 
-5️⃣ **[Mixkit](https://mixkit.co/free-stock-video/)**  
-- Vídeos HD gratuitos, incluindo time-lapse, negócios e vida urbana.  
-- Ideais para login screens, banners ou apresentações.
+- **[Mixkit](https://mixkit.co/free-stock-video/)**  
+  Vídeos HD gratuitos, incluindo time-lapse, negócios e vida urbana.  
+  Ideais para login screens, banners ou apresentações.
 
 -----
 
