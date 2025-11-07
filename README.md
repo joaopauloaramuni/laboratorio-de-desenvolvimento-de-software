@@ -458,12 +458,23 @@ Relatórios anuais e pesquisas globais ajudam a entender as principais linguagen
 ##### 🎥 Vídeos de fundo sugeridos:
 
 ###### 🌆 Time Lapse - PUC Minas Coração Eucarístico
-
-Um vídeo ideal para ser utilizado como **plano de fundo** na tela de login do *Sistema de Moeda Estudantil* (ou, alternativamente, **AraCoin**, **CampusCoin** ou **PUC Pay**).  
+Um vídeo **acelerado (time lapse)** ideal para ser utilizado como **plano de fundo** na tela de login do *Sistema de Moeda Estudantil* (ou, alternativamente, **AraCoin**, **CampusCoin** ou **PUC Pay**).  
 A animação em *time lapse* mostra o movimento do campus e cria uma ambientação moderna e institucional, substituindo fundos estáticos em branco ou preto, trazendo vida e identidade visual à interface.
 
 - [🎬 Time Lapse - PUC Minas Coração Eucarístico (YouTube)](https://www.youtube.com/watch?v=ZJjwCgvnOTg)
 - [⬇️ Link para download direto do vídeo](https://github.com/user-attachments/assets/a3660d92-86ab-4e76-9194-8c08b188cb52)
+
+###### 🚶‍♂️ **Time Lapse – Pessoas andando na calçada**  
+Um vídeo **acelerado (time lapse)** mostrando o fluxo de pessoas caminhando pela calçada.  
+Transmite movimento e energia, sendo ideal para telas de autenticação ou áreas de espera no sistema.  
+
+- [⬇️ Link para download direto do vídeo](https://github.com/user-attachments/assets/524c4244-691b-4ff4-b2af-bb790a194e37)
+
+###### 🏓 **Pessoas jogando ping pong na praça**  
+Um vídeo **em velocidade normal (tempo real)** mostrando um grupo de estudantes jogando ping pong em uma praça.  
+Traz uma sensação de convivência, leveza e ambiente descontraído — ideal para planos de fundo mais sutis e humanos.  
+
+- [⬇️ Link para download direto do vídeo](https://github.com/user-attachments/assets/cd458d13-2833-4ab0-bb55-d3efc0792ead)
 
 -----
 
