@@ -129,6 +129,8 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - 🧩 [C4 Model – Modelo para visualização de arquitetura de software](https://c4model.com/)
 - 🗺️ [dbdiagram.io - Criação e visualização de diagramas ER online](https://dbdiagram.io/home)
 - 🧱 [BR Modelo Web - Ferramenta brasileira para modelagem de dados](https://www.brmodeloweb.com/lang/pt-br/index.html)
+- 🧮 [DrawDB.app - Modelagem de banco de dados visual e moderna](https://drawdb.app/)
+- ✨ [Eraser.io - Diagramas, documentação técnica e IA para times de engenharia](https://www.eraser.io/)
 
 -----
 
