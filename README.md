@@ -303,7 +303,7 @@ Recharts é uma biblioteca construída sobre D3.js, projetada especificamente pa
 
 - 🌐 [Recharts - Site Oficial](https://recharts.github.io/)
 - :octocat: [Recharts no GitHub](https://github.com/recharts/recharts)
-- 📚 [Documentação completa](https://recharts.org/en-US/api)
+- 📚 [Documentação completa](https://recharts.github.io/en-US/guide/)
 
 ###### 📊 Chart.js — Gráficos Simples e Poderosos  
 Chart.js é uma das bibliotecas mais populares para gráficos em JavaScript. Fácil de usar, leve e com suporte a múltiplos tipos de visualização. Pode ser utilizada com React via wrappers como *react-chartjs-2*.
