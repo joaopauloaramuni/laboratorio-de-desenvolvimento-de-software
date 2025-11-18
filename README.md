@@ -296,6 +296,31 @@ Essas ferramentas são fundamentais para persistência de dados em aplicações 
 
 -----
 
+##### 📊 Visualização de Dados com Bibliotecas JavaScript
+
+###### 📈 Recharts — Gráficos para React  
+Recharts é uma biblioteca construída sobre D3.js, projetada especificamente para aplicações React. Possui componentes reutilizáveis, animações, tooltips e grande flexibilidade para dashboards e visualizações de dados.
+
+- 🌐 [Recharts - Site Oficial](https://recharts.github.io/)
+- :octocat: [Recharts no GitHub](https://github.com/recharts/recharts)
+- 📚 [Documentação completa](https://recharts.org/en-US/api)
+
+###### 📊 Chart.js — Gráficos Simples e Poderosos  
+Chart.js é uma das bibliotecas mais populares para gráficos em JavaScript. Fácil de usar, leve e com suporte a múltiplos tipos de visualização. Pode ser utilizada com React via wrappers como *react-chartjs-2*.
+
+- 🌐 [Chart.js - Site Oficial](https://www.chartjs.org/)
+- :octocat: [Chart.js no GitHub](https://github.com/chartjs/Chart.js)
+- 📚 [Documentação completa](https://www.chartjs.org/docs/latest/)
+
+###### 🗺️ Apache ECharts — Visualizações Avançadas  
+ECharts é uma poderosa biblioteca desenvolvida pela Apache Foundation, com suporte a visualizações complexas como mapas, gráficos interativos, heatmaps e diagramas avançados. Excelente para dashboards profissionais.
+
+- 🌐 [Apache ECharts - Site Oficial](https://echarts.apache.org/)
+- :octocat: [Apache ECharts no GitHub](https://github.com/apache/echarts)
+- 📚 [Documentação completa](https://echarts.apache.org/en/option.html)
+
+-----
+
 ##### 📊 Observabilidade
 
 ###### 📈 Monitoramento de métricas e visualização de desempenho  
