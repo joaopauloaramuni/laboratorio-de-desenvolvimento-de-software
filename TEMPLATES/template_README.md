@@ -15,8 +15,6 @@
   Esse template ajuda estudantes a desenvolverem documentação de qualidade profissional desde os primeiros períodos, promovendo clareza, reprodutibilidade e padronização nos projetos.
   </div>
  </td>
-</tr>
-<tr>
 <td>
  <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Logo do Projeto" width="90px" height="90px"/>
 </td>
@@ -359,6 +357,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 ## 📄 Licença
 
 Este projeto está sob a licença **[MIT License](LICENSE)**.
+
 
 
 
