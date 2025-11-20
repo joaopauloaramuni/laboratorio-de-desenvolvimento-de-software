@@ -8,6 +8,7 @@ Ele reúne as seções essenciais recomendadas pelo **Prof. Dr. João Paulo Aram
 O objetivo deste esqueleto é facilitar a construção de projetos bem documentados, oferecendo um guia completo que inclui boas práticas, instruções de execução, tecnologias utilizadas, arquitetura, estruturas de pastas, testes, links úteis e orientações para colaboração.  
 
 Esse template ajuda estudantes a desenvolverem documentação de qualidade profissional desde os primeiros períodos, promovendo clareza, reprodutibilidade e padronização nos projetos. | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Logo do Projeto" width="120px" height="120px"/> |
+
 | --- | --- |
 
 ## 🚧 Status do Projeto
