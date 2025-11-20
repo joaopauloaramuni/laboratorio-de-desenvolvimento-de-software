@@ -435,9 +435,9 @@ Para melhor visualização, as telas principais estão organizadas lado a lado.
 | Tela | Captura de Tela |
 | :---: | :---: |
 | **Tela Inicial (Home)** | **Tela de Perfil / Settings** |
-| <img src="./caminho/print-mobile-1.png" alt="Tela 1 do Mobile" width="400"> | <img src="./caminho/print-mobile-2.png" alt="Tela 2 do Mobile" width="400"> |
+| <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Tela 1 do Mobile" width="400"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Tela 2 do Mobile" width="400"> |
 | **Tela de Cadastro** | **Tela de Lista / Detalhes** |
-| <img src="./caminho/print-mobile-3.png" alt="Tela 3 do Mobile" width="400"> | <img src="./caminho/print-mobile-4.png" alt="Tela 4 do Mobile" width="400"> |
+| <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Tela 3 do Mobile" width="400"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Tela 4 do Mobile" width="400"> |
 
 ### 🌐 Aplicação Web
 
@@ -565,6 +565,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
