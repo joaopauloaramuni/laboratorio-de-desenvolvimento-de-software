@@ -12,12 +12,11 @@
 </div>
 
 Breve descrição do projeto. **Foque no principal valor/benefício.**  
-Este é um exemplo de **README.md** que serve como um **guia de boas práticas** para projetos de desenvolvimento robustos, feito pelo **Prof. Dr. João Paulo Aramuni**. Ele consolida as seções essenciais, padronização de instalação via Docker Compose e estrutura de pastas multicamadas, otimizando a integração de novos membros e a documentação técnica.
+Este é um exemplo de **README.md** que serve como um **guia de boas práticas** para projetos de desenvolvimento robustos, feito pelo **Prof. Dr. João Paulo Aramuni**.   Ele consolida as seções essenciais, padronização de instalação via Docker Compose e estrutura de pastas multicamadas, otimizando a integração de novos membros e a documentação técnica.
  
 ## 🚧 Status do Projeto
 
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/joaopauloaramuni/joaopauloaramuni/main.yml?branch=main)](https://github.com/joaopauloaramuni/joaopauloaramuni/actions/workflows/main.yml)
-
 [![Test Coverage](https://codecov.io/gh/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/branch/main/graph/badge.svg)](https://codecov.io/gh/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software)
 [![Versão](https://img.shields.io/badge/Versão-v1.0.0-blue)](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/releases)
 [![Licença](https://img.shields.io/github/license/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software)](#licença)
@@ -350,6 +349,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 ## 📄 Licença
 
 Este projeto está sob a licença **[MIT License](LICENSE)**.
+
 
 
 
