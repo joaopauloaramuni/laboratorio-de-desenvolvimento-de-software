@@ -171,21 +171,38 @@ Para melhor visualização e entendimento da estrutura do sistema, os diagramas 
 ### Pré-requisitos
 Certifique-se de que o usuário tenha o ambiente configurado.
 
-- **Node.js:** Versão LTS (v18.x ou superior)
-- **Gerenciador de Pacotes:** npm ou yarn
-- **Docker** (Opcional, se a execução for via containers)
+* **Java JDK:** Versão **17** ou superior (Necessário para o **Back-end Spring Boot**)
+* **Node.js:** Versão LTS (v18.x ou superior) (Necessário para o **Front-end React**)
+* **Gerenciador de Pacotes:** npm ou yarn
+* **Docker** (Opcional, mas **altamente recomendado** para rodar o Banco de Dados)
 
 ---
 
 ### 🔑 Variáveis de Ambiente
-Crie um arquivo `.env` na raiz do projeto, baseado no `.env.example`, e preencha as variáveis:
+
+Crie arquivos `.env` específicos e/ou configure as variáveis de ambiente no seu sistema para cada parte da aplicação.
+
+#### 1. Back-end (Spring Boot) ☕
+
+Configure estas variáveis como **variáveis de ambiente do sistema** ou em um arquivo de configuração do Spring (ex: `application.properties`/`application.yml`).
 
 | Variável | Descrição | Exemplo |
 | :--- | :--- | :--- |
-| `API_URL` | URL do endpoint do Backend. | `http://localhost:3000/api` |
-| `DB_HOST` | Host do banco de dados. | `localhost` ou `db_container` |
-| `DB_USER` | Usuário do banco de dados. | `admin` |
-| `DB_PASS` | Senha do banco de dados. | `senha-segura-123` |
+| `SERVER_PORT` | Porta onde o Back-end será executado. | `8080` |
+| `SPRING_DATASOURCE_URL` | URL de conexão JDBC (PostgreSQL). | `jdbc:postgresql://localhost:5432/meubanco` |
+| `SPRING_DATASOURCE_USERNAME` | Usuário do banco de dados. | `postgres` |
+| `SPRING_DATASOURCE_PASSWORD` | Senha do banco de dados. | `senha-segura-123` |
+| `JWT_SECRET` | Chave secreta para assinatura de tokens (Opcional). | `chave_super_segura_base64` |
+
+#### 2. Front-end (React/Vite) 🟢
+
+Crie um arquivo **`.env`** na raiz da pasta `/frontend` e use o prefixo `VITE_` (ou `REACT_APP_` se estiver usando CRA) para expor as variáveis ao *bundle* da aplicação.
+
+| Variável | Descrição | Exemplo |
+| :--- | :--- | :--- |
+| `VITE_API_URL` | URL base do endpoint do Backend Spring Boot. | `http://localhost:8080/api` |
+| `VITE_EMAILJS_PUBLIC_KEY` | Chave pública para serviços de e-mail (Exemplo). | `sua_public_key_aqui` |
+| `VITE_GOOGLE_MAPS_KEY` | Chave de API para serviços de mapas (Opcional). | `AIzaSy...` |
 
 ---
 
@@ -243,33 +260,40 @@ Para adicionar essas variáveis:
 1.  Acesse a página de Environment Variables do seu projeto no Vercel (ex.: `https://vercel.com/<seu-usuario>/<seu-projeto>/settings/environment-variables`)
 2.  Clique em **"Add"** para adicionar cada variável com o nome e valor correspondente.
 
-Alternativamente, se estiver desenvolvendo localmente, crie um arquivo **`.env.local`** na raiz do seu projeto com o seguinte conteúdo:
+Alternativamente, se estiver desenvolvendo localmente, crie um arquivo **`.env.local`** **DENTRO DA PASTA `frontend`** do seu projeto com o seguinte conteúdo:
 
 ```
+# Variável essencial para conectar ao Back-end Spring Boot rodando localmente (normalmente na porta 8080)
+VITE_API_URL=http://localhost:8080/api
+
+# Variáveis para integrações externas de serviço de e-mail
 VITE_EMAILJS_SERVICE_ID=seu_service_id_aqui
 VITE_EMAILJS_TEMPLATE_ID_FOR_ME=seu_template_id_for_me_aqui
 VITE_EMAILJS_TEMPLATE_ID_FOR_SENDER=seu_template_id_for_sender_aqui
 VITE_EMAILJS_PUBLIC_KEY=sua_public_key_aqui
+
+# Outras chaves de serviço
+VITE_GOOGLE_MAPS_KEY=AIzaSy...
 ```
 
----
+> 💡 **Localização:** Garanta que este arquivo esteja em **`/frontend/.env.local`** para que o **Vite** consiga carregá-lo e disponibilizar as variáveis para o Front-end durante o desenvolvimento.
 
 ### 📦 Instalação de Dependências
 
 Clone o repositório e instale as dependências.
 
-1.  **Clone o Repositório:**
+1.  **Clone o Repositório:**
 
 ```bash
 git clone <URL_DO_SEU_REPOSITÓRIO>
 cd <pasta-do-projeto>
 ```
 
-2.  **Instale as Dependências (Monorepo):**
+2.  **Instale as Dependências (Monorepo):**
 
-Como o projeto está dividido, você precisa instalar as dependências separadamente para o Front-end (React, usando NPM/Yarn) e garantir que o Back-end (Spring Boot, usando Maven/Gradle) tenha suas dependências resolvidas.
+Como o projeto está dividido, você precisa instalar as dependências separadamente para o Front-end (React, usando NPM/Yarn) e garantir que o Back-end (Spring Boot, usando Maven/Gradle Wrapper) tenha suas dependências resolvidas.
 
-#### Front-end (React)
+#### Front-end (React) 🟢
 
 Acesse a pasta do Front-end e instale as dependências do Node.js:
 
@@ -281,22 +305,22 @@ yarn install
 cd .. # Retorna para a raiz
 ```
 
-#### Back-end (Spring Boot)
+#### Back-end (Spring Boot) ☕
 
-O Spring Boot (usando Maven ou Gradle) geralmente baixa as dependências automaticamente quando o projeto é construído ou executado. Para garantir que todas as dependências estejam resolvidas antes de rodar, você pode forçar um *build* limpo.
+O Spring Boot utiliza o **Maven Wrapper** (`./mvnw`) ou **Gradle Wrapper** (`./gradlew`) para gerenciar dependências. Execute o comando de instalação/build limpo antes de rodar.
 
 * **Usando Maven (`pom.xml`):**
-    ```bash
-    cd backend
-    ./mvnw clean install
-    cd ..
-    ```
+    ```bash
+    cd backend
+    ./mvnw clean install
+    cd ..
+    ```
 * **Usando Gradle (`build.gradle`):**
-    ```bash
-    cd backend
-    ./gradlew clean build
-    cd ..
-    ```
+    ```bash
+    cd backend
+    ./gradlew clean build
+    cd ..
+    ```
 
 ---
 
@@ -305,43 +329,62 @@ O Spring Boot (usando Maven ou Gradle) geralmente baixa as dependências automat
 O projeto utiliza **PostgreSQL**. A forma mais fácil de inicializar o banco é via Docker (para execução sem `docker-compose`):
 
 1. **Rode o Container do PostgreSQL:**
-   (Certifique-se que o Docker está em execução)
+   (Certifique-se que o Docker está em execução)
 
-``` bash
-docker run --name minha_db -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=senha-segura-123 -e POSTGRES_DB=nome_do_banco -p 5432:5432 -d postgres:16
+```bash
+docker run --name minha_db -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=senha-segura-123 -e POSTGRES_DB=nome_do_banco -p 5432:5432 -d postgres:16
 ```
 
 2. **Execute as Migrações:**
-   Após subir o container, aplique o schema e as migrações (o comando pode variar dependendo do seu ORM, ex: TypeORM, Sequelize, Prisma).
+   O Back-end **Spring Boot** geralmente gerencia o schema do banco de dados automaticamente no startup (via Hibernate `ddl-auto`) ou utilizando ferramentas como **Flyway** ou **Liquibase**.
 
-``` bash
-npm run db:migrate
-```
+* **Se o Spring Boot gerencia o schema (padrão):** Nenhuma ação manual é necessária, basta rodar o Back-end (veja a próxima seção).
+* **Se usar Flyway/Liquibase via Maven:**
+    ```bash
+    cd backend
+    ./mvnw flyway:migrate
+    # ou
+    ./mvnw liquibase:update
+    ```
 ---
 
 ### Como Executar a Aplicação
-Execute a aplicação em modo de desenvolvimento.
+Execute a aplicação em modo de desenvolvimento em **dois terminais separados**.
 
+#### Terminal 1: Back-end (Spring Boot)
+
+Inicie a API do Spring Boot. Ela tentará se conectar ao banco de dados rodando no Docker.
+
+```bash
+cd backend
+./mvnw spring-boot:run
 ```
-# Executa a aplicação Front-end
+🚀 *O Back-end estará disponível em **http://localhost:8080**.*
+
+#### Terminal 2: Front-end (React/Vite)
+
+Inicie o servidor de desenvolvimento do Front-end.
+
+```bash
+cd frontend
 npm run dev
-# Para o Back-end
-# npm run start:server 
+# ou
+yarn dev
 ```
-A aplicação estará disponível em `http://localhost:<porta>`.
+🎨 *O Front-end estará disponível em **http://localhost:5173** (ou a porta configurada no Vite/CRA).*
 
 ---
 
 #### 🐳 Execução Local Completa com Docker Compose (Incluindo Banco de Dados)
 
-Para uma execução local que inclui o serviço de Back-end, Front-end e o banco de dados **PostgreSQL**, usaremos o **`docker-compose`** para orquestração.
+Para uma execução local que inclui o serviço de Back-end (**Spring Boot**), Front-end (**React**) e o banco de dados **PostgreSQL**, usaremos o **`docker-compose`** para orquestração.
 
 Antes de tudo, certifique-se de que o **Docker Desktop** (no Mac/Windows) ou o **serviço Docker** (em Linux) está em execução.
 
 - **No Mac/Windows**: basta abrir o aplicativo **Docker Desktop**.
 - **No Linux**: rode o comando abaixo para iniciar o serviço:
 
-``` bash
+```bash
 sudo systemctl start docker
 ```
 
@@ -351,13 +394,13 @@ sudo systemctl start docker
 
 1. Acesse a pasta raiz do projeto (onde o arquivo `docker-compose.yml` está localizado):
 
-``` bash
+```bash
 cd /caminho/do/projeto/nome-do-projeto
 ```
 
 2. Suba todos os serviços (Back-end, Front-end e Banco de Dados) definidos no `docker-compose.yml`:
 
-``` bash
+```bash
 docker-compose up --build -d
 ```
 
@@ -365,43 +408,65 @@ docker-compose up --build -d
 
 3. Verifique se os containers estão rodando:
 
-``` bash
+```bash
 docker ps
 ```
 
 4. **Execute as Migrações do Banco de Dados:**
-   Após subir os containers, aplique o schema e/ou as migrações no container do Back-end (o nome do serviço pode variar, ex: `api` ou `backend`).
+   O Back-end **Spring Boot** geralmente gerencia o schema do banco de dados (via Flyway/Liquibase ou Hibernate) na **inicialização do serviço**.
 
-``` bash
-docker exec -it <nome_do_container_backend> npm run db:migrate
-```
+* **Verificação:** Se o serviço de Back-end (`backend` ou `api`) for o responsável pelas migrações, verifique os logs para confirmar se o processo foi concluído.
+    ```bash
+    docker logs <nome_do_container_backend>
+    ```
+* *Atenção:* O comando `npm run db:migrate` é exclusivo para Node.js e **não** deve ser usado.
 
 5. Abra no navegador:
-   O Front-end deve estar acessível na porta configurada no `docker-compose` (Exemplo: <http://localhost:3000>)
+   O Front-end deve estar acessível na porta configurada no `docker-compose` (Exemplo: <http://localhost:3000> ou <http://localhost:5173>)
 
 6. Para parar e remover todos os containers, redes e volumes (exceto volumes nomeados):
 
-``` bash
+```bash
 docker-compose down
 ```
 
-✅ **Em resumo:** Usar `docker-compose` simplifica a execução do ambiente completo, isolando dependências e garantindo que o PostgreSQL esteja disponível e configurado corretamente para o Back-end.
+✅ **Em resumo:** Usar **`docker-compose`** simplifica a execução do ambiente completo, isolando as dependências de **Java (Spring Boot)** e **Node.js (React)** e garantindo que o PostgreSQL esteja disponível.
 
 ---
 
 ## 🚀 Deploy
 Instruções claras para deploy em produção.
 
-1.  **Build do Projeto:**
-    ```
-    npm run build
-    ```
-2.  **Configuração do Ambiente de Produção:** Defina as variáveis de ambiente no seu provedor (e.g., Vercel, Heroku, DigitalOcean).
-3.  **Execução em Produção:**
-    ```
-    # Exemplo para Node.js
-    npm run start
-    ```
+1.  **Build do Projeto:**
+    Execute o build separadamente para os dois artefatos (JAR para o Back-end e arquivos estáticos para o Front-end).
+
+```bash
+# 1. Build do Front-end (React/Vite) - Gera a pasta /dist com arquivos estáticos
+cd frontend
+npm run build
+
+# 2. Build do Back-end (Spring Boot/Maven) - Gera o arquivo .jar executável em /target
+cd ../backend
+./mvnw clean package
+```
+
+2.  **Configuração do Ambiente de Produção:** Defina as variáveis de ambiente no seu provedor (e.g., Vercel, Railway, Heroku, DigitalOcean).
+
+> 🔑 **Variáveis Cruciais:** Certifique-se de configurar as variáveis de **conexão com o banco de dados** (`SPRING_DATASOURCE_URL`, etc.) para o Back-end e a **URL da API de produção** (`VITE_API_URL`) para o Front-end.
+
+3.  **Execução em Produção:**
+    A forma de execução depende do seu provedor, mas geralmente envolve o seguinte:
+
+```bash
+# ☕ Execução do Back-end Spring Boot (Java JAR)
+# Este comando inicia a API usando o artefato JAR gerado.
+java -jar backend/target/nome-do-do-projeto-0.0.1-SNAPSHOT.jar
+
+# 🟢 Execução do Front-end React
+# O Front-end (arquivos estáticos) não é executado via Node, mas servido por um servidor web.
+# Exemplo de servidor de arquivos estáticos (usando Nginx, Vercel, Netlify, etc.)
+# Serve files from the /frontend/dist folder
+```
 
 ---
 
@@ -594,10 +659,20 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 
 ---
 
+## 🙏 Agradecimentos (Acknowledgements)
+Em ambiente acadêmico, citar fontes e inspirações é crucial (integridade acadêmica). Em ambiente profissional, mostra humildade e conexão com a comunidade.
+
+Gostaria de agradecer aos seguintes recursos e pessoas que foram fundamentais para o desenvolvimento deste projeto:
+
+* [Prof. Dr. João Paulo Aramuni](https://github.com/joaopauloaramuni) - Pela mentoria e guia de boas práticas.
+* [Shields.io](https://shields.io/) - Pelos badges utilizados no README.
+* [Undraw](https://undraw.co/) - Pelas ilustrações utilizadas no design.
+* [React Icons](https://react-icons.github.io/react-icons/) - Pelos ícones da aplicação web.
+
+---
+
 ## 📄 Licença
 
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
-
-
