@@ -381,31 +381,42 @@ Instruções claras para deploy em produção.
 Descreva o propósito das pastas principais.
 
 ```
-├── /front-end                  # Aplicação React
-│   ├── /public                 # Arquivos estáticos (favicon, imagens, etc.)
-│   ├── /src                    # Código-fonte do front-end
-│   │   ├── /components         # Componentes reutilizáveis (UI)
-│   │   ├── /pages              # Páginas ou rotas da aplicação
-│   │   ├── /services           # Chamadas a APIs e lógica de consumo
-│   │   └── /utils              # Funções utilitárias e helpers
-│   └── package.json             # Dependências e scripts do React
+.
+├── .gitignore                   # Arquivo de ignorar arquivos e pastas não versionadas (Node, Maven, IDEs)
+├── README.md                    # Este arquivo de documentação
+├── CONTRIBUTING.md              # Guia de contribuição (para Pull Requests)
+├── LICENSE                      # Arquivo de Licença do Projeto
+├── docker-compose.yml           # Orquestração de containers (Back-end, Front-end, Banco de Dados)
 │
-├── /back-end                    # Aplicação Spring Boot
-│   ├── /src/main/java           # Código-fonte Java
-│   │   ├── /com/exemplo/app
-│   │   │   ├── /controller      # Camada de controle / endpoints
-│   │   │   ├── /service         # Lógica de negócio
-│   │   │   ├── /repository      # Acesso a dados (CRUD com DB)
-│   │   │   ├── /model           # Entidades ou Models do JPA
-│   │   │   ├── /dto             # Objetos de transferência de dados
-│   │   │   └── /config          # Configurações (DB, segurança, etc.)
-│   │
-│   ├── /src/main/resources      # Recursos do Spring (application.yml, static, templates)
-│   └── pom.xml                  # Dependências e build do Maven
+├── /frontend                    # Aplicação React
+│   ├── .env.example             # Exemplo de variáveis de ambiente para o Front-end
+│   ├── Dockerfile               # Arquivo para construir a imagem Docker do Front-end
+│   ├── /public                  # Arquivos estáticos (favicon, imagens, etc.)
+│   ├── /src                     # Código-fonte do front-end
+│   │   ├── /components          # Componentes reutilizáveis (UI)
+│   │   ├── /pages               # Páginas ou rotas da aplicação
+│   │   ├── /services            # Chamadas a APIs e lógica de consumo
+│   │   └── /utils               # Funções utilitárias e helpers
+│   ├── package.json             # Dependências e scripts do React
+│   └── yarn.lock / package-lock.json # Arquivo de lock de dependências
 │
-├── /tests                       # Testes unitários e de integração
-├── /docs                        # Documentação, diagramas e guias
-└── docker-compose.yml           # Orquestração de containers
+├── /backend                     # Aplicação Spring Boot
+│   ├── .env.example             # Exemplo de variáveis de ambiente para o Back-end
+│   ├── Dockerfile               # Arquivo para construir a imagem Docker do Back-end
+│   ├── /src/main/java           # Código-fonte Java
+│   │   ├── /com/exemplo/app
+│   │   │   ├── /controller      # Camada de controle / endpoints REST
+│   │   │   ├── /service         # Lógica de negócio e regras de domínio
+│   │   │   ├── /repository      # Acesso a dados (CRUD com DB - JPA/Hibernate)
+│   │   │   ├── /model           # Entidades ou Models do JPA
+│   │   │   ├── /dto             # Objetos de transferência de dados
+│   │   │   └── /config          # Configurações (DB, segurança, CORS, etc.)
+│   ├── /src/main/resources      # Recursos do Spring (application.yml, static, templates)
+│   ├── /src/test/java           # Código-fonte para testes unitários e de integração
+│   └── pom.xml / build.gradle   # Dependências e build (Maven ou Gradle)
+│
+├── /docs                        # Documentação, diagramas, guias e Swagger/OpenAPI
+└── /tests                       # Testes End-to-End (E2E) com Cypress/Playwright
 ```
 
 ---
@@ -554,5 +565,6 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
