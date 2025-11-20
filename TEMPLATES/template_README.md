@@ -1,10 +1,15 @@
 # 🏷️ Nome do Projeto ✨
 
+<div>
+<table align="right">
+<tr>
+ <td align="center" colspan="1">Logo do projeto</td>
+</tr> 
+<tr>
+<td><img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Logo do Projeto" width="150"/>/td>
+</tr>
+</table>
 Breve descrição do projeto. **Foque no principal valor/benefício.**
-
-<p align="center">
-  <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Logo do Projeto" width="150"/>
-</p>
 
 ## 🚧 Status do Projeto
 
@@ -334,6 +339,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 ## 📄 Licença
 
 Este projeto está sob a licença **[MIT License](LICENSE)**.
+
 
 
 
