@@ -49,7 +49,7 @@
 - [Instalação e Execução](#-instalação-e-execução)
   - [Pré-requisitos](#pré-requisitos)
   - [Variáveis de Ambiente](#-variáveis-de-ambiente)
-  - [Instalação de Dependências](#instalação-de-dependências)
+  - [Instalação de Dependências](#-instalação-de-dependências)
   - [Inicialização do Banco de Dados (PostgreSQL)](#-inicialização-do-banco-de-dados-postgresql)
   - [Como Executar a Aplicação](#como-executar-a-aplicação)
     - [Execução Local Completa com Docker Compose (Incluindo Banco de Dados)](#-execução-local-completa-com-docker-compose-incluindo-banco-de-dados)
@@ -222,6 +222,52 @@ VITE_EMAILJS_TEMPLATE_ID_FOR_ME=seu_template_id_for_me_aqui
 VITE_EMAILJS_TEMPLATE_ID_FOR_SENDER=seu_template_id_for_sender_aqui
 VITE_EMAILJS_PUBLIC_KEY=sua_public_key_aqui
 ```
+
+---
+
+### 📦 Instalação de Dependências
+
+Clone o repositório e instale as dependências.
+
+1.  **Clone o Repositório:**
+
+```bash
+git clone <URL_DO_SEU_REPOSITÓRIO>
+cd <pasta-do-projeto>
+```
+
+2.  **Instale as Dependências (Monorepo):**
+
+Como o projeto está dividido, você precisa instalar as dependências separadamente para o Front-end (React, usando NPM/Yarn) e garantir que o Back-end (Spring Boot, usando Maven/Gradle) tenha suas dependências resolvidas.
+
+#### **Front-end (React)** 💻
+
+Acesse a pasta do Front-end e instale as dependências do Node.js:
+
+```bash
+cd frontend
+npm install
+# ou
+yarn install
+cd .. # Retorna para a raiz
+```
+
+#### **Back-end (Spring Boot - Java)** ☕
+
+O Spring Boot (usando Maven ou Gradle) geralmente baixa as dependências automaticamente quando o projeto é construído ou executado. Para garantir que todas as dependências estejam resolvidas antes de rodar, você pode forçar um *build* limpo.
+
+* **Usando Maven (`pom.xml`):**
+    ```bash
+    cd backend
+    ./mvnw clean install
+    cd ..
+    ```
+* **Usando Gradle (`build.gradle`):**
+    ```bash
+    cd backend
+    ./gradlew clean build
+    cd ..
+    ```
 
 ---
 
@@ -498,3 +544,4 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
