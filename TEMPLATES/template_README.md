@@ -647,8 +647,8 @@ Liste aqui links para documentação técnica, referências de bibliotecas compl
 ## 👥 Autores
 Liste os principais contribuidores. Você pode usar links para seus perfis.
 
-- **Nome 1** - :octocat: [@github-user1](https://github.com/github-user1)
-- **Nome 2** - :octocat: [@github-user2](https://github.com/github-user2)
+- **Nome 1** - :octocat: [@github-user1](https://github.com/github-user1) | 🔗 [LinkedIn](<Link do LinkedIn do Autor 1>)
+- **Nome 2** - :octocat: [@github-user2](https://github.com/github-user2) | 🔗 [LinkedIn](<Link do LinkedIn do Autor 2>)
 
 ---
 
@@ -683,3 +683,4 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
