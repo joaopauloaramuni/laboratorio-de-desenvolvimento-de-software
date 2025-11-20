@@ -1,5 +1,7 @@
 # 🏷️ Nome do Projeto ✨
 
+Breve descrição do projeto. **Foque no principal valor/benefício.**
+
 <p align="center">
   <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Logo do Projeto" width="150"/>
 </p>
@@ -10,8 +12,6 @@
 [![Test Coverage](https://codecov.io/gh/<usuário>/<repositório>/branch/main/graph/badge.svg)](https://codecov.io/gh/<usuário>/<repositório>)
 [![Versão](https://img.shields.io/badge/Versão-v1.0.0-blue)](https://github.com/<usuário>/<repositório>/releases)
 [![Licença](https://img.shields.io/github/license/<usuário>/<repositório>)](#licença)
-
-Breve descrição do projeto. **Foque no principal valor/benefício.**
 
 ---
 
@@ -334,5 +334,6 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 ## 📄 Licença
 
 Este projeto está sob a licença **[MIT License](LICENSE)**.
+
 
 
