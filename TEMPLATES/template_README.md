@@ -34,8 +34,8 @@
 ## 🔗 Links Úteis
 * 🌐 **Demo Online:** [Acesse a Aplicação Web](<link-da-demo-web>)
   > 💻 **Descrição:** Link para a aplicação em ambiente de produção (Ex: hospedado na Vercel, Netlify ou AWS S3).
-* 📱 **Download Mobile:** [App Store](<link-app-store>) | [Google Play](<link-google-play>)
-  > 📱 **Descrição:** Links diretos para download nas lojas de aplicativos (se aplicável).
+* 📱 **Download Mobile:** [App Store](<link-app-store>) | [Google Play](<link-google-play>) | [APK Direto](<link-para-apk-direto>)
+  > 📱 **Descrição:** Links diretos para download nas lojas de aplicativos (se aplicável) e para o arquivo de instalação direta no Android (APK).
 * 📖 **Documentação:** [Leia a Wiki/Docs](<link-para-docs>)
   > 📚 **Descrição:** Acesso à documentação técnica completa do projeto (Ex: Swagger/OpenAPI para API, ou Wiki interna).
 
@@ -160,14 +160,14 @@ Crie um arquivo `.env` na raiz do projeto, baseado no `.env.example`, e preencha
 
 ---
 
-### 🔧 Exemplos de Variáveis de Ambiente na Vercel
+#### 🔧 Exemplos de Variáveis de Ambiente na Vercel
 
 A Vercel permite configurar variáveis no painel (Project Settings > Environment Variables).
 Aqui estão exemplos comuns utilizadas em aplicações front-end e full-stack:
 
 ---
 
-#### **Exemplo 1 – Front-end com Next.js usando API externa**
+##### **Exemplo 1 – Front-end com Next.js usando API externa**
 
 ```
 NEXT_PUBLIC_API_URL=https://meu-backend.vercel.app/api
@@ -176,7 +176,7 @@ NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=G-XXXXXXX
 
 ---
 
-#### **Exemplo 2 – Aplicação Full-stack (Next.js + Prisma + PostgreSQL)**
+##### **Exemplo 2 – Aplicação Full-stack (Next.js + Prisma + PostgreSQL)**
 
 ```
 DATABASE_URL=postgresql://admin:senha-super-segura@ep-meu-banco.aws.neon.tech:5432/verceldb
@@ -186,7 +186,7 @@ NEXTAUTH_URL=https://meu-sistema.vercel.app
 
 ---
 
-#### **Exemplo 3 – Integração com APIs externas**
+##### **Exemplo 3 – Integração com APIs externas**
 
 ```
 STRIPE_SECRET_KEY=sk_live_XXXXXXXXXXXXXXXXXXXX
@@ -196,18 +196,18 @@ SENDGRID_API_KEY=SG.XXXXXXXXXXXXXXXXXXX
 
 ---
 
-#### **Exemplo 4 – Frontend com Vite (EmailJS)**
+##### **Exemplo 4 – Frontend com Vite (EmailJS)**
 
-No Vercel, crie as seguintes variáveis de ambiente:
-
-| Variável Vercel | Descrição |
-| :--- | :--- |
-| `VITE_EMAILJS_SERVICE_ID` | Seu Service ID |
-| `VITE_EMAILJS_TEMPLATE_ID_FOR_ME` | Seu Template ID para o recebedor |
-| `VITE_EMAILJS_TEMPLATE_ID_FOR_SENDER` | Seu Template ID para o remetente |
-| `VITE_EMAILJS_PUBLIC_KEY` | Sua Public Key |
+```
+VITE_EMAILJS_SERVICE_ID=service_XXXXXXXXXXXXXXXXXXXXX
+VITE_EMAILJS_TEMPLATE_ID_FOR_ME=template_XXXXXXXXXXXXXXXXXXXXX
+VITE_EMAILJS_TEMPLATE_ID_FOR_SENDER=template_XXXXXXXXXXXXXXXXXXXXX
+VITE_EMAILJS_PUBLIC_KEY=public_key_XXXXXXXXXXXXXXXXXXXXX
+```
 
 > **Obs:** As variáveis de ambiente em projetos **Vite** precisam começar com `VITE_` para que o Vite as reconheça e as inclua no *bundle* do frontend; variáveis sem esse prefixo não ficam disponíveis no código do cliente.
+
+---
 
 Para adicionar essas variáveis:
 
@@ -358,12 +358,6 @@ Descreva o propósito das pastas principais.
 
 Use GIFs e prints para mostrar o projeto em ação.
 
----
-
-## 🎥 Demonstração
-
-Use GIFs e prints para mostrar o projeto em ação.
-
 ### 📱 Aplicativo Mobile
 
 - GIF de demonstração (exemplo de fluxo de usuário):  
@@ -378,7 +372,6 @@ Para melhor visualização, as telas principais estão organizadas lado a lado.
 | **Tela de Cadastro** | **Tela de Lista / Detalhes** |
 | <img src="./caminho/print-mobile-3.png" alt="Tela 3 do Mobile" width="400"> | <img src="./caminho/print-mobile-4.png" alt="Tela 4 do Mobile" width="400"> |
 
-
 ### 🌐 Aplicação Web
 
 Para melhor visualização, as telas principais estão organizadas lado a lado.
@@ -391,6 +384,61 @@ Para melhor visualização, as telas principais estão organizadas lado a lado.
 | <img src="./caminho/print-web-cadastro-cliente.png" alt="Tela de Cadastro de Clientes" width="400"> | <img src="./caminho/print-web-cadastro-produto.png" alt="Tela de Cadastro de Produtos" width="400"> |
 | **Dashboard (Visão Geral)** | **Página Admin / Configurações** |
 | <img src="./caminho/print-web-dashboard.png" alt="Tela de Dashboard" width="400"> | <img src="./caminho/print-web-admin.png" alt="Tela Administrativa" width="400"> |
+
+### 🖥️ Exemplo de saída no Terminal (Para Back-end/API/CLI)
+
+Caso o projeto seja focado em serviços de Back-end (API, microserviço, CLI), utilize esta seção para demonstrar a interação com o sistema e a resposta esperada.
+
+#### 1. Demonstração da API (Exemplo com cURL)
+
+Mostra uma chamada simples para um endpoint da API (ex: GET de listagem).
+
+```bash
+# Chama o endpoint de listagem de usuários com o token de autenticação
+curl -X GET 'http://localhost:3000/api/v1/users' \
+     -H 'Authorization: Bearer <seu-jwt-token>'
+```
+
+**Saída Esperada:**
+```json
+{
+  "total": 2,
+  "users": [
+    {
+      "id": "1a2b3c",
+      "name": "Prof. Aramuni",
+      "email": "contato@exemplo.com",
+      "status": "active"
+    },
+    {
+      "id": "4d5e6f",
+      "name": "Colaborador Teste",
+      "email": "teste@exemplo.com",
+      "status": "inactive"
+    }
+  ]
+}
+```
+
+---
+
+#### 2. Demonstração de Execução de CLI/Script
+
+Mostra como executar uma ferramenta de linha de comando ou um script de manutenção do projeto (ex: rodar migrações ou um job agendado).
+
+```bash
+# Executa a ferramenta de validação de Schema
+npm run cli validate:schema --target=production
+```
+
+**Saída Esperada:**
+```text
+[INFO] Iniciando validação do banco de dados...
+[SUCCESS] 15/15 tabelas verificadas.
+[WARNING] Coluna 'descricao' na tabela 'produtos' é nullable.
+[SUCCESS] Validação concluída. Nenhum erro crítico encontrado.
+Tempo de execução: 1.25s
+```
 
 ---
 
@@ -450,11 +498,3 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
-
-
-
-
-
-
-
-
