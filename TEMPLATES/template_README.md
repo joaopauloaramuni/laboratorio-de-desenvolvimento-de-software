@@ -18,7 +18,7 @@ Este é um exemplo de **README.md estruturado**, criado para servir como um **mo
 </td>
 <td>
 <div>
-<img alt="SVG" src="https://joaopauloaramuni.github.io/image/dev1b.svg?raw=true" width="340px" height="650px" />
+<img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Logo do Projeto" width="240px" height="240px"/>
 </div>
 </td>
 </tr>
@@ -362,6 +362,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 ## 📄 Licença
 
 Este projeto está sob a licença **[MIT License](LICENSE)**.
+
 
 
 
