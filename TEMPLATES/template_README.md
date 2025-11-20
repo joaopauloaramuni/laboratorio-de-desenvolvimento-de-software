@@ -3,10 +3,10 @@
 <div>
 <table align="right">
 <tr>
- <td align="center" colspan="1">Logo do projeto</td>
+ <td align="center" colspan="1">Logo</td>
 </tr> 
 <tr>
-<td><img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Logo do Projeto" width="70px" height="70px"/></td>
+<td><img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Logo do Projeto" width="90px" height="90px"/></td>
 </tr>
 </table>
 Breve descrição do projeto. **Foque no principal valor/benefício.**  
@@ -344,6 +344,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 ## 📄 Licença
 
 Este projeto está sob a licença **[MIT License](LICENSE)**.
+
 
 
 
