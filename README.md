@@ -481,7 +481,11 @@ Relatórios anuais e pesquisas globais ajudam a entender as principais linguagen
 
 ##### 📄 README de projeto:
 
-📘 Exemplos de README de projeto:
+###### 📕 Template de README de projeto:
+
+- :octocat: [Template de README](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/TEMPLATES/template_README.md)
+
+###### 📘 Exemplos de README de projeto:
 
 - 🌐 [Tuscan](https://github.com/Berohlfs/BachelorsThesisSoftwareEngineering)
   - :octocat: [GitHub Bernardo Rohlfs](https://github.com/Berohlfs)
