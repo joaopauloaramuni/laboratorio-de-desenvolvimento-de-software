@@ -7,14 +7,24 @@ Breve descrição do projeto. **Foque no principal valor/benefício.**
 | <div align="justify">Este é um exemplo de **README.md estruturado**, criado para servir como um **modelo acadêmico e profissional** que os estudantes podem utilizar em seus projetos de desenvolvimento. Ele reúne as seções essenciais recomendadas pelo **Prof. Dr. João Paulo Aramuni**, permitindo organização clara, documentação eficiente e padronização entre diferentes trabalhos. O objetivo deste esqueleto é facilitar a construção de projetos bem documentados, oferecendo um guia completo que inclui boas práticas, instruções de execução, tecnologias utilizadas, arquitetura, estruturas de pastas, testes, links úteis e orientações para colaboração. Esse template ajuda estudantes a desenvolverem documentação de qualidade profissional desde os primeiros períodos, promovendo clareza, reprodutibilidade e padronização nos projetos.</div> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Logo do Projeto" width="240px" height="240px"/> |
 
 <table>
-  <tr>
-    <td>
-      <div align="justify">Este é um exemplo de **README.md estruturado**, criado para servir como um **modelo acadêmico e profissional** que os estudantes podem utilizar em seus projetos de desenvolvimento. Ele reúne as seções essenciais recomendadas pelo **Prof. Dr. João Paulo Aramuni**, permitindo organização clara, documentação eficiente e padronização entre diferentes trabalhos. O objetivo deste esqueleto é facilitar a construção de projetos bem documentados, oferecendo um guia completo que inclui boas práticas, instruções de execução, tecnologias utilizadas, arquitetura, estruturas de pastas, testes, links úteis e orientações para colaboração. Esse template ajuda estudantes a desenvolverem documentação de qualidade profissional desde os primeiros períodos, promovendo clareza, reprodutibilidade e padronização nos projetos.</div> 
-    </td>
-    <td>
-      <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Logo do Projeto" width="280px" height="280px"/> 
-    </td>
-  </tr>
+<tr>
+ <td align="center" colspan="2"></td>
+</tr> 
+<tr>
+<td width="500px" >
+<div align="justify">
+Este é um exemplo de **README.md estruturado**, criado para servir como um **modelo acadêmico e profissional** que os estudantes podem utilizar em seus projetos de desenvolvimento. Ele reúne as seções essenciais recomendadas pelo **Prof. Dr. João Paulo Aramuni**, permitindo organização clara, documentação eficiente e padronização entre diferentes trabalhos. O objetivo deste esqueleto é facilitar a construção de projetos bem documentados, oferecendo um guia completo que inclui boas práticas, instruções de execução, tecnologias utilizadas, arquitetura, estruturas de pastas, testes, links úteis e orientações para colaboração. Esse template ajuda estudantes a desenvolverem documentação de qualidade profissional desde os primeiros períodos, promovendo clareza, reprodutibilidade e padronização nos projetos.
+</div>
+</td>
+<td>
+<div>
+<img alt="SVG" src="https://joaopauloaramuni.github.io/image/dev1b.svg?raw=true" width="340px" height="650px" />
+</div>
+</td>
+</tr>
+<tr>
+ <td align="center" colspan="2"></td>
+</tr> 
 </table>
 
 ## 🚧 Status do Projeto
@@ -352,6 +362,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 ## 📄 Licença
 
 Este projeto está sob a licença **[MIT License](LICENSE)**.
+
 
 
 
