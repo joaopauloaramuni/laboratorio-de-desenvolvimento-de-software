@@ -360,14 +360,26 @@ Descreva o propósito das pastas principais.
 
 Use GIFs e prints para mostrar o projeto em ação.
 
+---
+
+## 🎥 Demonstração
+
+Use GIFs e prints para mostrar o projeto em ação.
+
 ### 📱 Aplicativo Mobile
 
-- GIF de demonstração (exemplo de fluxo de usuário):  
-Sua gif aqui <img src="./caminho/gif-mobile.gif" alt="Demonstração do App Mobile" height="350">
+- GIF de demonstração (exemplo de fluxo de usuário):
+<img src="./caminho/gif-mobile.gif" alt="Demonstração do App Mobile" height="350">
 
-- Prints das telas principais:
-<img src="./caminho/print-mobile-1.png" alt="Tela 1 do Mobile" width="400">  
-<img src="./caminho/print-mobile-2.png" alt="Tela 2 do Mobile" width="400">
+Para melhor visualização, as telas principais estão organizadas lado a lado.
+
+| Tela | Captura de Tela |
+| :---: | :---: |
+| **Tela Inicial (Home)** | **Tela de Perfil / Settings** |
+| <img src="./caminho/print-mobile-1.png" alt="Tela 1 do Mobile" width="400"> | <img src="./caminho/print-mobile-2.png" alt="Tela 2 do Mobile" width="400"> |
+| **Tela de Cadastro** | **Tela de Lista / Detalhes** |
+| <img src="./caminho/print-mobile-3.png" alt="Tela 3 do Mobile" width="400"> | <img src="./caminho/print-mobile-4.png" alt="Tela 4 do Mobile" width="400"> |
+
 
 ### 🌐 Aplicação Web
 
@@ -405,11 +417,12 @@ npm run test:e2e
 ---
 
 ## 🔗 Documentações utilizadas
+
 Liste aqui links para documentação técnica, referências de bibliotecas complexas ou guias de estilo que foram cruciais para o projeto.
 
-* **Exemplo 1 (Framework/Biblioteca):** [Nome da Tecnologia](<link-oficial>)
-* **Exemplo 2 (Guia de Estilo):** [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
-* **Exemplo 3 (Documentação Interna):** [Design System do Projeto](./docs/design-system.md)
+* 📖 **Exemplo 1 (Framework/Biblioteca):** [Nome da Tecnologia](<link-oficial>)
+* 📖 **Exemplo 2 (Guia de Estilo):** [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+* 📖 **Exemplo 3 (Documentação Interna):** [Design System do Projeto](./docs/design-system.md)
 
 ---
 
@@ -439,6 +452,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
