@@ -1,7 +1,7 @@
 # 🏷️ Nome do Projeto ✨
 
 <p align="center">
-  <img src="./docs/logo_do_projeto.png" alt="Logo do Nome do Projeto" width="150"/>
+  <img src="./docs/logo_do_projeto.png" alt="Logo do Projeto" width="150"/>
 </p>
 
 ## 🚧 Status do Projeto
@@ -88,7 +88,6 @@ Descreva aqui a arquitetura do sistema. Mencione padrões de design (e.g., MVC, 
 
 [Image of System architecture diagram showing layers and components]
 
-
 *Adicione diagramas se necessário.* Você pode usar um link para o diagrama ou usar tags de imagem.
 <img src="./docs/diagrama_arquitetura.png" alt="Diagrama de Arquitetura do Sistema" width="600">
 
@@ -157,7 +156,9 @@ A aplicação estará disponível em `http://localhost:<porta>`.
 
 ---
 
-#### 🐳 Execução com Docker
+#### 🐳 Execução Local Completa com Docker Compose (Incluindo Banco de Dados)
+
+Para uma execução local que inclui o serviço de Back-end, Front-end e o banco de dados **PostgreSQL**, usaremos o **`docker-compose`** para orquestração.
 
 Antes de tudo, certifique-se de que o **Docker Desktop** (no Mac/Windows) ou o **serviço Docker** (em Linux) está em execução.
 
@@ -168,60 +169,61 @@ Antes de tudo, certifique-se de que o **Docker Desktop** (no Mac/Windows) ou o *
 sudo systemctl start docker
 ```
 
-#### 📦 Passos para build e execução
+#### 📦 Passos para build, inicialização e execução
 
-1. Acesse a pasta do projeto:
-
-``` bash
-cd /caminho/do/projeto/joaopauloaramuni-portfolio
-```
-
-2. Gere a imagem a partir do Dockerfile:
+1. Acesse a pasta raiz do projeto (onde o arquivo `docker-compose.yml` está localizado):
 
 ``` bash
-docker build -t portfolio .
+cd /caminho/do/projeto/nome-do-projeto
 ```
 
-3. Rode o container mapeando a porta **8080** do host para a porta **80** do Nginx:
+2. Suba todos os serviços (Back-end, Front-end e Banco de Dados) definidos no `docker-compose.yml`:
 
 ``` bash
-docker run -p 8080:80 portfolio
+docker-compose up --build -d
 ```
 
-> ⚠️ **Observação:** você pode escolher qualquer porta disponível no host, por exemplo `5173:80`, para acessar no navegador usando `http://localhost:5173`.
+> 💡 **Nota:** O parâmetro `--build` garante que as imagens mais recentes do projeto sejam geradas, e `-d` executa em segundo plano.
 
-4. Abra no navegador:
-👉 <http://localhost:8080> (ou a porta que você escolheu, como 5173)
-
-5. Para parar o container em execução, descubra o ID ou nome com:
+3. Verifique se os containers estão rodando:
 
 ``` bash
 docker ps
 ```
 
-E então pare-o com:
+4. **Execute as Migrações do Banco de Dados:**
+   Após subir os containers, aplique o schema e/ou as migrações no container do Back-end (o nome do serviço pode variar, ex: `api` ou `backend`).
 
 ``` bash
-docker stop <id_ou_nome_do_container>
+docker exec -it <nome_do_container_backend> npm run db:migrate
 ```
 
-✅ **Em resumo:** este Dockerfile não é necessário para deploys no Vercel, mas oferece conhecimento valioso e flexibilidade para cenários em que o projeto precise rodar em **ambientes Dockerizados**, seja em nuvem, seja em servidores próprios.
+5. Abra no navegador:
+   O Front-end deve estar acessível na porta configurada no `docker-compose` (Exemplo: <http://localhost:3000>)
+
+6. Para parar e remover todos os containers, redes e volumes (exceto volumes nomeados):
+
+``` bash
+docker-compose down
+```
+
+✅ **Em resumo:** Usar `docker-compose` simplifica a execução do ambiente completo, isolando dependências e garantindo que o PostgreSQL esteja disponível e configurado corretamente para o Back-end.
 
 ---
 
 ## 🚀 Deploy
 Instruções claras para deploy em produção.
 
-1.  **Build do Projeto:**
-    ```
-    npm run build
-    ```
-2.  **Configuração do Ambiente de Produção:** Defina as variáveis de ambiente no seu provedor (e.g., Vercel, Heroku, DigitalOcean).
-3.  **Execução em Produção:**
-    ```
-    # Exemplo para Node.js
-    npm run start
-    ```
+1.  **Build do Projeto:**
+    ```
+    npm run build
+    ```
+2.  **Configuração do Ambiente de Produção:** Defina as variáveis de ambiente no seu provedor (e.g., Vercel, Heroku, DigitalOcean).
+3.  **Execução em Produção:**
+    ```
+    # Exemplo para Node.js
+    npm run start
+    ```
 
 ---
 
@@ -231,13 +233,20 @@ Descreva o propósito das pastas principais.
 ```
 .
 ├── /src              # Código-fonte principal da aplicação
-│   ├── /components   # Componentes reutilizáveis de UI
-│   ├── /pages        # Telas/Rotas da aplicação
-│   ├── /services     # Lógica de negócio e comunicação com API
-│   └── /utils        # Funções utilitárias e helpers
-├── /public           # Arquivos estáticos (imagens, favicon, etc.)
-├── /tests            # Arquivos de testes (unitários e integração)
-└── /docs             # Documentação, diagramas e guias
+│   ├── /client       # Seção Front-end (se for um monorepo)
+│   │   ├── /components    # Componentes reutilizáveis (UI)
+│   │   └── /pages         # Telas/Rotas da aplicação
+│   └── /server       # Seção Back-end (se for um monorepo, ou /src se for repo único)
+│       ├── /config        # Configurações de ambiente, DB, etc.
+│       ├── /controllers   # Camada de requisição (lida com rotas e validação)
+│       ├── /database      # Arquivos de migrações e seeders
+│       ├── /models        # Definições de modelos (Schemas/Entidades)
+│       ├── /repositories  # Camada de acesso a dados (CRUD com DB)
+│       └── /services      # Lógica de negócio e regras de domínio (Core)
+├── /public           # Arquivos estáticos (imagens, favicon, etc.)
+├── /tests            # Arquivos de testes (unitários, integração e E2E)
+├── /docs             # Documentação, diagramas e guias
+└── docker-compose.yml # Arquivo para orquestração de containers
 ```
 
 ---
@@ -318,3 +327,4 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 ## 📄 Licença
 
 Este projeto está sob a licença **[MIT License](LICENSE)**.
+
