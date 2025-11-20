@@ -1,6 +1,7 @@
 # 🏷️ Nome do Projeto ✨
 
 Breve descrição do projeto. **Foque no principal valor/benefício.**  
+Crie uma **logo** para o projeto que represente a aplicação em questão.
 
 <table>
   <tr>
@@ -353,6 +354,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 ## 📄 Licença
 
 Este projeto está sob a licença **[MIT License](LICENSE)**.
+
 
 
 
