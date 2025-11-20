@@ -207,7 +207,7 @@ Crie um arquivo **`.env`** na raiz da pasta `/frontend` e use o prefixo `VITE_` 
 
 ---
 
-#### 🔧 Exemplos de Variáveis de Ambiente na Vercel
+#### 3. Exemplos de Variáveis de Ambiente na Vercel 🔧 
 
 A Vercel permite configurar variáveis no painel (Project Settings > Environment Variables).
 Aqui estão exemplos comuns utilizadas em aplicações front-end e full-stack:
@@ -294,7 +294,7 @@ cd <pasta-do-projeto>
 
 Como o projeto está dividido, você precisa instalar as dependências separadamente para o Front-end (React, usando NPM/Yarn) e garantir que o Back-end (Spring Boot, usando Maven/Gradle Wrapper) tenha suas dependências resolvidas.
 
-#### Front-end (React) 🟢
+#### Front-end (React)
 
 Acesse a pasta do Front-end e instale as dependências do Node.js:
 
@@ -306,7 +306,7 @@ yarn install
 cd .. # Retorna para a raiz
 ```
 
-#### Back-end (Spring Boot) ☕
+#### Back-end (Spring Boot)
 
 O Spring Boot utiliza o **Maven Wrapper** (`./mvnw`) ou **Gradle Wrapper** (`./gradlew`) para gerenciar dependências. Execute o comando de instalação/build limpo antes de rodar.
 
@@ -678,5 +678,6 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
