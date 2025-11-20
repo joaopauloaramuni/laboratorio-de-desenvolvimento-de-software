@@ -43,16 +43,16 @@
 - [Instalação e Execução](#-instalação-e-execução)
   - [Pré-requisitos](#pré-requisitos)
   - [Variáveis de Ambiente](#-variáveis-de-ambiente)
-     - [1 Backend (Spring Boot)](#1-backend-spring-boot)
-     - [2 Frontend (React, Vite)](#2-frontend-react-vite)
+     - [1 Back-end (Spring Boot)](#1-back-end-spring-boot)
+     - [2 Front-end (React, Vite)](#2-front-end-react-vite)
      - [3 Exemplos de Variáveis de Ambiente na Vercel](#3-exemplos-de-variáveis-de-ambiente-na-vercel)
   - [Instalação de Dependências](#-instalação-de-dependências)
     - [Front-end (React)](#front-end-react)
     - [Back-end (Spring Boot)](#back-end-spring-boot)
   - [Inicialização do Banco de Dados (PostgreSQL)](#-inicialização-do-banco-de-dados-postgresql)
   - [Como Executar a Aplicação](#como-executar-a-aplicação)
-    - [Terminal 1: Backend (Spring Boot)](#terminal-1-backend-spring-boot)
-    - [Terminal 2: Frontend (React, Vite)](#terminal-2-frontend-react-vite)
+    - [Terminal 1: Back-end (Spring Boot)](#terminal-1-back-end-spring-boot)
+    - [Terminal 2: Front-end (React, Vite)](#terminal-2-front-end-react-vite)
     - [Execução Local Completa com Docker Compose (Incluindo Banco de Dados)](#-execução-local-completa-com-docker-compose-incluindo-banco-de-dados)
     - [Passos para build, inicialização e execução](#-passos-para-build-inicialização-e-execução)
 - [Deploy](#-deploy)
@@ -188,7 +188,7 @@ Certifique-se de que o usuário tenha o ambiente configurado.
 
 Crie arquivos `.env` específicos e/ou configure as variáveis de ambiente no seu sistema para cada parte da aplicação.
 
-#### 1 Backend (Spring Boot)
+#### 1 Back-end (Spring Boot)
 
 Configure estas variáveis como **variáveis de ambiente do sistema** ou em um arquivo de configuração do Spring (ex: `application.properties`/`application.yml`).
 
@@ -200,7 +200,7 @@ Configure estas variáveis como **variáveis de ambiente do sistema** ou em um a
 | `SPRING_DATASOURCE_PASSWORD` | Senha do banco de dados. | `senha-segura-123` |
 | `JWT_SECRET` | Chave secreta para assinatura de tokens (Opcional). | `chave_super_segura_base64` |
 
-#### 2 Frontend (React, Vite)
+#### 2 Front-end (React, Vite)
 
 Crie um arquivo **`.env`** na raiz da pasta `/frontend` e use o prefixo `VITE_` (ou `REACT_APP_` se estiver usando CRA) para expor as variáveis ao *bundle* da aplicação.
 
@@ -357,7 +357,7 @@ docker run --name minha_db -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=senha-
 ### Como Executar a Aplicação
 Execute a aplicação em modo de desenvolvimento em **dois terminais separados**.
 
-#### Terminal 1: Backend (Spring Boot)
+#### Terminal 1: Back-end (Spring Boot)
 
 Inicie a API do Spring Boot. Ela tentará se conectar ao banco de dados rodando no Docker.
 
@@ -369,7 +369,7 @@ cd backend
 
 ---
 
-#### Terminal 2: Frontend (React, Vite)
+#### Terminal 2: Front-end (React, Vite)
 
 Inicie o servidor de desenvolvimento do Front-end.
 
@@ -687,6 +687,7 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
