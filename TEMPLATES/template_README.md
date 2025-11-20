@@ -367,6 +367,8 @@ cd backend
 ```
 🚀 *O Back-end estará disponível em **http://localhost:8080**.*
 
+---
+
 #### Terminal 2: Frontend (React, Vite)
 
 Inicie o servidor de desenvolvimento do Front-end.
@@ -685,5 +687,6 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
