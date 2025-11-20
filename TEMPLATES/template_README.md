@@ -6,11 +6,16 @@
  <td align="center" colspan="1">Logo do projeto</td>
 </tr> 
 <tr>
-<td><img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Logo do Projeto" width="150"/>/td>
+<td><img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Logo do Projeto" width="70px" height="70px"/>/td>
 </tr>
 </table>
-Breve descrição do projeto. **Foque no principal valor/benefício.**
-
+Breve descrição do projeto. **Foque no principal valor/benefício.**  
+Breve descrição do projeto. **Foque no principal valor/benefício.**  
+Breve descrição do projeto. **Foque no principal valor/benefício.**  
+Breve descrição do projeto. **Foque no principal valor/benefício.**  
+Breve descrição do projeto. **Foque no principal valor/benefício.**  
+Breve descrição do projeto. **Foque no principal valor/benefício.**  
+ 
 ## 🚧 Status do Projeto
 
 [![GitHub build status](https://img.shields.io/github/workflow/status/<usuário>/<repositório>/<nome-workflow>)]()
@@ -339,6 +344,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 ## 📄 Licença
 
 Este projeto está sob a licença **[MIT License](LICENSE)**.
+
 
 
 
