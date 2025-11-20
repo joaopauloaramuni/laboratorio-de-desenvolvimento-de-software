@@ -1,5 +1,9 @@
 # 🏷️ Nome do Projeto ✨
 
+<p align="center">
+  <img src="./docs/logo_do_projeto.png" alt="Logo do Nome do Projeto" width="150"/>
+</p>
+
 ## 🚧 Status do Projeto
 
 [![GitHub build status](https://img.shields.io/github/workflow/status/<usuário>/<repositório>/<nome-workflow>)]()
@@ -26,12 +30,15 @@ Breve descrição do projeto. **Foque no principal valor/benefício.**
 - [Instalação e Execução](#instalação-e-execução)
   - [Pré-requisitos](#pré-requisitos)
   - [Variáveis de Ambiente](#variáveis-de-ambiente)
-  - [Instalação](#instalação)
-  - [Como Executar](#como-executar)
+  - [Instalação de Dependências](#instalação-de-dependências)
+  - [Inicialização do Banco de Dados (PostgreSQL)](#inicialização-do-banco-de-dados-postgresql)
+  - [Como Executar a Aplicação](#como-executar-a-aplicação)
+  - [Execução com Docker](#execução-com-docker)
 - [Deploy](#deploy)
 - [Estrutura de Pastas](#estrutura-de-pastas)
 - [Demonstração](#demonstração)
 - [Testes](#testes)
+- [Documentação e Links Úteis](#documentação-e-links-úteis)
 - [Contribuição](#contribuição)
 - [Autores](#autores)
 - [Licença](#licença)
@@ -81,6 +88,7 @@ Descreva aqui a arquitetura do sistema. Mencione padrões de design (e.g., MVC, 
 
 [Image of System architecture diagram showing layers and components]
 
+
 *Adicione diagramas se necessário.* Você pode usar um link para o diagrama ou usar tags de imagem.
 <img src="./docs/diagrama_arquitetura.png" alt="Diagrama de Arquitetura do Sistema" width="600">
 
@@ -101,10 +109,11 @@ Crie um arquivo `.env` na raiz do projeto, baseado no `.env.example`, e preencha
 | Variável | Descrição | Exemplo |
 | :--- | :--- | :--- |
 | `API_URL` | URL do endpoint do Backend. | `http://localhost:3000/api` |
+| `DB_HOST` | Host do banco de dados. | `localhost` ou `db_container` |
 | `DB_USER` | Usuário do banco de dados. | `admin` |
-| `JWT_SECRET` | Chave secreta para JWT. | `chavesecreta123` |
+| `DB_PASS` | Senha do banco de dados. | `senha-segura-123` |
 
-### Instalação
+### Instalação de Dependências
 Clone o repositório e instale as dependências:
 
 ```
@@ -117,7 +126,25 @@ npm install
 # cd server && npm install
 ```
 
-### Como Executar
+### 💾 Inicialização do Banco de Dados (PostgreSQL)
+
+O projeto utiliza **PostgreSQL**. A forma mais fácil de inicializar o banco é via Docker:
+
+1. **Rode o Container do PostgreSQL:**
+   (Certifique-se que o Docker está em execução)
+
+``` bash
+docker run --name minha_db -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=senha-segura-123 -e POSTGRES_DB=nome_do_banco -p 5432:5432 -d postgres:16
+```
+
+2. **Execute as Migrações:**
+   Após subir o container, aplique o schema e as migrações (o comando pode variar dependendo do seu ORM, ex: TypeORM, Sequelize, Prisma).
+
+``` bash
+npm run db:migrate
+```
+
+### Como Executar a Aplicação
 Execute a aplicação em modo de desenvolvimento.
 
 ```
@@ -127,6 +154,58 @@ npm run dev
 # npm run start:server 
 ```
 A aplicação estará disponível em `http://localhost:<porta>`.
+
+---
+
+#### 🐳 Execução com Docker
+
+Antes de tudo, certifique-se de que o **Docker Desktop** (no Mac/Windows) ou o **serviço Docker** (em Linux) está em execução.
+
+- **No Mac/Windows**: basta abrir o aplicativo **Docker Desktop**.
+- **No Linux**: rode o comando abaixo para iniciar o serviço:
+
+``` bash
+sudo systemctl start docker
+```
+
+#### 📦 Passos para build e execução
+
+1. Acesse a pasta do projeto:
+
+``` bash
+cd /caminho/do/projeto/joaopauloaramuni-portfolio
+```
+
+2. Gere a imagem a partir do Dockerfile:
+
+``` bash
+docker build -t portfolio .
+```
+
+3. Rode o container mapeando a porta **8080** do host para a porta **80** do Nginx:
+
+``` bash
+docker run -p 8080:80 portfolio
+```
+
+> ⚠️ **Observação:** você pode escolher qualquer porta disponível no host, por exemplo `5173:80`, para acessar no navegador usando `http://localhost:5173`.
+
+4. Abra no navegador:
+👉 <http://localhost:8080> (ou a porta que você escolheu, como 5173)
+
+5. Para parar o container em execução, descubra o ID ou nome com:
+
+``` bash
+docker ps
+```
+
+E então pare-o com:
+
+``` bash
+docker stop <id_ou_nome_do_container>
+```
+
+✅ **Em resumo:** este Dockerfile não é necessário para deploys no Vercel, mas oferece conhecimento valioso e flexibilidade para cenários em que o projeto precise rodar em **ambientes Dockerizados**, seja em nuvem, seja em servidores próprios.
 
 ---
 
@@ -206,8 +285,17 @@ npm run test:e2e
 
 ---
 
+## 🔗 Documentação e Links Úteis
+Liste aqui links para documentação técnica, referências de bibliotecas complexas ou guias de estilo que foram cruciais para o projeto.
+
+* **Exemplo 1 (Framework/Biblioteca):** [Nome da Tecnologia](<link-oficial>)
+* **Exemplo 2 (Guia de Estilo):** [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+* **Exemplo 3 (Documentação Interna):** [Design System do Projeto](./docs/design-system.md)
+
+---
+
 ## 🤝 Contribuição
-Seja acolhedor com novos contribuidores!
+Guia para contribuições ao projeto.
 
 1.  Faça um `fork` do projeto.
 2.  Crie uma branch para sua feature (`git checkout -b feature/minha-feature`).
@@ -220,7 +308,7 @@ Seja acolhedor com novos contribuidores!
 ---
 
 ## 👥 Autores
-Liste os contribuidores. Você pode usar links para seus perfis.
+Liste os principais contribuidores. Você pode usar links para seus perfis.
 
 - **Nome 1** - [@github-user1](https://github.com/github-user1)
 - **Nome 2** - [@github-user2](https://github.com/github-user2)
@@ -228,6 +316,5 @@ Liste os contribuidores. Você pode usar links para seus perfis.
 ---
 
 ## 📄 Licença
-Este projeto está sob a licença **[MIT License](LICENSE)**.
 
----
+Este projeto está sob a licença **[MIT License](LICENSE)**.
