@@ -105,23 +105,35 @@ Liste as funcionalidades de forma clara e objetiva.
 
 ## 🛠 Tecnologias Utilizadas
 
-Liste as tecnologias com suas versões principais, se possível.
+As seguintes ferramentas, frameworks e bibliotecas foram utilizados na construção deste projeto. Recomenda-se o uso das versões listadas (ou superiores) para garantir a compatibilidade.
 
 ### 💻 Front-end
-- **Tecnologia 1 (vX.X):** Exemplo: React, Vue.js, Angular.
-- **Tecnologia 2 (vY.Y):** Exemplo: TypeScript, Tailwind CSS, SASS.
+
+* **Framework/Biblioteca:** [Ex: React v18, Vue.js v3, Angular v17]
+* **Linguagem/Superset:** [Ex: TypeScript, JavaScript ES6+]
+* **Estilização:** [Ex: Tailwind CSS, Sass, Styled Components, Material UI]
+* **Gerenciamento de Estado:** [Ex: Redux Toolkit, Zustand, Context API]
+* **Build Tool:** [Ex: Vite, Webpack]
 
 ### 🖥️ Back-end
-- **Tecnologia 1 (vX.X):** Exemplo: Node.js (Express), Python (Django/Flask), Go, Java (Spring).
-- **Tecnologia 2 (vY.Y):** Exemplo: PostgreSQL, MongoDB, Redis.
 
-### 📱 Mobile
-- **Tecnologia 1 (vX.X):** Exemplo: React Native, Flutter, Swift/Kotlin.
-- **Tecnologia 2 (vY.Y):** Exemplo: Expo.
+* **Linguagem/Runtime:** [Ex: Java 17 (JDK), Node.js v20, Python 3.11]
+* **Framework:** [Ex: Spring Boot 3.x, NestJS, Express, Django]
+* **Banco de Dados:** [Ex: PostgreSQL, MySQL, MongoDB]
+* **ORM / Query Builder:** [Ex: Hibernate/JPA, Prisma, TypeORM]
+* **Autenticação:** [Ex: JWT, OAuth2, Spring Security]
 
-### ⚙️ Infra / DevOps
-- **Tecnologia 1:** Exemplo: Docker, Kubernetes, Terraform.
-- **Tecnologia 2:** Exemplo: AWS, Azure, Google Cloud, CI/CD (GitHub Actions/GitLab CI).
+### 📱 Mobile (Opcional)
+
+* **Framework:** [Ex: React Native, Flutter, Kotlin Multiplatform]
+* **Ferramentas:** [Ex: Expo, Android Studio, Xcode]
+
+### ⚙️ Infraestrutura & DevOps
+
+* **Containerização:** [Ex: Docker, Docker Compose]
+* **Orquestração:** [Ex: Kubernetes (K8s)]
+* **Cloud:** [Ex: AWS (EC2, RDS, S3), Vercel, Heroku, Google Cloud]
+* **CI/CD:** [Ex: GitHub Actions, Jenkins, SonarQube]
 
 ---
 
@@ -587,4 +599,5 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
