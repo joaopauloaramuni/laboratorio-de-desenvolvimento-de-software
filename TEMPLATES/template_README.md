@@ -86,12 +86,9 @@ Liste as tecnologias com suas versões principais, se possível.
 ## 🏗 Arquitetura
 Descreva aqui a arquitetura do sistema. Mencione padrões de design (e.g., MVC, Microserviços).
 
-
-
 [Image of System architecture diagram showing layers and components]
 
-
-*Adicione diagramas se necessário.* Você pode usar um link para o diagrama ou usar tags de imagem.
+*Adicione diagramas se necessário.* Você pode usar um link para o diagrama ou usar tags de imagem.  
 <img src="./docs/diagrama_arquitetura.png" alt="Diagrama de Arquitetura do Sistema" width="600">
 
 ---
@@ -337,3 +334,4 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 ## 📄 Licença
 
 Este projeto está sob a licença **[MIT License](LICENSE)**.
+
