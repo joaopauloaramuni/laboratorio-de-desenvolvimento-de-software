@@ -62,7 +62,7 @@
 - [Demonstração](#-demonstração)
   - [Aplicativo Mobile](#-aplicativo-mobile)
   - [Aplicação Web](#-aplicação-web)
-  - [Exemplo de saída no Terminal Para Backend, API, CLI](#-exemplo-de-saída-no-terminal-para-backend-api-cli)
+  - [Exemplo de saída no Terminal Para Backend, API, CLI](#exemplo-de-saída-no-terminal-para-backend-api-cli)
 - [Testes](#-testes)
 - [Documentações utilizadas](#-documentações-utilizadas)
 - [Contribuição](#-contribuição)
@@ -468,7 +468,7 @@ Para melhor visualização, as telas principais estão organizadas lado a lado.
 | **Dashboard (Visão Geral)** | **Página Admin / Configurações** |
 | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Tela de Dashboard" width="120px" height="120px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Tela Administrativa" width="120px" height="120px"> |
 
-### 🖥️ Exemplo de Saída no Terminal Para Backend, API, CLI
+### Exemplo de Saída no Terminal Para Backend, API, CLI
 
 Caso o projeto seja focado em serviços de Back-end (API, microserviço, CLI), utilize esta seção para demonstrar a interação com o sistema e a resposta esperada.
 
@@ -581,6 +581,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
