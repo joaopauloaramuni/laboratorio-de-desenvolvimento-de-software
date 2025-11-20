@@ -22,7 +22,9 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - [Atalhos](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/tree/main/ATALHOS)
 - [Laboratórios](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/tree/main/LABORATORIOS)
 - [Projetos com Spring Boot](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/tree/main/PROJETOS)
+- [Templates](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/tree/main/TEMPLATES)
 - [Docker CLI Cheat Sheet](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/tree/main/DOCKER%20CLI%20CHEAT%20SHEET)
+- [SWEBOK](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/tree/main/SWEBOK)
 - [Plano de Ensino](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/tree/main/PLANO%20DE%20ENSINO)
 
 #### Links úteis:
