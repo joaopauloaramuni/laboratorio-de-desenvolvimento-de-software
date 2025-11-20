@@ -43,6 +43,9 @@
 - [Instalação e Execução](#-instalação-e-execução)
   - [Pré-requisitos](#pré-requisitos)
   - [Variáveis de Ambiente](#-variáveis-de-ambiente)
+     - [1 Backend (Spring Boot)](#1-backend-spring-boot)
+     - [2 Frontend (React, Vite)](#2-frontend-react-vite)
+     - [3 Exemplos de Variáveis de Ambiente na Vercel](#3-exemplos-de-variáveis-de-ambiente-na-vercel)
   - [Instalação de Dependências](#-instalação-de-dependências)
     - [Front-end (React)](#front-end-react)
     - [Back-end (Spring Boot)](#back-end-spring-boot)
@@ -183,7 +186,7 @@ Certifique-se de que o usuário tenha o ambiente configurado.
 
 Crie arquivos `.env` específicos e/ou configure as variáveis de ambiente no seu sistema para cada parte da aplicação.
 
-#### 1. Back-end (Spring Boot) ☕
+#### 1 Backend (Spring Boot)
 
 Configure estas variáveis como **variáveis de ambiente do sistema** ou em um arquivo de configuração do Spring (ex: `application.properties`/`application.yml`).
 
@@ -195,7 +198,7 @@ Configure estas variáveis como **variáveis de ambiente do sistema** ou em um a
 | `SPRING_DATASOURCE_PASSWORD` | Senha do banco de dados. | `senha-segura-123` |
 | `JWT_SECRET` | Chave secreta para assinatura de tokens (Opcional). | `chave_super_segura_base64` |
 
-#### 2. Front-end (React/Vite) 🟢
+#### 2 Frontend (React, Vite)
 
 Crie um arquivo **`.env`** na raiz da pasta `/frontend` e use o prefixo `VITE_` (ou `REACT_APP_` se estiver usando CRA) para expor as variáveis ao *bundle* da aplicação.
 
@@ -207,7 +210,7 @@ Crie um arquivo **`.env`** na raiz da pasta `/frontend` e use o prefixo `VITE_` 
 
 ---
 
-#### 3. Exemplos de Variáveis de Ambiente na Vercel 🔧 
+#### 3. Exemplos de Variáveis de Ambiente na Vercel
 
 A Vercel permite configurar variáveis no painel (Project Settings > Environment Variables).
 Aqui estão exemplos comuns utilizadas em aplicações front-end e full-stack:
@@ -678,6 +681,7 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
