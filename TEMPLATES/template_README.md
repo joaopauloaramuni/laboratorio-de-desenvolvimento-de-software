@@ -136,7 +136,7 @@ Para melhor visualização e entendimento da estrutura do sistema, os diagramas 
 | Diagrama de Arquitetura | Detalhe da Arquitetura |
 | :---: | :---: |
 | **Visão Geral (Macro)** | **Camada de Serviço (Micro)** |
-| <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Diagrama de Visão Geral do Sistema" width="120px" height="120px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Diagrama de Componentes ou Serviço X" width="120px" height="120px"> |
+| <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Diagrama de Visão Geral do Sistema" width="400px" height="400px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Diagrama de Componentes ou Serviço X" width="400px" height="400px"> |
 | **Modelo de Dados (Entidades)** | **Fluxo de Autenticação** |
 | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Diagrama de Entidade-Relacionamento (DER)" width="120px" height="120px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Diagrama de Sequência de Login" width="120px" height="120px"> |
 | **Infraestrutura (Cloud)** | **API Gateway (Rotas)** |
@@ -574,6 +574,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
