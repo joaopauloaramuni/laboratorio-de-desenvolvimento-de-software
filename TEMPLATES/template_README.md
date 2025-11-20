@@ -60,6 +60,9 @@
 - [Deploy](#-deploy)
 - [Estrutura de Pastas](#-estrutura-de-pastas)
 - [Demonstração](#-demonstração)
+  - [Aplicativo Mobile](#-aplicativos-mobile)
+  - [Aplicações Web](#-aplicações-web)
+  - [Exemplo de saída no Terminal (Para Back-end/API/CLI)](#exemplo-de-saída-no-terminal-para-back-end-api-cli)
 - [Testes](#-testes)
 - [Documentações utilizadas](#-documentações-utilizadas)
 - [Contribuição](#-contribuição)
@@ -578,6 +581,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
