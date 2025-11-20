@@ -188,7 +188,7 @@ Aqui estão exemplos comuns utilizadas em aplicações front-end e full-stack:
 
 ```
 NEXT_PUBLIC_API_URL=https://meu-backend.vercel.app/api
-NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=G-XXXXXXX
+NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=G-seu_google_analytics_id_aqui
 ```
 
 ---
@@ -206,9 +206,9 @@ NEXTAUTH_URL=https://meu-sistema.vercel.app
 ##### **Exemplo 3 – Integração com APIs externas**
 
 ```
-STRIPE_SECRET_KEY=sk_live_XXXXXXXXXXXXXXXXXXXX
-OPENAI_API_KEY=sk-XXXXXXXXXXXXXXXXXXXXX
-SENDGRID_API_KEY=SG.XXXXXXXXXXXXXXXXXXX
+STRIPE_SECRET_KEY=sk_live_seu_stripe_key_aqui
+OPENAI_API_KEY=sk-sua_openai_key_aqui
+SENDGRID_API_KEY=SG.sua_sendgrid_key_aqui
 ```
 
 ---
@@ -216,10 +216,10 @@ SENDGRID_API_KEY=SG.XXXXXXXXXXXXXXXXXXX
 ##### **Exemplo 4 – Frontend com Vite (EmailJS)**
 
 ```
-VITE_EMAILJS_SERVICE_ID=service_XXXXXXXXXXXXXXXXXXXXX
-VITE_EMAILJS_TEMPLATE_ID_FOR_ME=template_XXXXXXXXXXXXXXXXXXXXX
-VITE_EMAILJS_TEMPLATE_ID_FOR_SENDER=template_XXXXXXXXXXXXXXXXXXXXX
-VITE_EMAILJS_PUBLIC_KEY=public_key_XXXXXXXXXXXXXXXXXXXXX
+VITE_EMAILJS_SERVICE_ID=seu_service_id_aqui
+VITE_EMAILJS_TEMPLATE_ID_FOR_ME=seu_template_id_for_me_aqui
+VITE_EMAILJS_TEMPLATE_ID_FOR_SENDER=seu_template_id_for_sender_aqui
+VITE_EMAILJS_PUBLIC_KEY=sua_public_key_aqui
 ```
 
 > **Obs:** As variáveis de ambiente em projetos **Vite** precisam começar com `VITE_` para que o Vite as reconheça e as inclua no *bundle* do frontend; variáveis sem esse prefixo não ficam disponíveis no código do cliente.
@@ -584,6 +584,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
