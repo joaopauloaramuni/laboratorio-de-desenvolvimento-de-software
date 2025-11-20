@@ -46,10 +46,13 @@
 - [Funcionalidades Principais](#-funcionalidades-principais)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Arquitetura](#-arquitetura)
+  - [Exemplos de diagramas](#exemplos-de-diagramas)
 - [Instalação e Execução](#-instalação-e-execução)
   - [Pré-requisitos](#pré-requisitos)
   - [Variáveis de Ambiente](#-variáveis-de-ambiente)
   - [Instalação de Dependências](#-instalação-de-dependências)
+    - [Front-end (React)](#front-end-react)
+    - [Back-end (Spring Boot - Java)](#back-end-spring-boot-java)
   - [Inicialização do Banco de Dados (PostgreSQL)](#-inicialização-do-banco-de-dados-postgresql)
   - [Como Executar a Aplicação](#como-executar-a-aplicação)
     - [Execução Local Completa com Docker Compose (Incluindo Banco de Dados)](#-execução-local-completa-com-docker-compose-incluindo-banco-de-dados)
@@ -247,7 +250,7 @@ cd <pasta-do-projeto>
 
 Como o projeto está dividido, você precisa instalar as dependências separadamente para o Front-end (React, usando NPM/Yarn) e garantir que o Back-end (Spring Boot, usando Maven/Gradle) tenha suas dependências resolvidas.
 
-#### **Front-end (React)** 💻
+#### Front-end (React)
 
 Acesse a pasta do Front-end e instale as dependências do Node.js:
 
@@ -259,7 +262,7 @@ yarn install
 cd .. # Retorna para a raiz
 ```
 
-#### **Back-end (Spring Boot - Java)** ☕
+#### Back-end (Spring Boot - Java)
 
 O Spring Boot (usando Maven ou Gradle) geralmente baixa as dependências automaticamente quando o projeto é construído ou executado. Para garantir que todas as dependências estejam resolvidas antes de rodar, você pode forçar um *build* limpo.
 
@@ -574,6 +577,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
