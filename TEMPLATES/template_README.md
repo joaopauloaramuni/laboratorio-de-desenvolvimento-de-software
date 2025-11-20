@@ -52,7 +52,7 @@
   - [Variáveis de Ambiente](#-variáveis-de-ambiente)
   - [Instalação de Dependências](#-instalação-de-dependências)
     - [Front-end (React)](#front-end-react)
-    - [Back-end (Spring Boot)](#back-end-spring-boot-java)
+    - [Back-end (Spring Boot)](#back-end-spring-boot)
   - [Inicialização do Banco de Dados (PostgreSQL)](#-inicialização-do-banco-de-dados-postgresql)
   - [Como Executar a Aplicação](#como-executar-a-aplicação)
     - [Execução Local Completa com Docker Compose (Incluindo Banco de Dados)](#-execução-local-completa-com-docker-compose-incluindo-banco-de-dados)
@@ -577,6 +577,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
