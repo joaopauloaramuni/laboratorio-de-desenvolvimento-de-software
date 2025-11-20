@@ -9,6 +9,7 @@
 <td><img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Logo do Projeto" width="90px" height="90px"/></td>
 </tr>
 </table>
+</div>
 
 Breve descrição do projeto. **Foque no principal valor/benefício.**  
 Este é um exemplo de **README.md** que serve como um **guia de boas práticas** para projetos de desenvolvimento robustos, feito pelo **Prof. Dr. João Paulo Aramuni**. Ele consolida as seções essenciais, padronização de instalação via Docker Compose e estrutura de pastas multicamadas, otimizando a integração de novos membros e a documentação técnica.
@@ -344,6 +345,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 ## 📄 Licença
 
 Este projeto está sob a licença **[MIT License](LICENSE)**.
+
 
 
 
