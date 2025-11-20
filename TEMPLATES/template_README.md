@@ -28,17 +28,17 @@ Breve descrição do projeto. **Foque no principal valor/benefício.**
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Arquitetura](#arquitetura)
 - [Instalação e Execução](#instalação-e-execução)
-  - [Pré-requisitos](#pré-requisitos)
-  - [Variáveis de Ambiente](#variáveis-de-ambiente)
-  - [Instalação de Dependências](#instalação-de-dependências)
-  - [Inicialização do Banco de Dados (PostgreSQL)](#inicialização-do-banco-de-dados-postgresql)
-  - [Como Executar a Aplicação](#como-executar-a-aplicação)
-  - [Execução com Docker](#execução-com-docker)
+  - [Pré-requisitos](#pré-requisitos)
+  - [Variáveis de Ambiente](#variáveis-de-ambiente)
+  - [Instalação de Dependências](#instalação-de-dependências)
+  - [Inicialização do Banco de Dados (PostgreSQL)](#inicialização-do-banco-de-dados-postgresql)
+  - [Como Executar a Aplicação](#como-executar-a-aplicação)
+  - [Execução Local Completa com Docker Compose (Incluindo Banco de Dados)](#execução-local-completa-com-docker-compose-incluindo-banco-de-dados)
 - [Deploy](#deploy)
 - [Estrutura de Pastas](#estrutura-de-pastas)
 - [Demonstração](#demonstração)
 - [Testes](#testes)
-- [Documentação e Links Úteis](#documentação-e-links-úteis)
+- [Documentações utilizadas](#documentações-utilizadas)
 - [Contribuição](#contribuição)
 - [Autores](#autores)
 - [Licença](#licença)
@@ -84,9 +84,12 @@ Liste as tecnologias com suas versões principais, se possível.
 ---
 
 ## 🏗 Arquitetura
-Descreva aqui a arquitetura do sistema. Mencione padrões de design (e.g., MVC, Microserviços). 
+Descreva aqui a arquitetura do sistema. Mencione padrões de design (e.g., MVC, Microserviços).
+
+
 
 [Image of System architecture diagram showing layers and components]
+
 
 *Adicione diagramas se necessário.* Você pode usar um link para o diagrama ou usar tags de imagem.
 <img src="./docs/diagrama_arquitetura.png" alt="Diagrama de Arquitetura do Sistema" width="600">
@@ -127,7 +130,7 @@ npm install
 
 ### 💾 Inicialização do Banco de Dados (PostgreSQL)
 
-O projeto utiliza **PostgreSQL**. A forma mais fácil de inicializar o banco é via Docker:
+O projeto utiliza **PostgreSQL**. A forma mais fácil de inicializar o banco é via Docker (para execução sem `docker-compose`):
 
 1. **Rode o Container do PostgreSQL:**
    (Certifique-se que o Docker está em execução)
@@ -214,16 +217,16 @@ docker-compose down
 ## 🚀 Deploy
 Instruções claras para deploy em produção.
 
-1.  **Build do Projeto:**
-    ```
-    npm run build
-    ```
-2.  **Configuração do Ambiente de Produção:** Defina as variáveis de ambiente no seu provedor (e.g., Vercel, Heroku, DigitalOcean).
-3.  **Execução em Produção:**
-    ```
-    # Exemplo para Node.js
-    npm run start
-    ```
+1.  **Build do Projeto:**
+    ```
+    npm run build
+    ```
+2.  **Configuração do Ambiente de Produção:** Defina as variáveis de ambiente no seu provedor (e.g., Vercel, Heroku, DigitalOcean).
+3.  **Execução em Produção:**
+    ```
+    # Exemplo para Node.js
+    npm run start
+    ```
 
 ---
 
@@ -243,9 +246,9 @@ Descreva o propósito das pastas principais.
 │       ├── /models        # Definições de modelos (Schemas/Entidades)
 │       ├── /repositories  # Camada de acesso a dados (CRUD com DB)
 │       └── /services      # Lógica de negócio e regras de domínio (Core)
-├── /public           # Arquivos estáticos (imagens, favicon, etc.)
-├── /tests            # Arquivos de testes (unitários, integração e E2E)
-├── /docs             # Documentação, diagramas e guias
+├── /public           # Arquivos estáticos (imagens, favicon, etc.)
+├── /tests            # Arquivos de testes (unitários, integração e E2E)
+├── /docs             # Documentação, diagramas e guias
 └── docker-compose.yml # Arquivo para orquestração de containers
 ```
 
@@ -294,7 +297,7 @@ npm run test:e2e
 
 ---
 
-## 🔗 Documentação e Links Úteis
+## 🔗 Documentações utilizadas
 Liste aqui links para documentação técnica, referências de bibliotecas complexas ou guias de estilo que foram cruciais para o projeto.
 
 * **Exemplo 1 (Framework/Biblioteca):** [Nome da Tecnologia](<link-oficial>)
@@ -327,5 +330,3 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 ## 📄 Licença
 
 Este projeto está sob a licença **[MIT License](LICENSE)**.
-
-
