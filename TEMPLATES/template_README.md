@@ -42,7 +42,7 @@ Breve descrição do projeto. **Foque no principal valor/benefício.**
 
 ## 📚 Índice
 - [Sobre o Projeto](#-sobre-o-projeto)
-- [Funcionalidades](#-funcionalidades)
+- [Funcionalidades Principais](#-funcionalidades-principais)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Arquitetura](#-arquitetura)
 - [Instalação e Execução](#-instalação-e-execução)
@@ -352,6 +352,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 ## 📄 Licença
 
 Este projeto está sob a licença **[MIT License](LICENSE)**.
+
 
 
 
