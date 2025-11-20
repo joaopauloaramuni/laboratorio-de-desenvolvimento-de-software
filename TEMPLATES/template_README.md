@@ -11,7 +11,8 @@
 </table>
 </div>
 
-<div align="justify">
+<div align="justify" width="80px" >
+ 
 Breve descrição do projeto. **Foque no principal valor/benefício.**  
 
 Este é um exemplo de **README.md estruturado**, criado para servir como um **modelo acadêmico e profissional** que os estudantes podem utilizar em seus projetos de desenvolvimento. Ele reúne as seções essenciais recomendadas pelo **Prof. Dr. João Paulo Aramuni**, permitindo organização clara, documentação eficiente e padronização entre diferentes trabalhos.
@@ -356,6 +357,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 ## 📄 Licença
 
 Este projeto está sob a licença **[MIT License](LICENSE)**.
+
 
 
 
