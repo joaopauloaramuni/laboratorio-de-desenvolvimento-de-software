@@ -359,8 +359,8 @@ Guia para contribuições ao projeto.
 ## 👥 Autores
 Liste os principais contribuidores. Você pode usar links para seus perfis.
 
-- **Nome 1** - [@github-user1](https://github.com/github-user1)
-- **Nome 2** - [@github-user2](https://github.com/github-user2)
+- **Nome 1** - :octocat: [@github-user1](https://github.com/github-user1)
+- **Nome 2** - :octocat: [@github-user2](https://github.com/github-user2)
 
 ---
 
@@ -369,3 +369,4 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
