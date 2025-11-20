@@ -377,25 +377,35 @@ Instruções claras para deploy em produção.
 ---
 
 ## 📂 Estrutura de Pastas
+
 Descreva o propósito das pastas principais.
 
 ```
-.
-├── /src              # Código-fonte principal da aplicação
-│   ├── /client       # Seção Front-end (se for um monorepo)
-│   │   ├── /components    # Componentes reutilizáveis (UI)
-│   │   └── /pages         # Telas/Rotas da aplicação
-│   └── /server       # Seção Back-end (se for um monorepo, ou /src se for repo único)
-│       ├── /config        # Configurações de ambiente, DB, etc.
-│       ├── /controllers   # Camada de requisição (lida com rotas e validação)
-│       ├── /database      # Arquivos de migrações e seeders
-│       ├── /models        # Definições de modelos (Schemas/Entidades)
-│       ├── /repositories  # Camada de acesso a dados (CRUD com DB)
-│       └── /services      # Lógica de negócio e regras de domínio (Core)
-├── /public           # Arquivos estáticos (imagens, favicon, etc.)
-├── /tests            # Arquivos de testes (unitários, integração e E2E)
-├── /docs             # Documentação, diagramas e guias
-└── docker-compose.yml # Arquivo para orquestração de containers
+├── /front-end                  # Aplicação React
+│   ├── /public                 # Arquivos estáticos (favicon, imagens, etc.)
+│   ├── /src                    # Código-fonte do front-end
+│   │   ├── /components         # Componentes reutilizáveis (UI)
+│   │   ├── /pages              # Páginas ou rotas da aplicação
+│   │   ├── /services           # Chamadas a APIs e lógica de consumo
+│   │   └── /utils              # Funções utilitárias e helpers
+│   └── package.json             # Dependências e scripts do React
+│
+├── /back-end                    # Aplicação Spring Boot
+│   ├── /src/main/java           # Código-fonte Java
+│   │   ├── /com/exemplo/app
+│   │   │   ├── /controller      # Camada de controle / endpoints
+│   │   │   ├── /service         # Lógica de negócio
+│   │   │   ├── /repository      # Acesso a dados (CRUD com DB)
+│   │   │   ├── /model           # Entidades ou Models do JPA
+│   │   │   ├── /dto             # Objetos de transferência de dados
+│   │   │   └── /config          # Configurações (DB, segurança, etc.)
+│   │
+│   ├── /src/main/resources      # Recursos do Spring (application.yml, static, templates)
+│   └── pom.xml                  # Dependências e build do Maven
+│
+├── /tests                       # Testes unitários e de integração
+├── /docs                        # Documentação, diagramas e guias
+└── docker-compose.yml           # Orquestração de containers
 ```
 
 ---
@@ -544,4 +554,5 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
