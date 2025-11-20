@@ -552,9 +552,12 @@ npm run test:e2e
 
 Liste aqui links para documentação técnica, referências de bibliotecas complexas ou guias de estilo que foram cruciais para o projeto.
 
-* 📖 **Exemplo 1 (Framework/Biblioteca):** [Nome da Tecnologia](<link-oficial>)
-* 📖 **Exemplo 2 (Guia de Estilo):** [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
-* 📖 **Exemplo 3 (Documentação Interna):** [Design System do Projeto](./docs/design-system.md)
+* 📖 **Framework/Biblioteca (Front-end):** [Documentação Oficial do **React**](https://react.dev/reference/react)
+* 📖 **Build Tool (Front-end):** [Guia de Configuração do **Vite**](https://vitejs.dev/config/)
+* 📖 **Framework (Back-end):** [Documentação Oficial do **Spring Boot**](https://docs.spring.io/spring-boot/docs/current/reference/html/)
+* 📖 **Containerização:** [Documentação de Referência do **Docker**](https://docs.docker.com/)
+* 📖 **Guia de Estilo:** [**Conventional Commits** (Padrão de Mensagens)](https://www.conventionalcommits.org/en/v1.0.0/)
+* 📖 **Documentação Interna:** [Design System do Projeto](./docs/design-system.md)
 
 ---
 
@@ -584,50 +587,3 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
