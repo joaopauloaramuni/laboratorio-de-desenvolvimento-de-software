@@ -254,6 +254,8 @@ Descreva o propósito das pastas principais.
 
 ---
 
+---
+
 ## 🎥 Demonstração
 
 Use GIFs e prints para mostrar o projeto em ação.
@@ -264,16 +266,21 @@ Use GIFs e prints para mostrar o projeto em ação.
 <img src="./caminho/gif-mobile.gif" alt="Demonstração do App Mobile" height="350">
 
 - Prints das telas principais:
-<img src="./caminho/print-mobile-1.png" alt="Tela 1 do Mobile" width="400"> <img src="./caminho/print-mobile-2.png" alt="Tela 2 do Mobile" width="400">
+<img src="./caminho/print-mobile-1.png" alt="Tela 1 do Mobile" width="400">  
+<img src="./caminho/print-mobile-2.png" alt="Tela 2 do Mobile" width="400">
 
 ### 🌐 Aplicação Web
 
-- Tela inicial com destaque:
-<img src="./caminho/print-web-home.png" alt="Tela Inicial da Aplicação Web" width="800">
+Para melhor visualização, as telas principais estão organizadas lado a lado.
 
-- Prints de funcionalidades (CRUD, Relatórios, etc.):
-<img src="./caminho/print-web-1.png" alt="Tela de Gerenciamento" width="800">
-<img src="./caminho/print-web-2.png" alt="Tela de Relatórios" width="800">
+| Tela | Captura de Tela |
+| :---: | :---: |
+| **Página Inicial (Home)** | **Página de Login** |
+| <img src="./caminho/print-web-home.png" alt="Tela Inicial da Aplicação Web" width="400"> | <img src="./caminho/print-web-login.png" alt="Tela de Login" width="400"> |
+| **Cadastro de Clientes** | **Cadastro de Produtos** |
+| <img src="./caminho/print-web-cadastro-cliente.png" alt="Tela de Cadastro de Clientes" width="400"> | <img src="./caminho/print-web-cadastro-produto.png" alt="Tela de Cadastro de Produtos" width="400"> |
+| **Dashboard (Visão Geral)** | **Página Admin / Configurações** |
+| <img src="./caminho/print-web-dashboard.png" alt="Tela de Dashboard" width="400"> | <img src="./caminho/print-web-admin.png" alt="Tela Administrativa" width="400"> |
 
 ---
 
@@ -330,4 +337,5 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 ## 📄 Licença
 
 Este projeto está sob a licença **[MIT License](LICENSE)**.
+
 
