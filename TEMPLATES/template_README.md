@@ -638,6 +638,14 @@ Liste aqui links para documentação técnica, referências de bibliotecas compl
 
 ---
 
+## 👥 Autores
+Liste os principais contribuidores. Você pode usar links para seus perfis.
+
+- **Nome 1** - :octocat: [@github-user1](https://github.com/github-user1)
+- **Nome 2** - :octocat: [@github-user2](https://github.com/github-user2)
+
+---
+
 ## 🤝 Contribuição
 Guia para contribuições ao projeto.
 
@@ -651,23 +659,16 @@ Guia para contribuições ao projeto.
 
 ---
 
-## 👥 Autores
-Liste os principais contribuidores. Você pode usar links para seus perfis.
-
-- **Nome 1** - :octocat: [@github-user1](https://github.com/github-user1)
-- **Nome 2** - :octocat: [@github-user2](https://github.com/github-user2)
-
----
-
-## 🙏 Agradecimentos (Acknowledgements)
+## 🙏 Agradecimentos (Acknowledgements) 🧑‍💻
 Em ambiente acadêmico, citar fontes e inspirações é crucial (integridade acadêmica). Em ambiente profissional, mostra humildade e conexão com a comunidade.
 
-Gostaria de agradecer aos seguintes recursos e pessoas que foram fundamentais para o desenvolvimento deste projeto:
+Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para o desenvolvimento deste projeto:
 
-* [Prof. Dr. João Paulo Aramuni](https://github.com/joaopauloaramuni) - Pela mentoria e guia de boas práticas.
-* [Shields.io](https://shields.io/) - Pelos badges utilizados no README.
-* [Undraw](https://undraw.co/) - Pelas ilustrações utilizadas no design.
-* [React Icons](https://react-icons.github.io/react-icons/) - Pelos ícones da aplicação web.
+* [**Engenharia de Software PUC Minas**](https://www.instagram.com/engsoftwarepucminas/) - Pelo apoio institucional, estrutura acadêmica e fomento à inovação e boas práticas de engenharia.
+* [Prof. Dr. João Paulo Aramuni](https://github.com/joaopauloaramuni) - Pelos valiosos ensinamentos sobre **Arquitetura de Software** e **Padrões de Projeto**.
+* **Fernanda Kipper** - Pelos valiosos ensinamentos em **Desenvolvimento Web**, **DevOps** e melhores práticas em **Front-end**.
+* **Rodrigo Branas** - Pela didática excepcional em **Clean Architecture** e **Clean Code**.
+* **Código Fonte TV** - Pelo vasto conteúdo e cobertura de notícias, tutoriais e apoio à comunidade de **Desenvolvimento Web**.
 
 ---
 
