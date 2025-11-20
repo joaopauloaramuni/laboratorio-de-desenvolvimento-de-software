@@ -466,10 +466,12 @@ cd ../backend
 # Este comando inicia a API usando o artefato JAR gerado.
 java -jar backend/target/nome-do-do-projeto-0.0.1-SNAPSHOT.jar
 
-# 🟢 Execução do Front-end React
+# 🟢 Execução do Front-end (React/Vite)
 # O Front-end (arquivos estáticos) não é executado via Node, mas servido por um servidor web.
 # Exemplo de servidor de arquivos estáticos (usando Nginx, Vercel, Netlify, etc.)
-# Serve files from the /frontend/dist folder
+# Para simular a produção localmente ou rodar em uma VPS simples, use o pacote 'serve':
+npm install -g serve
+serve -s frontend/dist
 ```
 
 ---
@@ -681,8 +683,3 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
-
-
-
-
-
