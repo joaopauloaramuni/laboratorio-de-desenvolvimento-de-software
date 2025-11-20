@@ -12,7 +12,7 @@
     </td>
     <td>
       <div>
-        <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Logo do Projeto" width="120px" height="120px"/>
+        <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Logo do Projeto" width="20%" height="20%"/>
       </div>
     </td>
   </tr> 
@@ -687,6 +687,7 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
