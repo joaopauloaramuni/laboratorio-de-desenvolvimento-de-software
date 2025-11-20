@@ -146,6 +146,8 @@ Certifique-se de que o usuário tenha o ambiente configurado.
 - **Gerenciador de Pacotes:** npm ou yarn
 - **Docker** (Opcional, se a execução for via containers)
 
+---
+
 ### 🔑 Variáveis de Ambiente
 Crie um arquivo `.env` na raiz do projeto, baseado no `.env.example`, e preencha as variáveis:
 
@@ -156,18 +158,72 @@ Crie um arquivo `.env` na raiz do projeto, baseado no `.env.example`, e preencha
 | `DB_USER` | Usuário do banco de dados. | `admin` |
 | `DB_PASS` | Senha do banco de dados. | `senha-segura-123` |
 
-### Instalação de Dependências
-Clone o repositório e instale as dependências:
+---
+
+### 🔧 Exemplos de Variáveis de Ambiente na Vercel
+
+A Vercel permite configurar variáveis no painel (Project Settings > Environment Variables).
+Aqui estão exemplos comuns utilizadas em aplicações front-end e full-stack:
+
+---
+
+#### **Exemplo 1 – Front-end com Next.js usando API externa**
 
 ```
-git clone <repo>
-cd <pasta>
-# Instala as dependências do projeto principal
-npm install 
-# Se houver sub-pastas (ex: client/server)
-# cd client && npm install && cd ..
-# cd server && npm install
+NEXT_PUBLIC_API_URL=https://meu-backend.vercel.app/api
+NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=G-XXXXXXX
 ```
+
+---
+
+#### **Exemplo 2 – Aplicação Full-stack (Next.js + Prisma + PostgreSQL)**
+
+```
+DATABASE_URL=postgresql://admin:senha-super-segura@ep-meu-banco.aws.neon.tech:5432/verceldb
+NEXTAUTH_SECRET=uma_chave_muito_longa_e_segura
+NEXTAUTH_URL=https://meu-sistema.vercel.app
+```
+
+---
+
+#### **Exemplo 3 – Integração com APIs externas**
+
+```
+STRIPE_SECRET_KEY=sk_live_XXXXXXXXXXXXXXXXXXXX
+OPENAI_API_KEY=sk-XXXXXXXXXXXXXXXXXXXXX
+SENDGRID_API_KEY=SG.XXXXXXXXXXXXXXXXXXX
+```
+
+---
+
+#### **Exemplo 4 – Frontend com Vite (EmailJS)**
+
+No Vercel, crie as seguintes variáveis de ambiente:
+
+| Variável Vercel | Descrição |
+| :--- | :--- |
+| `VITE_EMAILJS_SERVICE_ID` | Seu Service ID |
+| `VITE_EMAILJS_TEMPLATE_ID_FOR_ME` | Seu Template ID para o recebedor |
+| `VITE_EMAILJS_TEMPLATE_ID_FOR_SENDER` | Seu Template ID para o remetente |
+| `VITE_EMAILJS_PUBLIC_KEY` | Sua Public Key |
+
+> **Obs:** As variáveis de ambiente em projetos **Vite** precisam começar com `VITE_` para que o Vite as reconheça e as inclua no *bundle* do frontend; variáveis sem esse prefixo não ficam disponíveis no código do cliente.
+
+Para adicionar essas variáveis:
+
+1.  Acesse a página de Environment Variables do seu projeto no Vercel (ex.: `https://vercel.com/<seu-usuario>/<seu-projeto>/settings/environment-variables`)
+2.  Clique em **"Add"** para adicionar cada variável com o nome e valor correspondente.
+
+Alternativamente, se estiver desenvolvendo localmente, crie um arquivo **`.env.local`** na raiz do seu projeto com o seguinte conteúdo:
+
+```
+VITE_EMAILJS_SERVICE_ID=seu_service_id_aqui
+VITE_EMAILJS_TEMPLATE_ID_FOR_ME=seu_template_id_for_me_aqui
+VITE_EMAILJS_TEMPLATE_ID_FOR_SENDER=seu_template_id_for_sender_aqui
+VITE_EMAILJS_PUBLIC_KEY=sua_public_key_aqui
+```
+
+---
 
 ### 💾 Inicialização do Banco de Dados (PostgreSQL)
 
@@ -186,6 +242,7 @@ docker run --name minha_db -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=senha-seg
 ``` bash
 npm run db:migrate
 ```
+---
 
 ### Como Executar a Aplicação
 Execute a aplicação em modo de desenvolvimento.
@@ -212,6 +269,8 @@ Antes de tudo, certifique-se de que o **Docker Desktop** (no Mac/Windows) ou o *
 ``` bash
 sudo systemctl start docker
 ```
+
+---
 
 #### 📦 Passos para build, inicialização e execução
 
@@ -380,5 +439,6 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
