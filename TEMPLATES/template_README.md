@@ -41,25 +41,25 @@ Breve descrição do projeto. **Foque no principal valor/benefício.**
 ---
 
 ## 📚 Índice
-- [Sobre o Projeto](#sobre-o-projeto)
-- [Funcionalidades](#funcionalidades)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Arquitetura](#arquitetura)
-- [Instalação e Execução](#instalação-e-execução)
-  - [Pré-requisitos](#pré-requisitos)
-  - [Variáveis de Ambiente](#variáveis-de-ambiente)
-  - [Instalação de Dependências](#instalação-de-dependências)
-  - [Inicialização do Banco de Dados (PostgreSQL)](#inicialização-do-banco-de-dados-postgresql)
-  - [Como Executar a Aplicação](#como-executar-a-aplicação)
+- [Sobre o Projeto](#-sobre-o-projeto)
+- [Funcionalidades](#-funcionalidades)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Arquitetura](#-arquitetura)
+- [Instalação e Execução](#-instalação-e-execução)
+  - [Pré-requisitos](#-pré-requisitos)
+  - [Variáveis de Ambiente](#-variáveis-de-ambiente)
+  - [Instalação de Dependências](#-instalação-de-dependências)
+  - [Inicialização do Banco de Dados (PostgreSQL)](#-inicialização-do-banco-de-dados-postgresql)
+  - [Como Executar a Aplicação](#-como-executar-a-aplicação)
   - [Execução Local Completa com Docker Compose (Incluindo Banco de Dados)](#execução-local-completa-com-docker-compose-incluindo-banco-de-dados)
-- [Deploy](#deploy)
-- [Estrutura de Pastas](#estrutura-de-pastas)
-- [Demonstração](#demonstração)
-- [Testes](#testes)
-- [Documentações utilizadas](#documentações-utilizadas)
-- [Contribuição](#contribuição)
-- [Autores](#autores)
-- [Licença](#licença)
+- [Deploy](#-deploy)
+- [Estrutura de Pastas](#-estrutura-de-pastas)
+- [Demonstração](#-demonstração)
+- [Testes](#-testes)
+- [Documentações utilizadas](#-documentações-utilizadas)
+- [Contribuição](#-contribuição)
+- [Autores](#-autores)
+- [Licença](#-licença)
 
 ---
 
@@ -352,6 +352,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 ## 📄 Licença
 
 Este projeto está sob a licença **[MIT License](LICENSE)**.
+
 
 
 
