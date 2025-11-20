@@ -7,7 +7,7 @@
   <tr>
     <td width="800px">
       <div align="justify">
-        Este é um exemplo de README.md estruturado, criado para servir como um modelo acadêmico e profissional que os estudantes podem utilizar em seus projetos de desenvolvimento. Ele reúne as seções essenciais recomendadas pelo Prof. Dr. João Paulo Aramuni, permitindo organização clara, documentação eficiente e padronização entre diferentes trabalhos. O objetivo deste esqueleto é facilitar a construção de projetos bem documentados, oferecendo um guia completo que inclui boas práticas, instruções de execução, tecnologias utilizadas, arquitetura, estruturas de pastas, testes, links úteis e orientações para colaboração. Esse template ajuda estudantes a desenvolverem documentação de qualidade profissional desde os primeiros períodos, promovendo clareza, reprodutibilidade e padronização nos projetos.
+        Este é um exemplo de <b>README.md estruturado</b>, criado para servir como um <b>modelo acadêmico e profissional</b> que os estudantes podem utilizar em seus projetos de desenvolvimento. Ele reúne as <i>seções essenciais</i> recomendadas pelo <b>Prof. Dr. João Paulo Aramuni</b>, permitindo <i>organização clara</i>, <i>documentação eficiente</i> e <i>padronização</i> entre diferentes trabalhos. O objetivo deste esqueleto é <b>facilitar a construção de projetos bem documentados</b>, oferecendo um <i>guia completo</i> que inclui <b>boas práticas</b>, instruções de execução, tecnologias utilizadas, arquitetura, estruturas de pastas, testes, links úteis e orientações para colaboração. Esse template ajuda estudantes a desenvolverem <b>documentação de qualidade profissional</b> desde os primeiros períodos, promovendo <i>clareza</i>, <i>reprodutibilidade</i> e <i>padronização</i> nos projetos.
       </div>
     </td>
     <td>
@@ -574,6 +574,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
