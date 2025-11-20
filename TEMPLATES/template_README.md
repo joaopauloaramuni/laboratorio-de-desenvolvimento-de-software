@@ -354,8 +354,6 @@ Descreva o propósito das pastas principais.
 
 ---
 
----
-
 ## 🎥 Demonstração
 
 Use GIFs e prints para mostrar o projeto em ação.
@@ -369,6 +367,7 @@ Use GIFs e prints para mostrar o projeto em ação.
 ### 📱 Aplicativo Mobile
 
 - GIF de demonstração (exemplo de fluxo de usuário):
+Sua gif aqui  
 <img src="./caminho/gif-mobile.gif" alt="Demonstração do App Mobile" height="350">
 
 Para melhor visualização, as telas principais estão organizadas lado a lado.
@@ -452,6 +451,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
