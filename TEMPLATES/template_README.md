@@ -51,6 +51,8 @@
     - [Back-end (Spring Boot)](#back-end-spring-boot)
   - [Inicialização do Banco de Dados (PostgreSQL)](#-inicialização-do-banco-de-dados-postgresql)
   - [Como Executar a Aplicação](#como-executar-a-aplicação)
+    - [Terminal 1: Backend (Spring Boot)](#terminal-1-backend-spring-boot)
+    - [Terminal 2: Frontend (React, Vite)](#terminal-2-frontend-react-vite)
     - [Execução Local Completa com Docker Compose (Incluindo Banco de Dados)](#-execução-local-completa-com-docker-compose-incluindo-banco-de-dados)
     - [Passos para build, inicialização e execução](#-passos-para-build-inicialização-e-execução)
 - [Deploy](#-deploy)
@@ -332,14 +334,14 @@ O Spring Boot utiliza o **Maven Wrapper** (`./mvnw`) ou **Gradle Wrapper** (`./g
 
 O projeto utiliza **PostgreSQL**. A forma mais fácil de inicializar o banco é via Docker (para execução sem `docker-compose`):
 
-1. **Rode o Container do PostgreSQL:**
+1. **Rode o Container do PostgreSQL:**  
    (Certifique-se que o Docker está em execução)
 
 ```bash
 docker run --name minha_db -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=senha-segura-123 -e POSTGRES_DB=nome_do_banco -p 5432:5432 -d postgres:16
 ```
 
-2. **Execute as Migrações:**
+2. **Execute as Migrações:**  
    O Back-end **Spring Boot** geralmente gerencia o schema do banco de dados automaticamente no startup (via Hibernate `ddl-auto`) ou utilizando ferramentas como **Flyway** ou **Liquibase**.
 
 * **Se o Spring Boot gerencia o schema (padrão):** Nenhuma ação manual é necessária, basta rodar o Back-end (veja a próxima seção).
@@ -355,7 +357,7 @@ docker run --name minha_db -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=senha-
 ### Como Executar a Aplicação
 Execute a aplicação em modo de desenvolvimento em **dois terminais separados**.
 
-#### Terminal 1: Back-end (Spring Boot)
+#### Terminal 1: Backend (Spring Boot)
 
 Inicie a API do Spring Boot. Ela tentará se conectar ao banco de dados rodando no Docker.
 
@@ -365,7 +367,7 @@ cd backend
 ```
 🚀 *O Back-end estará disponível em **http://localhost:8080**.*
 
-#### Terminal 2: Front-end (React/Vite)
+#### Terminal 2: Frontend (React, Vite)
 
 Inicie o servidor de desenvolvimento do Front-end.
 
@@ -683,4 +685,5 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
