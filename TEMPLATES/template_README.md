@@ -58,8 +58,9 @@
   - [Exemplo de saída no Terminal (para Backend, API, CLI)](#-exemplo-de-saída-no-terminal-para-backend-api-cli)
 - [Testes](#-testes)
 - [Documentações utilizadas](#-documentações-utilizadas)
-- [Contribuição](#-contribuição)
 - [Autores](#-autores)
+- [Contribuição](#-contribuição)
+- [Agradecimentos](#-agradecimentos)
 - [Licença](#-licença)
 
 ---
@@ -659,7 +660,7 @@ Guia para contribuições ao projeto.
 
 ---
 
-## 🙏 Agradecimentos (Acknowledgements) 🧑‍💻
+## 🙏 Agradecimentos
 Em ambiente acadêmico, citar fontes e inspirações é crucial (integridade acadêmica). Em ambiente profissional, mostra humildade e conexão com a comunidade.
 
 Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para o desenvolvimento deste projeto:
@@ -677,4 +678,5 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
