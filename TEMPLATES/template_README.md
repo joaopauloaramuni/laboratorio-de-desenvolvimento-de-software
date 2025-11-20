@@ -116,13 +116,24 @@ Liste as tecnologias com suas versões principais, se possível.
 ---
 
 ## 🏗 Arquitetura
-Descreva aqui a arquitetura do sistema. Mencione padrões de design (e.g., MVC, Microserviços).
 
-[Image of System architecture diagram showing layers and components]
+Descreva aqui a **arquitetura completa do sistema**, explicando como as camadas, módulos e componentes foram organizados. Informe também **por que** essa arquitetura foi escolhida e **quais problemas ela ajuda a resolver**.
 
-*Adicione diagramas se necessário.* Você pode usar um link para o diagrama ou usar tags de imagem.  
+Você pode incluir:
 
-<img src="./docs/diagrama_arquitetura.png" alt="Diagrama de Arquitetura do Sistema" width="600">
+- **Visão geral da arquitetura** (ex.: camadas, módulos, microsserviços, monólito modular, hexagonal, MVC etc.)
+- **Principais componentes** e o papel de cada um
+- **Padrões de design adotados** (ex.: Repository, Service Layer, DTOs, Factory, Observer)
+- **Fluxo de dados** entre as partes do sistema
+- **Tecnologias utilizadas em cada camada**
+- **Decisões arquiteturais importantes**
+- **Trade-offs** ou limitações relevantes
+
+### Exemplo de diagrama
+
+Adicione aqui um diagrama da arquitetura, caso exista:
+
+![Diagrama de Arquitetura do Sistema](./docs/diagrama_arquitetura.png)
 
 ---
 
@@ -369,4 +380,5 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
