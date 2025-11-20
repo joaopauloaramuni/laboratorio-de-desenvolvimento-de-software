@@ -133,7 +133,7 @@ Você pode incluir:
 
 Adicione aqui um diagrama da arquitetura, caso exista:
 
-![Diagrama de Arquitetura do Sistema](https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png)
+<img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Diagrama de Arquitetura do Sistema" width="120px" height="120px">
 
 ---
 
@@ -567,6 +567,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
