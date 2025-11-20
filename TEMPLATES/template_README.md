@@ -262,7 +262,7 @@ Use GIFs e prints para mostrar o projeto em ação.
 
 ### 📱 Aplicativo Mobile
 
-- GIF de demonstração (exemplo de fluxo de usuário):
+- GIF de demonstração (exemplo de fluxo de usuário):  
 Sua gif aqui <img src="./caminho/gif-mobile.gif" alt="Demonstração do App Mobile" height="350">
 
 - Prints das telas principais:
@@ -337,6 +337,3 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 ## 📄 Licença
 
 Este projeto está sob a licença **[MIT License](LICENSE)**.
-
-
-
