@@ -1,16 +1,10 @@
 # 🏷️ Nome do Projeto ✨
 
+Breve descrição do projeto. **Foque no principal valor/benefício.**  
+
 | Descrição do Projeto | Logo |
-| --- | --- |
-| Breve descrição do projeto. **Foque no principal valor/benefício.**  
-
-Este é um exemplo de **README.md estruturado**, criado para servir como um **modelo acadêmico e profissional** que os estudantes podem utilizar em seus projetos de desenvolvimento.  
-
-Ele reúne as seções essenciais recomendadas pelo **Prof. Dr. João Paulo Aramuni**, permitindo organização clara, documentação eficiente e padronização entre diferentes trabalhos.  
-
-O objetivo deste esqueleto é facilitar a construção de projetos bem documentados, oferecendo um guia completo que inclui boas práticas, instruções de execução, tecnologias utilizadas, arquitetura, estruturas de pastas, testes, links úteis e orientações para colaboração.  
-
-Esse template ajuda estudantes a desenvolverem documentação de qualidade profissional desde os primeiros períodos, promovendo clareza, reprodutibilidade e padronização nos projetos. | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" width="120px" height="120px" /> |
+| :--- | ---:|
+| Este é um exemplo de **README.md estruturado**, criado para servir como um **modelo acadêmico e profissional** que os estudantes podem utilizar em seus projetos de desenvolvimento. Ele reúne as seções essenciais recomendadas pelo **Prof. Dr. João Paulo Aramuni**, permitindo organização clara, documentação eficiente e padronização entre diferentes trabalhos. O objetivo deste esqueleto é facilitar a construção de projetos bem documentados, oferecendo um guia completo que inclui boas práticas, instruções de execução, tecnologias utilizadas, arquitetura, estruturas de pastas, testes, links úteis e orientações para colaboração. Esse template ajuda estudantes a desenvolverem documentação de qualidade profissional desde os primeiros períodos, promovendo clareza, reprodutibilidade e padronização nos projetos. | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/aramunilogo.png" alt="Logo do Projeto" width="90px" height="90px"/> |
 
 ## 🚧 Status do Projeto
 
@@ -347,6 +341,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 ## 📄 Licença
 
 Este projeto está sob a licença **[MIT License](LICENSE)**.
+
 
 
 
