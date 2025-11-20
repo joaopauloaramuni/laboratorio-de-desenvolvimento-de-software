@@ -366,64 +366,6 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 
 ## 📄 Licença
 
-Este projeto está sob a licença **[MIT License](LICENSE)**.
+Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
