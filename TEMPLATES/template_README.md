@@ -266,7 +266,7 @@ Para adicionar essas variáveis:
 1.  Acesse a página de Environment Variables do seu projeto no Vercel (ex.: `https://vercel.com/<seu-usuario>/<seu-projeto>/settings/environment-variables`)
 2.  Clique em **"Add"** para adicionar cada variável com o nome e valor correspondente.
 
-Alternativamente, se estiver desenvolvendo localmente, crie um arquivo **`.env.local`** **DENTRO DA PASTA `frontend`** do seu projeto com o seguinte conteúdo:
+Alternativamente, se estiver desenvolvendo localmente, crie um arquivo **`.env.local`** dentro da pasta **`frontend`** do seu projeto com o seguinte conteúdo:
 
 ```
 # Variável essencial para conectar ao Back-end Spring Boot rodando localmente (normalmente na porta 8080)
@@ -687,6 +687,7 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
