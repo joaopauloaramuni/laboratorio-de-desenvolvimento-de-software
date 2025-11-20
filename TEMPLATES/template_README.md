@@ -47,7 +47,7 @@ Breve descrição do projeto. **Foque no principal valor/benefício.**
 - [Arquitetura](#-arquitetura)
 - [Instalação e Execução](#-instalação-e-execução)
   - [Pré-requisitos](#pré-requisitos)
-  - [Variáveis de Ambiente](#variáveis-de-ambiente)
+  - [Variáveis de Ambiente](#-variáveis-de-ambiente)
   - [Instalação de Dependências](#instalação-de-dependências)
   - [Inicialização do Banco de Dados (PostgreSQL)](#inicialização-do-banco-de-dados-postgresql)
   - [Como Executar a Aplicação](#como-executar-a-aplicação)
@@ -352,6 +352,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 ## 📄 Licença
 
 Este projeto está sob a licença **[MIT License](LICENSE)**.
+
 
 
 
