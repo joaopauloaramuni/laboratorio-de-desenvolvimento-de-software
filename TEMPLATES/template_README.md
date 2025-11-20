@@ -4,6 +4,9 @@ Breve descrição do projeto. **Foque no principal valor/benefício.**
 
 <table>
 <tr>
+ <td align="center" colspan="2"></td>
+</tr> 
+<tr>
  <td align="center">Descrição do Projeto</td>
  <td align="center">Logo</td>
 </tr> 
@@ -359,6 +362,7 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 ## 📄 Licença
 
 Este projeto está sob a licença **[MIT License](LICENSE)**.
+
 
 
 
