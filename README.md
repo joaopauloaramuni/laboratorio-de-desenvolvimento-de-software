@@ -479,15 +479,15 @@ Relatórios anuais e pesquisas globais ajudam a entender as principais linguagen
 
 -----
 
-##### 📄 README de projeto:
+#### 📄 README de projeto:
 
 Esta seção reúne um **template** construído por mim e **exemplos** reais de READMEs para ajudar você a estruturar, documentar e apresentar seus projetos de forma clara, organizada e profissional.
 
-###### 📕 Template de README de projeto:
+##### 📕 Template de README de projeto:
 
 - :octocat: [Template de README](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/TEMPLATES/template_README.md)
 
-###### 📘 Exemplos de README de projeto:
+##### 📘 Exemplos de README de projeto:
 
 - 🌐 [Tuscan](https://github.com/Berohlfs/BachelorsThesisSoftwareEngineering)
   - :octocat: [GitHub Bernardo Rohlfs](https://github.com/Berohlfs)
@@ -499,28 +499,28 @@ Esta seção reúne um **template** construído por mim e **exemplos** reais de 
 
 -----
 
-##### 🎥 Vídeos de fundo sugeridos:
+#### 🎥 Vídeos de fundo sugeridos:
 
-###### 🌆 Time Lapse - PUC Minas Coração Eucarístico
+##### 🌆 Time Lapse - PUC Minas Coração Eucarístico
 Um vídeo **acelerado (time lapse)** ideal para ser utilizado como **plano de fundo** na tela de login do *Sistema de Moeda Estudantil* (ou, alternativamente, **AraCoin**, **CampusCoin** ou **PUC Pay**).  
 A animação em *time lapse* mostra o movimento do campus e cria uma ambientação moderna e institucional, substituindo fundos estáticos em branco ou preto, trazendo vida e identidade visual à interface.
 
 - [🎬 Time Lapse - PUC Minas Coração Eucarístico (YouTube)](https://www.youtube.com/watch?v=ZJjwCgvnOTg)
 - [⬇️ Link para download direto do vídeo](https://github.com/user-attachments/assets/a3660d92-86ab-4e76-9194-8c08b188cb52)
 
-###### 🚶‍♂️ **Time Lapse – Pessoas andando na calçada**  
+##### 🚶‍♂️ **Time Lapse – Pessoas andando na calçada**  
 Um vídeo **acelerado (time lapse)** mostrando o fluxo de pessoas caminhando pela calçada.  
 Transmite movimento e energia, sendo ideal para telas de autenticação ou áreas de espera no sistema.  
 
 - [⬇️ Link para download direto do vídeo](https://github.com/user-attachments/assets/524c4244-691b-4ff4-b2af-bb790a194e37)
 
-###### 🏓 **Pessoas jogando ping pong na praça**  
+##### 🏓 **Pessoas jogando ping pong na praça**  
 Um vídeo **em velocidade normal** mostrando um grupo de estudantes jogando ping pong em uma praça.  
 Traz uma sensação de convivência, leveza e ambiente descontraído — ideal para planos de fundo mais sutis e humanos.  
 
 - [⬇️ Link para download direto do vídeo](https://github.com/user-attachments/assets/cd458d13-2833-4ab0-bb55-d3efc0792ead)
 
-###### 🌟 Sites para baixar vídeos de fundo
+##### 🌟 Sites para baixar vídeos de fundo
 
 - 1️⃣ [Pexels Videos](https://www.pexels.com/videos/)  
   - Muitos vídeos gratuitos em alta resolução.  
@@ -548,105 +548,105 @@ Traz uma sensação de convivência, leveza e ambiente descontraído — ideal p
 
 -----
 
-##### 📝 Portfólios:
+#### 📝 Portfólios:
 
 Exemplos de portfólio profissional:
 
-###### João Paulo Aramuni (Professor do curso de Engenharia de Software da PUC Minas):
+##### João Paulo Aramuni (Professor do curso de Engenharia de Software da PUC Minas):
 - 🌐 [Portfólio](http://aramuni.dev/)
 - :octocat: [Repo Portfólio](https://github.com/joaopauloaramuni/joaopauloaramuni-portfolio)
 - :octocat: [GitHub](https://github.com/joaopauloaramuni)
 
-###### Luca Azalim (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
+##### Luca Azalim (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
 - 🌐 [Portfólio](http://azal.im/)
 - :octocat: [Repo Portfólio](https://github.com/lucaazalim/azal.im)
 - :octocat: [GitHub](https://github.com/lucaazalim)
 
-###### Pedro Braga (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
+##### Pedro Braga (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
 - 🌐 [Portfólio](https://www.pedrobragadev.com/)
 - :octocat: [Repo Portfólio](https://github.com/bragap/pedrobragadev)
 - :octocat: [GitHub](https://github.com/bragap)
 
-###### Davi Mendes (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
+##### Davi Mendes (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
 - 🌐 [Portfólio](https://davimendes.vercel.app)
 - 📦 Lib utilizada - VantaJS: [https://www.vantajs.com/](https://www.vantajs.com/)
 - 📖 VantaJS GitHub: [https://github.com/tengbao/vanta](https://github.com/tengbao/vanta)
 - :octocat: [Repo Portfólio](https://github.com/DMendes7/Lab-Projeto-de-Software/tree/main/Projetos/Lab01%20-%20Portfo%CC%81lio%20Profissional/Davi)
 - :octocat: [GitHub](https://github.com/dmendes7)
 
-###### João Marcelo Carvalho (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
+##### João Marcelo Carvalho (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
 - 🌐 [Portfólio](https://joaomarcelocpa.vercel.app/)
 - 📦 Lib utilizada - NextJS: [https://nextjs.org/](https://nextjs.org/)
 - :octocat: [Repo Portfólio](https://github.com/joaomarcelocpa/MyPortfolio)
 - :octocat: [GitHub](https://github.com/joaomarcelocpa)
 
-###### Flávio Júnior (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
+##### Flávio Júnior (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
 - 🌐 [Portfólio](https://flaviojunior-portfolio.vercel.app/)
 - 📦 Lib utilizada - Shadcn: [https://ui.shadcn.com/](https://ui.shadcn.com/)
 - 📖 Shadcn Docs: [https://ui.shadcn.com/docs/registry/getting-started](https://ui.shadcn.com/docs/registry/getting-started)
 - :octocat: [Repo Portfólio](https://github.com/flaviojuniordev/flaviojunior-portfolio)
 - :octocat: [GitHub](https://github.com/flaviojuniordev)
 
-###### Gabriel Chagas Lage (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
+##### Gabriel Chagas Lage (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
 - 🌐 [Portfólio](https://gabriel-chagas-lage.vercel.app/)
 - 📦 Lib utilizada - react-terminal-ui: [https://github.com/jonmbake/react-terminal-ui](https://github.com/jonmbake/react-terminal-ui)
 - :octocat: [Repo Portfólio](https://github.com/gabrielchagas13/gabriel-chagas-lage)
 - :octocat: [GitHub](https://github.com/gabrielchagas13)
 
-###### Guilherme Vieira (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
+##### Guilherme Vieira (Aluno do curso de Engenharia de Software da PUC Minas - Campus Coração Eucarístico):
 - 🌐 [Portfólio](https://guilherme-vieira.vercel.app/)
 - :octocat: [GitHub](https://github.com/GuilhermeVieira05/Portifolio_Lab)
 
-###### Gabriel Victor (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
+##### Gabriel Victor (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
 - 🌐 [Portfólio](https://gabrielvictor.web.app/)
 - :octocat: [GitHub](https://github.com/G4BR-13-L)
 
-###### Raphael Sena (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
+##### Raphael Sena (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
 - 🌐 [Portfólio](https://www.raphaelsena.com/)
 - :octocat: [Repo Portfólio](https://github.com/raphael-sena/portfolio)
 - :octocat: [GitHub](https://github.com/raphael-sena/)
 
-###### Victor Gabriel Cruz Pereira (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
+##### Victor Gabriel Cruz Pereira (Aluno do curso de Engenharia de Software da PUC Minas - Campus Lourdes):
 - 🌐 [Portfólio](https://www.victorgabrielcruzpereira.com.br/)
 - :octocat: [Repo Portfólio](https://github.com/Victorgabrielcruz/Portfolio_Lab_Software)
 - :octocat: [GitHub](https://github.com/victorgabrielcruz)
 
-###### Mateus Nascimento
+##### Mateus Nascimento
 - 🌐 [Portfólio](https://archlinux-drab.vercel.app/)
 - :octocat: [GitHub](https://github.com/Mateusnasciment)
 
-###### Guilherme Tadeu:
+##### Guilherme Tadeu:
 - 🌐 [Portfólio](https://guilhermetadeu.com.br/)
 - 🌐 [Portfólio - Netlify](https://guilherme-tadeu.netlify.app/)
 
-###### Sat Naing:
+##### Sat Naing:
 - 🌐 [Portfólio](https://terminal.satnaing.dev/)
 - :octocat: [GitHub](https://github.com/satnaing/terminal-portfolio)
 
-###### Henry Heffernan:
+##### Henry Heffernan:
 - 🌐 [Portfólio](https://henryheffernan.com/)
 - 📦 Lib utilizada - Three JS: [https://threejs.org/](https://threejs.org/)
 - 📖 Three JS Docs: [https://threejs.org/docs/](https://threejs.org/docs/)
 - [Repositório do website](https://github.com/henryjeff/portfolio-website)
 - :octocat: [GitHub](https://github.com/henryjeff)
 
-###### Josh W. Comeau:
+##### Josh W. Comeau:
 - 🌐 [Portfólio](https://www.joshwcomeau.com/)
 - :octocat: [GitHub](https://github.com/joshwcomeau)
 
-###### Bohr.io
+##### Bohr.io
 - 🌐 [Portfólio](https://portfolio-template-bohr-io.bohr.io/)
 - :octocat: [GitHub](https://github.com/bohr-io/portfolio-template)
 
-###### Template para Terminal:
+##### Template para Terminal:
 - Componente React: [react-terminal-ui](https://github.com/jonmbake/react-terminal-ui)
 - Demonstração: [react-terminal-ui/demo](https://jonmbake.github.io/react-terminal-ui/demo/)
 - Styling: [ines/termynal](https://github.com/ines/termynal)
 
-###### 📚 E-book: Building an Effective Dev Portfolio
+##### 📚 E-book: Building an Effective Dev Portfolio
 - [Building an Effective Dev Portfolio](https://storage.googleapis.com/joshwcomeau/building-an-effective-dev-portfolio.pdf)
 
-###### 👤 Outros perfis:
+##### 👤 Outros perfis:
 
 - https://portfolio-starter-template.webflow.io/
 - https://craig-roush-portfolio-template.webflow.io/
@@ -658,22 +658,22 @@ Exemplos de portfólio profissional:
 
 -----
 
-##### 🎨 Figma
+#### 🎨 Figma
 
-###### 🖌️ Design de interfaces e prototipagem com Figma
+##### 🖌️ Design de interfaces e prototipagem com Figma
 O Figma é uma das principais ferramentas de design de interfaces e prototipagem colaborativa do mercado. Permite criar layouts, fluxos de navegação e componentes reutilizáveis de forma integrada entre designers e desenvolvedores. Com recursos de colaboração em tempo real, facilita a iteração rápida e a validação de ideias, sendo amplamente adotado por equipes ágeis e projetos orientados à experiência do usuário (UX/UI).
 
-###### 👨‍🏫 Figma - Education
+##### 👨‍🏫 Figma - Education
 - [Figma Education](https://www.figma.com/pt-br/education/)
 - [Figma Education - Apply](https://www.figma.com/education/apply)
 
-###### 🎨 Figma - Templates
+##### 🎨 Figma - Templates
 
-###### 🗂️ Figma - Templates gerais
+##### 🗂️ Figma - Templates gerais
 - [Figma - Templates](https://www.figma.com/pt-br/modelos/)
 - [Figma - Templates - Engineering](https://www.figma.com/templates/engineering/)
 
-###### 💻 Figma - Portfólios Dev
+##### 💻 Figma - Portfólios Dev
 - [Figma - Community - Template - Dev 1](https://www.figma.com/community/file/1116246660507537002)
 - [Figma - Community - Template - Dev 2](https://www.figma.com/community/file/1387080701963671866)
 - [Figma - Community - Template - Dev 3](https://www.figma.com/community/file/1199400234468163757)
@@ -681,49 +681,49 @@ O Figma é uma das principais ferramentas de design de interfaces e prototipagem
 - [Figma - Community - Template - Dev 5](https://www.figma.com/community/file/1006095821656678611)
 - [Figma - Community - Template - Dev 6](https://www.figma.com/community/file/1117086389471494637)
 
-###### ☁️ Figma - Templates AWS / Arquitetura de sistemas
+##### ☁️ Figma - Templates AWS / Arquitetura de sistemas
 - [Figma - Templates - AWS Diagram Software](https://www.figma.com/templates/aws-diagram-software/)
 - [Figma - Community - Template - AWS Diagram Software](https://www.figma.com/community/file/989585391556898521)
 - [Figma - Community - Template - Architecture Diagram Components](https://www.figma.com/community/file/989635781221754599)
 - [Figma - Community - Example - Architecture Diagram Components - Multiplayer](https://www.figma.com/community/file/989634471195357925)
 
-###### 🔁 Figma - Diagramas de Classe
+##### 🔁 Figma - Diagramas de Classe
 - [Figma - Community - Template - Class Diagram Template 1](https://www.figma.com/community/widget/1223307422838321651/class-diagram-template)
 - [Figma - Community - Template - Class Diagram Template 2](https://www.figma.com/community/file/1382466485963045247)
 - [Figma - Community - Template - Class Diagram Kit](https://www.figma.com/community/file/1080957210729895033/class-diagram-kit)
 - [Figma - Community - Template - Class Diagram Components](https://www.figma.com/community/file/1212086403033670342)
 
-###### ↔️ Figma - Diagramas de Estado
+##### ↔️ Figma - Diagramas de Estado
 - [Figma - Community - Template - State Diagram](https://www.figma.com/community/file/1421434533409803988)
 - [Figma - Community - Template - State Diagram](https://www.figma.com/community/file/1296294416175574183)
 
-###### ➡️ Figma - Diagramas de Sequência
+##### ➡️ Figma - Diagramas de Sequência
 - [Figma - Templates - Sequence Diagram](https://www.figma.com/templates/sequence-diagram-example/)
 - [Figma - Article - What is a Sequence Diagram](https://www.figma.com/resource-library/what-is-a-sequence-diagram/)
 - [Figma - Community - Sequence Diagram Template 1](https://www.figma.com/community/file/1098826965587543878)
 - [Figma - Community - Sequence Diagram Template 2](https://www.figma.com/community/file/1171538979746250052)
 - [Figma - Community - Sequence Diagram Template 3](https://www.figma.com/community/file/1073197708388837434/sequence-diagram-community)
 
-###### 💬 Figma - Diagramas de Comunicação
+##### 💬 Figma - Diagramas de Comunicação
 - [Figma - Community - Communication Diagram Template](https://www.figma.com/pt-br/comunidade/file/1421434973050580694/uml-communication-diagram-template-the-conference-room)
 
-###### 🌐 Figma - APIs e Microserviços
+##### 🌐 Figma - APIs e Microserviços
 - [Figma - Community - Template - REST API](https://www.figma.com/community/file/1275291490973723744)
 - [Figma - Community - Template - Microservices](https://www.figma.com/community/file/1289282634966901135)
 
-###### 👤 Figma - User Persona Template
+##### 👤 Figma - User Persona Template
 - [Figma - Community - Template - User Persona](https://www.figma.com/community/file/881830156311997001)
 
-###### 🧱 Figma - C4 Model (Arquitetura de Software)
+##### 🧱 Figma - C4 Model (Arquitetura de Software)
 - [Figma - Templates - C4 Model Examples](https://www.figma.com/templates/c4-model-examples/)
 - [Figma - Community - The C4 Model for Figma](https://www.figma.com/community/file/1122907722147721168/the-c4-model-for-figma)
 - [Figma - Community - Free Flowchart C4 Model for Visualising Software Architecture](https://www.figma.com/community/file/993021410825878148/free-flowchart-c4-model-for-visualising-software-architecture)
 
 -----
 
-##### 🎨 Templates e exemplos de Diagramas de Pacotes (UML)
+#### 🎨 Templates e exemplos de Diagramas de Pacotes (UML)
 
-###### 📌 Ferramentas com modelos prontos
+##### 📌 Ferramentas com modelos prontos
 - [EdrawMax – Templates de Package Diagram](https://www.edrawmax.com/templates/tag/package-diagram/)
 - [Lucid – Package Diagram Templates](https://lucid.co/templates/uml-package-diagram)  
 - [Visual Paradigm – Templates de Package Diagram](https://online.visual-paradigm.com/diagrams/templates/package-diagram/)  
@@ -731,99 +731,99 @@ O Figma é uma das principais ferramentas de design de interfaces e prototipagem
 - [SmartDraw – Exemplos de Package Diagram](https://www.smartdraw.com/uml-diagram/examples/uml-package-diagram/?srsltid=AfmBOopA8B4QtzKMnNm5PFErDykBGztYqIlXPEDOUKutRlLnb8InDBWL)  
 - [Miro - Exemplo de Use Case Diagram](https://miro.com/app/dashboard/?tpTemplate=6df48513-d72e-4ccb-9914-8e8e533c980c&isCustom=false&share_link_id=333552543717)  
 
-###### 📖 Tutoriais e guias explicativos
+##### 📖 Tutoriais e guias explicativos
 - [Edraw – Como Criar um UML Package Diagram](https://edraw.wondershare.com/uml-package.html?srsltid=AfmBOorSSxwW32qlHC8Fgh2tdqQZHTwc4pTnpThZG1OFOxK7pD1aesk9)  
 - [Lucidchart – Tutorial UML Package Diagram](https://www.lucidchart.com/pages/tutorial/uml-package-diagram)  
 - [Draw.io – Introdução a UML Package Diagrams](https://www.drawio.com/blog/uml-package-diagrams)  
 - [Miro – O que é um UML Package Diagram?](https://miro.com/diagramming/what-is-a-uml-package-diagram/)  
 
-###### 📚 Exemplos de referência
+##### 📚 Exemplos de referência
 - [UML Diagrams – Exemplos de Package Diagram](https://www.uml-diagrams.org/package-diagrams-examples.html)  
 
 -----
 
-##### 💬 Templates e exemplos de Diagramas de Comunicação (UML)
+#### 💬 Templates e exemplos de Diagramas de Comunicação (UML)
 
-###### 📌 Ferramentas com modelos prontos
+##### 📌 Ferramentas com modelos prontos
 - [Lucid – Communication Diagram Templates](https://lucid.co/templates/uml-communication-diagram)  
 - [Miro – UML Communication Diagram Template](https://miro.com/templates/uml-communication-diagram/)  
 - [Figma – UML Communication Diagram Template (The Conference Room)](https://www.figma.com/pt-br/comunidade/file/1421434973050580694/uml-communication-diagram-template-the-conference-room)  
 
-###### 📖 Tutoriais e guias explicativos
+##### 📖 Tutoriais e guias explicativos
 - [Lucidchart – Tutorial UML Communication Diagram](https://www.lucidchart.com/pages/tutorial/uml-communication-diagram)  
 - [Microsoft Visio – Criar um Diagrama de Comunicação UML](https://support.microsoft.com/en-us/office/create-a-uml-communication-diagram-911956f4-5f19-4a58-97a3-bb14110a5ed1)  
 
-###### 📚 Exemplos de referência
+##### 📚 Exemplos de referência
 - [UML Diagrams – Exemplos de Communication Diagram](https://www.uml-diagrams.org/communication-diagrams.html)  
 
 -----
 
-##### ✍️ Fonts:
+#### ✍️ Fonts:
 
-###### 🖋️ Fontes para desenvolvimento e design de portfólios
+##### 🖋️ Fontes para desenvolvimento e design de portfólios
 
 As fontes monoespaçadas e estilizadas desempenham um papel essencial no desenvolvimento de software, design e prototipagem. Elas impactam diretamente a legibilidade do código, a produtividade e até a estética de interfaces. Fontes como FiraCode, JetBrains Mono e Cascadia Code oferecem recursos como ligaduras, clareza visual e otimização para telas digitais. Além de melhorar a experiência do programador, também são amplamente utilizadas em projetos de identidade visual, portfólios, prototipagem e apresentações, unindo funcionalidade e estilo.
 
-###### FiraCode
+##### FiraCode
 
 - [FiraCode](https://github.com/tonsky/FiraCode)
 - [Fira_Code_v6.2.zip](https://github.com/user-attachments/files/21781725/Fira_Code_v6.2.zip)
 
-###### JetBrains Mono
+##### JetBrains Mono
 
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 - [JetBrains Mono - GitHub](https://github.com/JetBrains/JetBrainsMono)
 
-###### Cascadia Code
+##### Cascadia Code
 
 - [Cascadia Code - Microsoft Docs](https://learn.microsoft.com/en-us/windows/terminal/cascadia-code)
 - [Cascadia Code - GitHub](https://github.com/microsoft/cascadia-code)
 
-###### Ubuntu Mono
+##### Ubuntu Mono
 
 - [Ubuntu Font](https://design.ubuntu.com/font)
 - [Ubuntu Mono - Google Fonts](https://fonts.google.com/specimen/Ubuntu+Mono)
 
-###### IBM Plex Mono
+##### IBM Plex Mono
 
 - [IBM Plex](https://www.ibm.com/plex/)
 - [IBM Plex - GitHub](https://github.com/IBM/plex)
 - [IBM Plex Mono - Google Fonts](https://fonts.google.com/specimen/IBM+Plex+Mono)
 
-###### Hack
+##### Hack
 
 - [Hack - Oficial](https://sourcefoundry.org/hack/)
 - [Hack - GitHub](https://github.com/source-foundry/Hack)
 
-###### Orbitron
+##### Orbitron
 
 - [Orbitron - Adobe Fonts](https://fonts.adobe.com/fonts/orbitron)
 - [Orbitron - Google Fonts](https://fonts.google.com/specimen/Orbitron)
 - [Orbitron - Download](https://font.download/font/orbitron)
 
-###### Source Code Pro
+##### Source Code Pro
 
 - [Source Code Pro - Adobe Fonts](https://fonts.adobe.com/fonts/source-code-pro)
 - [Source Code Pro - Google Fonts](https://fonts.google.com/specimen/Source+Code+Pro)
 - [Source Code Pro - GitHub](https://github.com/adobe-fonts/source-code-pro)
 
-###### Quantico
+##### Quantico
 
 - [Quantico - Google Fonts](https://fonts.google.com/specimen/Quantico)
 
 -----
 
-##### 🐳 Docker:
+#### 🐳 Docker:
 
 - [Docker Cheatsheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - [Docker Hub](https://hub.docker.com/)
 - [Docker Roadmap](https://roadmap.sh/docker)
 
-###### ▶️ Docker - Vídeo tutorial
+##### ▶️ Docker - Vídeo tutorial
 - [Docker Tutorial for Beginners - FULL COURSE in 3 Hours](https://www.youtube.com/watch?v=3c-iBn73dDE)
 
-###### 🛠️ Comandos Docker úteis:
+##### 🛠️ Comandos Docker úteis:
 ```
 docker --version
 
@@ -840,7 +840,7 @@ docker ps
 docker stats
 ```
 
-###### 🔎 Veja mais sobre docker:
+##### 🔎 Veja mais sobre docker:
 
 <details>
   <summary>Comandos Docker: Guia rápido</summary>
