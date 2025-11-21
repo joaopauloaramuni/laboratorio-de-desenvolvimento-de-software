@@ -980,7 +980,7 @@ Confira abaixo o papel fundamental de cada componente ilustrado no GIF:
 
 -----
 
-###### 🚀 Domine o Spring Boot em 2025
+#### 🚀 Domine o Spring Boot em 2025
 
 O Spring Boot continua sendo uma das ferramentas mais poderosas e utilizadas por desenvolvedores Java. Sua proposta de simplificar o desenvolvimento de aplicações robustas e prontas para produção o tornou o padrão de fato no desenvolvimento backend moderno.
 
@@ -990,7 +990,7 @@ O roadmap abaixo vai te guiar desde os conceitos fundamentais até os tópicos m
 
 -----
 
-#### 🍃 Roadmap Spring Boot
+##### 🍃 Roadmap Spring Boot
 
 Um **roadmap** é um guia visual que apresenta etapas, habilidades ou conhecimentos necessários para atingir um objetivo específico. Ele ajuda a organizar o aprendizado ou desenvolvimento ao longo do tempo, mostrando caminhos recomendados e prioridades.
 
@@ -998,7 +998,7 @@ Um **roadmap** é um guia visual que apresenta etapas, habilidades ou conhecimen
   <img align="center" alt="roadmap" src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/spring-boot-roadmap.png"/>
 </div>
 
-##### 📚 Referências
+###### 📚 Referências
 
 - 📘 [Spring Boot Roadmap 2025 – AmigosCode](https://amigoscode.com/blogs/spring-boot-roadmap-2025)  
 - 📗 [Spring Boot Roadmap – roadmap.sh](https://roadmap.sh/spring-boot)  
