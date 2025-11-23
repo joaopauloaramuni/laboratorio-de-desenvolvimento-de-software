@@ -139,10 +139,11 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 ##### 🛠️ IDEs e Ferramentas
 
 ###### ⚙️ Ambientes de desenvolvimento para produtividade e depuração  
-IDE (Ambiente de Desenvolvimento Integrado) e editores especializados ajudam a escrever, depurar e manter código com mais eficiência. Ferramentas como **IntelliJ IDEA** e **VS Code** oferecem recursos como autocompletar, depuração visual, integração com Git, suporte a frameworks como Spring e muito mais.
+IDE (Ambiente de Desenvolvimento Integrado) e editores especializados ajudam a escrever, depurar e manter código com mais eficiência. Ferramentas como **IntelliJ IDEA**, **VS Code** e **Cursor** oferecem recursos como autocompletar, depuração visual, integração com Git, suporte a frameworks como Spring e muito mais.
 
 - [💡 IntelliJ IDEA - IDE da JetBrains](https://www.jetbrains.com/pt-br/idea/)
 - [🧩 Visual Studio Code - Editor leve e extensível da Microsoft](https://code.visualstudio.com/)
+- [⚡ Cursor - IDE com IA integrada](https://cursor.com/)
 
 -----
 
