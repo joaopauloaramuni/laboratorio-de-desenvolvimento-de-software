@@ -522,6 +522,11 @@ Esta seção reúne um **template** construído por mim e **exemplos** reais de 
 | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/brasao-pucminas-versao-2025.png" width="200px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/brasao2.png" width="200px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/brasao.png" width="200px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/engSoft-logo1.png" width="200px"> |
 | *Novo Brasão PUC Minas 2025* | *Brasão PUC Minas preto e branco* | *Brasão PUC Minas fundo transparente* | *Logo do curso de Engenharia de Software* |
 
+| **Opção 11** |
+| :---: |
+| <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/logo-puc-mobile.png" width="200px"> |
+| *Fonte: Logo PUC Mobile* |
+
 -----
 
 #### 🎥 Vídeos de fundo sugeridos:
