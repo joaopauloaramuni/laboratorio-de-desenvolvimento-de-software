@@ -508,8 +508,7 @@ Esta seção reúne um **template** construído por mim e **exemplos** reais de 
 | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/fundo_teams_icei.jpg" width="250px"> 
 | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/brasao-pucminas-versao-2025.png" width="239px"> 
 | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/puc2.jpg" width="239px"> 
-| <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/java-imgs/SecureLoginPUC_2/imgs/apc-login-bg-2.png" width="239px"> |
-| *Extraída do Sistema de Atividades Práticas Curriculares (APC)* | *Nova Logo da PUC Minas* | *Sugestão para tela de login.* | *Sugestão para tela de login.* |
+| *Fonte: Extraída do Sistema de Atividades Práticas Curriculares (APC)* | *Fonte: Extraída de Fundo Teams ICEI* | *Fonte: Novo Brasão PUC Minas 2025* | *Brasão PUC Minas azul* |
 
 -----
 
