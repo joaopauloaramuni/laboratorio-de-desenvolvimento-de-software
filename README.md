@@ -502,10 +502,10 @@ Esta seção reúne um **template** construído por mim e **exemplos** reais de 
 
 #### 🖼️ Imagens sugeridas para telas de Login:
 
-| **Opção 1** |
-| :---: |
-| <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/java-imgs/SecureLoginPUC_2/imgs/apc-login-bg-2.png" alt="Login" width="239px"> |
-| *Esta imagem é uma sugestão para tela de login.* |
+| **Opção 1** | **Opção 2** | **Opção 3** | **Opção 4** |
+| :---: | :---: | :---: | :---: |
+| <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/java-imgs/SecureLoginPUC_2/imgs/apc-login-bg-2.png" width="239px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/brasao-pucminas-versao-2025.png" width="239px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/brasao-pucminas-versao-2025-2.png" width="239px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/java-imgs/SecureLoginPUC_2/imgs/apc-login-bg-2.png" width="239px"> |
+| *Extraída do Sistema de Atividades Práticas Curriculares (APC)* | *Nova Logo da PUC Minas* | *Sugestão para tela de login.* | *Sugestão para tela de login.* |
 
 -----
 
