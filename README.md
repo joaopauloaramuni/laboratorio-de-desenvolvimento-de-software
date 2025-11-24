@@ -507,7 +507,12 @@ Esta seção reúne um **template** construído por mim e **exemplos** reais de 
 | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/java-imgs/SecureLoginPUC_2/imgs/apc-login-bg-2.png" width="300px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/fundo_teams_icei.jpg" width="400px"> |
 | *Fonte: Sistema de Atividades Práticas Curriculares (APC)* | *Fonte: Fundo Teams ICEI* |
 
-| **Opção 3** | **Opção 4** | **Opção 5** |
+| **Opção 3** | **Opção 4** |
+| :---: | :---: |
+| <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/PUC-foto.jpg" width="400px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/PUC-foto-2.jpg" width="400px"> |
+| *Foto 1: Campus Coração Eucarístico* | *Foto 2: Campus Coração Eucarístico* |
+
+| **Opção 5** | **Opção 6** | **Opção 7** |
 | :---: | :---: | :---: |
 | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/brasao-pucminas-versao-2025.png" width="200px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/brasao2.png" width="200px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/puc2.jpg" width="200px"> |
 | *Novo Brasão PUC Minas 2025* | *Brasão PUC Minas preto e branco* | *Brasão PUC Minas fundo azul* |
