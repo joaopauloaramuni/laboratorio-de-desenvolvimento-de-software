@@ -519,13 +519,13 @@ Esta seção reúne um **template** construído por mim e **exemplos** reais de 
 
 | **Opção 7** | **Opção 8** | **Opção 9** | **Opção 10** |
 | :---: | :---: | :---: | :---: |
-| <img src="https://joaopauloaramuni.github.io/image/brasao-pucminas-versao-2025.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/brasao2.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/brasao.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/engSoft-logo1.png" width="200px"> |
-| *Novo Brasão PUC Minas 2025* | *Brasão PUC Minas preto e branco* | *Brasão PUC Minas fundo transparente* | *Logo do curso de Engenharia de Software* |
+| <img src="https://joaopauloaramuni.github.io/image/brasao-pucminas-versao-2025.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/brasao2.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/brasao.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/logo-puc-mobile.png" width="200px"> |
+| *Novo Brasão PUC Minas 2025* | *Brasão PUC Minas preto e branco* | *Brasão PUC Minas fundo transparente* | *Logo PUC Mobile* |
 
-| **Opção 11** |
-| :---: |
-| <img src="https://joaopauloaramuni.github.io/image/logo-puc-mobile.png" width="200px"> |
-| *Fonte: Logo PUC Mobile* |
+| **Opção 11** | **Opção 12** |
+| :---: | :---: |
+| <img src="https://joaopauloaramuni.github.io/image/engSoft-logo1.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/fundo_mobile_engsoft.jpeg" width="200px"> |
+| *Logo do curso de Engenharia de Software* | *Fundo Mobile Logo Engenharia de Software* |
 
 -----
 
