@@ -504,27 +504,27 @@ Esta seção reúne um **template** construído por mim e **exemplos** reais de 
 
 | **Opção 1** | **Opção 2** |
 | :---: | :---: |
-| <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/java-imgs/SecureLoginPUC_2/imgs/apc-login-bg-2.png" width="400px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/puc2.jpg" width="400px"> |
+| <img src="https://joaopauloaramuni.github.io/java-imgs/SecureLoginPUC_2/imgs/apc-login-bg-2.png" width="400px"> | <img src="https://joaopauloaramuni.github.io/image/puc2.jpg" width="400px"> |
 | *Fonte: Sistema de Atividades Práticas Curriculares (APC)* | *Brasão PUC Minas fundo azul* |
 
 | **Opção 3** | **Opção 4** |
 | :---: | :---: |
-| <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/FUNDOCOREU2.png" width="400px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/fundo_teams_icei.jpg" width="400px"> |
+| <img src="https://joaopauloaramuni.github.io/image/FUNDOCOREU2.png" width="400px"> | <img src="https://joaopauloaramuni.github.io/image/fundo_teams_icei.jpg" width="400px"> |
 | *Fonte: Fundo Teams ICEI 1* | *Fonte: Fundo Teams ICEI 2* |
 
 | **Opção 5** | **Opção 6** |
 | :---: | :---: |
-| <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/PUC-foto.jpg" width="400px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/PUC-foto-2.jpg" width="400px"> |
+| <img src="https://joaopauloaramuni.github.io/image/PUC-foto.jpg" width="400px"> | <img src="https://joaopauloaramuni.github.io/image/PUC-foto-2.jpg" width="400px"> |
 | *Foto 1: Campus Coração Eucarístico* | *Foto 2: Campus Coração Eucarístico* |
 
 | **Opção 7** | **Opção 8** | **Opção 9** | **Opção 10** |
 | :---: | :---: | :---: | :---: |
-| <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/brasao-pucminas-versao-2025.png" width="200px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/brasao2.png" width="200px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/brasao.png" width="200px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/engSoft-logo1.png" width="200px"> |
+| <img src="https://joaopauloaramuni.github.io/image/brasao-pucminas-versao-2025.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/brasao2.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/brasao.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/engSoft-logo1.png" width="200px"> |
 | *Novo Brasão PUC Minas 2025* | *Brasão PUC Minas preto e branco* | *Brasão PUC Minas fundo transparente* | *Logo do curso de Engenharia de Software* |
 
 | **Opção 11** |
 | :---: |
-| <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/logo-puc-mobile.png" width="200px"> |
+| <img src="https://joaopauloaramuni.github.io/image/logo-puc-mobile.png" width="200px"> |
 | *Fonte: Logo PUC Mobile* |
 
 -----
@@ -978,7 +978,7 @@ Confira abaixo o papel fundamental de cada componente ilustrado no GIF:
 ##### 🍃 Arquitetura Spring Boot
 
 <div align="center">
-  <img align="center" width="600px" alt="arquitetura" src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/arquitetura_spring.gif"/>
+  <img align="center" width="600px" alt="arquitetura" src="https://joaopauloaramuni.github.io/image/arquitetura_spring.gif"/>
 </div>
 
 ###### 📚 Referências
@@ -1025,7 +1025,7 @@ O roadmap abaixo vai te guiar desde os conceitos fundamentais até os tópicos m
 Um **roadmap** é um guia visual que apresenta etapas, habilidades ou conhecimentos necessários para atingir um objetivo específico. Ele ajuda a organizar o aprendizado ou desenvolvimento ao longo do tempo, mostrando caminhos recomendados e prioridades.
 
 <div align="center">
-  <img align="center" alt="roadmap" src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/spring-boot-roadmap.png"/>
+  <img align="center" alt="roadmap" src="https://joaopauloaramuni.github.io/image/spring-boot-roadmap.png"/>
 </div>
 
 ###### 📚 Referências
