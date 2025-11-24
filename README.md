@@ -509,8 +509,8 @@ Esta seção reúne um **template** construído por mim e **exemplos** reais de 
 
 | **Opção 3** | **Opção 4** | **Opção 5** |
 | :---: | :---: | :---: |
-| <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/brasao-pucminas-versao-2025.png" width="200px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/puc2.jpg" width="200px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/brasao2.png" width="200px"> |
-| *Novo Brasão PUC Minas 2025* | *Brasão PUC Minas azul* | *Brasão PUC Minas preto e branco* |
+| <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/brasao-pucminas-versao-2025.png" width="200px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/brasao2.png" width="200px"> | <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/image/puc2.jpg" width="200px"> |
+| *Novo Brasão PUC Minas 2025* | *Brasão PUC Minas preto e branco* | *Brasão PUC Minas fundo azul* |
 
 -----
 
