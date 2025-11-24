@@ -489,41 +489,77 @@ Descreva o propósito das pastas principais.
 
 ```
 .
-├── .gitignore                   # Arquivo de ignorar arquivos e pastas não versionadas (Node, Maven, IDEs)
-├── README.md                    # Este arquivo de documentação
-├── CONTRIBUTING.md              # Guia de contribuição (para Pull Requests)
-├── LICENSE                      # Arquivo de Licença do Projeto
-├── docker-compose.yml           # Orquestração de containers (Back-end, Front-end, Banco de Dados)
+├── .editorconfig                # ✍️ Padronização de estilo de código.
+├── .env.local                   # 🔒 Variáveis SENSÍVEIS do ambiente LOCAL (não versionado).
+├── .env.test                    # 🧪 Variáveis de ambiente para TESTES AUTOMATIZADOS.
+├── .env.staging                 # ☁️ Variáveis de ambiente para STAGING/HOMOLOGAÇÃO.
+├── .env.example                 # 🧩 Exemplo de TODAS as variáveis necessárias (sem valores sensíveis).
+├── .gitignore                   # 🧹 Ignora arquivos/pastas não versionadas (.env*, /node_modules, /target, etc.).
+├── .vscode/                     # ⚙️ Configurações de ambiente da IDE (opcional).
+├── .github/                     # 🤖 CI/CD (Actions), templates de Issues e Pull Requests.
+├── README.md                    # 📘 Documentação principal do projeto.
+├── CONTRIBUTING.md              # 🤝 Guia de contribuição.
+├── LICENSE                      # ⚖️ Licença do projeto.
+├── docker-compose.yml           # 🐳 Orquestração dos containers (front/back/db/etc).
+├── docker-compose.override.yml  # 🐳 Configurações extras apenas para desenvolvimento.
 │
-├── /frontend                    # Aplicação React
-│   ├── .env.example             # Exemplo de variáveis de ambiente para o Front-end
-│   ├── Dockerfile               # Arquivo para construir a imagem Docker do Front-end
-│   ├── /public                  # Arquivos estáticos (favicon, imagens, etc.)
-│   ├── /src                     # Código-fonte do front-end
-│   │   ├── /components          # Componentes reutilizáveis (UI)
-│   │   ├── /pages               # Páginas ou rotas da aplicação
-│   │   ├── /services            # Chamadas a APIs e lógica de consumo
-│   │   └── /utils               # Funções utilitárias e helpers
-│   ├── package.json             # Dependências e scripts do React
-│   └── yarn.lock / package-lock.json # Arquivo de lock de dependências
+├── /frontend                    # 📁 Aplicação React
+│   ├── .env.example             # 🧩 Variáveis de ambiente do Front-end.
+│   ├── Dockerfile               # 🐳 Docker build do Front-end.
+│   ├── .eslintrc.js             # ✨ Regras do ESLint.
+│   ├── .prettierrc              # 🎨 Configuração do Prettier.
+│   ├── /public                  # 📂 Arquivos estáticos e index.html.
+│   ├── /src                     # 📂 Código-fonte React
+│   │   ├── /components          # 🧱 Componentes reutilizáveis (UI).
+│   │   ├── /pages               # 📄 Páginas/rotas da aplicação.
+│   │   ├── /services            # 🔌 Serviços e chamadas HTTP.
+│   │   ├── /hooks               # 🎣 Hooks personalizados.
+│   │   ├── /styles              # 🎨 Estilos globais, temas, Design System.
+│   │   ├── /assets              # 🖼️ Recursos estáticos importados
+│   │   │   ├── /images          # 🖼️ Imagens.
+│   │   │   ├── /icons           # 💡 Ícones.
+│   │   │   └── /fonts           # ✒️ Fontes personalizadas.
+│   │   └── /utils               # 🛠️ Funções utilitárias.
+│   ├── package.json             # 📦 Dependências e scripts.
+│   └── yarn.lock / package-lock.json # 🔒 Lockfile das dependências.
 │
-├── /backend                     # Aplicação Spring Boot
-│   ├── .env.example             # Exemplo de variáveis de ambiente para o Back-end
-│   ├── Dockerfile               # Arquivo para construir a imagem Docker do Back-end
-│   ├── /src/main/java           # Código-fonte Java
-│   │   ├── /com/exemplo/app
-│   │   │   ├── /controller      # Camada de controle / endpoints REST
-│   │   │   ├── /service         # Lógica de negócio e regras de domínio
-│   │   │   ├── /repository      # Acesso a dados (CRUD com DB - JPA/Hibernate)
-│   │   │   ├── /model           # Entidades ou Models do JPA
-│   │   │   ├── /dto             # Objetos de transferência de dados
-│   │   │   └── /config          # Configurações (DB, segurança, CORS, etc.)
-│   ├── /src/main/resources      # Recursos do Spring (application.yml, static, templates)
-│   ├── /src/test/java           # Código-fonte para testes unitários e de integração
-│   └── pom.xml / build.gradle   # Dependências e build (Maven ou Gradle)
+├── /backend                     # 📁 Aplicação Spring Boot
+│   ├── .env.example             # 🧩 Variáveis de ambiente do Back-end.
+│   ├── Dockerfile               # 🐳 Docker build do Back-end.
+│   │
+│   ├── /src/main/java           # 📂 Código-fonte Java
+│   │   └── /com/exemplo/app
+│   │       ├── /controller      # 🎮 Endpoints REST.
+│   │       ├── /service         # ⚙️ Regras e lógica de negócio.
+│   │       ├── /repository      # 🗄️ Repositórios (JPA/Hibernate).
+│   │       ├── /model           # 🧬 Entidades persistentes (JPA).
+│   │       ├── /domain          # 🌐 Objetos de Domínio puro (sem anotações).
+│   │       ├── /dto             # ✉️ Data Transfer Objects.
+│   │       ├── /config          # 🔧 Configurações gerais (DB, Swagger, CORS, etc.).
+│   │       ├── /exception       # 💥 Exceptions e handlers globais.
+│   │       └── /security        # 🛡️ Autenticação e Autorização (Spring Security).
+│   │
+│   ├── /src/main/resources      # 📂 Recursos do Spring Boot
+│   │   ├── application.yml         # ⚙️ Configuração principal da aplicação
+│   │   ├── application-dev.yml     # 🧪 Configurações específicas do ambiente de DESENVOLVIMENTO
+│   │   ├── application-prod.yml    # 🚀 Configurações específicas para PRODUÇÃO
+│   │   ├── application-test.yml    # 🧪 Configurações usadas nos testes automatizados
+│   │   ├── /static                # 🌐 Arquivos estáticos (HTML/CSS/JS).
+│   │   ├── /templates             # 🖼️ Templates Thymeleaf/Freemarker.
+│   │   ├── /messages              # 🌎 Arquivos de internacionalização (i18n).
+│   │   └── /db                    # 💾 Scripts de banco usados pela aplicação
+│   │       └── /migration         # 📜 Migrações do banco (Flyway/Liquibase).
+│   │
+│   ├── /src/test/java            # 🧪 Testes unitários e de integração.
+│   └── pom.xml / build.gradle    # 🛠️ Build e dependências.
 │
-├── /docs                        # Documentação, diagramas, guias e Swagger/OpenAPI
-└── /tests                       # Testes End-to-End (E2E) com Cypress/Playwright
+├── /scripts                      # 📜 Scripts de automação
+│   ├── dev.sh                    # 🚀 Ambiente de desenvolvimento completo.
+│   ├── build_all.sh              # 🛠️ Build geral (front + back).
+│   └── deploy.sh                 # ☁️ Deploy em produção/homologação.
+│
+├── /docs                         # 📚 Documentação, arquitetura, modelos C4, Swagger/OpenAPI.
+└── /tests                        # 🧪 Testes End-to-End (Cypress/Playwright).
 ```
 
 ---
@@ -690,6 +726,7 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
