@@ -494,7 +494,7 @@ Descreva o propósito das pastas principais.
 ├── .env.test                    # 🧪 Variáveis de ambiente para TESTES AUTOMATIZADOS.
 ├── .env.staging                 # ☁️ Variáveis de ambiente para STAGING/HOMOLOGAÇÃO.
 ├── .env.example                 # 🧩 Exemplo de TODAS as variáveis necessárias (sem valores sensíveis).
-├── .gitignore                   # 🧹 Ignora arquivos/pastas não versionadas (.env*, /node_modules, /target, etc.).
+├── .gitignore                   # 🧹 Ignora arquivos/pastas não versionadas (.env, node_modules, target, etc.).
 ├── .vscode/                     # ⚙️ Configurações de ambiente da IDE (opcional).
 ├── .github/                     # 🤖 CI/CD (Actions), templates de Issues e Pull Requests.
 ├── README.md                    # 📘 Documentação principal do projeto.
@@ -726,6 +726,7 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
