@@ -524,7 +524,7 @@ Esta seção reúne um **template** construído por mim e **exemplos** reais de 
 
 | **Opção 11** | **Opção 12** |
 | :---: | :---: |
-| <img src="https://joaopauloaramuni.github.io/image/engSoft-logo1.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/fundo_mobile_engsoft.jpeg" width="200px"> |
+| <img src="https://joaopauloaramuni.github.io/image/engSoft-logo1.png" width="400px"> | <img src="https://joaopauloaramuni.github.io/image/fundo_mobile_engsoft.jpeg" width="400px"> |
 | *Logo do curso de Engenharia de Software* | *Fundo Mobile Logo Engenharia de Software* |
 
 -----
