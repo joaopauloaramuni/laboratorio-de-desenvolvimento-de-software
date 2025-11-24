@@ -500,6 +500,16 @@ Esta seção reúne um **template** construído por mim e **exemplos** reais de 
 
 -----
 
+#### 🖼️ Imagens sugeridas para telas de Login:
+
+|  |
+| :---: |
+| **Opção 1** |
+| <img src="https://github.com/joaopauloaramuni/joaopauloaramuni.github.io/blob/main/java-imgs/SecureLoginPUC_2/imgs/apc-login-bg-2.png" alt="Login"> |
+| *Esta imagem é uma sugestão para tela de login.* |
+
+-----
+
 #### 🎥 Vídeos de fundo sugeridos:
 
 ##### 🌆 Time Lapse - PUC Minas Coração Eucarístico
