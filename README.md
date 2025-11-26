@@ -527,6 +527,11 @@ Esta seção reúne um **template** construído por mim e **exemplos** reais de 
 | <img src="https://joaopauloaramuni.github.io/image/logo_ES_vertical.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/engSoft-logo1.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/logo-es-colorida.png" width="200px"> |
 | *Logo Engenharia de Software Vertical* | *Logo Engenharia de Software Vertical Negativo* | *Logo Engenharia de Software Colorido* |
 
+| **Opção 14** | **Opção 15** |
+| :---: | :---: |
+| <img src="https://joaopauloaramuni.github.io/image/logo_ES.png" width="400px"> | <img src="https://joaopauloaramuni.github.io/image/Logo_ES_negativo.png" width="400px"> |
+| *Logo Engenharia de Software Horizontal* | *Logo Engenharia de Software Horizontal Negativo* |
+
 -----
 
 #### 🎥 Vídeos de fundo sugeridos:
