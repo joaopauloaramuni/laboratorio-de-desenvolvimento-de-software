@@ -502,10 +502,6 @@ Esta seção reúne um **template** construído por mim e **exemplos** reais de 
 
 #### 🖼️ Imagens sugeridas para telas de Login:
 
-| **Exemplo de Tela de Login** |
-| :--------------------------: |
-| <img src="https://joaopauloaramuni.github.io/java-imgs/SecureLoginPUC_2/imgs/Login.png" width="800px"> |
-
 | **Opção 1** | **Opção 2** |
 | :---: | :---: |
 | <img src="https://joaopauloaramuni.github.io/java-imgs/SecureLoginPUC_2/imgs/apc-login-bg-2.png" width="400px"> | <img src="https://joaopauloaramuni.github.io/image/puc2.jpg" width="400px"> |
@@ -520,6 +516,12 @@ Esta seção reúne um **template** construído por mim e **exemplos** reais de 
 | :---: | :---: |
 | <img src="https://joaopauloaramuni.github.io/image/PUC-foto.jpg" width="400px"> | <img src="https://joaopauloaramuni.github.io/image/PUC-foto-2.jpg" width="400px"> |
 | *Foto 1: Campus Coração Eucarístico* | *Foto 2: Campus Coração Eucarístico* |
+
+##### Exemplo de aplicação da imagem:
+
+| **Exemplo de Tela de Login** |
+| :--------------------------: |
+| <img src="https://joaopauloaramuni.github.io/java-imgs/SecureLoginPUC_2/imgs/Login.png" width="800px"> |
 
 ##### 🎨 Logos:
 
