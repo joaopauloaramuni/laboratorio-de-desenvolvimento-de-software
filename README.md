@@ -519,26 +519,36 @@ Esta seção reúne um **template** construído por mim e **exemplos** reais de 
 
 ##### 🧩 Exemplo de uso da imagem em um sistema:
 
-| **Exemplo de Tela de Login** |
+| **Exemplo 1 de Tela de Login** |
 | :--------------------------: |
 | <img src="https://joaopauloaramuni.github.io/java-imgs/SecureLoginPUC_2/imgs/Login.png" width="800px"> |
 | **Projeto:** [SecureLoginPUC_2](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/tree/main/PROJETOS/SecureLoginPUC_2) |
+
+| **Exemplo 2 de Tela de Login** |
+| :--------------------------: |
+| <img src="https://joaopauloaramuni.github.io/image/apc.png" width="800px"> |
+| **Sistema** [Sistema de Atividades Práticas Curriculares (APC)](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/tree/main/PROJETOS/SecureLoginPUC_2) |
+
+| **Exemplo 3 de Tela de Login** |
+| :--------------------------: |
+| <img src="https://joaopauloaramuni.github.io/image/fic.png" width="800px"> |
+| **Sistema:** [Ferramenta de Inserção de Conteúdo (FIC)](https://conteudo.virtual.pucminas.br/fic/login) |
 
 ##### 🎨 Logos:
 
 Clique [aqui](https://github.com/user-attachments/files/23775259/Logos.zip) para baixar o pacote completo (.zip) com todas as logos do curso de Engenharia de Software e os brasões oficiais da PUC Minas, incluindo a nova identidade visual lançada em 2025.
 
-| **Opção 7** | **Opção 8** | **Opção 9** | **Opção 10** |
+| **Opção 1** | **Opção 2** | **Opção 3** | **Opção 4** |
 | :---: | :---: | :---: | :---: |
 | <img src="https://joaopauloaramuni.github.io/image/brasao-pucminas-versao-2025.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/brasao2.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/brasao.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/logo-puc-mobile.png" width="200px"> |
 | *Novo Brasão PUC Minas 2025* | *Brasão PUC Minas preto e branco* | *Brasão PUC Minas fundo transparente* | *Logo PUC Mobile* |
 
-| **Opção 11** | **Opção 12** | **Opção 13** |
+| **Opção 5** | **Opção 6** | **Opção 7** |
 | :---: | :---: | :---: |
 | <img src="https://joaopauloaramuni.github.io/image/logo_ES_vertical.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/engSoft-logo1.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/logo-es-colorida.png" width="200px"> |
 | *Logo Engenharia de Software Vertical* | *Logo Engenharia de Software Vertical Negativo* | *Logo Engenharia de Software Colorido* |
 
-| **Opção 14** | **Opção 15** |
+| **Opção 8** | **Opção 9** |
 | :---: | :---: |
 | <img src="https://joaopauloaramuni.github.io/image/logo_ES.png" width="400px"> | <img src="https://joaopauloaramuni.github.io/image/Logo_ES_negativo.png" width="400px"> |
 | *Logo Engenharia de Software Horizontal* | *Logo Engenharia de Software Horizontal Negativo* |
