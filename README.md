@@ -1,4 +1,4 @@
------
+<img width="1080" height="1080" alt="logo-es-colorida" src="https://github.com/user-attachments/assets/468b01c3-28d3-4ba9-85dc-898784289449" />-----
 
 <img alt="pucminas" src="https://joaopauloaramuni.github.io/image/fundo_teams_icei_capa_svg_3.svg?raw=true"/>
 
@@ -524,8 +524,8 @@ Esta seção reúne um **template** construído por mim e **exemplos** reais de 
 
 | **Opção 11** | **Opção 12** | **Opção 13** |
 | :---: | :---: | :---: |
-| <img src="https://joaopauloaramuni.github.io/image/logo_ES_vertical.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/engSoft-logo1.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/fundo_mobile_engsoft.jpeg" width="200px"> |
-| *Logo Engenharia de Software Vertical* | *Logo do curso de Engenharia de Software* | *Fundo Mobile Logo Engenharia de Software* |
+| <img src="https://joaopauloaramuni.github.io/image/logo_ES_vertical.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/engSoft-logo1.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/logo-es-colorida.png" width="200px"> |
+| *Logo Engenharia de Software Vertical* | *Logo Engenharia de Software Vertical Negativo* | *Logo Engenharia de Software Colorido* |
 
 -----
 
