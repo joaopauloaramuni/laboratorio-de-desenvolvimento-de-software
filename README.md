@@ -522,10 +522,10 @@ Esta seção reúne um **template** construído por mim e **exemplos** reais de 
 | <img src="https://joaopauloaramuni.github.io/image/brasao-pucminas-versao-2025.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/brasao2.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/brasao.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/logo-puc-mobile.png" width="200px"> |
 | *Novo Brasão PUC Minas 2025* | *Brasão PUC Minas preto e branco* | *Brasão PUC Minas fundo transparente* | *Logo PUC Mobile* |
 
-| **Opção 11** | **Opção 12** |
-| :---: | :---: |
-| <img src="https://joaopauloaramuni.github.io/image/engSoft-logo1.png" width="400px"> | <img src="https://joaopauloaramuni.github.io/image/fundo_mobile_engsoft.jpeg" width="400px"> |
-| *Logo do curso de Engenharia de Software* | *Fundo Mobile Logo Engenharia de Software* |
+| **Opção 11** | **Opção 12** | **Opção 13** |
+| :---: | :---: | :---: |
+| <img src="https://joaopauloaramuni.github.io/image/logo_ES_vertical.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/engSoft-logo1.png" width="200px"> | <img src="https://joaopauloaramuni.github.io/image/fundo_mobile_engsoft.jpeg" width="200px"> |
+| *Logo Engenharia de Software Vertical* | *Logo do curso de Engenharia de Software* | *Fundo Mobile Logo Engenharia de Software* |
 
 -----
 
