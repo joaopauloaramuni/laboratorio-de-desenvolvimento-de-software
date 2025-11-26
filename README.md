@@ -1,5 +1,3 @@
-<img width="1080" height="1080" alt="logo-es-colorida" src="https://github.com/user-attachments/assets/468b01c3-28d3-4ba9-85dc-898784289449" />-----
-
 <img alt="pucminas" src="https://joaopauloaramuni.github.io/image/fundo_teams_icei_capa_svg_3.svg?raw=true"/>
 
 -----
