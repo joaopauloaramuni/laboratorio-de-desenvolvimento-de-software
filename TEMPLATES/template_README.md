@@ -14,7 +14,7 @@
     </td>
     <td>
       <div>
-        <img src="https://joaopauloaramuni.github.io/image/engSoft-logo1.png" alt="Logo do Projeto" width="120px"/>
+        <img src="https://joaopauloaramuni.github.io/image/logo_ES_vertical.png" alt="Logo do Projeto" width="120px"/>
       </div>
     </td>
   </tr> 
@@ -725,6 +725,7 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
