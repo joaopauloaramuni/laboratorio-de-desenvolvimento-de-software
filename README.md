@@ -527,7 +527,7 @@ Esta seção reúne um **template** construído por mim e **exemplos** reais de 
 | **Exemplo 2 de Tela de Login** |
 | :--------------------------: |
 | <img src="https://joaopauloaramuni.github.io/image/apc.png" width="800px"> |
-| **Sistema** [Sistema de Atividades Práticas Curriculares (APC)](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/tree/main/PROJETOS/SecureLoginPUC_2) |
+| **Sistema:** [Sistema de Atividades Práticas Curriculares (APC)](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/tree/main/PROJETOS/SecureLoginPUC_2) |
 
 | **Exemplo 3 de Tela de Login** |
 | :--------------------------: |
