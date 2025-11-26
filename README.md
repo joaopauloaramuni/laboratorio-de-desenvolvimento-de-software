@@ -517,7 +517,7 @@ Esta seção reúne um **template** construído por mim e **exemplos** reais de 
 | <img src="https://joaopauloaramuni.github.io/image/PUC-foto.jpg" width="400px"> | <img src="https://joaopauloaramuni.github.io/image/PUC-foto-2.jpg" width="400px"> |
 | *Foto 1: Campus Coração Eucarístico* | *Foto 2: Campus Coração Eucarístico* |
 
-##### 🎨 Logos
+##### 🎨 Logos:
 
 Clique [aqui](https://github.com/user-attachments/files/23775259/Logos.zip) para baixar o pacote completo (.zip) com todas as logos do curso de Engenharia de Software e os brasões oficiais da PUC Minas, incluindo a nova identidade visual lançada em 2025.
 
