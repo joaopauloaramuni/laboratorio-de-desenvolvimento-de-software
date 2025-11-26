@@ -504,7 +504,7 @@ Esta seção reúne um **template** construído por mim e **exemplos** reais de 
 
 | **Exemplo de Tela de Login** |
 | :--------------------------: |
-| <img src="https://joaopauloaramuni.github.io/java-imgs/SecureLoginPUC_2/imgs/apc-login-bg-2.png"> |
+| <img src="https://joaopauloaramuni.github.io/java-imgs/SecureLoginPUC_2/imgs/Login.png" width="800px"> |
 
 | **Opção 1** | **Opção 2** |
 | :---: | :---: |
