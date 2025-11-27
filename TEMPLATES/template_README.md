@@ -5,7 +5,7 @@
 # 🏷️ Nome do Projeto ✨
 
 > [!NOTE]
-> Breve descrição do projeto. **Foque no principal valor/benefício.**
+> Breve descrição do projeto. **Foque no principal valor/benefício.**  
 > Crie uma **logo** para o projeto que represente a aplicação em questão.
 
 <table>
@@ -732,6 +732,7 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
