@@ -695,8 +695,8 @@ Liste os principais contribuidores. Você pode usar links para seus perfis.
 
 | Nome       | :octocat: GitHub | 💼 LinkedIn |
 |------------|--------|----------|
-| Nome 1     | <a href="https://github.com/github-user1"><img src="https://joaopauloaramuni.github.io/image/github2.png" width="120"></a><br>[github.com/github-user1](https://github.com/github-user1) | <a href="<Link do LinkedIn do Autor 1>"><img src="https://joaopauloaramuni.github.io/image/linkedin2.png" width="50px" height="50px"></a> |
-| Nome 2     | <a href="https://github.com/github-user2"><img src="https://joaopauloaramuni.github.io/image/github2.png" width="120"></a><br>[github.com/github-user2](https://github.com/github-user2) | <a href="<Link do LinkedIn do Autor 2>"><img src="https://joaopauloaramuni.github.io/image/linkedin2.png" width="50px" height="50px"></a> |
+| Nome 1     | <a href="https://github.com/github-user1"><img src="https://joaopauloaramuni.github.io/image/github2.png" width="50px" height="50px"></a> | <a href="<Link do LinkedIn do Autor 1>"><img src="https://joaopauloaramuni.github.io/image/linkedin2.png" width="50px" height="50px"></a> |
+| Nome 2     | <a href="https://github.com/github-user2"><img src="https://joaopauloaramuni.github.io/image/github2.png" width="50px" height="50px"></a> | <a href="<Link do LinkedIn do Autor 2>"><img src="https://joaopauloaramuni.github.io/image/linkedin2.png" width="50px" height="50px"></a> |
 
 ---
 
@@ -731,6 +731,7 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
