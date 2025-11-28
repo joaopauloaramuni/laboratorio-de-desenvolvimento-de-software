@@ -419,7 +419,8 @@ cd /caminho/do/projeto/nome-do-projeto
 docker-compose up --build -d
 ```
 
-> 💡 **Nota:** O parâmetro `--build` garante que as imagens mais recentes do projeto sejam geradas, e `-d` executa em segundo plano.
+> [!NOTE]
+> 💡 O parâmetro `--build` garante que as imagens mais recentes do projeto sejam geradas, e `-d` executa em segundo plano.
 
 3. Verifique se os containers estão rodando:
 
@@ -732,6 +733,7 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
