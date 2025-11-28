@@ -111,9 +111,9 @@ Escreva de forma objetiva, mas completa, para que qualquer pessoa entenda rapida
 ## ✨ Funcionalidades Principais
 Liste as funcionalidades de forma clara e objetiva.
 
-* 🔐 **Autenticação Segura:** Login, Cadastro e Recuperação de Senha.
-* 📈 **Painel de Controle:** Visualização de dados em tempo real com gráficos.
-* ⚙️ **Gerenciamento de CRUD:** Criação, Leitura, Atualização e Deleção de recursos (e.g., Usuários, Itens, Posts).
+- 🔐 **Autenticação Segura:** Login, Cadastro e Recuperação de Senha.
+- 📈 **Painel de Controle:** Visualização de dados em tempo real com gráficos.
+- ⚙️ **Gerenciamento de CRUD:** Criação, Leitura, Atualização e Deleção de recursos (e.g., Usuários, Itens, Posts).
 - 📊 **Relatórios Exportáveis:** Exportação de dados em PDF, CSV ou Excel.
 - 🌐 **Internacionalização (i18n):** Suporte a múltiplos idiomas.
 - 🧵 **Logs e Monitoramento:** Registro detalhado de atividades e análise de desempenho.
@@ -744,3 +744,4 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
