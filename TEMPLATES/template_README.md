@@ -575,7 +575,8 @@ Descreva o propósito das pastas principais.
 Use GIFs e prints para mostrar o projeto em ação.  
 
 > [!WARNING]
-> Dê preferência a hospedar suas imagens em um **CDN** (Content Delivery Network) ou no **GitHub Pages** para garantir que elas carreguem rapidamente e não quebrem.
+> Dê preferência a hospedar suas imagens em um **CDN** (Content Delivery Network) ou no **GitHub Pages** para garantir que elas carreguem rapidamente e não quebrem.  
+> Saiba mais sobre o GitHub Pages clicando [aqui](https://github.com/joaopauloaramuni/joaopauloaramuni.github.io).
 
 ### 📱 Aplicativo Mobile
 
@@ -739,6 +740,7 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
