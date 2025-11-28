@@ -62,7 +62,7 @@
     - [Front-end (React)](#front-end-react)
     - [Back-end (Spring Boot)](#back-end-spring-boot)
   - [Inicialização do Banco de Dados (PostgreSQL)](#-inicialização-do-banco-de-dados-postgresql)
-  - [Como Executar a Aplicação](#como-executar-a-aplicação)
+  - [Como Executar a Aplicação](#-como-executar-a-aplicação)
     - [Terminal 1: Back-end (Spring Boot)](#terminal-1-back-end-spring-boot)
     - [Terminal 2: Front-end (React, Vite)](#terminal-2-front-end-react-vite)
     - [Execução Local Completa com Docker Compose (Incluindo Banco de Dados)](#-execução-local-completa-com-docker-compose-incluindo-banco-de-dados)
@@ -372,7 +372,7 @@ docker run --name minha_db -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=senha-
     ```
 ---
 
-### Como Executar a Aplicação
+### ⚡ Como Executar a Aplicação
 Execute a aplicação em modo de desenvolvimento em **dois terminais separados**.
 
 #### Terminal 1: Back-end (Spring Boot)
@@ -749,6 +749,7 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
