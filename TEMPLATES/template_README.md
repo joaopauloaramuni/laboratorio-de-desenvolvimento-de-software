@@ -591,7 +591,7 @@ Use GIFs e prints para mostrar o projeto em ação.
 ### 📱 Aplicativo Mobile
 
 - GIF de demonstração (exemplo de fluxo de usuário):  
-  - Sua gif aqui <img src="./caminho/gif-mobile.gif" alt="Demonstração do App Mobile" height="350">
+  - Sua gif aqui <img src="https://joaopauloaramuni.github.io/image/fundo_mobile_engsoft.jpeg" alt="Demonstração do App Mobile" height="350">
 
 Para melhor visualização, as telas principais estão organizadas lado a lado.
 
@@ -750,6 +750,7 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
