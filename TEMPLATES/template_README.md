@@ -333,19 +333,20 @@ cd .. # Retorna para a raiz
 
 O Spring Boot utiliza o **Maven Wrapper** (`./mvnw`) ou **Gradle Wrapper** (`./gradlew`) para gerenciar dependências. Execute o comando de instalação/build limpo antes de rodar.
 
-* **Usando Maven (`pom.xml`):**
+**Usando Maven (`pom.xml`):**
 
 ```bash
-    cd backend
-    ./mvnw clean install
-    cd ..
+cd backend
+./mvnw clean install
+cd ..
 ```
 
-* **Usando Gradle (`build.gradle`):**
+**Usando Gradle (`build.gradle`):**
+
 ```bash
-    cd backend
-    ./gradlew clean build
-    cd ..
+cd backend
+./gradlew clean build
+cd ..
 ```
 
 ---
@@ -751,6 +752,7 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
