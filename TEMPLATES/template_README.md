@@ -335,18 +335,18 @@ O Spring Boot utiliza o **Maven Wrapper** (`./mvnw`) ou **Gradle Wrapper** (`./g
 
 * **Usando Maven (`pom.xml`):**
 
-    ```bash
+```bash
     cd backend
     ./mvnw clean install
     cd ..
-    ```
-* **Usando Gradle (`build.gradle`):**
+```
 
-    ```bash
-    cd backend
-    ./gradlew clean build
-    cd ..
-    ```
+* **Usando Gradle (`build.gradle`):**
+```bash
+    cd backend
+    ./gradlew clean build
+    cd ..
+```
 
 ---
 
@@ -751,6 +751,7 @@ Gostaria de agradecer aos seguintes canais e pessoas que foram fundamentais para
 Este projeto é distribuído sob a **[Licença MIT](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/LICENSE)**.
 
 ---
+
 
 
 
