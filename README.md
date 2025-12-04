@@ -840,7 +840,7 @@ O Figma é uma das principais ferramentas de design de interfaces e prototipagem
 - :octocat: https://github.com/plantuml/plantuml-stdlib
 
 ##### ☁️ AWS Icons para PlantUML
-- :octocat: https://github.com/plantuml/plantuml-stdlib/tree/master/stdlib/awslib
+- :octocat: https://github.com/plantuml/plantuml-stdlib/tree/master/stdlib/awslib20
 - :octocat: https://github.com/awslabs/aws-icons-for-plantuml
 - ☁️ https://aws.amazon.com/pt/architecture/icons/
 
