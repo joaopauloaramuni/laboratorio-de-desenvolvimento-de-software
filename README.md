@@ -830,6 +830,22 @@ O Figma é uma das principais ferramentas de design de interfaces e prototipagem
 
 -----
 
+#### 📐 PlantUML – Referências e recursos oficiais
+
+- [PlantUML - Diagramas UML](https://plantuml.com/)
+- [PlantUML - Guia oficial](https://plantuml.com/guide)
+
+##### 📚 PlantUML Standard Library
+- 🗄️ https://plantuml.com/stdlib
+- :octocat: https://github.com/plantuml/plantuml-stdlib
+
+##### ☁️ AWS Icons para PlantUML
+- :octocat: https://github.com/plantuml/plantuml-stdlib/tree/master/stdlib/awslib
+- :octocat: https://github.com/awslabs/aws-icons-for-plantuml
+- ☁️ https://aws.amazon.com/pt/architecture/icons/
+
+-----
+
 #### ✍️ Fonts:
 
 ##### 🖋️ Fontes para desenvolvimento e design de portfólios
