@@ -836,13 +836,25 @@ O Figma é uma das principais ferramentas de design de interfaces e prototipagem
 - [PlantUML - Guia oficial](https://plantuml.com/guide)
 
 ##### 📚 PlantUML Standard Library
-- 🗄️ https://plantuml.com/stdlib
-- :octocat: https://github.com/plantuml/plantuml-stdlib
+- 🗄️ [PlantUML - Standard Library](https://plantuml.com/stdlib)
+- :octocat: [GitHub - plantuml-stdlib](https://github.com/plantuml/plantuml-stdlib)
+
+##### 🪪 Logos para PlantUML
+- :octocat: [GitHub - plantuml logos (stdlib)](https://github.com/plantuml/plantuml-stdlib/tree/master/stdlib/logos)
+- :octocat: [GitHub - gilbarbara logos](https://github.com/gilbarbara/logos)
+- :octocat: [GitHub - gilbarbara PlantUML sprites](https://github.com/plantuml-stdlib/gilbarbara-plantuml-sprites)
 
 ##### ☁️ AWS Icons para PlantUML
-- :octocat: https://github.com/plantuml/plantuml-stdlib/tree/master/stdlib/awslib20
-- :octocat: https://github.com/awslabs/aws-icons-for-plantuml
-- ☁️ https://aws.amazon.com/pt/architecture/icons/
+- :octocat: [GitHub - awslib20](https://github.com/plantuml/plantuml-stdlib/tree/master/stdlib/awslib20)
+- :octocat: [GitHub - aws-icons-for-plantuml](https://github.com/awslabs/aws-icons-for-plantuml)
+- :octocat: [GitHub - AWS-PlantUML (source)](https://github.com/milo-minderbinder/AWS-PlantUML)
+- ☁️ [AWS Architecture Icons](https://aws.amazon.com/pt/architecture/icons/)
+
+##### 🧩 C4 PlantUML
+- :octocat: [GitHub - C4 (stdlib)](https://github.com/plantuml/plantuml-stdlib/tree/master/stdlib/C4)
+- :octocat: [GitHub - C4 (source)](https://github.com/plantuml-stdlib/C4-PlantUML)
+- :octocat: [GitHub - classy-c4 (stdlib)](https://github.com/plantuml/plantuml-stdlib/tree/master/stdlib/classy-c4)
+- :octocat: [GitHub - classy-c4 (source)](https://github.com/james-gadrow-kr/classy-c4)
 
 -----
 
