@@ -82,6 +82,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 ###### 🧩 C4 Model e Structurizr
 
 - 🧩 [C4 Model – Modelo para visualização de arquitetura de software](https://c4model.com/)
+- ✔️ [Software architecture diagram review checklist](https://c4model.com/diagrams/checklist)
 - 🏗️ [Visualising Software Architecture – Simon Brown (Leanpub)](https://leanpub.com/visualising-software-architecture)
 - 📄 [Public Training Handbook 2024 (C4 Model) – Simon Brown](https://static.simonbrown.je/pth2024-c4.pdf)
 - 🧱 [Structurizr – Modelagem arquitetural baseada no C4 Model](https://structurizr.com/)
