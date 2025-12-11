@@ -111,22 +111,20 @@ Avalie as práticas de Engenharia de Software Colaborativa do projeto, focando n
 
 Descreva aqui como foi a experiência do grupo ao configurar e executar o projeto com Spring Boot.
 
-Exemplos:
-- O projeto exige **Java 17**, mas essa informação não estava documentada no README.  
-- O **Maven**/Gradle não baixou todas as dependências automaticamente devido a versões incompatíveis.  
-- O projeto não iniciava porque o arquivo `application.properties` ou `application.yml` não estava configurado (ex.: variáveis de banco de dados ausentes).  
-- O banco **PostgreSQL** precisava ser criado manualmente, mas isso não estava explicado.  
-- O container Docker do banco não iniciava devido à falta de instruções ou variáveis de ambiente.  
-- A aplicação falhava por falta do plugin correto (ex.: `spring-boot-maven-plugin` ausente no `pom.xml`).  
-- Dependências do **Thymeleaf** ou módulos Web não estavam declaradas corretamente, impedindo o build.  
+### 5.1. Requisitos de Linguagem e Ferramentas de Build
+* **Versão do Java:** O projeto exige **Java 17**, mas essa informação não estava documentada no README? _(Exemplo: O projeto exigia Java 17, mas o grupo tentou rodar com Java 11. Descreva a correção.)_
+* **Ferramenta de Build:** O **Maven**/Gradle não baixou todas as dependências automaticamente devido a versões incompatíveis? A aplicação falhava por falta do plugin correto (ex.: `spring-boot-maven-plugin` ausente no `pom.xml`)?
+* **Dependências e Compatibilidade:** Dependências do **Thymeleaf** ou módulos Web não estavam declaradas corretamente, impedindo o *build*?
 
-Aspectos a analisar:
-- Versão do Java utilizada.  
-- Ferramenta de build (Maven ou Gradle).  
-- Dependências e compatibilidades.  
-- Banco de dados e forma de inicialização (local, Docker, memória).  
-- Arquivos de configuração necessários.  
-- Passos para subir backend + frontend (caso use Next.js).
+### 5.2. Configuração de Persistência e Variáveis de Ambiente
+* **Arquivos de Configuração:** O projeto não iniciava porque o arquivo `application.properties` ou `application.yml` não estava configurado (ex.: variáveis de banco de dados ausentes)?
+* **Variáveis de Ambiente:** O projeto dependia de variáveis de ambiente cruciais (`API_KEY`, `SERVER_PORT`, `DB_PASSWORD`, etc.) que **não estavam documentadas** no README ou que eram difíceis de configurar?  _(Descreva a variável e onde ela foi definida/corrigida)_
+* **Banco de Dados Local:** O banco **PostgreSQL** precisava ser criado manualmente, mas isso não estava explicado? O container Docker do banco não iniciava devido à falta de instruções ou variáveis de ambiente?
+
+### 5.3. Aspectos a Analisar e Soluções Aplicadas
+* **Aspectos a Analisar:** Versão do Java utilizada, Ferramenta de build (Maven ou Gradle), Dependências e compatibilidades, Banco de Dados e forma de inicialização (local, Docker, memória), Arquivos de Configuração necessários, Passos para subir backend + frontend (caso use Next.js).
+* **Passos para Subir:** Quais passos extras foram necessários para subir o backend e/ou frontend (caso use Next.js)?
+* **Soluções Aplicadas:** Descreva **detalhadamente cada passo necessário para a execução**, incluindo como o grupo corrigiu os problemas de documentação, versões ou configuração.
 
 > [!WARNING]
 > Caso o grupo tenha enfrentado erros por falta de documentação, versões inconsistentes ou dependências quebradas, **descreva detalhadamente cada passo necessário para a execução**, incluindo como corrigiram os problemas.
