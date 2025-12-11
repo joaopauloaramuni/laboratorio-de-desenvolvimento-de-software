@@ -141,7 +141,7 @@ Cada refatoração deve conter:
 ### 1️⃣ Refatoração 1 – Extração de Método (Extract Method)
 
 **Arquivo:** `src/main/java/com/example/service/UserService.java`  
-**Pull Request:** https://github.com/exemplo/projeto/pull/123  
+**Pull Request:** https://github.com/exemplo/projeto/pull/1  
 
 #### 🔴 Antes
 ```java
@@ -187,7 +187,7 @@ Melhora a clareza, responsabilidade única e testabilidade.
 ### 2️⃣ Refatoração 2 – Remoção de Código Duplicado
 
 **Arquivo:** `src/main/java/com/example/util/StringUtils.java`  
-**Pull Request:** https://github.com/exemplo/projeto/pull/124  
+**Pull Request:** https://github.com/exemplo/projeto/pull/2  
 
 #### 🔴 Antes
 ```java
@@ -227,7 +227,7 @@ Elimina duplicação e facilita manutenção.
 ### 3️⃣ Refatoração 3 – Melhoria de Nomes (Rename)
 
 **Arquivo:** `src/main/java/com/example/controller/ProductController.java`  
-**Pull Request:** https://github.com/exemplo/projeto/pull/125  
+**Pull Request:** https://github.com/exemplo/projeto/pull/3  
 
 #### 🔴 Antes
 ```java
