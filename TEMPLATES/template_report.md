@@ -135,20 +135,26 @@ Aspectos a analisar:
 
 ## 🔎 6. Análise de Qualidade do Código e Testes
 
-Avalie o código-fonte além da funcionalidade (foco em *Code Smells*, Design e Cobertura).
-
 ### 6.1. Design e Princípios SOLID
 * **Coesão e Acoplamento:** Existem classes com muitas responsabilidades (**God Class**)? O acoplamento entre módulos é alto?
-* **Refatorações Necessárias:** Identifique a presença de **Long Method** (métodos com muitas linhas) ou **Duplicated Code**.
+* **Princípios SOLID Violados (Se aplicável):** (Ex: O Controller faz validação e acesso ao banco, violando o **S**ingle Responsibility Principle - SRP).
+* **Code Smells:** Identifique a presença de **Long Method** (métodos com muitas linhas) ou **Duplicated Code** fora das áreas que vocês refatoraram.
+    * **Evidência/Exemplo:** _(Cite o arquivo e a linha onde um problema foi encontrado)_
 
 ### 6.2. Testabilidade e Cobertura
-* **Testes Unitários:** O projeto possui testes unitários? Qual a cobertura (se houver ferramenta para medir)?
-* **Qualidade dos Testes:** Os testes verificam a lógica de negócio ou apenas a integração?
+* **Presença de Testes:** O projeto possui testes (Unitários, Integração, End-to-End)?
+* **Cobertura (Estimada/Medida):** Qual é a cobertura de código (Se houver ferramenta para medir, cite o percentual)?
+    * **Qualidade dos Testes:** Os testes focam na lógica de negócio (camada Service) ou apenas na integração do sistema (testando o Controller e persistência)?
+    * **Mocking:** O uso de *mocks* e *stubs* é adequado para isolar as dependências e testar unidades de código?
+    * **Evidência/Exemplo:** _(Cite o diretório de testes (`src/test`) e mencione a ausência ou presença de testes para uma funcionalidade crítica)_
 
-### 6.3. Segurança (OWASP Top 10)
-* Existem validações de entrada (**Input Validation**)?
-* O tratamento de senhas é seguro (criptografia)?
-* Há tratamento adequado de exceções e erros (para evitar vazamento de informações)?
+### 6.3. Segurança e Tratamento de Erros (OWASP Top 10)
+Avalie o projeto com base em vulnerabilidades comuns, como as citadas no OWASP Top 10. 
+
+* **Validação de Entrada (Input Validation):** Existem validações rigorosas em todos os dados recebidos (DTOs)? Há sanitização de *input* para prevenir **Injeção de SQL/Scripting (XSS)**?
+* **Tratamento de Credenciais:** O tratamento de senhas é seguro (uso de `BCrypt` ou algoritmo forte)? As credenciais de acesso ao banco estão expostas no código ou em *logs*?
+* **Tratamento de Exceções:** O tratamento de exceções é adequado? A aplicação retorna mensagens de erro genéricas (status 500) ou expõe detalhes do erro e da arquitetura (vazamento de informações)?
+    * **Evidência/Exemplo:** _(Cite um ponto fraco, Ex: "O campo de busca não tem sanitização, potencial XSS" ou "As senhas não estão criptografadas")_
 
 ---
 
