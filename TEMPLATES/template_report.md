@@ -1,4 +1,11 @@
+## 1. Informações do grupo
+- **🎓 Curso:** Engenharia de Software
+- **📘 Disciplina:** Laboratório de Experimentação de Software
+- **🗓 Período:** 6° Período
+- **👨‍🏫 Professor(a):** Prof. Dr. João Paulo Carneiro Aramuni
+- **👥 Membros do Grupo:** [Lista de integrantes]
 
+---
 
 ## 📌 2. Identificação do Projeto
 - **Nome do projeto:** _Informe aqui_  
