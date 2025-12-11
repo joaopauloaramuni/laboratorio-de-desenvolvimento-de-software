@@ -20,7 +20,9 @@
   - **Aluno 4 — Refatoração 4:** https://github.com/exemplo/projeto/pull/4  
 
 > [!NOTE]
-> Os links acima são apenas exemplos. Substitua pelos PRs reais do seu grupo.  
+> Os links acima são apenas exemplos. Substitua pelos PRs reais do seu grupo.
+
+> [!IMPORTANT]
 > Cada integrante do grupo é responsável por enviar seu próprio pull request, contendo a refatoração que realizou.
 
 ---
