@@ -22,11 +22,11 @@
   | :octocat: <a href="https://github.com/user3">Aluno 3</a> | Controladores e Padronização de Endpoints | https://github.com/exemplo/projeto/pull/3 |
   | :octocat: <a href="https://github.com/user4">Aluno 4</a> | Organização de Pastas e Modularização do Backend | https://github.com/exemplo/projeto/pull/4 |
 
-> [!NOTE]
-> Os links acima são apenas exemplos. Substitua pelos PRs reais do seu grupo.
-
-> [!IMPORTANT]
-> Cada integrante do grupo é responsável por enviar seu próprio pull request, contendo a refatoração que realizou.
+  > [!NOTE]
+  > Os links acima são apenas exemplos. Substitua pelos PRs reais do seu grupo.
+  
+  > [!IMPORTANT]
+  > Cada integrante do grupo é responsável por enviar seu próprio pull request, contendo a refatoração que realizou.
 
 ---
 
