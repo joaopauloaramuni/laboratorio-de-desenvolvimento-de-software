@@ -1,6 +1,4 @@
----
-
-# 📝 Template de Relatório Técnico de Laboratório
+# 📘 Relatório de Análise Crítica do Projeto 👨‍💻
 
 ## 1. Informações do grupo
 - **🎓 Curso:** Engenharia de Software
