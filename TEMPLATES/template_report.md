@@ -11,16 +11,17 @@
 
 ## 📌 2. Identificação do Projeto
 - **Nome do projeto:** _Informe aqui_  
-- **Link do repositório:** _https://github.com/..._  
-- **Integrantes do grupo:** _Nomes_  
+- **Link do repositório:** _https://github.com/exemplo/projeto_  
+- **Integrantes do outro grupo:** _Nomes_  
 - **Pull requests submetidos:**  
-  - Refatoração 1: https://github.com/exemplo/projeto/pull/1
-  - Refatoração 2: https://github.com/exemplo/projeto/pull/2
-  - Refatoração 3: https://github.com/exemplo/projeto/pull/3
-  - Refatoração 4: https://github.com/exemplo/projeto/pull/4
+  - **Aluno 1 — Refatoração 1:** https://github.com/exemplo/projeto/pull/1  
+  - **Aluno 2 — Refatoração 2:** https://github.com/exemplo/projeto/pull/2  
+  - **Aluno 3 — Refatoração 3:** https://github.com/exemplo/projeto/pull/3  
+  - **Aluno 4 — Refatoração 4:** https://github.com/exemplo/projeto/pull/4  
 
 > [!NOTE]
 > Os links acima são apenas exemplos. Substitua pelos PRs reais do seu grupo.
+> Cada integrante do grupo deve realizar seu próprio pull request.
 
 ---
 
