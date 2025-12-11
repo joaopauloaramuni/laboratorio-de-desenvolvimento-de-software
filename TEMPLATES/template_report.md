@@ -14,13 +14,13 @@
 - **Link do repositório:** _https://github.com/exemplo/projeto_  
 - **Integrantes do outro grupo:** _Nomes_  
 - **Pull requests submetidos:**
-
-| 👤 Integrante | 🔧 Refatoração | 🔗 Link do PR |
-|--------------|---------------|----------------|
-| :octocat: <a href="https://github.com/user1">Aluno 1</a> | Validação e Regras de Negócio | https://github.com/exemplo/projeto/pull/1 |
-| :octocat: <a href="https://github.com/user2">Aluno 2</a> | Estrutura e Eliminação de Código Duplicado | https://github.com/exemplo/projeto/pull/2 |
-| :octocat: <a href="https://github.com/user3">Aluno 3</a> | Controladores e Padronização de Endpoints | https://github.com/exemplo/projeto/pull/3 |
-| :octocat: <a href="https://github.com/user4">Aluno 4</a> | Organização de Pastas e Modularização do Backend | https://github.com/exemplo/projeto/pull/4 |
+  
+  | 👤 Integrante | 🔧 Refatoração | 🔗 Link do PR |
+  |--------------|---------------|----------------|
+  | :octocat: <a href="https://github.com/user1">Aluno 1</a> | Validação e Regras de Negócio | https://github.com/exemplo/projeto/pull/1 |
+  | :octocat: <a href="https://github.com/user2">Aluno 2</a> | Estrutura e Eliminação de Código Duplicado | https://github.com/exemplo/projeto/pull/2 |
+  | :octocat: <a href="https://github.com/user3">Aluno 3</a> | Controladores e Padronização de Endpoints | https://github.com/exemplo/projeto/pull/3 |
+  | :octocat: <a href="https://github.com/user4">Aluno 4</a> | Organização de Pastas e Modularização do Backend | https://github.com/exemplo/projeto/pull/4 |
 
 > [!NOTE]
 > Os links acima são apenas exemplos. Substitua pelos PRs reais do seu grupo.
