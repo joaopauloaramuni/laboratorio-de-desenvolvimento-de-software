@@ -73,18 +73,34 @@ Principais características:
 
 ---
 
-## 🗂️ 4. Organização do GitHub
+## 🗂️ 4. Organização do GitHub e Fluxo de Trabalho Colaborativo
 
-Avalie:
-- Estrutura de pastas  
-- Uso de issues  
-- Uso de pull requests  
-- Versionamento  
-- Padrões de commits  
-- Releases/Tags (se existirem)
+Avalie as práticas de Engenharia de Software Colaborativa do projeto, focando na clareza, padronização e rastreabilidade.
 
-Exemplo de comentário:
-> O repositório é organizado, mas falta um padrão de mensagens de commit. Seria ideal usar [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
+### 4.1. Estrutura do Repositório e Documentação
+* **Estrutura de Pastas:** A organização dos diretórios (`src`, `config`, `frontend`, etc.) segue as convenções padrão do Spring Boot/Next.js? A separação de Backend e Frontend é clara e lógica?
+* **Documentação Essencial:** O arquivo `README.md` é completo e útil? Verifique se ele contém:
+    * **Descrição** do projeto e suas funcionalidades.
+    * **Requisitos** de ambiente (Java, Node, versões específicas, etc.).
+    * **Instruções claras de inicialização** (incluindo banco de dados e comandos de *build*).
+
+### 4.2. Gerenciamento de Tarefas (Issues)
+* **Uso de Issues:** O grupo utilizou o sistema de Issues para:
+    * Rastrear bugs, funcionalidades e tarefas?
+    * Gerenciar o backlog e priorizar o trabalho (com *labels* ou *milestones*)?
+    * A descrição das Issues é suficientemente detalhada para guiar o desenvolvimento?
+
+### 4.3. Fluxo de Trabalho (Pull Requests e Branches)
+* **Branches:** O fluxo de *branching* é claro (e.g., usa *main/master*, *develop* e *feature branches*)?
+* **Pull Requests (PRs):** Qual a qualidade e o uso dos Pull Requests?
+    * Possuem **descrições** detalhadas e explicam o propósito das mudanças?
+    * Estão **vinculados** às Issues correspondentes?
+    * Foram usados para **Revisão de Código (Code Review)** antes do *merge*?
+
+### 4.4. Padrões de Commits e Versionamento
+* **Padrão de Commits:** Existe um padrão de mensagens de commit (e.g., usando prefixos como `feat:`, `fix:`, `refactor:`)?
+    > **Sugestão:** Se não houver, mencione que a adoção de [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) melhoraria drasticamente a rastreabilidade e a geração automática de *changelogs*.
+* **Versionamento (Releases/Tags):** O projeto utiliza **Tags** ou **Releases** para marcar versões estáveis ou marcos importantes (e.g., `v1.0.0`)?
 
 ---
 
@@ -114,19 +130,40 @@ Aspectos a analisar:
 
 ---
 
-## 🚀 6. Sugestões de Melhorias
+## 🔎 6. Análise de Qualidade do Código e Testes
 
-Liste entre 3 e 7 sugestões claras para os autores do projeto.
+Avalie o código-fonte além da funcionalidade (foco em *Code Smells*, Design e Cobertura).
 
-Exemplos:
-- Adicionar testes automatizados.  
-- Melhorar a documentação do ambiente.  
-- Padronizar pastas do backend.  
-- Adicionar pipeline CI/CD com GitHub Actions.  
+### 6.1. Design e Princípios SOLID
+* **Coesão e Acoplamento:** Existem classes com muitas responsabilidades (**God Class**)? O acoplamento entre módulos é alto?
+* **Refatorações Necessárias:** Identifique a presença de **Long Method** (métodos com muitas linhas) ou **Duplicated Code**.
+
+### 6.2. Testabilidade e Cobertura
+* **Testes Unitários:** O projeto possui testes unitários? Qual a cobertura (se houver ferramenta para medir)?
+* **Qualidade dos Testes:** Os testes verificam a lógica de negócio ou apenas a integração?
+
+### 6.3. Segurança (OWASP Top 10)
+* Existem validações de entrada (**Input Validation**)?
+* O tratamento de senhas é seguro (criptografia)?
+* Há tratamento adequado de exceções e erros (para evitar vazamento de informações)?
 
 ---
 
-## 🔧 7. Refatorações Propostas (3 partes do código)
+## 🚀 7. Sugestões de Melhorias
+
+Liste **entre 5 e 7 sugestões claras e prioritárias** para os autores do projeto, baseadas nas análises acima (Seções 3, 4, 5 e 6).
+
+1. **Melhoria da Documentação:** Criar um arquivo `CONTRIBUTING.md`, adicionar instruções completas de configuração do ambiente (Java, Maven, variáveis de ambiente e scripts de inicialização) e incluir uma seção de troubleshooting no `README.md`.
+2. **Padronização do Código:** Adotar **Conventional Commits**, habilitar ferramentas como **Spotless**, **Checkstyle** ou **SonarLint** para manter consistência e detectar code smells automaticamente.
+3. **Testes Automatizados:** Implementar testes unitários na camada de **Service** e testes de integração com **Spring Boot Test**, buscando ao menos **80% de cobertura** nas funcionalidades principais.
+4. **Melhorias de Segurança:** Utilizar **Spring Validation** para validação de DTOs, adicionar tratamento centralizado de erros com `@ControllerAdvice`, remover informações sensíveis de logs e revisar dependências vulneráveis usando `mvn dependency-check`.
+5. **Organização do Repositório:** Padronizar a estrutura de pastas, adicionar templates de Pull Request e Issues, além de configurar Branch Protection para `main`.
+6. **Performance e Otimização:** Analisar pontos de gargalo no carregamento de dados, reduzir consultas redundantes, aplicar cache quando adequado e revisar métodos que fazem processamento excessivo no backend.
+7. **Automação e CI/CD:** Criar uma pipeline no **GitHub Actions** para rodar testes, verificar estilo, validar segurança das dependências e realizar build automático a cada PR.
+
+---
+
+## 🔧 8. Refatorações Propostas (3 partes do código)
 
 Cada refatoração deve conter:
 1. **Arquivo e localização**  
@@ -255,7 +292,7 @@ Melhora a clareza e expressividade do código.
 
 ---
 
-## 8. 📄 Conclusão
+## 9. 📄 Conclusão
 
 A análise crítica permitiu identificar aspectos importantes relacionados à **arquitetura**, **qualidade do código** e **organização geral do projeto**. A investigação detalhada evidenciou pontos positivos, como boas escolhas tecnológicas, mas também expôs problemas que comprometem a **manutenibilidade**, **segurança** e **performance** do sistema.
 
@@ -276,7 +313,7 @@ Por fim, o processo reforçou a importância da **refatoração contínua**, **r
 
 ---
 
-## 9. 📚 Referências
+## 10. 📚 Referências
 - Revisando alterações em Pull Requests:  
   https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request
 
