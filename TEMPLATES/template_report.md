@@ -14,9 +14,10 @@
 - **Link do repositório:** _https://github.com/..._  
 - **Integrantes do grupo:** _Nomes_  
 - **Pull requests submetidos:**  
-  - Refatoração 1: https://github.com/exemplo/projeto/pull/123  
-  - Refatoração 2: https://github.com/exemplo/projeto/pull/124  
-  - Refatoração 3: https://github.com/exemplo/projeto/pull/125  
+  - Refatoração 1: https://github.com/exemplo/projeto/pull/1
+  - Refatoração 2: https://github.com/exemplo/projeto/pull/2
+  - Refatoração 3: https://github.com/exemplo/projeto/pull/3
+  - Refatoração 4: https://github.com/exemplo/projeto/pull/4
 
 > [!NOTE]
 > Os links acima são apenas exemplos. Substitua pelos PRs reais do seu grupo.
