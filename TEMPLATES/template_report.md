@@ -14,10 +14,12 @@
 - **Link do repositório:** _https://github.com/exemplo/projeto_  
 - **Integrantes do outro grupo:** _Nomes_  
 - **Pull requests submetidos:**  
-  - **Aluno 1 — Refatoração 1:** https://github.com/exemplo/projeto/pull/1  
-  - **Aluno 2 — Refatoração 2:** https://github.com/exemplo/projeto/pull/2  
-  - **Aluno 3 — Refatoração 3:** https://github.com/exemplo/projeto/pull/3  
-  - **Aluno 4 — Refatoração 4:** https://github.com/exemplo/projeto/pull/4  
+| Integrante | Refatoração | Link do PR |
+|-----------|-------------|-------------|
+| Aluno 1 | Refatoração de Validação e Regras de Negócio | https://github.com/exemplo/projeto/pull/1 |
+| Aluno 2 | Refatoração de Estrutura e Eliminação de Código Duplicado | https://github.com/exemplo/projeto/pull/2 |
+| Aluno 3 | Refatoração de Controladores e Padronização de Endpoints | https://github.com/exemplo/projeto/pull/3 |
+| Aluno 4 | Refatoração de Organização de Pastas e Modulação do Backend | https://github.com/exemplo/projeto/pull/4 |
 
 > [!NOTE]
 > Os links acima são apenas exemplos. Substitua pelos PRs reais do seu grupo.
