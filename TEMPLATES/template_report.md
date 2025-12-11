@@ -1,11 +1,17 @@
-# 📘 Relatório de Análise Crítica do Projeto  
-**Grupo:** Fulano, Sicrano, Beltrano  
-**Prof.:** Prof. Dr. João Paulo Carneiro Aramuni  
-**Disciplina:** Laboratório de Desenvolvimento de Software  
+---
+
+# 📘 Relatório de Análise Crítica do Projeto 👨‍💻
+
+## 1. Informações do grupo
+- **🎓 Curso:** Engenharia de Software
+- **📘 Disciplina:** Laboratório de Desenvolvimento de Software
+- **🗓 Período:** 4° Período
+- **👨‍🏫 Professor(a):** Prof. Dr. João Paulo Carneiro Aramuni
+- **👥 Membros do Grupo:** [Lista de integrantes]
 
 ---
 
-# 📌 Identificação do Projeto
+## 📌 2. Identificação do Projeto
 - **Nome do projeto:** _Informe aqui_  
 - **Link do repositório:** _https://github.com/..._  
 - **Integrantes do grupo:** _Nomes_  
@@ -19,7 +25,7 @@
 
 ---
 
-# 🧱 (i) Arquitetura e Tecnologias Utilizadas
+## 🧱 3. Arquitetura e Tecnologias Utilizadas
 
 Descreva aqui a arquitetura analisada.
 
@@ -33,7 +39,7 @@ Exemplo:
 
 ---
 
-# 🗂️ (ii) Organização do GitHub
+## 🗂️ 4. Organização do GitHub
 
 Avalie:
 - Estrutura de pastas  
@@ -48,7 +54,7 @@ Exemplo de comentário:
 
 ---
 
-# 🖥️ (iii) Dificuldade para Configuração do Ambiente
+## 🖥️ 5. Dificuldade para Configuração do Ambiente
 
 Explique como foi a experiência do grupo ao tentar rodar o projeto.
 
@@ -61,7 +67,7 @@ Exemplo:
 
 ---
 
-# 🚀 (iv) Sugestões de Melhorias
+## 🚀 6. Sugestões de Melhorias
 
 Liste entre 3 e 7 sugestões claras para os autores do projeto.
 
@@ -73,7 +79,7 @@ Exemplos:
 
 ---
 
-# 🔧 Refatorações Propostas (3 partes do código)
+## 7. Refatorações Propostas (3 partes do código)
 
 Cada refatoração deve conter:
 1. **Arquivo e localização**  
@@ -85,12 +91,12 @@ Cada refatoração deve conter:
 
 ---
 
-## 1️⃣ Refatoração 1 – Extração de Função
+### 1️⃣ Refatoração 1 – Extração de Função
 
 **Arquivo:** `services/user_service.py`  
 **Pull Request:** https://github.com/exemplo/projeto/pull/123  
 
-### 🔴 Antes
+#### 🔴 Antes
 ```python
 def create_user(data):
     if "email" not in data or "@" not in data["email"]:
@@ -103,7 +109,7 @@ def create_user(data):
     return user
 ```
 
-### 🟢 Depois
+#### 🟢 Depois
 ```python
 def validate_user_data(data):
     if "email" not in data or "@" not in data["email"]:
@@ -118,21 +124,21 @@ def create_user(data):
     return user
 ```
 
-### ✔ Tipo de refatoração aplicada
+#### ✔ Tipo de refatoração aplicada
 - **Extract Function**  
 - **Melhoria de mensagens de erro**
 
-### 📝 Justificativa
+#### 📝 Justificativa
 Separar a validação em uma função dedicada melhora clareza, testabilidade e reuso.
 
 ---
 
-## 2️⃣ Refatoração 2 – Substituição de Código Duplicado
+### 2️⃣ Refatoração 2 – Substituição de Código Duplicado
 
 **Arquivo:** `utils/string_utils.js`  
 **Pull Request:** https://github.com/exemplo/projeto/pull/124  
 
-### 🔴 Antes
+#### 🔴 Antes
 ```javascript
 function capitalizeName(name) {
   return name.charAt(0).toUpperCase() + name.slice(1);
@@ -143,7 +149,7 @@ function capitalizeCity(city) {
 }
 ```
 
-### 🟢 Depois
+#### 🟢 Depois
 ```javascript
 function capitalize(text) {
   return text.charAt(0).toUpperCase() + text.slice(1);
@@ -153,20 +159,20 @@ const capitalizeName = capitalize;
 const capitalizeCity = capitalize;
 ```
 
-### ✔ Tipo de refatoração aplicada
+#### ✔ Tipo de refatoração aplicada
 - **Generalização de função (Replace Duplicated Code with Parameter)**
 
-### 📝 Justificativa
+#### 📝 Justificativa
 Evita duplicação, reduz riscos de manutenção e padroniza comportamento.
 
 ---
 
-## 3️⃣ Refatoração 3 – Melhoria de Nomes e Clareza
+### 3️⃣ Refatoração 3 – Melhoria de Nomes e Clareza
 
 **Arquivo:** `controllers/product_controller.dart`  
 **Pull Request:** https://github.com/exemplo/projeto/pull/125  
 
-### 🔴 Antes
+#### 🔴 Antes
 ```dart
 void x(p) {
   if (p == null) return;
@@ -174,7 +180,7 @@ void x(p) {
 }
 ```
 
-### 🟢 Depois
+#### 🟢 Depois
 ```dart
 void saveProduct(Product product) {
   if (product == null) return;
@@ -182,15 +188,15 @@ void saveProduct(Product product) {
 }
 ```
 
-### ✔ Tipo de refatoração aplicada
+#### ✔ Tipo de refatoração aplicada
 - **Rename Method / Rename Variable**
 
-### 📝 Justificativa
+#### 📝 Justificativa
 Nomes inadequados prejudicavam legibilidade e entendimento do papel da função.
 
 ---
 
-# 📄 Conclusão
+## 8. 📄 Conclusão
 
 Resuma:
 - Impacto da análise crítica  
@@ -200,11 +206,8 @@ Resuma:
 
 ---
 
-# 📚 Documentação e Links Úteis
+## 9. 📚 Referências
 - Revisando alterações em Pull Requests:  
   https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request
 
 ---
-
-# 📝 Licença (MIT)
-Este documento segue a licença **MIT**.
