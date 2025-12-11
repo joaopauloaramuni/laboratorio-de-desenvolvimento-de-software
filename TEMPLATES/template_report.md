@@ -2,10 +2,12 @@
 
 # 📘 Relatório de Análise Crítica do Projeto 👨‍💻
 
+# 📝 Template de Relatório Técnico de Laboratório
+
 ## 1. Informações do grupo
 - **🎓 Curso:** Engenharia de Software
-- **📘 Disciplina:** Laboratório de Desenvolvimento de Software
-- **🗓 Período:** 4° Período
+- **📘 Disciplina:** Laboratório de Experimentação de Software
+- **🗓 Período:** 6° Período
 - **👨‍🏫 Professor(a):** Prof. Dr. João Paulo Carneiro Aramuni
 - **👥 Membros do Grupo:** [Lista de integrantes]
 
