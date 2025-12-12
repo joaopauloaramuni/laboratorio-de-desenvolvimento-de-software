@@ -24,9 +24,6 @@
 
 > [!NOTE]
 > Os links acima são apenas exemplos. Substitua pelos PRs reais do seu grupo.
-  
-> [!IMPORTANT]
-> Cada integrante do grupo é responsável por enviar seu próprio pull request, contendo a refatoração que realizou.
 
 ### 📝 Abrindo o Pull Request: Fluxos de Contribuição via PRs
 
@@ -47,6 +44,9 @@
 4. No GitHub, no repositório original, inicie o pull request clicando em **"Compare & pull request"**.
 5. O PR deve propor mesclar o **seu branch** para a branch **main** do **mesmo repositório**.
 6. Adicione título/descrição e clique em **"Create pull request"**.
+
+> [!IMPORTANT]
+> Cada integrante do grupo é responsável por enviar seu próprio pull request, contendo a refatoração que realizou.
 
 ---
 
