@@ -34,18 +34,18 @@
 
 1. Crie um **fork** (cópia) do repositório do outro grupo na sua conta.
 2. **Clone o seu fork** localmente.
-3. Crie um **branch**, faça as refatorações (commits) e envie (**push**) o branch para o seu fork.
+3. Crie um **branch**, faça as refatorações (commits) e envie (**push**) a branch para o seu fork.
 4. No GitHub, acesse o **seu fork** e inicie o pull request clicando em **"Compare & pull request"**.
-5. O PR deve propor mesclar o **seu branch** para o branch **main** do **repositório original** do outro grupo.
+5. O PR deve propor mesclar o **seu branch** para a branch **main** do **repositório original** do outro grupo.
 6. Adicione título/descrição e clique em **"Create pull request"**.
 
 #### 2. Opção 2 — Como Membro/Colaborador (quando você **foi incluído** no repositório)
 
 1. Peça para o outro grupo **adicionar seu usuário GitHub como colaborador**.
 2. **Clone o repositório original** localmente.
-3. Crie um **branch**, faça as refatorações (commits) e envie (**push**) o branch diretamente para o repositório original.
+3. Crie um **branch**, faça as refatorações (commits) e envie (**push**) a branch diretamente para o repositório original.
 4. No GitHub, no repositório original, inicie o pull request clicando em **"Compare & pull request"**.
-5. O PR deve propor mesclar o **seu branch** para o branch **main** do **mesmo repositório**.
+5. O PR deve propor mesclar o **seu branch** para a branch **main** do **mesmo repositório**.
 6. Adicione título/descrição e clique em **"Create pull request"**.
 
 ---
