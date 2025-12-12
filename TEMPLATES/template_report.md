@@ -10,10 +10,10 @@
 ---
 
 ## 📌 2. Identificação do Projeto
-- **Nome do projeto:** _Informe aqui_  
-- **Link do repositório:** _https://github.com/exemplo/projeto_  
+- **Nome do projeto:** _Informe aqui_
 - **Integrantes do outro grupo:** _Nomes_  
-- **Pull requests submetidos:**
+- **Link do repositório:** _https://github.com/exemplo/projeto_  
+- **Pull requests submetidos pelo seu grupo:**
   
   | 👤 Integrante | 🔧 Refatoração | 🔗 Link do PR |
   |--------------|---------------|----------------|
