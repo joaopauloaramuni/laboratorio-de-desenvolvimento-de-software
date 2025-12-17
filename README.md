@@ -559,7 +559,17 @@ Esta seção reúne um **template** construído por mim e **exemplos** reais de 
 
 | **Opção 11** | **Opção 12** |
 | :---: | :---: |
-| <img src="https://joaopauloaramuni.github.io/image/PUC-foto-6.jpeg" width="400px"> | <img src="https://joaopauloaramuni.github.io/image/PUC-foto-7.jpeg" width="400px"> |
+| <img src="https://joaopauloaramuni.github.io/image/Canvas.webp" width="400px"> | <img src="https://joaopauloaramuni.github.io/image/Presepio2.jpeg" width="400px"> |
+| *Foto 9 - Fonte: Canvas - PUC Minas* | *Foto 10: Igreja e Presépio PUC Minas* |
+
+| **Opção 13** | **Opção 14** |
+| :---: | :---: |
+| <img src="https://joaopauloaramuni.github.io/image/Presepio.jpeg" width="400px"> | <img src="https://joaopauloaramuni.github.io/image/PUC-foto-7.jpeg" width="400px"> |
+| *Foto 7: Presépio PUC Minas Vertical* | *Foto 8: Campus Coração Eucarístico Vertical* |
+
+| **Opção 15** | **Opção 16** |
+| :---: | :---: |
+| <img src="https://joaopauloaramuni.github.io/image/PUC-foto-6.jpeg" width="400px"> | <img src="https://joaopauloaramuni.github.io/image/PUC-foto-8.jpeg" width="400px"> |
 | *Foto 7: Campus Coração Eucarístico Vertical* | *Foto 8: Campus Coração Eucarístico Vertical* |
 
 ##### 🧩 Exemplo de uso da imagem em um sistema:
