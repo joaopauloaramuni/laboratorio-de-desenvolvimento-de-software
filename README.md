@@ -569,7 +569,7 @@ Esta seção reúne um **template** construído por mim e **exemplos** reais de 
 
 | **Opção 15** | **Opção 16** |
 | :---: | :---: |
-| <img src="https://joaopauloaramuni.github.io/image/PUC-foto-6.jpeg" width="400px"> | <img src="https://joaopauloaramuni.github.io/image/PUC-foto-8.jpeg" width="400px"> |
+| <img src="https://joaopauloaramuni.github.io/image/PUC-foto-6.jpeg" width="400px"> | <img src="https://joaopauloaramuni.github.io/image/PUC-foto-8.jpg" width="400px"> |
 | *Foto 7: Campus Coração Eucarístico Vertical* | *Foto 8: Campus Coração Eucarístico Vertical* |
 
 ##### 🧩 Exemplo de uso da imagem em um sistema:
