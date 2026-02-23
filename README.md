@@ -221,8 +221,7 @@ Frameworks e bibliotecas de frontend auxiliam na criação de interfaces moderna
 - [PrimeFaces](https://www.primefaces.org/) — Framework rico em componentes UI voltado para aplicações Java Server Faces (JSF).  
 - [Vaadin](https://vaadin.com/) — Framework Java para criação de UIs modernas e responsivas, com componentes prontos e integração nativa com Spring.  
 
-###### ⚛️ Ecossistema JavaScript (frontend SPA integrado a REST/GraphQL)  
-- [Three.js](https://threejs.org/) — Biblioteca JavaScript para criação e renderização de gráficos 3D no navegador usando WebGL.  
+###### ⚛️ Ecossistema JavaScript (frontend SPA integrado a REST/GraphQL)   
 - [Svelte](https://svelte.dev/) — Framework frontend reativo que compila componentes em JavaScript otimizado, com alta performance e sintaxe simples.  
 - [Astro](https://astro.build/) — Framework de sites estáticos e híbridos, baseado na arquitetura de “ilhas”, focado em velocidade e SEO, podendo integrar React, Vue ou Svelte.  
 
@@ -239,6 +238,14 @@ Frameworks e bibliotecas de frontend auxiliam na criação de interfaces moderna
 - [daisyUI](https://daisyui.com/) — Extensão de Tailwind com componentes prontos e temas.   
 - [Bootstrap](https://getbootstrap.com/) — Framework CSS mais popular, com grid responsivo, componentes prontos e suporte a JS.  
 - [Bulma](https://bulma.io/) — Framework CSS moderno baseado em Flexbox, leve e sem dependência de JavaScript.  
+
+###### 🖱️ 3D Interativo e animações baseadas em cursor
+- [Spline](https://spline.design/) — Plataforma de design 3D para web que permite criar cenas interativas, animações e objetos 3D exportáveis para projetos React, HTML e WebGL. Ideal para interfaces modernas com elementos que respondem ao movimento do mouse, scroll e eventos do usuário.  
+- [Three.js](https://threejs.org/) — Biblioteca JavaScript para renderização 3D no navegador via WebGL. Muito usada para criar efeitos avançados onde objetos reagem ao movimento do cursor.  
+- [React Three Fiber](https://docs.pmnd.rs/react-three-fiber) — Renderer React para Three.js, facilitando a criação de experiências 3D declarativas que interagem com mouse e eventos da página.  
+- [Framer Motion](https://www.framer.com/motion/) — Biblioteca de animações para React que permite criar efeitos fluidos, incluindo elementos que seguem o cursor, parallax e microinterações.  
+- [GSAP (GreenSock)](https://greensock.com/gsap/) — Biblioteca poderosa de animação JavaScript, muito utilizada para criar efeitos sofisticados como cursor personalizado, parallax avançado e animações baseadas na posição do mouse.  
+- [React Parallax Tilt](https://www.npmjs.com/package/react-parallax-tilt) — Componente React simples para criar efeito de inclinação 3D que responde ao movimento do cursor.  
 
 ###### 🌐 Web Components  
 - [Shoelace](https://shoelace.style/) — Biblioteca de componentes baseada em Web Components, independente de framework, altamente customizável.  
