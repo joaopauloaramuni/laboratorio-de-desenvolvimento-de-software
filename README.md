@@ -765,7 +765,7 @@ Exemplos de portfólio profissional:
 - [Building an Effective Dev Portfolio](https://storage.googleapis.com/joshwcomeau/building-an-effective-dev-portfolio.pdf)
 
 ##### 👤 Outros perfis:
-
+- https://github.com/emmabostian/developer-portfolios
 - https://portfolio-starter-template.webflow.io/
 - https://craig-roush-portfolio-template.webflow.io/
 - https://alex-grant-template.webflow.io/
