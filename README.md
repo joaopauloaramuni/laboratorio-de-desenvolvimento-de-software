@@ -244,6 +244,7 @@ Frameworks e bibliotecas de frontend auxiliam na criação de interfaces moderna
 - [Three.js](https://threejs.org/) — Biblioteca JavaScript para renderização 3D no navegador via WebGL. Muito usada para criar efeitos avançados onde objetos reagem ao movimento do cursor.  
 - [React Three Fiber](https://docs.pmnd.rs/react-three-fiber) — Renderer React para Three.js, facilitando a criação de experiências 3D declarativas que interagem com mouse e eventos da página.  
 - [Framer Motion](https://www.framer.com/motion/) — Biblioteca de animações para React que permite criar efeitos fluidos, incluindo elementos que seguem o cursor, parallax e microinterações.  
+- [Motion](https://motion.dev/) — Biblioteca moderna de animações para JavaScript e React focada em performance e simplicidade. Permite criar transições fluidas, animações baseadas em scroll, gestos e efeitos que respondem ao movimento do cursor.  
 - [GSAP (GreenSock)](https://greensock.com/gsap/) — Biblioteca poderosa de animação JavaScript, muito utilizada para criar efeitos sofisticados como cursor personalizado, parallax avançado e animações baseadas na posição do mouse.  
 - [React Parallax Tilt](https://www.npmjs.com/package/react-parallax-tilt) — Componente React simples para criar efeito de inclinação 3D que responde ao movimento do cursor.  
 
