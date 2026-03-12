@@ -136,7 +136,7 @@ mvn spring-boot:run
 
 Exemplo no navegador ou Postman:
 
-http://localhost:8080/marcas
+- http://localhost:8080/marcas
 
 ---
 
