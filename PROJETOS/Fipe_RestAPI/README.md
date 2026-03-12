@@ -20,11 +20,11 @@ A aplicação disponibiliza endpoints REST que permitem consultar **marcas, mode
 
 Este projeto consome a API pública:
 
-https://parallelum.com.br/fipe/api/v1/carros
+- https://parallelum.com.br/fipe/api/v1/carros
 
 Documentação oficial:
 
-https://deividfortuna.github.io/fipe/
+- https://deividfortuna.github.io/fipe/
 
 ---
 
@@ -51,7 +51,7 @@ GET /marcas
 
 Exemplo:
 
-http://localhost:8080/marcas
+- http://localhost:8080/marcas
 
 ---
 
@@ -61,7 +61,7 @@ GET /modelos/{marca}
 
 Exemplo:
 
-http://localhost:8080/modelos/59
+- http://localhost:8080/modelos/59
 
 ---
 
@@ -71,7 +71,7 @@ GET /anos/{marca}/{modelo}
 
 Exemplo:
 
-http://localhost:8080/anos/59/5940
+- http://localhost:8080/anos/59/5940
 
 ---
 
@@ -81,7 +81,7 @@ GET /valor/{marca}/{modelo}/{ano}
 
 Exemplo:
 
-http://localhost:8080/valor/59/5940/2014-3
+- http://localhost:8080/valor/59/5940/2014-3
 
 ---
 
