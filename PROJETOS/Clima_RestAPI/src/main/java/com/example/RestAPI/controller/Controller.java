@@ -7,12 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
 
-    //Classe de serviços
-    Service service = new Service();
+    private final Service service;
+
+    public Controller(Service service) {
+        this.service = service;
+    }
 
     @GetMapping("/clima")
     public String preverTempo(){
         return service.preverTempo();
     }
 }
-
