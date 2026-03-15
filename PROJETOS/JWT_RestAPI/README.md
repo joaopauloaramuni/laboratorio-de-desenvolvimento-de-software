@@ -462,16 +462,35 @@ mvn spring-boot:run
 
 # 📚 Links úteis
 
-Spring Boot
+## Spring
+
+Spring Boot  
 - https://spring.io/projects/spring-boot
 
-Spring Security
+Spring Boot Documentation  
+- https://docs.spring.io/spring-boot/docs/current/reference/html/
+
+Spring Security  
 - https://spring.io/projects/spring-security
 
-JWT
+Spring Security JWT API  
+- https://docs.spring.io/spring-security/reference/servlet/oauth2/resource-server/jwt.html
+
+----
+
+## JWT
+
+JSON Web Token (Introdução e Debugger)  
 - https://jwt.io/
 
-JJWT Library
+RFC 7519 — JSON Web Token Specification  
+- https://datatracker.ietf.org/doc/html/rfc7519
+
+----
+
+## Biblioteca usada no projeto
+
+JJWT (Java JWT Library)  
 - https://github.com/jwtk/jjwt
 
 ----
