@@ -169,7 +169,9 @@ JWT_RestAPI
 │   │   └── resources
 │   │       └── application.properties
 │   │
-│   └── test/java/com/example/JWT_RestAPI
+│   └── test
+│       └── java/com/example/JWT_RestAPI
+│           └── JwtRestApiApplicationTests.java
 │
 ├── HELP.md
 ├── mvnw
