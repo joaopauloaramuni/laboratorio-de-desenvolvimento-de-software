@@ -157,7 +157,7 @@ A API utiliza **Basic Authentication** para gerar o token JWT e acessar os endpo
 
 | Endpoint | Método | Usuário | Senha | Descrição |
 |--------|--------|--------|--------|--------|
-| `/login` | POST | joaopaulo | 4321 | Realiza login e retorna o token JWT |
+| `/login` | POST | joao | 4321 | Realiza login e retorna o token JWT |
 | `/user` | GET | joao | 4321 | Endpoint acessível por usuários com role `USER` |
 | `/admin` | GET | admin | 1234 | Endpoint acessível apenas por usuários com role `ADMIN` |
 | `/username/{token}` | GET | — | — | Retorna o username contido no token JWT |
@@ -175,7 +175,7 @@ A API utiliza **Basic Authentication** para gerar o token JWT e acessar os endpo
 
 ```json
 {
-  "username": "joaopaulo",
+  "username": "joao",
   "password": "4321"
 }
 ```
