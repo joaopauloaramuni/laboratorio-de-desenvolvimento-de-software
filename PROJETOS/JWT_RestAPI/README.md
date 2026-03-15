@@ -173,11 +173,12 @@ A API utiliza **Basic Authentication** para gerar o token JWT e acessar os endpo
 
 ### Body (JSON)
 
-### json
+```json
 {
   "username": "joaopaulo",
   "password": "4321"
 }
+```
 
 ----
 
@@ -211,7 +212,6 @@ Autenticação:
 `http://localhost:8080/username/{jwt_token}`
 
 Exemplo:
-
 `http://localhost:8080/username/eyJhbGciOiJIUzUxMiJ9...`
 
 ----
