@@ -216,6 +216,188 @@ Exemplo:
 
 ----
 
+# 🔑 Classe `JwtUtil`
+
+A classe `JwtUtil` é responsável por **gerar e validar tokens JWT (JSON
+Web Token)** utilizados na autenticação da API. Ela utiliza a biblioteca
+**JJWT (Java JWT)** para criar, assinar e interpretar os tokens.
+
+----
+
+## 📦 Importações utilizadas
+
+``` java
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.io.Decoders;
+import io.jsonwebtoken.io.Encoders;
+import io.jsonwebtoken.security.Keys;
+import javax.crypto.SecretKey;
+import java.util.Date;
+```
+
+Essas classes permitem:
+
+-   Criar tokens JWT
+-   Assinar tokens com uma chave secreta
+-   Decodificar tokens recebidos
+-   Extrair informações do token
+
+----
+
+## 🔐 Chave secreta (SECRET_KEY)
+
+``` java
+private static final SecretKey SECRET_KEY = generateSecretKey();
+```
+
+A chave secreta é usada para **assinar digitalmente o token**,
+garantindo que o token não foi alterado e que apenas o servidor consiga
+gerar tokens válidos.
+
+A chave é criada pelo método:
+
+``` java
+private static SecretKey generateSecretKey() {
+    SecretKey key = Jwts.SIG.HS512.key().build();
+    return key;
+}
+```
+
+Nesse caso, a biblioteca gera automaticamente uma chave segura para o
+algoritmo **HS512**.
+
+----
+
+## 🔑 Representação da chave em Base64
+
+``` java
+private static final String SECRET_STRING = getSecretString();
+```
+
+Esse método converte a chave secreta para **Base64**, permitindo
+armazenar ou reutilizar a chave posteriormente.
+
+``` java
+private static String getSecretString() {
+    String secretString = Encoders.BASE64.encode(SECRET_KEY.getEncoded());
+    System.out.println("Secret Key: " + secretString);
+    return secretString;
+}
+```
+
+A chave é exibida no console apenas para **fins de teste**.
+
+Em aplicações reais, a chave normalmente é armazenada em:
+
+-   variáveis de ambiente
+-   arquivos `.properties`
+-   serviços de gerenciamento de segredos
+
+----
+
+## ⏳ Tempo de expiração do token
+
+``` java
+private static final long EXPIRATION_TIME = 864_000_000;
+```
+
+Define o tempo de validade do token.
+
+    864000000 ms = 10 dias
+
+Após esse período o token **expira** e o usuário precisa realizar login
+novamente.
+
+----
+
+## 🪪 Geração do Token
+
+``` java
+public static String generateToken(String username) {
+    String token = Jwts.builder()
+            .subject(username)
+            .expiration(new Date(System.currentTimeMillis() + EXPIRATION_TIME))
+            .signWith(SECRET_KEY)
+            .compact();
+
+    System.out.println("Token: " + token);
+    return token;
+}
+```
+
+Esse método:
+
+1.  Recebe o **username**
+2.  Cria um token JWT
+3.  Define o usuário como **subject**
+4.  Define a **data de expiração**
+5.  Assina o token com a chave secreta
+6.  Retorna o token gerado
+
+Um token JWT possui três partes:
+
+    HEADER.PAYLOAD.SIGNATURE
+
+----
+
+## 🔎 Extração do Username do Token
+
+``` java
+public static String extractUsername(String token) {
+    SecretKey secret = Keys.hmacShaKeyFor(Decoders.BASE64.decode(SECRET_STRING));
+
+    return Jwts.parser()
+            .verifyWith(secret)
+            .build()
+            .parseSignedClaims(token)
+            .getPayload()
+            .getSubject();
+}
+```
+
+Esse método:
+
+1.  Decodifica a chave secreta
+2.  Verifica se o token é válido
+3.  Lê o conteúdo do token
+4.  Retorna o **username** armazenado no payload
+
+----
+
+## 🧠 Fluxo de funcionamento do JWT
+
+    Usuário faz login
+          ↓
+    Servidor valida username e senha
+          ↓
+    Servidor gera token JWT
+          ↓
+    Cliente recebe o token
+          ↓
+    Cliente envia o token nas próximas requisições
+          ↓
+    Servidor valida o token
+          ↓
+    Servidor libera ou bloqueia o acesso
+
+----
+
+## ⚠️ Observação importante
+
+Nesta implementação a **chave secreta é gerada sempre que a aplicação
+inicia**.
+
+Isso significa que tokens gerados antes de reiniciar o servidor deixam
+de funcionar.
+
+Em aplicações reais, a chave normalmente é **fixa** e armazenada em:
+
+-   `application.properties`
+-   variáveis de ambiente
+-   serviços de secret management
+
+----
+
 # 📁 Estrutura do Projeto
 
 ```
