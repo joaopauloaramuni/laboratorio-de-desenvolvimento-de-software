@@ -141,6 +141,81 @@ Admin: admin
 
 ----
 
+## 📡 Requests da API
+
+A coleção de requisições utilizada para testar a API foi criada no **Insomnia** e está disponível no arquivo:
+
+`requests/Insomnia_2024-10-22.json`
+
+Esse arquivo pode ser importado diretamente no Insomnia para facilitar os testes dos endpoints.
+
+----
+
+## 🔐 Autenticação
+
+A API utiliza **Basic Authentication** para gerar o token JWT e acessar os endpoints protegidos.
+
+| Endpoint | Método | Usuário | Senha | Descrição |
+|--------|--------|--------|--------|--------|
+| `/login` | POST | joaopaulo | 4321 | Realiza login e retorna o token JWT |
+| `/user` | GET | joao | 4321 | Endpoint acessível por usuários com role `USER` |
+| `/admin` | GET | admin | 1234 | Endpoint acessível apenas por usuários com role `ADMIN` |
+| `/username/{token}` | GET | — | — | Retorna o username contido no token JWT |
+
+----
+
+## 🧪 Exemplos de Requisições
+
+### Login (gerar token)
+
+### POST
+`http://localhost:8080/login`
+
+### Body (JSON)
+
+### json
+{
+  "username": "joaopaulo",
+  "password": "4321"
+}
+
+----
+
+### Acessar endpoint de usuário
+
+### GET
+`http://localhost:8080/user`
+
+Autenticação:
+
+- Username: `joao`
+- Password: `4321`
+
+----
+
+### Acessar endpoint de administrador
+
+### GET
+`http://localhost:8080/admin`
+
+Autenticação:
+
+- Username: `admin`
+- Password: `1234`
+
+----
+
+### Obter username a partir do token
+
+### GET
+`http://localhost:8080/username/{jwt_token}`
+
+Exemplo:
+
+`http://localhost:8080/username/eyJhbGciOiJIUzUxMiJ9...`
+
+----
+
 # 📁 Estrutura do Projeto
 
 ```
