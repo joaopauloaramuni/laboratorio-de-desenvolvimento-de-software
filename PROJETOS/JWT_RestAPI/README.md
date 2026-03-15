@@ -80,10 +80,10 @@ A aplicação expõe endpoints REST que permitem:
 
 # 👥 Usuários de teste
 
-  Usuário   Senha   Role
-  --------- ------- -------
-  joao      4321    USER
-  admin     1234    ADMIN
+| Usuário | Senha | Role |
+|---------|-------|------|
+| joao | 4321 | USER |
+| admin | 1234 | ADMIN |
 
 ----
 
