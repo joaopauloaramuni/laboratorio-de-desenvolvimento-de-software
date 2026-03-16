@@ -56,7 +56,7 @@ Ele funciona como uma **camada de abstração para sistemas de monitoramento**, 
 
 No Spring Boot, o Micrometer é integrado automaticamente ao **Actuator**.
 
-Documentação: https://micrometer.io/
+Documentação: https://github.com/micrometer-metrics/micrometer
 
 ----
 
@@ -212,6 +212,9 @@ Spring Boot Actuator
 Micrometer  
 - https://micrometer.io/  
 - https://github.com/micrometer-metrics/micrometer
+
+Micrometer Documentation
+- https://docs.micrometer.io/micrometer/reference/
 
 Prometheus  
 - https://prometheus.io/  
