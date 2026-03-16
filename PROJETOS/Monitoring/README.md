@@ -122,12 +122,16 @@ Exemplo do projeto:
     global:
       scrape_interval: 15s
       evaluation_interval: 15s
-
+    
+    # rule_files:
+    #   - "first.rules"
+    #   - "second.rules"
+    
     scrape_configs:
       - job_name: prometheus
         static_configs:
           - targets: ['localhost:9090']
-
+    
       - job_name: 'spring-actuator'
         metrics_path: '/actuator/prometheus'
         scrape_interval: 5s
@@ -135,15 +139,23 @@ Exemplo do projeto:
           - targets: ['localhost:8080']
 ```
 
-### Explicação
+## Explicação
 
--   `scrape_interval` → intervalo padrão de coleta de métricas
--   `job_name` → nome do serviço monitorado
--   `metrics_path` → endpoint onde as métricas estão disponíveis
--   `targets` → endereço da aplicação monitorada
+- `global` → define configurações globais do Prometheus que serão aplicadas a todos os serviços monitorados, salvo quando houver configuração específica.
+- `scrape_interval` → determina o intervalo padrão de coleta das métricas. No exemplo, o Prometheus realiza a coleta a cada **15 segundos**.
+- `evaluation_interval` → define o intervalo em que o Prometheus avalia regras de alerta e regras de gravação (recording rules).
+- `scrape_configs` → seção onde são configurados os serviços que o Prometheus irá monitorar.
+- `job_name` → nome do serviço ou aplicação que está sendo monitorado.
+- `static_configs` → define uma lista estática de endpoints que serão monitorados.
+- `targets` → especifica o endereço (host e porta) das aplicações de onde o Prometheus irá coletar as métricas.
+- `metrics_path` → caminho do endpoint onde as métricas da aplicação estão disponíveis.
 
-Neste projeto, o Prometheus coleta métricas da aplicação Spring a cada
-**5 segundos**.
+Neste exemplo, existem dois serviços monitorados:
+
+- O próprio **Prometheus**, disponível em `localhost:9090`.
+- A aplicação **Spring Boot**, disponível em `localhost:8080`, que expõe métricas através do endpoint `/actuator/prometheus`.
+
+Para a aplicação Spring, o intervalo de coleta foi configurado para **5 segundos**, sobrescrevendo o valor padrão definido na configuração global.
 
 ----
 
@@ -152,31 +164,27 @@ Neste projeto, o Prometheus coleta métricas da aplicação Spring a cada
 Dependências utilizadas no projeto:
 ```xml
     <dependencies>
-        <!-- Spring Boot Starter -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-        <!-- Spring Boot Actuator -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-
-        <!-- Prometheus -->
-        <dependency>
-            <groupId>io.micrometer</groupId>
-            <artifactId>micrometer-registry-prometheus</artifactId>
-            <scope>runtime</scope>
-        </dependency>
-    </dependencies>
+		<!-- Spring Boot Starter -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<!-- Prometheus -->
+		<dependency>
+			<groupId>io.micrometer</groupId>
+			<artifactId>micrometer-registry-prometheus</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+	</dependencies>
 ```
 
 ----
@@ -197,19 +205,23 @@ Hello, World!
 
 # 🔗 Links úteis
 
-Spring Boot 
-- https://spring.io/projects/spring-boot
+Spring Boot  
+- https://spring.io/projects/spring-boot  
+- https://github.com/spring-projects/spring-boot
 
-Spring Boot Actuator 
-- https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html
+Spring Boot Actuator  
+- https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html  
+- https://github.com/spring-projects/spring-boot/tree/main/spring-boot-project/spring-boot-actuator
 
-Micrometer 
-- https://micrometer.io/
+Micrometer  
+- https://micrometer.io/  
+- https://github.com/micrometer-metrics/micrometer
 
-Prometheus 
-- https://prometheus.io/
+Prometheus  
+- https://prometheus.io/  
+- https://github.com/prometheus/prometheus
 
-Prometheus Documentation 
+Prometheus Documentation  
 - https://prometheus.io/docs/introduction/overview/
 
 ----
