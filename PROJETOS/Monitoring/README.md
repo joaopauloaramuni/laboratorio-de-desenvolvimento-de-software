@@ -28,7 +28,7 @@ A aplicação expõe métricas através do **Actuator**, que são coletadas peri
 
 # 🚀 Tecnologias utilizadas
 
--   Java
+-   Java 17
 -   Spring Boot
 -   Spring Boot Actuator
 -   Micrometer
