@@ -144,6 +144,7 @@ Exemplo do projeto:
 - `global` → define configurações globais do Prometheus que serão aplicadas a todos os serviços monitorados, salvo quando houver configuração específica.
 - `scrape_interval` → determina o intervalo padrão de coleta das métricas. No exemplo, o Prometheus realiza a coleta a cada **15 segundos**.
 - `evaluation_interval` → define o intervalo em que o Prometheus avalia regras de alerta e regras de gravação (recording rules).
+- `rule_files` → permite definir arquivos que contêm **regras do Prometheus**. Essas regras podem ser usadas para criar **alertas automáticos** ou **métricas derivadas** a partir das métricas coletadas.
 - `scrape_configs` → seção onde são configurados os serviços que o Prometheus irá monitorar.
 - `job_name` → nome do serviço ou aplicação que está sendo monitorado.
 - `static_configs` → define uma lista estática de endpoints que serão monitorados.
