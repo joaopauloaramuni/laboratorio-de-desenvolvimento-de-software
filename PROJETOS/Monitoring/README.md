@@ -1,13 +1,28 @@
 # 📊 Projeto Monitoring
 
-Projeto utilizando **Spring Boot** para demonstrar monitoramento
-de aplicações com:
+Projeto utilizando **Spring Boot** para demonstrar monitoramento de aplicações e acompanhamento da **saúde do sistema**.
 
--   Spring Boot Actuator
--   Micrometer
--   Prometheus
+Em aplicações modernas, especialmente em ambientes de produção, é fundamental possuir mecanismos que permitam verificar se o sistema está funcionando corretamente, identificar problemas rapidamente e acompanhar métricas de desempenho.
 
-A aplicação expõe métricas através do **Actuator**, que são coletadas pelo **Prometheus** para monitoramento da aplicação.
+Nesse contexto, ferramentas de **observabilidade e monitoramento** são utilizadas para coletar informações sobre o comportamento da aplicação, como uso de memória, tempo de resposta, número de requisições e disponibilidade do sistema.
+
+Neste projeto são utilizadas as seguintes tecnologias:
+
+- **Spring Boot Actuator** → fornece endpoints prontos para monitoramento da aplicação, permitindo verificar informações como status da aplicação, métricas, logs e mapeamento de endpoints.
+
+- **Micrometer** → atua como uma camada de instrumentação de métricas, coletando dados da aplicação e formatando-os de forma compatível com diferentes sistemas de monitoramento.
+
+- **Prometheus** → é responsável por coletar, armazenar e consultar as métricas expostas pela aplicação, permitindo acompanhar o comportamento do sistema ao longo do tempo.
+
+Com essas ferramentas trabalhando em conjunto, é possível:
+
+- Monitorar a **saúde da aplicação** em tempo real
+- Coletar métricas de desempenho
+- Identificar possíveis gargalos ou falhas
+- Analisar o comportamento da aplicação ao longo do tempo
+- Criar alertas e dashboards de monitoramento
+
+A aplicação expõe métricas através do **Actuator**, que são coletadas periodicamente pelo **Prometheus**, permitindo acompanhar o funcionamento do sistema e facilitar a detecção de problemas.
 
 ----
 
