@@ -45,19 +45,16 @@ Documentação:
 
 ## Micrometer
 
-O **Micrometer** é uma biblioteca de métricas utilizada pelo Spring
-Boot.
+O **Micrometer** é uma biblioteca de métricas utilizada pelo Spring Boot.
 
-Ele funciona como uma **camada de abstração para sistemas de
-monitoramento**, permitindo enviar métricas para diferentes ferramentas como:
+Ele funciona como uma **camada de abstração para sistemas de monitoramento**, permitindo enviar métricas para diferentes ferramentas como:
 
 - Prometheus
 - Datadog
 - New Relic
 - Graphite
 
-No Spring Boot, o Micrometer é integrado automaticamente ao
-**Actuator**.
+No Spring Boot, o Micrometer é integrado automaticamente ao **Actuator**.
 
 Documentação: https://micrometer.io/
 
@@ -85,8 +82,7 @@ Site oficial: https://prometheus.io/
 
 # ⚙️ Configuração do Actuator
 
-No arquivo `application.properties`, os endpoints do Actuator são
-expostos:
+No arquivo `application.properties`, os endpoints do Actuator são expostos:
 
 ```
 management.endpoints.web.exposure.include=*
@@ -114,8 +110,7 @@ http://localhost:8080/actuator/prometheus
 
 # 📡 Arquivo prometheus.yml
 
-O arquivo **prometheus.yml** define como o Prometheus irá coletar
-métricas.
+O arquivo **prometheus.yml** define como o Prometheus irá coletar métricas.
 
 Exemplo do projeto:
 ```yml
