@@ -551,7 +551,13 @@ Em aplicações reais, a chave normalmente é **fixa** e armazenada em:
 # 📁 Estrutura do Projeto
 
 ```
-JWT_RestAPI
+JavaDoc_JWT_RestAPI
+│
+├── docs
+│   ├── index.html
+│   ├── allclasses-index.html
+│   ├── allpackages-index.html
+│   └── com/example/JWT_RestAPI/...
 │
 ├── requests
 │   └── Insomnia_2024-10-22.json
