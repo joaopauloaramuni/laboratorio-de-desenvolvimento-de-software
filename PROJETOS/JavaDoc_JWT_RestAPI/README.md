@@ -645,6 +645,16 @@ JJWT (Java JWT Library)
 
 ----
 
+## JavaDoc
+
+JavaDoc Tool (Documentação Oficial)  
+- https://docs.oracle.com/en/java/javase/17/docs/specs/man/javadoc.html  
+
+JavaDoc Guide (Oracle)  
+- https://www.oracle.com/java/technologies/javase/javadoc-tool.html  
+
+----
+
 # 🛡 Licença
 
 Este projeto está sob a licença **MIT**.
