@@ -1,13 +1,157 @@
-# 🔐 JWT Rest API
+# 🔐 JavaDoc JWT Rest API
 
-Projeto desenvolvido com **Spring Boot** demonstrando como implementar
-**autenticação e autorização utilizando JSON Web Token (JWT)**.
+[![JavaDoc](https://img.shields.io/badge/JavaDoc-Documentação-blue?style=for-the-badge&logo=java)](#-geração-de-javadoc)
+
+Projeto desenvolvido com **Spring Boot** com o objetivo de demonstrar, de forma prática, a implementação de **autenticação e autorização utilizando JSON Web Token (JWT)**, além da geração de documentação automática com **JavaDoc**.
 
 A aplicação expõe endpoints REST que permitem:
 
--   gerar um **token JWT**
--   **extrair informações do token**
--   acessar rotas protegidas com **Spring Security**
+- 🔑 gerar um **token JWT** a partir de credenciais válidas  
+- 🔍 extrair informações contidas no token  
+- 🔐 acessar rotas protegidas utilizando **Spring Security**  
+- 📘 visualizar a documentação do código gerada automaticamente via **JavaDoc**
+
+O projeto serve como material didático para compreensão dos conceitos de segurança em APIs e documentação de código em aplicações Java.
+
+----
+
+# 📘 Geração de JavaDoc
+
+Este projeto também demonstra como gerar documentação automática do código utilizando **JavaDoc**.
+
+A documentação gerada descreve classes, métodos e parâmetros da aplicação, facilitando o entendimento e manutenção do código.
+
+📘 Acesse um exemplo da documentação gerada:
+
+[📘 Acessar JavaDoc - AuthService](https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software/blob/main/PROJETOS/JavaDoc_JWT_RestAPI/docs/com/example/JWT_RestAPI/service/AuthService.html)
+
+---
+
+## ⚙️ Como gerar o JavaDoc
+
+### 🔹 Usando Maven
+
+```bash
+mvn javadoc:javadoc
+```
+
+Após a execução, a documentação será gerada em:
+
+```
+target/site/apidocs/index.html
+```
+
+---
+
+### 🔹 Usando linha de comando (Java puro)
+
+```bash
+javadoc -d docs -sourcepath src/main/java -subpackages com.example
+```
+
+Isso criará a documentação na pasta:
+
+```
+/docs
+```
+
+---
+
+## 📂 Estrutura da documentação gerada
+
+Após gerar o JavaDoc, você verá arquivos como:
+
+```
+docs/
+├── index.html
+├── allclasses-index.html
+├── allpackages-index.html
+├── overview-summary.html
+├── index-all.html
+└── com/example/...
+```
+
+---
+
+## 🧾 Exemplo de HTML gerado pelo JavaDoc
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AuthService</title>
+</head>
+<body>
+
+<h1>Class AuthService</h1>
+
+<p>
+Serviço responsável pela autenticação de usuários e geração de tokens JWT.
+</p>
+
+<h2>Method Summary</h2>
+
+<ul>
+    <li>
+        <b>generateToken(String username)</b><br>
+        Gera um token JWT para o usuário informado.
+    </li>
+    <li>
+        <b>validateToken(String token)</b><br>
+        Valida o token JWT recebido.
+    </li>
+</ul>
+
+<h2>Method Detail</h2>
+
+<h3>generateToken</h3>
+<p>
+Recebe um username e retorna um token JWT válido.
+</p>
+
+</body>
+</html>
+```
+
+---
+
+## 🧠 O que o JavaDoc documenta
+
+- 📦 Pacotes  
+- 🏗 Classes  
+- 🔧 Métodos  
+- 📥 Parâmetros  
+- 📤 Retornos  
+- 💬 Comentários do código  
+
+---
+
+## 💡 Exemplo de comentário JavaDoc
+
+```
+/**
+ * Gera um token JWT para um usuário.
+ *
+ * @param username Nome do usuário
+ * @return Token JWT gerado
+ */
+```
+
+---
+
+## ⚠️ Observação importante
+
+Nesta implementação, a qualidade da documentação depende diretamente dos comentários no código.
+
+Sem comentários JavaDoc, a documentação gerada será limitada.
+
+---
+
+## 🚀 Objetivo no projeto
+
+- Demonstrar geração automática de documentação  
+- Facilitar o entendimento do código por outros desenvolvedores  
+- Servir como material de apoio didático
 
 ----
 
@@ -64,6 +208,12 @@ A aplicação expõe endpoints REST que permitem:
             <version>0.12.3</version>
             <scope>runtime</scope>
         </dependency>
+		<!-- Spring doc -->
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.3.0</version>
+		</dependency>
     </dependencies>
 ```
 
