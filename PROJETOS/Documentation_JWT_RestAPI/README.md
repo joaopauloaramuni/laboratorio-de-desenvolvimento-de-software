@@ -481,7 +481,7 @@ Em aplicações reais, a chave normalmente é **fixa** e armazenada em:
 # 📁 Estrutura do Projeto
 
 ```
-JWT_RestAPI
+Documentation_JWT_RestAPI
 │
 ├── requests
 │   └── Insomnia_2024-10-22.json
