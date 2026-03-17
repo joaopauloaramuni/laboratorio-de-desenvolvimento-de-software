@@ -92,6 +92,7 @@ Para endpoints protegidos:
 -   Maven
 -   JSON Web Token (JWT)
 -   Rest API
+-   Swagger (SpringDoc OpenAPI)
 
 ----
 
@@ -574,7 +575,7 @@ JJWT (Java JWT Library)
 
 ----
 
-## 📄 Swagger / OpenAPI
+## Swagger / OpenAPI
 
 SpringDoc OpenAPI (Swagger para Spring Boot)  
 - https://springdoc.org/
