@@ -1,12 +1,86 @@
-# 🔐 JWT Rest API
+# 🔐 Documentation JWT Rest API - Swagger
 
-Projeto desenvolvido com **Spring Boot** demonstrando como implementar **autenticação e autorização utilizando JSON Web Token (JWT)**.
+Projeto desenvolvido com **Spring Boot** que demonstra a implementação de **autenticação e autorização utilizando JSON Web Token (JWT)**, com documentação interativa via **Swagger (SpringDoc OpenAPI)**.
 
 A aplicação expõe endpoints REST que permitem:
 
--   gerar um **token JWT**
--   **extrair informações do token**
--   acessar rotas protegidas com **Spring Security**
+- 🔑 gerar um **token JWT**
+- 🔍 extrair informações do token
+- 🔐 acessar rotas protegidas com **Spring Security**
+- 📄 visualizar e testar os endpoints através da **documentação Swagger**
+- 📦 acessar a especificação completa da API no padrão **OpenAPI (JSON)**
+
+----
+
+# 📄 Documentação da API (Swagger / OpenAPI)
+
+A API possui documentação automática gerada com **SpringDoc OpenAPI (Swagger)**, permitindo visualizar e testar todos os endpoints diretamente pelo navegador.
+
+----
+
+## 🌐 Swagger UI (Interface Gráfica)
+
+Acesse a interface interativa:
+
+[HTML] http://localhost:8080/swagger-ui/index.html
+
+Nela você pode:
+
+- visualizar todos os endpoints disponíveis
+- testar requisições diretamente no navegador
+- enviar parâmetros e autenticação
+- visualizar respostas em tempo real
+
+----
+
+## 📦 OpenAPI (JSON)
+
+A especificação completa da API em formato JSON pode ser acessada em:
+
+[JSON] http://localhost:8080/v3/api-docs
+
+Esse endpoint é útil para:
+
+- integração com outras ferramentas
+- geração de clientes (SDKs)
+- análise automática da API
+
+----
+
+## 🧪 Exemplo de uso no Swagger
+
+1. Acesse o Swagger UI  
+2. Localize o endpoint `/login`  
+3. Clique em **Try it out**  
+4. Envie o JSON:
+
+```json
+{
+  "username": "joao",
+  "password": "4321"
+}
+```
+
+5. Copie o token retornado  
+6. Utilize o token nos demais endpoints protegidos
+
+----
+
+## 🔐 Autenticação no Swagger
+
+Para endpoints protegidos:
+
+- utilize **Basic Auth** no navegador (quando solicitado)
+- ou configure manualmente os headers (caso implemente Bearer futuramente)
+
+----
+
+## 📘 Benefícios do Swagger
+
+- documentação automática e sempre atualizada
+- facilita testes sem precisar de Postman/Insomnia
+- melhora o entendimento da API pelos alunos
+- padronização com OpenAPI
 
 ----
 
@@ -63,6 +137,12 @@ A aplicação expõe endpoints REST que permitem:
             <version>0.12.3</version>
             <scope>runtime</scope>
         </dependency>
+		<!-- Spring doc -->
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.3.0</version>
+		</dependency>
     </dependencies>
 ```
 
@@ -491,6 +571,19 @@ RFC 7519 — JSON Web Token Specification
 
 JJWT (Java JWT Library)  
 - https://github.com/jwtk/jjwt
+
+----
+
+## 📄 Swagger / OpenAPI
+
+SpringDoc OpenAPI (Swagger para Spring Boot)  
+- https://springdoc.org/
+
+Swagger UI (Interface Oficial)  
+- https://swagger.io/tools/swagger-ui/
+
+OpenAPI Specification  
+- https://swagger.io/specification/
 
 ----
 
