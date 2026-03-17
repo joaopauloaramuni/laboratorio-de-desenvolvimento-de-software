@@ -1,7 +1,6 @@
 # 🔐 JWT Rest API
 
-Projeto desenvolvido com **Spring Boot** demonstrando como implementar
-**autenticação e autorização utilizando JSON Web Token (JWT)**.
+Projeto desenvolvido com **Spring Boot** demonstrando como implementar **autenticação e autorização utilizando JSON Web Token (JWT)**.
 
 A aplicação expõe endpoints REST que permitem:
 
