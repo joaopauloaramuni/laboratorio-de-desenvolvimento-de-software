@@ -78,7 +78,7 @@ RestAPI_v3
 ## 1️⃣ Clonar o projeto
 
 ```
-git clone https://github.com/seu-usuario/RestAPI_v3.git
+git clone https://github.com/joaopauloaramuni/laboratorio-de-desenvolvimento-de-software.git
 ```
 
 ## 2️⃣ Entrar na pasta
@@ -161,14 +161,17 @@ Cliente → Controller → Service → Response
 
 ---
 
-# ⚠️ Observações
+# ⚠️ Observações (v3)
 
-- A instância do `Service` ainda está sendo criada manualmente (`new Service()`)  
-- Ainda não está sendo utilizada **injeção de dependência**  
+- A classe `Service` já utiliza `@Service` (Spring Bean)  
+- A injeção de dependência ainda não está sendo utilizada (`@Autowired`)  
+- A instância do Service ainda está sendo criada manualmente (`new Service()`)  
+- Este projeto continua sendo uma evolução didática  
 
-👉 Próxima evolução:
+👉 Próxima evolução (v4):
 
-- Uso de `@Autowired` ou injeção via construtor  
+- Uso de injeção de dependência com `@Autowired` ou via construtor  
+- Remoção da instanciação manual (`new Service()`)  
 
 ---
 
