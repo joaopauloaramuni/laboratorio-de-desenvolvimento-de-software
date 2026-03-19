@@ -160,15 +160,17 @@ Cliente → Controller → Service → Response
 
 ---
 
-# ⚠️ Observações
+# ⚠️ Observações (v2)
 
 - A classe `Service` ainda não utiliza `@Service` (Spring Bean)  
 - A injeção de dependência ainda não está sendo utilizada (`@Autowired`)  
+- A instância do Service é criada manualmente (`new Service()`)  
 - Este projeto é uma evolução didática  
 
 👉 Próxima evolução (v3):
-- Uso de `@Service`
-- Injeção de dependência com `@Autowired` ou construtor
+
+- Uso de `@Service`  
+- Introdução de múltiplos endpoints  
 
 ---
 
