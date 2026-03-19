@@ -139,12 +139,17 @@ Essa é minha primeira API REST
 
 ---
 
-# 💡 Observações
+# ⚠️ Observações (v1)
 
-- Projeto **básico e introdutório**  
-- Não possui banco de dados  
-- Não utiliza arquitetura em camadas (Controller, Service, Repository)  
-- Ideal para primeiros testes com Spring Boot  
+- Não há separação de camadas (tudo está no Controller)  
+- Não existe classe de serviço (Service)  
+- Não há uso de anotações como `@Service`  
+- Não há uso de injeção de dependência  
+
+👉 Próxima evolução (v2):
+
+- Criar camada de Service  
+- Separar responsabilidades (Controller → Service)  
 
 ---
 
