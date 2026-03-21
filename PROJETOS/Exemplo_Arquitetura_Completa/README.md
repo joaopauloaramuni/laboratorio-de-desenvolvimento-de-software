@@ -15,6 +15,11 @@ O projeto serve como material didático para compreensão dos conceitos de segur
 
 ----
 
+> [!NOTE]
+> Além disso, este projeto também foi utilizado como base para demonstrar, de forma didática, a aplicação de uma **arquitetura em camadas**. Diferente de uma versão anterior mais simplificada, aqui a estrutura foi reorganizada em múltiplos pacotes (como `controller`, `service`, `repository`, `security`, `dto`, entre outros), evidenciando claramente a separação de responsabilidades entre as partes do sistema. Essa abordagem permite aos alunos compreenderem não apenas o funcionamento do JWT e do Spring Security, mas também como estruturar projetos reais de forma organizada, escalável e alinhada com boas práticas de engenharia de software.
+
+----
+
 # 📦 Estrutura de Pacotes e Responsabilidades
 
 Este projeto segue uma arquitetura em camadas com foco em **separação de responsabilidades**, **baixo acoplamento** e **alta coesão**.  
