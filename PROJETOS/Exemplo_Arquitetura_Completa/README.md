@@ -15,6 +15,231 @@ O projeto serve como material didático para compreensão dos conceitos de segur
 
 ----
 
+# 📦 Estrutura de Pacotes e Responsabilidades
+
+Este projeto segue uma arquitetura em camadas com foco em **separação de responsabilidades**, **baixo acoplamento** e **alta coesão**.  
+Além disso, diferencia claramente **camadas de fluxo principal** e **camadas de suporte (cross-cutting)**.
+
+----
+
+## 🏗️ Visão Geral da Arquitetura
+
+**Fluxo principal:**
+
+`Cliente → Controller → Service → Repository → Banco de Dados`
+
+**Camadas transversais (atuam em todo o fluxo):**
+
+`Security | DTO | Exception`
+
+----
+
+### 📁 application
+
+Camada responsável por inicializar a aplicação.
+
+- Ponto de entrada do sistema
+- Inicialização do contexto do Spring
+
+📌 **Responsabilidade:** bootstrap da aplicação  
+
+✅ Deve inicializar a aplicação  
+✅ Deve configurar o contexto base  
+✅ Deve manter simplicidade  
+
+🚫 Não deve conter regra de negócio  
+🚫 Não deve conter lógica de infraestrutura complexa  
+🚫 Não deve depender de outras camadas  
+
+----
+
+### ⚙️ config
+
+Camada de configuração da aplicação.
+
+- Centraliza configurações técnicas
+- Define comportamento de frameworks
+
+📌 **Responsabilidade:** infraestrutura e configuração do sistema  
+
+✅ Deve centralizar configurações  
+✅ Deve definir beans e integrações  
+✅ Deve configurar frameworks  
+
+🚫 Não deve conter regra de negócio  
+🚫 Não deve conter lógica de domínio  
+🚫 Não deve acessar diretamente controller/service  
+
+----
+
+### 🎮 controller
+
+Camada de interface com o cliente.
+
+- Recebe requisições externas (HTTP)
+- Converte entrada em objetos da aplicação
+- Delega processamento para a camada de serviço
+
+📌 **Responsabilidade:** orquestração da entrada e saída  
+
+✅ Deve receber requisições HTTP  
+✅ Deve delegar para o service  
+✅ Deve retornar respostas ao cliente  
+
+🚫 Não deve conter regra de negócio  
+🚫 Não deve acessar diretamente o repository  
+🚫 Não deve implementar validações complexas  
+
+----
+
+### 🧠 service
+
+Camada de regras de negócio.
+
+- Implementa a lógica do sistema
+- Orquestra chamadas entre diferentes componentes
+- Garante consistência das operações
+
+📌 **Responsabilidade:** processamento e decisões do domínio  
+
+✅ Deve implementar regras de negócio  
+✅ Deve orquestrar operações  
+✅ Deve garantir consistência  
+
+🚫 Não deve conhecer detalhes de HTTP  
+🚫 Não deve depender de controller  
+🚫 Não deve expor entidades diretamente  
+
+----
+
+### 🗄️ repository
+
+Camada de acesso a dados.
+
+- Abstrai a comunicação com o banco
+- Executa operações de persistência
+
+📌 **Responsabilidade:** isolamento da camada de dados  
+
+✅ Deve acessar o banco de dados  
+✅ Deve executar CRUD  
+✅ Deve abstrair persistência  
+
+🚫 Não deve conter regra de negócio  
+🚫 Não deve implementar lógica de aplicação  
+🚫 Não deve ser acessado pelo controller  
+
+----
+
+### 🧩 model
+
+Representação do domínio da aplicação.
+
+- Define entidades e estruturas persistidas
+- Representa o estado do sistema
+
+📌 **Responsabilidade:** modelagem dos dados do domínio  
+
+✅ Deve representar entidades  
+✅ Deve definir atributos do domínio  
+✅ Pode conter validações simples  
+
+🚫 Não deve conter lógica de infraestrutura  
+🚫 Não deve depender de controller/service  
+🚫 Evitar lógica complexa  
+
+----
+
+### 📦 dto
+
+Objetos de transferência de dados (**Data Transfer Objects**).
+
+- Transportam dados entre camadas
+- Definem contratos de entrada e saída da API
+
+📌 **Responsabilidade:** desacoplamento entre API e domínio  
+
+📌 **Observação:** não fazem parte do fluxo, atuam entre as camadas  
+
+✅ Deve transportar dados  
+✅ Deve definir contratos da API  
+✅ Deve proteger o model  
+
+🚫 Não deve conter regra de negócio  
+🚫 Não deve acessar banco  
+🚫 Não deve conter lógica complexa  
+
+----
+
+### ⚠️ exception
+
+Camada de tratamento de erros.
+
+- Centraliza captura e tratamento de exceções
+- Padroniza respostas de erro
+
+📌 **Responsabilidade:** gerenciamento de falhas  
+
+📌 **Observação:** atua de forma transversal  
+
+✅ Deve tratar exceções  
+✅ Deve padronizar erros  
+✅ Deve centralizar tratamento  
+
+🚫 Não deve conter regra de negócio  
+🚫 Não deve depender de camadas específicas  
+🚫 Não deve conter lógica de domínio  
+
+----
+
+### 🔐 security
+
+Camada de segurança da aplicação.
+
+- Controla autenticação e autorização
+- Protege endpoints
+- Gerencia identidade do usuário
+
+📌 **Responsabilidade:** controle de acesso e proteção  
+
+📌 **Observação:** atua de forma transversal  
+
+✅ Deve autenticar usuários  
+✅ Deve autorizar acessos  
+✅ Deve proteger endpoints  
+
+🚫 Não deve conter regra de negócio da aplicação  
+🚫 Não deve depender de controller/service  
+🚫 Não deve conter lógica de domínio  
+
+----
+
+### 🧠 Tipos de Camadas na Arquitetura
+
+**Camadas de fluxo (core):**
+- Controller
+- Service
+- Repository
+
+**Camadas de suporte (cross-cutting):**
+- Security
+- DTO
+- Exception
+- Config
+
+----
+
+### ✅ Benefícios da Arquitetura
+
+- Separação clara de responsabilidades  
+- Baixo acoplamento entre camadas  
+- Facilidade de manutenção  
+- Melhor testabilidade  
+- Escalabilidade  
+- Código mais organizado e previsível
+
+----
+
 # 📘 Geração de JavaDoc
 
 Este projeto também demonstra como gerar documentação automática do código utilizando **JavaDoc**.
