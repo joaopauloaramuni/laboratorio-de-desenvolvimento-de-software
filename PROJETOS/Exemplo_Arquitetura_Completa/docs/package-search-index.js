@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.example.JWT_RestAPI.application"},{"l":"com.example.JWT_RestAPI.config"},{"l":"com.example.JWT_RestAPI.controller"},{"l":"com.example.JWT_RestAPI.model"},{"l":"com.example.JWT_RestAPI.security"},{"l":"com.example.JWT_RestAPI.service"}];updateSearchResults();
