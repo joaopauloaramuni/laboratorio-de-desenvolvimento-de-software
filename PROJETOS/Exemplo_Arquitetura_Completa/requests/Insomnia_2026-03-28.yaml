@@ -1,0 +1,136 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: Coleção JWT
+meta:
+  id: wrk_6babbc603753462492f49774c7e58784
+  created: 1704922481547
+  modified: 1729619434361
+  description: ""
+collection:
+  - url: http://localhost:8080/login
+    name: JWT Login
+    meta:
+      id: req_f961effd0ed84927bfdb77091387cc9d
+      created: 1705447667587
+      modified: 1774702479634
+      isPrivate: false
+      description: ""
+      sortKey: -1705447667587
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+          "username": "admin",
+          "password": "1234"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/8.5.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/username/eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTc3NTU2NjQ4MH0.cA6qyJrBd8Z3RPM-B7w8ryzuXb-mJ-Ol8FiQbCTabniwVgzvcGlUXDeAv7JltVSZXLYuOk7nY4Af2p9fJ15aXQ
+    name: JWT Username
+    meta:
+      id: req_ddb5137ae2444709864330ec0525e505
+      created: 1705458599245
+      modified: 1774702489200
+      isPrivate: false
+      description: ""
+      sortKey: -1705458599245
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/8.5.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/user
+    name: JWT User
+    meta:
+      id: req_2240857f8cba4675a567595c24985e1e
+      created: 1705465285808
+      modified: 1705667592726
+      isPrivate: false
+      description: ""
+      sortKey: -1705465285808
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/8.5.1
+    authentication:
+      type: basic
+      useISO88591: false
+      username: joao
+      password: "4321"
+      disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/admin
+    name: JWT Admin
+    meta:
+      id: req_fc741992efd24565845792ac0bbd05bd
+      created: 1705466857818
+      modified: 1726861436747
+      isPrivate: false
+      description: ""
+      sortKey: -1705466857818
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/8.5.1
+    authentication:
+      type: basic
+      useISO88591: false
+      username: admin
+      password: "1234"
+      disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_1a533c326a016e03b258ca58e741200e1f672942
+    created: 1704922481551
+    modified: 1774702472117
+  cookies:
+    - id: e6d33356-11c0-4913-8acb-89538eaa033f
+      key: JSESSIONID
+      value: 7E542FC22AC85883A253C32058E1B331
+      domain: localhost
+      path: /
+      secure: false
+      httpOnly: true
+      hostOnly: true
+environments:
+  name: Base Environment
+  meta:
+    id: env_1a533c326a016e03b258ca58e741200e1f672942
+    created: 1704922481550
+    modified: 1704922481550
+    isPrivate: false
