@@ -8,6 +8,14 @@ Um tradutor de PDFs do inglês para o português brasileiro, desenvolvido com **
 
 ---
 
+## 🖼️ Capturas de Tela
+
+| <img src="https://joaopauloaramuni.github.io/java-imgs/PdfTranslator/imgs/home.png" alt="Home"/> | <img src="https://joaopauloaramuni.github.io/java-imgs/PdfTranslator/imgs/translate.png" alt="Translate"/> |
+|:--:|:--:|
+| Home | Translate |
+
+---
+
 ## ✨ Funcionalidades
 
 - 🚀 **Upload Simples** – Interface web intuitiva com suporte a arrastar e soltar (*drag and drop*).
