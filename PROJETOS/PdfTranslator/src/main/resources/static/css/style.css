@@ -1,0 +1,355 @@
+/* ============================================
+   RESET & VARIÁVEIS
+   ============================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #667eea;
+    --primary-dark: #5a67d8;
+    --success: #10b981;
+    --error: #ef4444;
+    --warning: #f59e0b;
+    --text-dark: #1e293b;
+    --text-light: #64748b;
+    --border-light: #e2e8f0;
+    --bg-light: #f8fafc;
+}
+
+/* ============================================
+   BASE
+   ============================================ */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================================
+   CONTAINER
+   ============================================ */
+.container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 460px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    animation: slideUp 0.4s ease-out;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ============================================
+   TITLE WRAPPER
+   ============================================ */
+.title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.title-wrapper::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    border-radius: 3px;
+}
+
+.title-icon {
+    width: 36px;
+    height: 36px;
+    filter: drop-shadow(0 2px 4px rgba(102, 126, 234, 0.2));
+}
+
+/* ============================================
+   TÍTULO - INTER COM GRADIENTE
+   ============================================ */
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: -0.5px;
+    margin: 0;
+}
+
+/* ============================================
+   FORMULÁRIO
+   ============================================ */
+#translateForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* ============================================
+   ÁREA DE UPLOAD
+   ============================================ */
+.file-upload-wrapper {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+}
+
+.file-upload-wrapper.dragover .file-upload-label {
+    border-color: var(--primary);
+    background: #f0f4ff;
+    transform: scale(1.02);
+}
+
+input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.file-upload-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    border: 2px dashed var(--border-light);
+    border-radius: 12px;
+    background: var(--bg-light);
+    transition: all 0.3s ease;
+    text-align: center;
+    color: var(--text-light);
+    pointer-events: none;
+}
+
+input[type="file"]:hover + .file-upload-label {
+    border-color: var(--primary);
+    background: #f0f4ff;
+    transform: translateY(-2px);
+}
+
+/* ============================================
+   ÍCONE PDF
+   ============================================ */
+.pdf-icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 12px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.file-upload-label:hover .pdf-icon {
+    opacity: 1;
+}
+
+.file-upload-label p {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: var(--text-dark);
+}
+
+.file-upload-label small {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--text-light);
+}
+
+/* ============================================
+   INFORMAÇÕES DO ARQUIVO
+   ============================================ */
+.file-info {
+    padding: 10px 12px;
+    background: #e0e7ff;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: var(--primary-dark);
+    display: none;
+    align-items: center;
+    gap: 8px;
+}
+
+.file-info.show {
+    display: flex;
+}
+
+.file-info::before {
+    content: '📎';
+    font-size: 1rem;
+}
+
+/* ============================================
+   BOTÃO
+   ============================================ */
+button {
+    padding: 14px 24px;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(102, 126, 234, 0.2);
+    width: 100%;
+    letter-spacing: -0.2px;
+}
+
+button:hover:not(:disabled) {
+    background: var(--primary-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(102, 126, 234, 0.3);
+}
+
+button:active:not(:disabled) {
+    transform: translateY(0);
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* ============================================
+   SPINNER
+   ============================================ */
+.spinner {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    border: 4px solid #e0e7ff;
+    border-top-color: var(--primary);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+.spinner.show {
+    display: block;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* ============================================
+   MENSAGEM DE STATUS
+   ============================================ */
+.status-message {
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+    display: none;
+    animation: fadeIn 0.3s ease;
+}
+
+.status-message.show {
+    display: block;
+}
+
+.status-message.info {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.status-message.success {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.status-message.error {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.status-message.warning {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ============================================
+   RESPONSIVO
+   ============================================ */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    .container {
+        padding: 30px 20px;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .title-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .file-upload-label {
+        padding: 30px 15px;
+    }
+
+    .pdf-icon {
+        width: 40px;
+        height: 40px;
+    }
+}

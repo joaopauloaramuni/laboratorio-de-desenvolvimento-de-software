@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>PDF Translator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" th:href="@{/images/favicon.ico}" />
+    <link rel="shortcut icon" type="image/x-icon" th:href="@{/images/favicon.ico}" />
+
+    <!-- Google Fonts - Inter -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+
+    <!-- CSS -->
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+<body>
+
+<div class="container" id="container">
+    <div class="title-wrapper">
+        <img th:src="@{/images/pdf2.png}" alt="PDF" class="title-icon" />
+        <h2>PdfTranslator</h2>
+    </div>
+
+    <form id="translateForm" enctype="multipart/form-data">
+        <div class="file-upload-wrapper" id="dropZone">
+            <input type="file"
+                   name="file"
+                   id="fileInput"
+                   accept="application/pdf"
+                   required />
+
+            <div class="file-upload-label">
+                <img th:src="@{/images/pdf.png}"
+                     alt="PDF"
+                     class="pdf-icon" />
+                <p>Clique ou arraste um arquivo PDF</p>
+                <small>Limite: 10MB</small>
+            </div>
+        </div>
+
+        <div id="fileInfo" class="file-info"></div>
+
+        <button type="submit" id="submitBtn">
+            <span id="btnText">Traduzir e baixar TXT</span>
+        </button>
+
+        <div class="spinner" id="spinner"></div>
+
+        <div id="statusMessage" class="status-message"></div>
+    </form>
+</div>
+
+<script th:src="@{/js/translator.js}"></script>
+</body>
+</html>
