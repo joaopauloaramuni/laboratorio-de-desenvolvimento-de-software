@@ -161,4 +161,3 @@ java -jar target/PdfTranslator-0.0.1-SNAPSHOT.jar
 ## 📄 Licença
 
 Distribuído sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais informações.
-
