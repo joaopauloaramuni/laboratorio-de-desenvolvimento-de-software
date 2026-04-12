@@ -1,4 +1,4 @@
-# 📄 PdfTranslator
+# 📄 Projeto PdfTranslator
 
 [![Java](https://img.shields.io/badge/Java-17-orange.svg)](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.0.5-brightgreen.svg)](https://spring.io/projects/spring-boot)
@@ -45,7 +45,7 @@ Um tradutor de PDFs do inglês para o português brasileiro, desenvolvido com **
 
 ## 📁 Estrutura do Projeto
 
-$$$
+```
 PdfTranslator/
 ├── src/
 │   ├── main/
@@ -73,7 +73,7 @@ PdfTranslator/
 │   │           └── home.html
 ├── pom.xml
 └── README.md
-$$$
+```
 
 ---
 
@@ -102,9 +102,9 @@ O coração da aplicação está na classe **`PdfTranslatorService`**. O fluxo d
 | `POST` | `/translate`  | Recebe o PDF e retorna o arquivo TXT traduzido |
 
 **Exemplo de requisição `POST` com cURL:**
-$$$bash
+```bash
 curl -F "file=@documento.pdf" http://localhost:8080/translate --output traducao.txt
-$$$
+```
 
 ---
 
@@ -117,30 +117,30 @@ $$$
 ### Passos
 
 1. **Clone o repositório:**
-$$$bash
+```bash
 git clone https://github.com/seu-usuario/PdfTranslator.git
 cd PdfTranslator
-$$$
+```
 
 2. **Compile e empacote com Maven:**
-$$$bash
+```bash
 ./mvnw clean package
-$$$
+```
 *(No Windows, use `mvnw.cmd clean package`)*
 
 3. **Execute a aplicação:**
-$$$bash
+```bash
 java -jar target/PdfTranslator-0.0.1-SNAPSHOT.jar
-$$$
+```
 
 4. **Acesse no navegador:** 
 `http://localhost:8080`
 
 
 ### Rodando diretamente com Maven
-$$$bash
+```bash
 ./mvnw spring-boot:run
-$$$
+```
 
 ---
 
