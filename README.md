@@ -520,6 +520,18 @@ Esta seção reúne um **template** construído por mim e **exemplos** reais de 
 
 -----
 
+#### 🎨 Design System:
+
+O **Design System** é um conjunto de padrões, regras e componentes reutilizáveis que definem a identidade visual e o comportamento da interface de um sistema. Ele garante consistência entre telas, facilita o desenvolvimento e melhora a experiência do usuário ao padronizar cores, tipografia, botões, inputs e demais elementos visuais.
+
+🧑‍🤝‍🧑 Exemplo de Design System:
+
+- 🎨 [Design System do projeto CarFlow no Vercel](https://lab-carflow.vercel.app/design)
+- 📄 [Design System do projeto CarFlow em PDF](https://github.com/user-attachments/files/26679490/design-system.pdf)
+- :octocat: Design System criado pela aluna Laura Pontara — [GitHub](https://github.com/LauraPontara)
+
+-----
+
 #### 📊 Kanban e Gestão de Issues no GitHub:
 
 - 💻 Utilize a aba **Projects** do GitHub para criar um **quadro Kanban** que organize todas as tarefas do projeto em **To Do**, **In Progress** e **Done**.  
