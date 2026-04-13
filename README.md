@@ -528,7 +528,7 @@ O **Design System** é um conjunto de padrões, regras e componentes reutilizáv
 
 - 🎨 [Design System do projeto CarFlow no Vercel](https://lab-carflow.vercel.app/design)
 - 📄 [Design System do projeto CarFlow em PDF](https://github.com/user-attachments/files/26679490/design-system.pdf)
-- :octocat: Design System criado pela aluna Laura Pontara — [GitHub](https://github.com/LauraPontara)
+- :octocat: Design System criado pela aluna Laura Pontara - [GitHub](https://github.com/LauraPontara)
 
 -----
 
