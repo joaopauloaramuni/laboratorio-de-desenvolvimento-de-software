@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: pdf-translator
+    runtime: java
+    repo: https://github.com/joaopauloaramuni/pdf-translator
+    plan: free
+    envVars:
+      - key: JAVA_OPTS
+        value: "-Xmx512m -Xms256m"
+      - key: SPRING_SERVLET_MULTIPART_MAX_FILE_SIZE
+        value: "10MB"
+      - key: SPRING_SERVLET_MULTIPART_MAX_REQUEST_SIZE
+        value: "10MB"
+    buildCommand: |
+      chmod +x mvnw
+      ./mvnw clean package -DskipTests
+    startCommand: |
+      java -jar -Dserver.port=$PORT target/PdfTranslator-0.0.1-SNAPSHOT.jar
