@@ -152,6 +152,150 @@ java -jar target/PdfTranslator-0.0.1-SNAPSHOT.jar
 
 ---
 
+## ☁️ Deploy no Render com Docker
+
+A aplicação foi implantada na plataforma **Render** utilizando a opção de **Web Service com suporte a Docker**.
+
+### 🐳 Dockerfile
+
+O projeto utiliza o seguinte `Dockerfile` para empacotar e executar a aplicação:
+
+```dockerfile
+FROM eclipse-temurin:17-jdk
+
+WORKDIR /app
+
+COPY . .
+
+RUN ./mvnw clean package -DskipTests
+
+EXPOSE 8080
+
+CMD ["java", "-jar", "target/PdfTranslator-0.0.1-SNAPSHOT.jar"]
+```
+
+#### 🔍 Explicação de cada instrução
+
+- **FROM eclipse-temurin:17-jdk**  
+  Define a imagem base do container.  
+  Neste caso, utiliza o **Java 17 (JDK)** da distribuição Eclipse Temurin.
+
+- **WORKDIR /app**  
+  Define o diretório de trabalho dentro do container.  
+  Todos os próximos comandos serão executados dentro de `/app`.
+
+- **COPY . .**  
+  Copia todos os arquivos do projeto (diretório atual) para o container.
+
+- **RUN ./mvnw clean package -DskipTests**  
+  Executa o build da aplicação usando o Maven Wrapper (`mvnw`):
+    - `clean` → limpa builds anteriores
+    - `package` → gera o `.jar`
+    - `-DskipTests` → pula a execução dos testes (mais rápido no build)
+
+- **EXPOSE 8080**  
+  Informa que a aplicação dentro do container utiliza a porta `8080`.  
+  (Importante para integração com plataformas como o Render)
+
+- **CMD ["java", "-jar", "target/PdfTranslator-0.0.1-SNAPSHOT.jar"]**  
+  Define o comando padrão que será executado ao iniciar o container:
+    - Executa o arquivo `.jar` gerado
+    - Inicia a aplicação Spring Boot
+
+#### 🔍 O que esse Dockerfile faz?
+
+- **Base da imagem:** utiliza o Java 17 (`eclipse-temurin`)
+- **Diretório de trabalho:** define `/app` como diretório principal
+- **Cópia do projeto:** copia todos os arquivos para dentro do container
+- **Build da aplicação:** executa o Maven Wrapper (`mvnw`) para gerar o `.jar`
+- **Exposição da porta:** expõe a porta `8080`
+- **Execução:** inicia a aplicação Spring Boot via `java -jar`
+
+---
+
+### ⚙️ Configuração no Render
+
+O deploy foi feito como um **Web Service**, utilizando Docker para build e execução.
+
+O Render injeta automaticamente a variável de ambiente `PORT`, que é utilizada no `application.properties`:
+
+```properties
+spring.application.name=PdfTranslator
+
+# Server configuration
+server.port=${PORT:8080}
+server.servlet.context-path=/
+
+# File upload settings - LIMITE DE 10MB
+spring.servlet.multipart.max-file-size=10MB
+spring.servlet.multipart.max-request-size=10MB
+
+# Thymeleaf cache
+spring.thymeleaf.cache=false
+```
+
+---
+
+### 📄 Arquivo render.yaml
+
+O projeto também inclui um arquivo `render.yaml`:
+
+```yaml
+services:
+  - type: web
+    name: pdf-translator
+    runtime: java
+    repo: https://github.com/joaopauloaramuni/pdf-translator
+    plan: free
+    envVars:
+      - key: JAVA_OPTS
+        value: "-Xmx512m -Xms256m"
+      - key: SPRING_SERVLET_MULTIPART_MAX_FILE_SIZE
+        value: "10MB"
+      - key: SPRING_SERVLET_MULTIPART_MAX_REQUEST_SIZE
+        value: "10MB"
+    buildCommand: |
+      chmod +x mvnw
+      ./mvnw clean package -DskipTests
+    startCommand: |
+      java -jar -Dserver.port=$PORT target/PdfTranslator-0.0.1-SNAPSHOT.jar
+```
+
+#### ❓ O que é o render.yaml?
+
+O `render.yaml` é um arquivo de **Infraestrutura como Código (IaC)** que permite definir como o serviço será configurado no Render, incluindo:
+
+- Tipo de serviço (web service)
+- Variáveis de ambiente
+- Comandos de build e execução
+- Plano de hospedagem
+
+Ele facilita a automação do deploy e versionamento da configuração junto ao código.
+
+---
+
+#### 🤔 Obrigatoriedade do arquivo `render.yaml`
+
+O arquivo `render.yaml` é obrigatório? 
+- **Não.**
+
+Se você estiver utilizando **Docker**, o `render.yaml` **não é necessário**.
+
+👉 O Render consegue fazer o deploy apenas com o `Dockerfile`, pois:
+- Ele detecta automaticamente o Dockerfile
+- Executa o build da imagem
+- Inicia o container
+
+#### ✅ Quando usar cada um?
+
+- **Apenas Dockerfile:** suficiente para a maioria dos casos (mais simples)
+- **render.yaml:** útil quando você quer:
+    - Automatizar totalmente a configuração do serviço
+    - Versionar a infraestrutura junto ao código
+    - Configurar múltiplos serviços ou variáveis complexas
+
+---
+
 ## 📚 Links Úteis
 
 | Recurso                    | Link                                                                 |
@@ -163,6 +307,8 @@ java -jar target/PdfTranslator-0.0.1-SNAPSHOT.jar
 | Favicon.io (gerador)       | [https://favicon.io/favicon-converter/](https://favicon.io/favicon-converter/) |
 | Thymeleaf                  | [https://www.thymeleaf.org/](https://www.thymeleaf.org/)              |
 | Google Translate (não oficial) | [https://translate.googleapis.com/](https://translate.googleapis.com/) |
+| Render (Deploy)            | [https://render.com/](https://render.com/)                            |
+| Docker                     | [https://www.docker.com/](https://www.docker.com/)                    |
 
 ---
 
