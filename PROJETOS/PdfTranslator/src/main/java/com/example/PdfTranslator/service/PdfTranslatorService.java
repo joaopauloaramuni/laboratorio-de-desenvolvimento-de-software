@@ -294,9 +294,17 @@ public class PdfTranslatorService {
                 .replace("\\r", "\r")
                 .replace("\\t", "\t");
 
-        // 5. 🔥 CORREÇÃO DE PONTUAÇÃO DUPLICADA (O PROBLEMA REAL)
+        // 5. Correção de pontuação duplicada
         // Sequências de 2+ vírgulas → 1 vírgula
         t = t.replaceAll(",,+", ",");
+
+        // 5b. Letra maiúscula residual do original colada na tradução
+        // "SAssim" → "Assim", "SEntão" → "Então", "MGrande" → "Grande"
+        t = t.replaceAll("^([A-Z])([A-Z][a-záéíóúãõàèìòùâêîôûçüñ]+)", "$2");
+        t = t.replaceAll("(?<=[\\s\\n])([A-Z])([A-Z][a-záéíóúãõàèìòùâêîôûçüñ]+)", "$2");
+
+        // 6. Corrige espaçamento de pontuação
+        t = t.replaceAll("\\s+([,.;:!?])", "$1");
 
         // Combinações de ponto-e-vírgula com vírgula
         t = t.replaceAll(";,", ";");
@@ -309,14 +317,14 @@ public class PdfTranslatorService {
         t = t.replaceAll(":;", ":");
         t = t.replaceAll(";:", ";");
 
-        // 6. Corrige espaçamento de pontuação
+        // 7. Corrige espaçamento de pontuação
         t = t.replaceAll("\\s+([,.;:!?])", "$1");      // remove espaço antes
         t = t.replaceAll("([,.;:!?])(?=[^\\s])", "$1 "); // adiciona espaço depois
 
-        // 7. Limpeza final
+        // 8. Limpeza final
         t = t.replaceAll("\\s+", " ").trim();
 
-        // 8. Restaura quebras de linha
+        // 9. Restaura quebras de linha
         t = t.replace("%0A", "\n");
 
         return t;
