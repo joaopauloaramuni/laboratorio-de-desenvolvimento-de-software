@@ -1,5 +1,10 @@
 # 🐇 RabbitMQ - Sistema de Compra de Ingressos
 
+![Java](https://img.shields.io/badge/Java-17-blue?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.0.6-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-3.9+-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-3.x-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
+
 Um projeto Spring Boot que demonstra mensageria assíncrona com **RabbitMQ**, simulando um fluxo de compra de ingressos onde os pedidos são enviados para uma fila e processados por um consumidor.
 
 ---
