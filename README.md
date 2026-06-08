@@ -413,6 +413,15 @@ Abaixo estão as principais opções, com foco em bots, automação e integraç�
     Este projeto é uma aplicação **Spring Boot** que utiliza a **API do Twilio** para enviar mensagens via WhatsApp.  
     A aplicação permite o envio de **mensagens simples e lembretes de compromissos** para números de WhatsApp.  
 
+- [WAHA (WhatsApp HTTP API)](https://github.com/devlikeapro/waha) — API REST moderna para automação e integração com WhatsApp, baseada em WhatsApp Web e projetada para uso em aplicações, bots e microsserviços.
+  - :octocat: [WAHA - GitHub Repository](https://github.com/devlikeapro/waha) — Código-fonte oficial, exemplos e instruções de instalação.
+  - 📚 [WAHA Documentation](https://waha.devlike.pro/) — Documentação completa da API, autenticação, sessões, webhooks e exemplos de uso.
+  - 🐳 Suporte nativo a Docker para implantação rápida em ambientes locais ou servidores.
+  - 🔄 Webhooks para recebimento de mensagens e eventos em tempo real.
+  - 📱 Gerenciamento de múltiplas sessões WhatsApp simultaneamente.
+  - 📎 Suporte ao envio e recebimento de mensagens de texto, imagens, documentos, áudios, vídeos e stickers.
+  - 🏢 Bastante utilizado em integrações corporativas, CRMs, chatbots e sistemas de atendimento automatizado.  
+
 - [360Dialog WhatsApp API](https://www.360dialog.com/) — Parceiro oficial da Meta que oferece acesso à API Business via token.  
 - [MessageBird WhatsApp API](https://www.messagebird.com/en/whatsapp/) — Solução comercial para envio e recebimento de mensagens WhatsApp via REST API.
 
