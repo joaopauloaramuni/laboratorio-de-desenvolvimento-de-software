@@ -618,7 +618,7 @@ O **Design System** é um conjunto de padrões, regras e componentes reutilizáv
 
 | **Opção 17** | **Opção 18** |
 | :---: | :---: |
-| <img src="https://joaopauloaramuni.github.io/image/PUC-foto-13.jpg" width="400px"> | <img src="https://joaopauloaramuni.github.io/image/PUC-foto-12.jpeg" width="400px"> |
+| <img src="https://joaopauloaramuni.github.io/image/PUC-foto-13.jpeg" width="400px"> | <img src="https://joaopauloaramuni.github.io/image/PUC-foto-12.jpeg" width="400px"> |
 | *Foto 9: Cartoon Capela | *Foto 10: Cartoon Entrada Principal* |
 
 | **Opção 19** |
