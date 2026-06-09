@@ -422,6 +422,16 @@ Abaixo estão as principais opções, com foco em bots, automação e integraç�
   - 📎 Suporte ao envio e recebimento de mensagens de texto, imagens, documentos, áudios, vídeos e stickers.
   - 🏢 Bastante utilizado em integrações corporativas, CRMs, chatbots e sistemas de atendimento automatizado.  
 
+- [WhatsEvolution](https://www.whatsevolution.com.br/) — Plataforma brasileira para integração e automação do WhatsApp, voltada para empresas, CRMs, chatbots e sistemas de atendimento.
+  - :octocat: [WhatsEvolution - GitHub Repository](https://github.com/EvolutionAPI/evolution-api) — Código-fonte da Evolution API, baseada em WhatsApp Web, com suporte a múltiplas sessões e integração via REST.
+  - 📚 [WhatsEvolution Documentation](https://doc.evolution-api.com/) — Documentação oficial da plataforma e da Evolution API.
+  - 🔄 Webhooks para recebimento de mensagens e eventos em tempo real.
+  - 📱 Gerenciamento de múltiplas conexões e sessões WhatsApp.
+  - 🤖 Integração com chatbots, IA, CRMs e sistemas corporativos.
+  - 🐳 Suporte a Docker e implantação em servidores locais ou nuvem.
+  - 📎 Envio e recebimento de mensagens de texto, imagens, documentos, áudios, vídeos e outros tipos de mídia.
+  - 🏢 Amplamente utilizado em automação de atendimento, campanhas de comunicação e integrações empresariais.  
+
 - [360Dialog WhatsApp API](https://www.360dialog.com/) — Parceiro oficial da Meta que oferece acesso à API Business via token.  
 - [MessageBird WhatsApp API](https://www.messagebird.com/en/whatsapp/) — Solução comercial para envio e recebimento de mensagens WhatsApp via REST API.
 
