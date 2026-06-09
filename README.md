@@ -604,27 +604,27 @@ O **Design System** é um conjunto de padrões, regras e componentes reutilizáv
 | **Opção 11** | **Opção 12** |
 | :---: | :---: |
 | <img src="https://joaopauloaramuni.github.io/image/Canvas.webp" width="400px"> | <img src="https://joaopauloaramuni.github.io/image/Presepio2.jpeg" width="400px"> |
-| *Foto 7 - Fonte: Canvas - PUC Minas* | *Foto 10: Igreja e Presépio PUC Minas* |
+| *Foto 7 - Fonte: Canvas - PUC Minas* | *Foto 8: Igreja e Presépio PUC Minas* |
 
 | **Opção 13** | **Opção 14** |
 | :---: | :---: |
 | <img src="https://joaopauloaramuni.github.io/image/Presepio.jpeg" width="400px"> | <img src="https://joaopauloaramuni.github.io/image/PUC-foto-7.jpeg" width="400px"> |
-| *Foto 8: Presépio PUC Minas Vertical* | *Foto 9: Campus Coração Eucarístico Vertical* |
+| *Foto 9: Presépio PUC Minas Vertical* | *Foto 10: Campus Coração Eucarístico Vertical* |
 
 | **Opção 15** | **Opção 16** |
 | :---: | :---: |
 | <img src="https://joaopauloaramuni.github.io/image/PUC-foto-6.jpeg" width="400px"> | <img src="https://joaopauloaramuni.github.io/image/PUC-foto-8.jpg" width="400px"> |
-| *Foto 10: Campus Coração Eucarístico Vertical* | *Foto 11: Campus Coração Eucarístico Vertical* |
+| *Foto 11: Campus Coração Eucarístico Vertical* | *Foto 12: Campus Coração Eucarístico Vertical* |
 
 | **Opção 17** | **Opção 18** |
 | :---: | :---: |
 | <img src="https://joaopauloaramuni.github.io/image/PUC-foto-13.jpeg" width="400px"> | <img src="https://joaopauloaramuni.github.io/image/PUC-foto-12.jpeg" width="400px"> |
-| *Foto 12: Cartoon Capela | *Foto 10: Cartoon Entrada Principal* |
+| *Foto 13: Cartoon Capela | *Foto 14: Cartoon Entrada Principal* |
 
 | **Opção 19** |
 | :---: |
 | <img src="https://joaopauloaramuni.github.io/image/PUC-foto-10.jpeg" width="400px"> | 
-| *Foto 13: Novo Jardim da PUC Minas* |
+| *Foto 15: Novo Jardim da PUC Minas* |
 
 ##### 🧩 Exemplo de uso da imagem em um sistema:
 
