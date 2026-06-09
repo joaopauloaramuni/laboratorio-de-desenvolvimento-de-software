@@ -621,6 +621,11 @@ O **Design System** é um conjunto de padrões, regras e componentes reutilizáv
 | <img src="https://joaopauloaramuni.github.io/image/PUC-foto-10.jpg" width="400px"> | <img src="https://joaopauloaramuni.github.io/image/PUC-foto-12.jpeg" width="400px"> |
 | *Foto 9: Novo Jardim da PUC Minas* | *Foto 10: Cartoon Entrada Principal* |
 
+| **Opção 19** |
+| :---: |
+| <img src="https://joaopauloaramuni.github.io/image/PUC-foto-13.jpeg" width="400px"> | 
+| *Foto 11: Cartoon Capela |
+
 ##### 🧩 Exemplo de uso da imagem em um sistema:
 
 | **Exemplo 1 de Tela de Login** |
