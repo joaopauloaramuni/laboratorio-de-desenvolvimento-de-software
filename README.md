@@ -96,6 +96,7 @@ Disciplina do curso de Engenharia de Software da PUC Minas
 - 📕 [UML Essencial: Um Breve Guia para a Linguagem-Padrão de Modelagem de Objetos - Martin Fowler](https://www.amazon.com/UML-Essencial-Linguagem-Padrao-Modelagem-Portuguese-ebook/dp/B019IQOFRK)
 - 📒 [Applying UML and Patterns – Craig Larman](https://www.amazon.com.br/Applying-UML-Patterns-Introduction-Object-Oriented/dp/0131489062)
 - 📗 [Fundamentos Do Desenho Orientado A Objeto Com UML - Jones Meilir Page](https://www.amazon.com.br/Fundamentos-Desenho-Orientado-Objeto-Com/dp/8534612439)
+- 📘 [The Object Constraint Language: Getting Your Models Ready for MDA – Jos Warmer & Anneke Kleppe](https://www.amazon.com.br/Object-Constraint-Language-Getting-Models/dp/0321179366)
 - 📖 [UML Diagram Types - Visual Paradigm (guia ilustrado)](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-diagram-types/)
 
 ###### 📐 Padrões de Projeto
