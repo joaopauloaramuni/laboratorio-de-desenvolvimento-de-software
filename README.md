@@ -277,6 +277,7 @@ Ferramentas como Docker, Fly.io, Vercel, Render, WebDock e Heroku permitem criar
 - ☁️ [Heroku](https://www.heroku.com/)
 - ☁️ [Vercel](https://vercel.com/)
 - ☁️ [Render](https://render.com/)
+- ☁️ [Dokploy](https://dokploy.com/)
 - ☁️ [WebDock](https://webdock.io/en)  
   - Oferece acesso via **SFTP com suporte a upload por arrastar e soltar**, facilitando o envio de arquivos diretamente do seu computador.  
   - Mantém o servidor **ativo mesmo durante períodos de inatividade**, ao contrário de plataformas como o Render, que desligam instâncias ociosas.  
