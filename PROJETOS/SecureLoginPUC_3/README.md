@@ -5,38 +5,82 @@ O SecureLoginPUC é um projeto de aplicação web que implementa um sistema de l
 
 ## Estrutura do Projeto
 
-```
-SecureLoginPUC
+```text
+📁 SecureLoginPUC
 │
-├── src
-│   └── main
-│       ├── java
-│       │   └── com.example.SecureLoginPUC
-│       │       ├── application
+├── 📁 src
+│   └── 📁 main
+│       │
+│       ├── ☕ java
+│       │   └── 📦 com.example.SecureLoginPUC
+│       │       │
+│       │       ├── 🚀 application
 │       │       │   └── SecureLoginPUCApplication.java
-│       │       ├── config
+│       │       │      └── Classe principal da aplicação Spring Boot
+│       │       │
+│       │       ├── 🔐 config
 │       │       │   ├── SecurityConfig.java
+│       │       │   │   └── Configurações do Spring Security
+│       │       │   │
 │       │       │   └── UserConfig.java
-│       │       └── controller
-│       │           └── SecureLoginPUCController.java
-│       └── resources
-│           ├── application.properties
-│           ├── static
-│           │   ├── css
+│       │       │       └── Configuração dos usuários e autenticação
+│       │       │
+│       │       ├── 🎮 controller
+│       │       │   └── SecureLoginController.java
+│       │       │       └── Controladores e rotas da aplicação
+│       │       │
+│       │       ├── ⚠️ exception
+│       │       │   ├── GlobalExceptionHandler.java
+│       │       │   │   └── Tratamento global de exceções
+│       │       │   │
+│       │       │   └── SendEmailException.java
+│       │       │       └── Exceção relacionada ao envio de e-mails
+│       │       │
+│       │       └── ⚙️ service
+│       │           └── SendEmailService.java
+│       │               └── Serviço responsável pelo envio de e-mails
+│       │
+│       └── 📁 resources
+│           │
+│           ├── ⚙️ application.properties
+│           │   └── Configurações da aplicação
+│           │
+│           ├── 🎨 static
+│           │   │
+│           │   ├── 🎨 css
+│           │   │   ├── admin.css
+│           │   │   ├── error.css
+│           │   │   ├── home.css
 │           │   │   ├── login.css
-│           │   │   ├── register.css
-│           │   │   └── style.css
-│           │   └── images
-│           │       ├── apc-login-bg.png
-│           │       └── logo-puc-minas.jpg
-│           └── templates
+│           │   │   ├── recoverpassword.css
+│           │   │   └── register.css
+│           │   │       └── Arquivos de estilização das páginas
+│           │   │
+│           │   └── 🖼️ images
+│           │       └── pucminas-logo.png
+│           │           └── Imagens utilizadas pela aplicação
+│           │
+│           └── 🌐 templates
 │               ├── admin.html
+│               │   └── Página da área administrativa
+│               │
 │               ├── error.html
+│               │   └── Página apresentada quando ocorre erro de login
+│               │
 │               ├── home.html
+│               │   └── Página inicial após autenticação
+│               │
 │               ├── login.html
+│               │   └── Página de login
+│               │
 │               ├── recoverpassword.html
+│               │   └── Página de recuperação de senha
+│               │
 │               └── register.html
-
+│                   └── Página de cadastro de usuários
+│
+└── 📄 pom.xml
+    └── Dependências e configurações do Maven
 ```
 
 ## Configuração do application.properties
@@ -47,6 +91,15 @@ app.user.username=joao
 app.user.password=4321
 app.admin.username=admin
 app.admin.password=1234
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=joaopauloaramuni@gmail.com
+# https://myaccount.google.com/apppasswords
+# sua senha de app aqui (É necessário ativar a autenticação de dois fatores antes no Gmail)
+spring.mail.password=senhadeapp
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+spring.mail.properties.mail.smtp.starttls.required=true
 ```
 
 ## Dependências
@@ -69,6 +122,13 @@ app.admin.password=1234
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-thymeleaf</artifactId>
 </dependency>
+
+<!-- Dependência do Spring Mail para o envio de email -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-mail</artifactId>
+</dependency>
+
 ```
 
 # Thymeleaf
