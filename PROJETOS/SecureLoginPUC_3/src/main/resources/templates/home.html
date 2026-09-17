@@ -1,0 +1,62 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Home - PUC Minas</title>
+
+    <!-- Fonte Montserrat - Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" th:href="@{/css/home.css}" />
+  </head>
+
+  <body>
+    <div class="home-container">
+      <!-- =====================================================
+         LOGO PUC MINAS
+         ===================================================== -->
+
+      <div class="home-logo">
+        <img th:src="@{/images/pucminas-logo.png}" alt="Logo PUC Minas" />
+      </div>
+
+      <!-- =====================================================
+         CONTEÚDO PRINCIPAL
+         ===================================================== -->
+
+      <div class="home-content">
+        <span class="home-label"> PUC MINAS </span>
+
+        <h1>Bem-vindo!</h1>
+
+        <p class="home-message">Login realizado com sucesso.</p>
+
+        <div class="home-divider"></div>
+
+        <p class="home-description">
+          Usuário:
+          <strong th:text="${usuario}"></strong>
+        </p>
+
+        <p class="home-description">Você está autenticado no sistema.</p>
+
+        <!-- =================================================
+             LOGOUT
+             ================================================= -->
+
+        <form th:action="@{/logout}" method="post">
+          <button type="submit" class="home-btn">Sair</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
