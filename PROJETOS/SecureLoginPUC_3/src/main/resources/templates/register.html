@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cadastro - PUC Minas</title>
+
+    <link rel="stylesheet" th:href="@{/css/register.css}">
+</head>
+
+<body>
+
+<div class="register-container">
+
+    <div class="register-image-logo-container">
+        <img th:src="@{/images/pucminas-logo.png}" alt="Logo PUC Minas">
+    </div>
+
+    <div class="register-form">
+
+        <h2 class="register-title">
+            Crie sua conta
+        </h2>
+
+        <form th:action="@{/register}" method="post">
+
+            <input
+                type="text"
+                name="nome"
+                placeholder="Nome completo"
+                autocomplete="name"
+                required
+            >
+
+            <input
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                autocomplete="email"
+                required
+            >
+
+            <input
+                type="text"
+                name="cpf"
+                placeholder="CPF"
+                required
+            >
+
+            <input
+                type="text"
+                name="rg"
+                placeholder="RG"
+                required
+            >
+
+            <input
+                type="text"
+                name="endereco"
+                placeholder="Endereço"
+                autocomplete="street-address"
+                required
+            >
+
+            <input
+                type="text"
+                name="instituicao"
+                placeholder="Instituição"
+                required
+            >
+
+            <input
+                type="password"
+                name="senha"
+                placeholder="Senha"
+                autocomplete="new-password"
+                required
+            >
+
+            <div class="register-button-container">
+                <button type="submit">
+                    Registrar
+                </button>
+            </div>
+
+        </form>
+
+        <!-- Usuário já cadastrado -->
+        <div
+            class="register-message error-message"
+            th:if="${param.erro != null}"
+        >
+            <strong>Usuário já cadastrado!</strong>
+            <span>
+                Este e-mail já possui uma conta.
+            </span>
+        </div>
+
+        <!-- Cadastro realizado -->
+        <div
+            class="register-message success-message"
+            th:if="${param.sucesso != null}"
+        >
+            <strong>Cadastro realizado com sucesso!</strong>
+            <span>
+                Sua conta foi criada. Agora você pode fazer login.
+            </span>
+        </div>
+
+        <div class="register-redirect-options">
+
+            Já possui conta?
+            <a th:href="@{/login}">
+                Faça login
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
