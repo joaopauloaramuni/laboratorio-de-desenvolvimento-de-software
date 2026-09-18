@@ -22,8 +22,11 @@ O SecureLoginPUC é um projeto de aplicação web que implementa um sistema de l
 │       │       │   ├── SecurityConfig.java
 │       │       │   │   └── Configurações do Spring Security
 │       │       │   │
-│       │       │   └── UserConfig.java
-│       │       │       └── Configuração dos usuários da aplicação
+│       │       │   ├── UserConfig.java
+│       │       │   │   └── Configuração dos usuários e chaves do reCAPTCHA
+│       │       │   │
+│       │       │   └── RecaptchaFilter.java
+│       │       │       └── Filtro responsável pela validação do reCAPTCHA
 │       │       │
 │       │       ├── 🎮 controller
 │       │       │   └── SecureLoginController.java
@@ -43,13 +46,16 @@ O SecureLoginPUC é um projeto de aplicação web que implementa um sistema de l
 │       │           ├── UserService.java
 │       │           │   └── Serviço responsável pelo gerenciamento dos usuários
 │       │           │
-│       │           └── PasswordRecoveryService.java
-│       │               └── Serviço responsável pela recuperação de senha
+│       │           ├── PasswordRecoveryService.java
+│       │           │   └── Serviço responsável pela recuperação de senha
+│       │           │
+│       │           └── RecaptchaService.java
+│       │               └── Serviço responsável pela validação do Google reCAPTCHA
 │       │
 │       └── 📁 resources
 │           │
 │           ├── ⚙️ application.properties
-│           │   └── Configurações da aplicação
+│           │   └── Configurações da aplicação, e-mail e reCAPTCHA
 │           │
 │           ├── 🎨 static
 │           │   │
@@ -78,7 +84,7 @@ O SecureLoginPUC é um projeto de aplicação web que implementa um sistema de l
 │               │   └── Página inicial após autenticação
 │               │
 │               ├── login.html
-│               │   └── Página de login
+│               │   └── Página de login com Google reCAPTCHA
 │               │
 │               ├── recoverpassword.html
 │               │   └── Página de recuperação de senha
@@ -112,6 +118,8 @@ spring.mail.password=hzpjaczvuyuwnjmt
 spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
 spring.mail.properties.mail.smtp.starttls.required=true
+recaptcha.site-key=6LeEwsItAAAAAB4wX5NCt_c72PDo2Vpvds0BOO5Y
+recaptcha.secret-key=6LeEwsItAAAAAKbWz-EEfZn1BxfoanhCeMPTvB_e
 ```
 
 ## Dependências
@@ -186,11 +194,11 @@ A interface gráfica permite ao usuário inserir seus dados de login e, após a 
 
 - **Register**: A página de registro permite que novos usuários criem uma conta na plataforma. Ela inclui campos para inserir **nome completo, e-mail, CPF, RG, endereço, instituição e senha**, garantindo que todas as informações necessárias para cadastro sejam coletadas. A lateral exibe o **logo da PUC Minas**, mantendo a identidade visual da instituição. Abaixo do formulário, há um link para os usuários que já possuem conta, direcionando-os de volta para a página de login.
 
-| <img src="https://joaopauloaramuni.github.io/java-imgs/SecureLoginPUC_3/imgs/Login.png" alt="Login" width="1000"/> |
+| <img src="https://joaopauloaramuni.github.io/java-imgs/SecureLoginPUC_3/imgs/Login_v2.png" alt="Login" width="1000"/> |
 |:----------------------------------------------------:|
 |                        Login                         |
 
-| <img src="https://joaopauloaramuni.github.io/java-imgs/SecureLoginPUC_3/imgs/Register.png" alt="Register" width="1000"/> |
+| <img src="https://joaopauloaramuni.github.io/java-imgs/SecureLoginPUC_3/imgs/Register_v2.png" alt="Register" width="1000"/> |
 |:-------------------------------------------------------:|
 |                        Register                         |
 
