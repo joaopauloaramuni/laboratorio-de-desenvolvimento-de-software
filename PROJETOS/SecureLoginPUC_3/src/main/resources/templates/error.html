@@ -1,0 +1,67 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Erro - PUC Minas</title>
+
+    <!-- Fonte Montserrat - Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" th:href="@{/css/error.css}" />
+  </head>
+
+  <body>
+    <div class="error-container">
+      <!-- =====================================================
+         ÁREA DA LOGO
+         ===================================================== -->
+
+      <div class="error-image-logo-container">
+        <img th:src="@{/images/pucminas-logo.png}" alt="Logo PUC Minas" />
+      </div>
+
+      <!-- =====================================================
+         ÁREA DO ERRO
+         ===================================================== -->
+
+      <div class="error-form">
+        <h4 class="error-title">Erro</h4>
+
+        <!-- =================================================
+             MENSAGEM DE ERRO
+             ================================================= -->
+
+        <div class="error-message">
+          <strong th:if="${erro != null}" th:text="${erro}">
+            Ocorreu um erro.
+          </strong>
+
+          <span th:if="${erro == null}">
+            Ocorreu um erro durante a operação.
+          </span>
+        </div>
+
+        <!-- =================================================
+             OPÇÕES DE RETORNO
+             ================================================= -->
+
+        <p class="error-redirect-options">
+          <a th:href="@{/login}"> Voltar para o login </a>
+
+          <span>|</span>
+
+          <a th:href="@{/recoverpassword}"> Recuperar senha </a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

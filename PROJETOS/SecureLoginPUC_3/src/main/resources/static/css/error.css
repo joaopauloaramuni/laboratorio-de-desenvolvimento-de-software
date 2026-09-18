@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand: #005380;
+  --brand-deep: #00334f;
+  --brand-mid: #0a6ea6;
+  --brand-soft: #4fa8d8;
+
+  --background: #f8fafc;
+  --foreground: #171717;
+  --muted: #64748b;
+  --border: #e2e8f0;
+
+  --error: #dc2626;
+  --error-background: #fef2f2;
+  --error-border: #fecaca;
+  --error-dark: #7f1d1d;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2rem;
+
+  /* Fonte padrão da aplicação */
+  font-family: "Montserrat", sans-serif;
+
+  color: var(--foreground);
+
+  background:
+    radial-gradient(circle at 10% 10%, rgba(0, 83, 128, 0.08), transparent 30%),
+    radial-gradient(
+      circle at 90% 90%,
+      rgba(79, 168, 216, 0.1),
+      transparent 30%
+    ),
+    var(--background);
+}
+
+/* =========================================================
+   CONTAINER PRINCIPAL
+   ========================================================= */
+
+.error-container {
+  position: relative;
+
+  display: flex;
+
+  width: min(900px, 92vw);
+  min-height: 560px;
+
+  overflow: hidden;
+
+  background-color: #ffffff;
+
+  border: 1px solid rgba(0, 51, 79, 0.09);
+  border-radius: 20px;
+
+  box-shadow:
+    0 2px 4px rgba(0, 51, 79, 0.08),
+    0 24px 56px -12px rgba(0, 51, 79, 0.25);
+}
+
+/* =========================================================
+   ÁREA DA LOGO
+   ========================================================= */
+
+.error-image-logo-container {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 50%;
+
+  padding: 3rem;
+
+  overflow: hidden;
+
+  background: linear-gradient(145deg, var(--brand-deep), var(--brand));
+}
+
+.error-image-logo-container::before {
+  content: "";
+
+  position: absolute;
+
+  width: 400px;
+  height: 400px;
+
+  top: -180px;
+  left: -180px;
+
+  border-radius: 50%;
+
+  background: rgba(79, 168, 216, 0.12);
+}
+
+.error-image-logo-container::after {
+  content: "";
+
+  position: absolute;
+
+  width: 320px;
+  height: 320px;
+
+  right: -120px;
+  bottom: -160px;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.error-image-logo-container img {
+  position: relative;
+  z-index: 1;
+
+  width: 75%;
+  max-width: 320px;
+  height: auto;
+
+  object-fit: contain;
+
+  transition: transform 0.3s ease;
+}
+
+.error-image-logo-container img:hover {
+  transform: scale(1.03);
+}
+
+/* =========================================================
+   ÁREA DO ERRO
+   ========================================================= */
+
+.error-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 50%;
+
+  padding: 4rem;
+
+  background-color: #ffffff;
+}
+
+/* =========================================================
+   TÍTULO
+   ========================================================= */
+
+.error-title {
+  width: 100%;
+
+  margin-bottom: 1.75rem;
+
+  color: var(--brand);
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+
+  line-height: 1.2;
+
+  text-align: left;
+}
+
+.error-title::before {
+  content: "PUC MINAS";
+
+  display: block;
+
+  margin-bottom: 0.75rem;
+
+  color: var(--brand);
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+
+  letter-spacing: 0.12em;
+}
+
+/* =========================================================
+   MENSAGEM DE ERRO
+   ========================================================= */
+
+.error-message {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.25rem;
+
+  margin-top: 0.25rem;
+
+  padding: 0.9rem 1rem;
+
+  background-color: var(--error-background);
+
+  border: 1px solid var(--error-border);
+  border-radius: 8px;
+
+  color: var(--error);
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 400;
+
+  line-height: 1.5;
+}
+
+.error-message strong {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.error-message span {
+  color: var(--error-dark);
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+/* =========================================================
+   LINKS DE RETORNO
+   ========================================================= */
+
+.error-redirect-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.5rem;
+
+  margin-top: 1.5rem;
+
+  color: var(--muted);
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+
+  line-height: 1.8;
+
+  text-align: center;
+}
+
+.error-redirect-options a {
+  color: var(--brand);
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+
+  text-decoration: none;
+
+  transition: color 0.2s ease;
+}
+
+.error-redirect-options a:hover {
+  color: var(--brand-deep);
+
+  text-decoration: underline;
+}
+
+.error-redirect-options span {
+  color: #cbd5e1;
+}
+
+/* =========================================================
+   RESPONSIVIDADE
+   ========================================================= */
+
+@media (max-width: 700px) {
+  body {
+    padding: 1rem;
+  }
+
+  .error-container {
+    flex-direction: column;
+
+    width: 100%;
+    min-height: auto;
+
+    border-radius: 16px;
+  }
+
+  .error-image-logo-container {
+    width: 100%;
+    height: 180px;
+
+    padding: 2rem;
+  }
+
+  .error-image-logo-container img {
+    width: 180px;
+  }
+
+  .error-form {
+    width: 100%;
+
+    padding: 2.5rem 2rem;
+  }
+
+  .error-title {
+    font-size: 1.7rem;
+  }
+}
+
+/* =========================================================
+   CELULARES PEQUENOS
+   ========================================================= */
+
+@media (max-width: 400px) {
+  body {
+    padding: 0.75rem;
+  }
+
+  .error-image-logo-container {
+    height: 150px;
+  }
+
+  .error-form {
+    padding: 2rem 1.5rem;
+  }
+
+  .error-title {
+    font-size: 1.5rem;
+  }
+
+  .error-redirect-options {
+    flex-wrap: wrap;
+  }
+}
+
+/* =========================================================
+   ACESSIBILIDADE
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  .error-image-logo-container img {
+    transition: none;
+  }
+}
