@@ -1,0 +1,136 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Login - PUC Minas</title>
+
+    <!-- Fonte Montserrat - Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" th:href="@{/css/login.css}" />
+
+    <!-- Google reCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+
+  <body>
+    <div class="login-container">
+      <!-- =====================================================
+             LOGO PUC MINAS
+             ===================================================== -->
+
+      <div class="login-image-logo-container">
+        <img th:src="@{/images/pucminas-logo.png}" alt="Logo PUC Minas" />
+      </div>
+
+      <!-- =====================================================
+             FORMULÁRIO
+             ===================================================== -->
+
+      <div class="login-form">
+        <form th:action="@{/login}" method="post" class="login-form-content">
+          <h4 class="login-title">Login</h4>
+
+          <!-- =================================================
+                     CADASTRO REALIZADO
+                     ================================================= -->
+
+          <div th:if="${param.cadastro}" class="login-message">
+            <strong> Cadastro realizado com sucesso! </strong>
+
+            <span> Agora você já pode fazer login. </span>
+          </div>
+
+          <!-- =================================================
+                     USUÁRIO OU SENHA INCORRETOS
+                     ================================================= -->
+
+          <div th:if="${param.error}" class="login-message login-message-error">
+            <strong> Usuário ou senha incorretos! </strong>
+
+            <span> Verifique seus dados e tente novamente. </span>
+          </div>
+
+          <!-- =================================================
+                     ERRO CAPTCHA
+                     ================================================= -->
+
+          <div th:if="${param.captcha}" class="login-error">
+            Por favor, confirme que você não é um robô.
+          </div>
+
+          <!-- =================================================
+                     USUÁRIO
+                     ================================================= -->
+
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Username"
+            autocomplete="username"
+            required
+          />
+
+          <!-- =================================================
+                     SENHA
+                     ================================================= -->
+
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Senha"
+            autocomplete="current-password"
+            required
+          />
+
+          <!-- =================================================
+                     GOOGLE reCAPTCHA
+                     ================================================= -->
+
+          <div class="recaptcha-container">
+            <div
+              class="g-recaptcha"
+              th:attr="data-sitekey=${recaptchaSiteKey}"
+            ></div>
+          </div>
+
+          <!-- =================================================
+                     BOTÃO
+                     ================================================= -->
+
+          <div class="login-button-container">
+            <button type="submit">Entrar</button>
+          </div>
+
+          <!-- =================================================
+                     LINKS
+                     ================================================= -->
+
+          <p class="login-redirect-options">
+            Ainda não tem cadastro?
+
+            <br />
+
+            <a href="/register"> Cadastre-se </a>
+
+            <span>|</span>
+
+            <a href="/recoverpassword"> Esqueceu sua senha? </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
