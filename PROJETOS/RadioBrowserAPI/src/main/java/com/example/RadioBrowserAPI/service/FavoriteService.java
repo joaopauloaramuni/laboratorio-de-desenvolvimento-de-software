@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 
 /**
  * Guarda os favoritos em memória enquanto a aplicação estiver rodando.
- * Reinicia zerado a cada restart — não persiste em banco/arquivo, como pedido.
  */
 @Service
 public class FavoriteService {
