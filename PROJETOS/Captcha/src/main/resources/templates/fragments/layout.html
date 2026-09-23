@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+
+  <!-- =================================================
+       FRAGMENTOS COMPARTILHADOS PELAS PÁGINAS
+       (não fazem parte de nenhum captcha)
+       ================================================= -->
+
+  <head th:fragment="head(titulo)">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title th:text="${titulo} + ' | Projeto Captcha'">Projeto Captcha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+  </head>
+
+  <body>
+
+    <header th:fragment="cabecalho" class="topo">
+      <a class="marca" th:href="@{/}">Projeto Captcha</a>
+      <span class="topo-descricao">Captchas prontos para Spring Boot e Thymeleaf</span>
+    </header>
+
+    <div th:fragment="resultado" th:if="${mensagem != null}" role="status"
+         class="resultado" th:classappend="${sucesso} ? 'resultado-ok' : 'resultado-erro'">
+      <strong th:text="${sucesso} ? 'Validado' : 'Bloqueado'">Validado</strong>
+      <span th:text="${mensagem}">Mensagem</span>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+  <head th:replace="~{fragments/layout :: head('Início')}"></head>
+
+  <body>
+    <header th:replace="~{fragments/layout :: cabecalho}"></header>
+
+    <main class="inicio">
+
+      <section class="abertura">
+        <h1>Oito jeitos de provar que <span class="nao-quebra">não é um robô</span></h1>
+        <p class="resumo">
+          Cada captcha abaixo está funcionando neste projeto. Abra, teste o formulário e,
+          quando escolher o seu, copie o service, o trecho do HTML e as propriedades
+          listadas na própria página.
+        </p>
+        <img class="abertura-robo" th:src="@{/images/robo.svg}" alt=""
+             width="440" height="390">
+      </section>
+
+      <section aria-labelledby="titulo-tabela">
+        <h2 id="titulo-tabela">Compare e escolha</h2>
+        <div class="tabela-rolagem">
+          <table class="comparativo">
+            <thead>
+              <tr>
+                <th scope="col">Captcha</th>
+                <th scope="col">O que a pessoa faz</th>
+                <th scope="col">Cadastro</th>
+                <th scope="col">Sem internet</th>
+                <th scope="col">Contra robôs</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"><a th:href="@{/recaptcha-v2-checkbox}">reCAPTCHA v2 checkbox</a></th>
+                <td>Marca a caixa; às vezes escolhe imagens</td>
+                <td>Google</td>
+                <td>Não</td>
+                <td><span class="nivel nivel-alto">Alta</span></td>
+              </tr>
+              <tr>
+                <th scope="row"><a th:href="@{/recaptcha-v2-invisivel}">reCAPTCHA v2 invisível</a></th>
+                <td>Só clica em enviar; imagens se houver suspeita</td>
+                <td>Google</td>
+                <td>Não</td>
+                <td><span class="nivel nivel-alto">Alta</span></td>
+              </tr>
+              <tr>
+                <th scope="row"><a th:href="@{/recaptcha-v3}">reCAPTCHA v3</a></th>
+                <td>Nada; o servidor recebe uma nota</td>
+                <td>Google</td>
+                <td>Não</td>
+                <td><span class="nivel nivel-alto">Alta</span></td>
+              </tr>
+              <tr>
+                <th scope="row"><a th:href="@{/hcaptcha}">hCaptcha</a></th>
+                <td>Marca a caixa; às vezes escolhe imagens</td>
+                <td>hCaptcha</td>
+                <td>Não</td>
+                <td><span class="nivel nivel-alto">Alta</span></td>
+              </tr>
+              <tr>
+                <th scope="row"><a th:href="@{/turnstile}">Cloudflare Turnstile</a></th>
+                <td>Normalmente nada; às vezes um clique</td>
+                <td>Cloudflare</td>
+                <td>Não</td>
+                <td><span class="nivel nivel-alto">Alta</span></td>
+              </tr>
+              <tr>
+                <th scope="row"><a th:href="@{/altcha}">ALTCHA</a></th>
+                <td>Marca a caixa; o navegador calcula</td>
+                <td>Nenhum</td>
+                <td>Sim, com o script salvo no projeto</td>
+                <td><span class="nivel nivel-medio">Média</span></td>
+              </tr>
+              <tr>
+                <th scope="row"><a th:href="@{/captcha-imagem}">Captcha de imagem</a></th>
+                <td>Digita as letras da imagem</td>
+                <td>Nenhum</td>
+                <td>Sim</td>
+                <td><span class="nivel nivel-medio">Média</span></td>
+              </tr>
+              <tr>
+                <th scope="row"><a th:href="@{/captcha-matematico}">Captcha matemático</a></th>
+                <td>Resolve uma conta</td>
+                <td>Nenhum</td>
+                <td>Sim</td>
+                <td><span class="nivel nivel-baixo">Baixa</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="nota">
+          Os captchas com cadastro já vêm com as chaves de teste oficiais de cada empresa,
+          então funcionam assim que o projeto sobe. A exceção é o reCAPTCHA v3, que exige uma chave real.
+        </p>
+      </section>
+
+      <section aria-labelledby="titulo-passos">
+        <h2 id="titulo-passos">Levando para o seu projeto</h2>
+        <ol class="passos">
+          <li>
+            <strong>Copie o service.</strong>
+            Cada captcha tem um arquivo em <code>service/</code> que faz toda a validação.
+            Ajuste só o <code>package</code>.
+          </li>
+          <li>
+            <strong>Copie o trecho do HTML.</strong>
+            Nos templates, o captcha fica entre os comentários
+            <code>CAPTCHA: INÍCIO</code> e <code>CAPTCHA: FIM</code>.
+          </li>
+          <li>
+            <strong>Copie as propriedades.</strong>
+            Leve o bloco do <code>application.properties</code> e troque as chaves de teste pelas suas.
+          </li>
+          <li>
+            <strong>Valide no POST.</strong>
+            No seu controller, receba o campo do captcha e chame o service antes de processar o formulário.
+            Para proteger o login do Spring Security, use um filtro, como o <code>RecaptchaFilter</code> do SecureLoginPUC.
+          </li>
+        </ol>
+      </section>
+
+    </main>
+  </body>
+</html>

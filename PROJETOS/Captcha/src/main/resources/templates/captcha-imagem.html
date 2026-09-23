@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+  <head th:replace="~{fragments/layout :: head('Captcha de imagem')}"></head>
+
+  <body>
+    <header th:replace="~{fragments/layout :: cabecalho}"></header>
+
+    <main class="pagina-captcha">
+
+      <section class="demo" aria-labelledby="titulo-demo">
+        <a class="voltar" th:href="@{/}">Todos os captchas</a>
+        <h1 id="titulo-demo">Captcha de imagem</h1>
+        <p class="resumo">O clássico: letras distorcidas numa imagem gerada pelo próprio Java. Não depende de internet nem de cadastro. O texto certo fica na sessão do usuário, nunca no HTML.</p>
+
+        <div th:replace="~{fragments/layout :: resultado}"></div>
+
+        <form id="form-contato" class="formulario" method="post" th:action="@{/captcha-imagem}">
+          <label>Nome
+            <input type="text" name="nome" required maxlength="80" autocomplete="name">
+          </label>
+          <label>Mensagem
+            <textarea name="mensagem" rows="3" maxlength="500"></textarea>
+          </label>
+
+          <!-- ============== CAPTCHA: INÍCIO ============== -->
+          <div class="captcha-imagem">
+            <img id="imagem-captcha" th:src="@{/captcha-imagem/imagem}" width="180" height="60"
+                 alt="Imagem com letras para digitar">
+            <button type="button" class="botao-secundario"
+                    onclick="document.getElementById('imagem-captcha').src = '/captcha-imagem/imagem?t=' + Date.now()">
+              Gerar outra imagem
+            </button>
+          </div>
+          <label>Digite as letras da imagem
+            <input type="text" name="captcha" required autocomplete="off" autocapitalize="characters" maxlength="10">
+          </label>
+          <!-- ============== CAPTCHA: FIM ================= -->
+
+          <button type="submit" class="botao">Enviar mensagem</button>
+        </form>
+      </section>
+
+      <aside class="copiar" aria-labelledby="titulo-copiar" th:inline="none">
+        <h2 id="titulo-copiar">Para usar no seu projeto</h2>
+
+        <h3>Arquivos Java</h3>
+        <ul class="arquivos">
+            <li><code>service/CaptchaImagemService.java</code></li>
+            <li><code>controller/CaptchaImagemController.java</code> <span>(inclui o endereço /captcha-imagem/imagem)</span></li>
+        </ul>
+
+        <h3>No HTML (Thymeleaf)</h3>
+        <pre><code>&lt;!-- Dentro do &lt;form&gt; --&gt;
+&lt;img id="imagem-captcha" th:src="@{/captcha-imagem/imagem}" alt="Imagem com letras para digitar"&gt;
+&lt;button type="button"
+        onclick="document.getElementById('imagem-captcha').src = '/captcha-imagem/imagem?t=' + Date.now()"&gt;
+  Gerar outra imagem
+&lt;/button&gt;
+&lt;input type="text" name="captcha" required autocomplete="off"&gt;</code></pre>
+
+          <h3>No application.properties</h3>
+          <pre><code>captcha.imagem.tamanho=5</code></pre>
+
+        <h3>Campo que chega no POST</h3>
+        <p><code>@RequestParam(name = "captcha", required = false)</code></p>
+
+        <h3>Onde conseguir as chaves</h3>
+        <p>Nenhuma.</p>
+          <p class="nota">O <code>?t=</code> com a hora atual obriga o navegador a buscar uma imagem nova em vez de usar a do cache.</p>
+      </aside>
+
+    </main>
+
+  </body>
+</html>

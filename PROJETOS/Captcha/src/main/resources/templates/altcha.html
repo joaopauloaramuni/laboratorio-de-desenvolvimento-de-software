@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+  <head th:replace="~{fragments/layout :: head('ALTCHA')}"></head>
+
+  <body>
+    <header th:replace="~{fragments/layout :: cabecalho}"></header>
+
+    <main class="pagina-captcha">
+
+      <section class="demo" aria-labelledby="titulo-demo">
+        <a class="voltar" th:href="@{/}">Todos os captchas</a>
+        <h1 id="titulo-demo">ALTCHA</h1>
+        <p class="resumo">Prova de trabalho: ao marcar a caixa, o navegador faz alguns milhares de contas para achar um número secreto. Não usa conta em nenhuma empresa nem cookies. O desafio é criado e conferido pelo próprio Spring.</p>
+
+        <div th:replace="~{fragments/layout :: resultado}"></div>
+
+        <form id="form-contato" class="formulario" method="post" th:action="@{/altcha}">
+          <label>Nome
+            <input type="text" name="nome" required maxlength="80" autocomplete="name">
+          </label>
+          <label>Mensagem
+            <textarea name="mensagem" rows="3" maxlength="500"></textarea>
+          </label>
+
+          <!-- ============== CAPTCHA: INÍCIO ============== -->
+          <altcha-widget th:attr="challengeurl=@{/altcha/desafio}"
+            strings='{"label":"Não sou um robô","verified":"Verificado","verifying":"Verificando...","waitAlert":"Verificando... aguarde.","error":"A verificação falhou. Tente de novo.","expired":"A verificação expirou. Marque de novo."}'></altcha-widget>
+          <!-- ============== CAPTCHA: FIM ================= -->
+
+          <button type="submit" class="botao">Enviar mensagem</button>
+        </form>
+      </section>
+
+      <aside class="copiar" aria-labelledby="titulo-copiar" th:inline="none">
+        <h2 id="titulo-copiar">Para usar no seu projeto</h2>
+
+        <h3>Arquivos Java</h3>
+        <ul class="arquivos">
+            <li><code>service/AltchaService.java</code></li>
+            <li><code>controller/AltchaController.java</code> <span>(inclui o endereço /altcha/desafio)</span></li>
+        </ul>
+
+        <h3>No HTML (Thymeleaf)</h3>
+        <pre><code>&lt;script type="module" src="https://cdn.jsdelivr.net/npm/altcha@1.5.1/dist/altcha.js"&gt;&lt;/script&gt;
+
+&lt;!-- Dentro do &lt;form&gt;. O widget busca o desafio no endereço challengeurl --&gt;
+&lt;altcha-widget th:attr="challengeurl=@{/altcha/desafio}"
+  strings='{"label":"Não sou um robô","verified":"Verificado","verifying":"Verificando..."}'&gt;&lt;/altcha-widget&gt;</code></pre>
+
+          <h3>No application.properties</h3>
+          <pre><code>altcha.hmac-key=um-texto-longo-e-aleatorio
+altcha.max-number=100000
+altcha.validade-minutos=10</code></pre>
+
+        <h3>Campo que chega no POST</h3>
+        <p><code>@RequestParam(name = "altcha", required = false)</code></p>
+
+        <h3>Onde conseguir as chaves</h3>
+        <p>Nenhum cadastro. A chave HMAC é um texto aleatório que você mesmo inventa.</p>
+          <p class="nota">O widget usa a Web Crypto do navegador, que só funciona em <code>https</code> ou em <code>localhost</code>.</p>
+      </aside>
+
+    </main>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/altcha@1.5.1/dist/altcha.js"></script>
+  </body>
+</html>

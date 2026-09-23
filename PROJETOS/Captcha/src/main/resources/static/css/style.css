@@ -1,0 +1,456 @@
+/* =========================================================
+   PROJETO CAPTCHA - estilos da vitrine
+   (não fazem parte de nenhum captcha, não precisa copiar)
+   ========================================================= */
+
+:root {
+  --fundo: #eef1f6;
+  --superficie: #ffffff;
+  --tinta: #15213b;
+  --tinta-suave: #56607a;
+  --linha: #d3d9e4;
+  --azul: #0c4a8c;
+  --azul-claro: #e3ecf7;
+  --ok: #17714a;
+  --ok-fundo: #e5f3eb;
+  --erro: #b42318;
+  --erro-fundo: #fdecea;
+  --medio: #8a5a00;
+  --medio-fundo: #fbf0d6;
+
+  --fonte: "Atkinson Hyperlegible", "Segoe UI", Arial, sans-serif;
+  --fonte-codigo: "JetBrains Mono", Consolas, "Courier New", monospace;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--fundo);
+  color: var(--tinta);
+  font-family: var(--fonte);
+  font-size: 1.0625rem;
+  line-height: 1.55;
+}
+
+a { color: var(--azul); }
+
+:focus-visible {
+  outline: 3px solid var(--azul);
+  outline-offset: 2px;
+}
+
+code {
+  font-family: var(--fonte-codigo);
+  font-size: 0.86em;
+  background: var(--azul-claro);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}
+
+/* ---------- Topo ---------- */
+
+.topo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 1rem;
+  padding: 1rem clamp(1rem, 4vw, 2.5rem);
+  background: var(--tinta);
+  color: #fff;
+}
+
+.marca {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-decoration: none;
+}
+
+.topo-descricao { color: #b9c3d8; font-size: 0.95rem; }
+
+/* ---------- Página inicial ---------- */
+
+.inicio {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: clamp(2rem, 6vw, 4.5rem) clamp(1rem, 4vw, 2.5rem) 5rem;
+}
+
+/* Abertura: a caixinha marcada faz referência ao "Não sou um robô" */
+.abertura {
+  position: relative;
+  padding-top: 4.75rem;
+}
+
+.abertura::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3.25rem;
+  height: 3.25rem;
+  background: var(--superficie);
+  border: 3px solid var(--tinta);
+  border-radius: 8px;
+}
+
+.abertura::after {
+  content: "";
+  position: absolute;
+  top: 0.5rem;
+  left: 1.15rem;
+  width: 0.9rem;
+  height: 1.65rem;
+  border: solid var(--ok);
+  border-width: 0 0.32rem 0.32rem 0;
+  transform: rotate(45deg);
+  animation: marcar 0.45s 0.35s ease-out both;
+}
+
+@keyframes marcar {
+  from { opacity: 0; transform: rotate(45deg) scale(0.3); }
+  to   { opacity: 1; transform: rotate(45deg) scale(1); }
+}
+
+.abertura h1 {
+  font-size: clamp(2.1rem, 5.5vw, 3.8rem);
+  line-height: 1.04;
+  letter-spacing: -0.025em;
+  max-width: 17ch;
+  margin: 0 0 1.25rem;
+}
+
+.nao-quebra { white-space: nowrap; }
+
+/* Ilustração do robô ao lado do título (some em telas pequenas) */
+.abertura-robo { display: none; }
+
+@media (min-width: 56rem) {
+  .abertura {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(16rem, 26rem);
+    column-gap: 3rem;
+    align-items: center;
+  }
+  .abertura h1,
+  .abertura .resumo { grid-column: 1; }
+  .abertura h1 { align-self: end; }
+  .abertura .resumo { align-self: start; }
+  .abertura-robo {
+    display: block;
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    width: 100%;
+    height: auto;
+    margin-top: -4rem;
+  }
+}
+
+.resumo {
+  color: var(--tinta-suave);
+  font-size: 1.15rem;
+  max-width: 60ch;
+  margin: 0 0 1.5rem;
+}
+
+.inicio h2 {
+  font-size: 1.4rem;
+  margin: 3.5rem 0 1rem;
+}
+
+/* Tabela comparativa */
+.tabela-rolagem {
+  overflow-x: auto;
+  background: var(--superficie);
+  border: 1px solid var(--linha);
+  border-radius: 12px;
+}
+
+.comparativo {
+  width: 100%;
+  min-width: 46rem;
+  border-collapse: collapse;
+}
+
+.comparativo th,
+.comparativo td {
+  text-align: left;
+  vertical-align: middle;
+  padding: 0.9rem 1.25rem;
+  border-bottom: 1px solid var(--linha);
+}
+
+.comparativo thead th {
+  font-size: 0.88rem;
+  color: var(--tinta-suave);
+  white-space: nowrap;
+  background: #f6f8fb;
+  border-bottom-width: 2px;
+}
+
+.comparativo tbody tr:last-child > * { border-bottom: 0; }
+
+/* A linha inteira é clicável: o link do nome cobre a linha */
+.comparativo tbody tr {
+  position: relative;
+  transition: background-color 0.15s;
+}
+
+.comparativo tbody tr:hover { background: var(--azul-claro); }
+
+.comparativo tbody th { white-space: nowrap; }
+
+.comparativo tbody th a {
+  color: var(--tinta);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.comparativo tbody th a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.comparativo tbody tr:hover th a {
+  color: var(--azul);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.comparativo tbody th a:focus-visible { outline: none; }
+.comparativo tbody th a:focus-visible::after {
+  outline: 3px solid var(--azul);
+  outline-offset: -3px;
+  border-radius: 4px;
+}
+
+.comparativo td { color: var(--tinta-suave); }
+.comparativo td:nth-child(4) { max-width: 13rem; }
+.comparativo td:last-child { white-space: nowrap; }
+
+.nivel {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.15rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+.nivel::before {
+  content: "";
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: currentColor;
+}
+.nivel-alto  { color: var(--ok);    background: var(--ok-fundo); }
+.nivel-medio { color: var(--medio); background: var(--medio-fundo); }
+.nivel-baixo { color: var(--erro);  background: var(--erro-fundo); }
+
+.nota {
+  color: var(--tinta-suave);
+  font-size: 0.95rem;
+  max-width: 70ch;
+  margin-top: 0.9rem;
+}
+
+/* Passos numerados (é uma sequência de verdade) */
+.passos {
+  list-style: none;
+  counter-reset: passo;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.passos li {
+  counter-increment: passo;
+  padding: 1.25rem 1.25rem 1.35rem;
+  background: var(--superficie);
+  border: 1px solid var(--linha);
+  border-radius: 12px;
+  color: var(--tinta-suave);
+  font-size: 1rem;
+}
+
+.passos li::before {
+  content: counter(passo);
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 0.85rem;
+  border-radius: 50%;
+  background: var(--tinta);
+  color: #fff;
+  font-weight: 700;
+}
+
+.passos strong {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: var(--tinta);
+  font-size: 1.05rem;
+}
+
+/* ---------- Página de cada captcha ---------- */
+
+.pagina-captcha {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2rem;
+  max-width: 76rem;
+  margin: 0 auto;
+  padding: 2rem clamp(1rem, 4vw, 2.5rem) 4rem;
+}
+
+@media (min-width: 60rem) {
+  .pagina-captcha {
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    align-items: start;
+  }
+}
+
+.voltar {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.demo h1 {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  line-height: 1.1;
+  margin: 0 0 0.75rem;
+}
+
+.demo .resumo { font-size: 1.05rem; }
+
+.formulario {
+  display: grid;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: var(--superficie);
+  border: 1px solid var(--linha);
+  border-radius: 10px;
+}
+
+.formulario label {
+  display: grid;
+  gap: 0.35rem;
+  font-weight: 700;
+}
+
+.formulario input[type="text"],
+.formulario textarea {
+  width: 100%;
+  font: inherit;
+  font-weight: 400;
+  color: var(--tinta);
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #b7c0d0;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.formulario textarea { resize: vertical; }
+
+.botao,
+.botao-secundario {
+  font: inherit;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 0.7rem 1.2rem;
+}
+
+.botao {
+  justify-self: start;
+  color: #fff;
+  background: var(--azul);
+  border: 0;
+}
+.botao:hover { background: #083a70; }
+
+.botao-secundario {
+  color: var(--azul);
+  background: transparent;
+  border: 1px solid var(--azul);
+  padding: 0.45rem 0.8rem;
+  font-size: 0.95rem;
+}
+
+.captcha-imagem {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+.captcha-imagem img {
+  border: 1px solid var(--linha);
+  border-radius: 6px;
+  max-width: 100%;
+}
+
+altcha-widget { max-width: 100%; }
+
+/* Mensagem depois do envio */
+.resultado {
+  display: grid;
+  gap: 0.15rem;
+  padding: 0.85rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border-left: 5px solid;
+}
+.resultado-ok   { color: var(--ok);   background: var(--ok-fundo); }
+.resultado-erro { color: var(--erro); background: var(--erro-fundo); }
+.resultado span { color: var(--tinta); }
+
+.aviso {
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  color: var(--medio);
+  background: var(--medio-fundo);
+}
+
+/* Painel "Para usar no seu projeto" */
+.copiar {
+  padding: 1.5rem;
+  background: var(--superficie);
+  border: 1px solid var(--linha);
+  border-top: 5px solid var(--azul);
+  border-radius: 10px;
+}
+
+.copiar h2 { font-size: 1.3rem; margin: 0 0 0.5rem; }
+.copiar h3 { font-size: 1rem; margin: 1.5rem 0 0.5rem; }
+.copiar p { margin: 0.4rem 0; }
+
+.arquivos { margin: 0; padding-left: 1.2rem; }
+.arquivos li { margin-bottom: 0.3rem; }
+.arquivos span { color: var(--tinta-suave); font-size: 0.93rem; }
+
+.copiar pre {
+  margin: 0;
+  padding: 1rem;
+  overflow-x: auto;
+  background: #f4f6fa;
+  border: 1px solid var(--linha);
+  border-radius: 8px;
+  line-height: 1.5;
+}
+.copiar pre code {
+  background: none;
+  padding: 0;
+  font-size: 0.82rem;
+  white-space: pre;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}

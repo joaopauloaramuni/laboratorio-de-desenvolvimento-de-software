@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+  <head th:replace="~{fragments/layout :: head('reCAPTCHA v2 invisível')}"></head>
+
+  <body>
+    <header th:replace="~{fragments/layout :: cabecalho}"></header>
+
+    <main class="pagina-captcha">
+
+      <section class="demo" aria-labelledby="titulo-demo">
+        <a class="voltar" th:href="@{/}">Todos os captchas</a>
+        <h1 id="titulo-demo">reCAPTCHA v2 invisível</h1>
+        <p class="resumo">O mesmo v2, mas sem caixa: a verificação roda quando a pessoa clica em enviar. O desafio de imagens só aparece se o Google desconfiar. Um selo fica no canto da tela.</p>
+
+        <div th:replace="~{fragments/layout :: resultado}"></div>
+
+        <form id="form-contato" class="formulario" method="post" th:action="@{/recaptcha-v2-invisivel}">
+          <label>Nome
+            <input type="text" name="nome" required maxlength="80" autocomplete="name">
+          </label>
+          <label>Mensagem
+            <textarea name="mensagem" rows="3" maxlength="500"></textarea>
+          </label>
+
+          <!-- ============== CAPTCHA (o próprio botão) ===== -->
+          <button type="submit" class="botao g-recaptcha"
+                  th:attr="data-sitekey=${siteKey}"
+                  data-callback="enviarFormulario">Enviar mensagem</button>
+          <!-- ============================================= -->
+        </form>
+      </section>
+
+      <aside class="copiar" aria-labelledby="titulo-copiar" th:inline="none">
+        <h2 id="titulo-copiar">Para usar no seu projeto</h2>
+
+        <h3>Arquivos Java</h3>
+        <ul class="arquivos">
+            <li><code>service/RecaptchaV2Service.java</code> <span>(pode apagar o método validarCheckbox)</span></li>
+            <li><code>controller/RecaptchaV2InvisivelController.java</code></li>
+        </ul>
+
+        <h3>No HTML (Thymeleaf)</h3>
+        <pre><code>&lt;!-- O &lt;form&gt; precisa de um id --&gt;
+&lt;form id="form-contato" method="post" th:action="@{/recaptcha-v2-invisivel}"&gt;
+  ...
+  &lt;!-- O próprio botão vira o captcha --&gt;
+  &lt;button type="submit" class="g-recaptcha"
+          th:attr="data-sitekey=${siteKey}"
+          data-callback="enviarFormulario"&gt;Enviar&lt;/button&gt;
+&lt;/form&gt;
+
+&lt;script&gt;
+  function enviarFormulario(token) {
+    var form = document.getElementById("form-contato");
+    if (!form.reportValidity()) { grecaptcha.reset(); return; }
+    form.submit();
+  }
+&lt;/script&gt;
+&lt;script src="https://www.google.com/recaptcha/api.js?hl=pt-BR" async defer&gt;&lt;/script&gt;</code></pre>
+
+          <h3>No application.properties</h3>
+          <pre><code>recaptcha.v2.invisivel.site-key=...
+recaptcha.v2.invisivel.secret-key=...</code></pre>
+
+        <h3>Campo que chega no POST</h3>
+        <p><code>@RequestParam(name = "g-recaptcha-response", required = false)</code></p>
+
+        <h3>Onde conseguir as chaves</h3>
+        <p>Google reCAPTCHA Admin, tipo “v2 &gt; Selo invisível”. A chave do checkbox não serve aqui.</p>
+      </aside>
+
+    </main>
+
+    <script>
+      // Chamado pelo Google depois da verificação, já com o token no formulário
+      function enviarFormulario(token) {
+        var form = document.getElementById("form-contato");
+        if (!form.reportValidity()) {
+          grecaptcha.reset();
+          return;
+        }
+        form.submit();
+      }
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js?hl=pt-BR" async defer></script>
+  </body>
+</html>

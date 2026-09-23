@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+  <head th:replace="~{fragments/layout :: head('reCAPTCHA v2 checkbox')}"></head>
+
+  <body>
+    <header th:replace="~{fragments/layout :: cabecalho}"></header>
+
+    <main class="pagina-captcha">
+
+      <section class="demo" aria-labelledby="titulo-demo">
+        <a class="voltar" th:href="@{/}">Todos os captchas</a>
+        <h1 id="titulo-demo">reCAPTCHA v2 checkbox</h1>
+        <p class="resumo">A caixa “Não sou um robô” do Google. Quando o Google desconfia do visitante, aparece um desafio de imagens. É a versão usada no SecureLoginPUC.</p>
+
+        <div th:replace="~{fragments/layout :: resultado}"></div>
+
+        <form id="form-contato" class="formulario" method="post" th:action="@{/recaptcha-v2-checkbox}">
+          <label>Nome
+            <input type="text" name="nome" required maxlength="80" autocomplete="name">
+          </label>
+          <label>Mensagem
+            <textarea name="mensagem" rows="3" maxlength="500"></textarea>
+          </label>
+
+          <!-- ============== CAPTCHA: INÍCIO ============== -->
+          <div class="g-recaptcha" th:attr="data-sitekey=${siteKey}"></div>
+          <!-- ============== CAPTCHA: FIM ================= -->
+
+          <button type="submit" class="botao">Enviar mensagem</button>
+        </form>
+      </section>
+
+      <aside class="copiar" aria-labelledby="titulo-copiar" th:inline="none">
+        <h2 id="titulo-copiar">Para usar no seu projeto</h2>
+
+        <h3>Arquivos Java</h3>
+        <ul class="arquivos">
+            <li><code>service/RecaptchaV2Service.java</code> <span>(pode apagar o método validarInvisivel)</span></li>
+            <li><code>controller/RecaptchaV2CheckboxController.java</code></li>
+        </ul>
+
+        <h3>No HTML (Thymeleaf)</h3>
+        <pre><code>&lt;!-- No &lt;head&gt; ou no fim do &lt;body&gt; --&gt;
+&lt;script src="https://www.google.com/recaptcha/api.js?hl=pt-BR" async defer&gt;&lt;/script&gt;
+
+&lt;!-- Dentro do &lt;form&gt;, antes do botão --&gt;
+&lt;div class="g-recaptcha" th:attr="data-sitekey=${siteKey}"&gt;&lt;/div&gt;</code></pre>
+
+          <h3>No application.properties</h3>
+          <pre><code>recaptcha.v2.checkbox.site-key=...
+recaptcha.v2.checkbox.secret-key=...</code></pre>
+
+        <h3>Campo que chega no POST</h3>
+        <p><code>@RequestParam(name = "g-recaptcha-response", required = false)</code></p>
+
+        <h3>Onde conseguir as chaves</h3>
+        <p>Google reCAPTCHA Admin, tipo “v2 &gt; Caixa de seleção”. Adicione <code>localhost</code> nos domínios.</p>
+      </aside>
+
+    </main>
+
+    <script src="https://www.google.com/recaptcha/api.js?hl=pt-BR" async defer></script>
+  </body>
+</html>
