@@ -1,0 +1,86 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Login - PUC Minas</title>
+
+    <link rel="stylesheet" th:href="@{/css/login.css}" />
+
+    <!-- Google reCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+
+  <body>
+    <div class="login-container">
+      <!-- Logo PUC Minas -->
+      <div class="login-image-logo-container">
+        <img th:src="@{/images/ASCII.png}" alt="Logo PUC Minas" />
+      </div>
+
+      <!-- Formulário -->
+      <div class="login-form">
+        <form th:action="@{/login}" method="post" class="login-form-content">
+          <h4 class="login-title">Login</h4>
+
+          <!-- Mensagem de cadastro realizado -->
+          <div th:if="${param.cadastro}" class="login-message">
+            <strong>Cadastro realizado com sucesso!</strong>
+            <span>Agora você já pode fazer login.</span>
+          </div>
+
+          <div th:if="${param.error}" class="login-message login-message-error">
+            <strong> Usuário ou senha incorretos! </strong>
+
+            <span> Verifique seus dados e tente novamente. </span>
+          </div>
+
+          <div th:if="${param.captcha}" class="login-error">
+            Por favor, confirme que você não é um robô.
+          </div>
+
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Username"
+            autocomplete="username"
+            required
+          />
+
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Senha"
+            autocomplete="current-password"
+            required
+          />
+
+          <!-- Google reCAPTCHA widget -->
+          <div class="recaptcha-container">
+            <div
+              class="g-recaptcha"
+              th:attr="data-sitekey=${recaptchaSiteKey}"
+              data-theme="dark">
+            </div>
+          </div>
+
+          <div class="login-button-container">
+            <button type="submit">Entrar</button>
+          </div>
+
+          <p class="login-redirect-options">
+            Ainda não tem cadastro?
+            <br />
+
+            <a href="/register">Cadastre-se</a>
+            <span>|</span>
+            <a href="/recoverpassword">Esqueceu sua senha?</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

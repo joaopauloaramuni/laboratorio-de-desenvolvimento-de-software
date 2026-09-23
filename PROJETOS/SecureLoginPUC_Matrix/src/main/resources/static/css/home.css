@@ -1,0 +1,263 @@
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  src: url("/fonts/ttf/JetBrainsMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --bg: #000;
+  --border: #00ff00;
+  --text: #00ff00;
+  --muted: #0a8a0a;
+  --button-hover-bg: #00ff00;
+  --button-hover-text: #000;
+  --radius: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "JetBrainsMono Nerd Font", monospace;
+}
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* =========================================================
+   CONTAINER PRINCIPAL
+   ========================================================= */
+
+.home-container {
+  position: relative;
+  width: min(720px, 92vw);
+  overflow: hidden;
+  background-color: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.15);
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+/* =========================================================
+   ÁREA DA LOGO
+   ========================================================= */
+
+.home-logo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  background-color: var(--bg);
+  border-bottom: 1px dashed var(--border);
+}
+
+.home-logo img {
+  position: relative;
+  z-index: 1;
+  width: 160px;
+  max-width: 70%;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.home-logo img:hover {
+  transform: scale(1.03);
+}
+
+/* =========================================================
+   CONTEÚDO
+   ========================================================= */
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3.5rem 4rem;
+  text-align: center;
+}
+
+/* =========================================================
+   LABEL PUC MINAS
+   ========================================================= */
+
+.home-label {
+  margin-bottom: 0.75rem;
+  color: var(--text);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+}
+
+/* =========================================================
+   TÍTULO
+   ========================================================= */
+
+.home-content h1 {
+  color: var(--text);
+  font-size: 2rem;
+  font-weight: bolder;
+  line-height: 1.2;
+}
+
+/* =========================================================
+   MENSAGEM DE LOGIN
+   ========================================================= */
+
+.home-message {
+  margin-top: 1rem;
+  color: var(--text);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* =========================================================
+   DIVISOR
+   ========================================================= */
+
+.home-divider {
+  width: 60px;
+  height: 3px;
+  margin: 1.5rem 0;
+  background-color: var(--border);
+  border-radius: 999px;
+}
+
+/* =========================================================
+   DESCRIÇÕES
+   ========================================================= */
+
+.home-description {
+  margin-bottom: 1.75rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.home-description strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+/* =========================================================
+   BOTÃO SAIR
+   ========================================================= */
+
+.home-btn {
+  min-width: 180px;
+  height: 48px;
+  padding: 0 1.5rem;
+  color: var(--text);
+  background-color: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.15s ease,
+    box-shadow 0.2s ease;
+}
+
+.home-btn:hover {
+  background-color: var(--button-hover-bg);
+  color: var(--button-hover-text);
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.4);
+  transform: translateY(-1px);
+}
+
+.home-btn:active {
+  transform: translateY(0);
+}
+
+/* =========================================================
+   RESPONSIVIDADE
+   ========================================================= */
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  .home-container {
+    width: 100%;
+    border-radius: 16px;
+  }
+
+  .home-logo {
+    height: 180px;
+  }
+
+  .home-logo img {
+    width: 180px;
+  }
+
+  .home-content {
+    padding: 2.5rem 2rem;
+  }
+
+  .home-content h1 {
+    font-size: 1.7rem;
+  }
+}
+
+/* =========================================================
+   CELULARES PEQUENOS
+   ========================================================= */
+
+@media (max-width: 400px) {
+  body {
+    padding: 0.75rem;
+  }
+
+  .home-logo {
+    height: 150px;
+  }
+
+  .home-logo img {
+    width: 160px;
+  }
+
+  .home-content {
+    padding: 2rem 1.5rem;
+  }
+
+  .home-content h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* =========================================================
+   ACESSIBILIDADE
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  .home-logo img,
+  .home-btn {
+    transition: none;
+  }
+}
