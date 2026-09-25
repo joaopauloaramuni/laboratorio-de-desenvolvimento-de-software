@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
+}
+
+.topo {
+    background-color: #1a3c6e;
+    color: #fff;
+    padding: 16px 24px;
+}
+
+.topo h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.filtros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    margin-bottom: 16px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    min-width: 180px;
+}
+
+.campo label {
+    font-size: 13px;
+    margin-bottom: 4px;
+    color: #555;
+}
+
+.campo input,
+.campo select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.botoes {
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.botoes button,
+.limpar {
+    box-sizing: border-box;
+    height: 38px;
+    padding: 0 18px;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: inherit;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    vertical-align: middle;
+}
+
+.botoes button {
+    background-color: #1a3c6e;
+    color: #fff;
+    border-color: #1a3c6e;
+}
+
+.botoes button:hover {
+    background-color: #12294d;
+    border-color: #12294d;
+}
+
+.limpar {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.resultado-info {
+    margin: 8px 0 16px;
+    color: #444;
+    font-size: 14px;
+}
+
+.grade-candidatos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 12px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.foto-candidato {
+    width: 100%;
+    aspect-ratio: 161 / 225;
+    height: auto;
+    object-fit: cover;
+    background-color: #ddd;
+    display: block;
+}
+
+.card-info {
+    padding: 8px 10px;
+}
+
+.card-info h2 {
+    font-size: 13px;
+    margin: 0 0 3px;
+    color: #1a3c6e;
+    line-height: 1.2;
+}
+
+.card-info p {
+    margin: 1px 0;
+    font-size: 11px;
+    color: #444;
+    line-height: 1.3;
+}
+
+.extra {
+    color: #666;
+}
+
+.numero {
+    font-weight: bold;
+}
+
+.situacao {
+    color: #b40000;
+    font-style: italic;
+}
+
+.detalhes {
+    color: #999;
+    font-size: 10px;
+    font-style: italic;
+}
+
+.sem-resultado {
+    margin-top: 24px;
+    text-align: center;
+    color: #777;
+    font-size: 15px;
+}
