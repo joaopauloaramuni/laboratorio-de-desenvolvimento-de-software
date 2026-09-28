@@ -1,0 +1,468 @@
+/* ==========================================================================
+   Fontes do Google
+   Space Grotesk para títulos (geométrica, com personalidade)
+   Inter para conteúdo/dados
+   ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+/* ==========================================================================
+   Tokens de design (cores, raio de borda) — conceito de sintonizador de rádio:
+   painel escuro tipo faceplate + acento âmbar (luz "no ar" / tuning)
+   ========================================================================== */
+:root {
+    --ink: #1c1a17;              /* fundo escuro do cabeçalho/painel */
+    --panel: #24211d;            /* fundo do painel de busca */
+    --panel-line: #3a352e;       /* bordas/divisores sobre fundo escuro */
+    --amber: #f2a33c;            /* acento principal (luz de sintonia) */
+    --amber-deep: #d9841f;       /* acento em hover/estados ativos */
+    --amber-glow: rgba(242, 163, 60, 0.35); /* brilho do acento */
+    --paper: #faf8f4;            /* fundo do conteúdo (tabela) */
+    --paper-line: #e6dfd2;       /* bordas sobre fundo claro */
+    --text: #2a2620;             /* texto principal */
+    --text-muted: #7a7266;       /* texto secundário/legendas */
+    --green: #1a7a34;            /* status online */
+    --red: #b91c1c;              /* status offline */
+    --radius: 10px;
+}
+
+/* ==========================================================================
+   Reset básico
+   ========================================================================== */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    /* Força controles nativos (select, audio, scrollbar) no esquema claro,
+       em vez de herdar dark mode do sistema operacional. */
+    color-scheme: light;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ece7dd;
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+}
+
+/* Esconde visualmente mas mantém acessível a leitores de tela
+   (usado no texto "Online"/"Offline" junto com a bolinha de status) */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* ==========================================================================
+   Container principal
+   ========================================================================== */
+.container {
+    width: min(1600px, 97vw);
+    margin: 32px auto;
+    background: var(--paper);
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: 0 12px 32px rgba(28, 26, 23, 0.14);
+}
+
+/* ==========================================================================
+   Cabeçalho — painel do sintonizador
+   ========================================================================== */
+.tuner-header {
+    background: var(--ink);
+    padding: 28px 32px 0;
+}
+
+.tuner-brand {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.tuner-brand h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    color: var(--amber);
+    font-size: clamp(1.6rem, 2.6vw, 2.1rem);
+    margin: 0;
+    letter-spacing: -0.01em;
+    text-shadow: 0 0 24px var(--amber-glow);
+}
+
+.tuner-brand .tagline {
+    font-family: 'Inter', sans-serif;
+    color: #b7b0a2;
+    font-size: 0.88rem;
+    margin: 4px 0 0;
+}
+
+/* Indicador "Ao vivo" com ponto pulsante */
+.on-air {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--amber);
+    letter-spacing: 0.06em;
+    white-space: nowrap;
+}
+
+.on-air .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--amber);
+    box-shadow: 0 0 10px 2px var(--amber-glow);
+    animation: pulse 1.8s ease-in-out infinite;
+}
+
+/* Respeita preferência do usuário por menos movimento */
+@media (prefers-reduced-motion: reduce) {
+    .on-air .dot {
+        animation: none;
+    }
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.35; }
+}
+
+/* Trilho de sintonia — linhas de dial decorativas, um único gesto de identidade */
+.dial-ticks {
+    height: 14px;
+    background-image: repeating-linear-gradient(
+        90deg,
+        var(--panel-line) 0,
+        var(--panel-line) 1px,
+        transparent 1px,
+        transparent 10px
+    );
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    border-bottom: 2px solid var(--amber-deep);
+}
+
+/* ==========================================================================
+   Painel de controles / formulário de busca
+   ========================================================================== */
+.search-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+    padding: 20px 32px;
+    background: var(--panel);
+    border-bottom: 1px solid var(--panel-line);
+}
+
+/* Wrapper do <select>: necessário porque pseudo-elementos (::after) não
+   renderizam de forma confiável dentro do próprio <select>, então a seta
+   customizada é desenhada aqui por fora, sobreposta. */
+.select-wrap {
+    position: relative;
+    flex: 1 1 240px;
+    min-width: 200px;
+}
+
+/* Seta do combobox em CSS puro (triângulo via bordas), sem imagem nem data URI */
+.select-wrap::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid var(--amber);
+    transform: translateY(-40%);
+    pointer-events: none;
+}
+
+.search-form select {
+    width: 100%;
+    padding: 11px 40px 11px 14px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.92rem;
+    color: #f1ede4;
+    background-color: #302b24;
+    border: 1px solid var(--panel-line);
+    border-radius: 8px;
+    appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.search-form select:hover {
+    border-color: var(--amber);
+}
+
+.search-form select:focus-visible {
+    outline: 2px solid var(--amber);
+    outline-offset: 2px;
+}
+
+.search-form button {
+    flex: 0 0 auto;
+    padding: 12px 28px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 0.92rem;
+    color: var(--ink);
+    background: var(--amber);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.15s ease, transform 0.1s ease;
+}
+
+.search-form button:hover {
+    background: #f5b45e;
+}
+
+.search-form button:active {
+    transform: scale(0.97);
+}
+
+.search-form button:focus-visible {
+    outline: 2px solid var(--paper);
+    outline-offset: 2px;
+}
+
+/* ==========================================================================
+   Tabela / listagem de estações
+   ========================================================================== */
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+table {
+    /* table-layout: fixed + <colgroup> em % no HTML: a tabela ocupa 100% do
+       container disponível, sem precisar de scroll horizontal em telas
+       largas; o texto quebra dentro de cada coluna quando necessário.
+       min-width baixo é só uma rede de segurança para telas muito estreitas. */
+    table-layout: fixed;
+    width: 100%;
+    min-width: 860px;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+th, td {
+    padding: 8px 8px;
+    text-align: left;
+    border-bottom: 1px solid var(--paper-line);
+    font-size: 0.78rem;
+    vertical-align: middle;
+}
+
+/* Colunas com texto longo (nome, url, tags, idioma) que devem quebrar linha
+   dentro da largura da coluna, em vez de estourar ou espremer demais */
+td.break-word {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+th {
+    background: var(--ink);
+    color: var(--amber);
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 0.7rem;
+    line-height: 1.2;
+    /* Quebra em duas linhas se necessário, em vez de truncar com "..." */
+    white-space: normal;
+    word-break: break-word;
+}
+
+/* Numeração da linha (coluna #) lida como canal/frequência de rádio */
+td:nth-child(2) {
+    font-family: 'Space Grotesk', sans-serif;
+    font-variant-numeric: tabular-nums;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+/* Colunas numéricas (votos, cliques) alinhadas com algarismos tabulares */
+td:nth-child(9),
+td:nth-child(10) {
+    font-variant-numeric: tabular-nums;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f4f0e7;
+}
+
+tbody tr:hover {
+    background-color: #fdf0dc;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Links dentro da tabela (nome da rádio, URL do stream, link de mapa) */
+a {
+    color: var(--amber-deep);
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+    word-break: break-word;
+}
+
+a:hover {
+    color: var(--ink);
+    text-decoration: underline;
+}
+
+/* Favicon das estações, com fallback tratado via onerror no HTML */
+.favicon {
+    width: 52px;
+    height: 52px;
+    border-radius: 8px;
+    object-fit: cover;
+    background-color: var(--paper);
+    border: 1px solid var(--paper-line);
+    display: block;
+}
+
+/* --------------------------------------------------------------------------
+   Indicador de status online/offline — bolinha colorida com tooltip nativo
+   (title) e texto acessível para leitores de tela (baseado em lastcheckok)
+   -------------------------------------------------------------------------- */
+.status-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: default;
+}
+
+.status-dot.online {
+    background-color: var(--green);
+    box-shadow: 0 0 0 2px rgba(26, 122, 52, 0.18);
+}
+
+.status-dot.offline {
+    background-color: var(--red);
+    box-shadow: 0 0 0 2px rgba(185, 28, 28, 0.18);
+}
+
+/* --------------------------------------------------------------------------
+   Tendência de cliques (clicktrend: positivo sobe, negativo cai, 0 estável)
+   -------------------------------------------------------------------------- */
+.trend {
+    font-weight: 600;
+    font-size: 0.76rem;
+    white-space: nowrap;
+}
+
+.trend.up {
+    color: var(--green);
+}
+
+.trend.down {
+    color: var(--red);
+}
+
+.trend.flat {
+    color: var(--text-muted);
+}
+
+/* Texto neutro para campos sem dado disponível (ex: sem coordenadas geográficas) */
+.no-data {
+    color: var(--text-muted);
+}
+
+/* --------------------------------------------------------------------------
+   Botão de favorito (estrela) — alterna via POST /favorites/toggle
+   -------------------------------------------------------------------------- */
+.fav-form {
+    margin: 0;
+}
+
+.fav-btn {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    line-height: 1;
+    cursor: pointer;
+    color: var(--text-muted);
+    padding: 2px;
+    transition: color 0.15s ease, transform 0.1s ease;
+}
+
+.fav-btn:hover {
+    color: var(--amber);
+    transform: scale(1.15);
+}
+
+.fav-btn.active {
+    color: var(--amber);
+}
+
+.fav-btn:focus-visible {
+    outline: 2px solid var(--amber);
+    outline-offset: 2px;
+}
+
+/* --------------------------------------------------------------------------
+   Player de áudio nativo
+   -------------------------------------------------------------------------- */
+.audio-container {
+    width: 100%;
+    padding: 3px;
+    background-color: #f4f0e7;
+    border: 1px solid var(--amber);
+    border-radius: 6px;
+}
+
+.audio-container audio {
+    width: 100%;
+    height: 26px;
+    display: block;
+    color-scheme: light;
+}
+
+/* ==========================================================================
+   Responsivo
+   ========================================================================== */
+@media (max-width: 768px) {
+    .container {
+        width: 96vw;
+        margin: 16px auto;
+    }
+
+    .tuner-header {
+        padding: 20px 20px 0;
+    }
+
+    .search-form {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 16px 20px;
+    }
+
+    .search-form select,
+    .search-form button {
+        width: 100%;
+    }
+}

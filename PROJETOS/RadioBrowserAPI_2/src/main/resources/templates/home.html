@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estações de Rádio</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+<body>
+<div class="container">
+
+    <header class="tuner-header">
+        <div class="tuner-brand">
+            <div>
+                <h1>📻 AraDio</h1>
+                <p class="tagline">Sintonize estações de rádio de todo o Brasil</p>
+            </div>
+            <span class="on-air"><span class="dot"></span>Ao vivo</span>
+        </div>
+        <div class="dial-ticks"></div>
+    </header>
+
+    <form method="get" th:action="@{/}" class="search-form">
+        <div class="select-wrap">
+            <select name="country">
+                <option th:each="c : ${countries}"
+                        th:value="${c['name']}"
+                        th:text="${c['name'] + ' (' + c['stationcount'] + ')'}"
+                        th:selected="${c['name'] == selectedCountry}">
+                </option>
+            </select>
+        </div>
+
+        <div class="select-wrap">
+            <select name="state">
+                <option value="" th:selected="${selectedState == null || selectedState.isEmpty()}">
+                    Todos os estados
+                </option>
+                <option th:each="s : ${states}"
+                        th:value="${s['name']}"
+                        th:text="${s['name'] + ' (' + s['stationcount'] + ')'}"
+                        th:selected="${s['name'] == selectedState}">
+                </option>
+            </select>
+        </div>
+
+        <button type="submit">Buscar</button>
+    </form>
+
+    <div class="table-wrapper">
+        <table>
+            <!-- Larguras em percentual (somam 100%): a tabela se ajusta à largura
+                 disponível em vez de forçar scroll horizontal; o texto quebra
+                 dentro de cada coluna quando necessário. -->
+            <colgroup>
+                <col style="width: 3%">    <!-- ★ -->
+                <col style="width: 3%">    <!-- # -->
+                <col style="width: 8%">    <!-- Favicon -->
+                <col style="width: 11%">   <!-- Nome -->
+                <col style="width: 13%">   <!-- URL -->
+                <col style="width: 10%">   <!-- Tags -->
+                <col style="width: 4%">    <!-- Status -->
+                <col style="width: 9%">    <!-- Idioma -->
+                <col style="width: 4%">    <!-- Votos -->
+                <col style="width: 4%">    <!-- Cliques -->
+                <col style="width: 5%">    <!-- Tendência -->
+                <col style="width: 4%">    <!-- Local -->
+                <col style="width: 4%">    <!-- Bitrate -->
+                <col style="width: 4%">    <!-- Codec -->
+                <col style="width: 12%">   <!-- Player -->
+            </colgroup>
+            <thead>
+            <tr>
+                <th>★</th>
+                <th>#</th>
+                <th>Favicon</th>
+                <th>Nome</th>
+                <th>URL</th>
+                <th>Tags</th>
+                <th>Status</th>
+                <th>Idioma</th>
+                <th>Votos</th>
+                <th>Cliques</th>
+                <th>Tendência</th>
+                <th>Local</th>
+                <th>Bitrate</th>
+                <th>Codec</th>
+                <th>Player</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="station, iterStat : ${stations}">
+                <td>
+                    <form method="post" th:action="@{/favorites/toggle}" class="fav-form">
+                        <input type="hidden" name="stationuuid" th:value="${station.stationuuid}" />
+                        <input type="hidden" name="country" th:value="${selectedCountry}" />
+                        <input type="hidden" name="state" th:value="${selectedState}" />
+                        <button type="submit"
+                                class="fav-btn"
+                                th:classappend="${station.favorite} ? 'active' : ''"
+                                th:text="${station.favorite} ? '★' : '☆'">
+                        </button>
+                    </form>
+                </td>
+                <td th:text="${iterStat.index + 1}"></td>
+                <td>
+                    <img class="favicon"
+                        th:src="${station.favicon}"
+                        th:alt="Favicon"
+                        onerror="this.onerror=null; this.src='/imgs/aradio.webp';" />
+                </td>
+                <td class="break-word">
+                    <a th:href="${station.homepage}" th:text="${station.name}"></a>
+                </td>
+                <td class="break-word"><a th:href="${station.url}" th:text="${station.url}"></a></td>
+                <td class="break-word" th:text="${station.tags}"></td>
+                <td>
+                    <span class="status-dot"
+                          th:classappend="${station.lastcheckok == 1} ? 'online' : 'offline'"
+                          th:title="${station.lastcheckok == 1} ? 'Online' : 'Offline'">
+                        <span class="visually-hidden" th:text="${station.lastcheckok == 1} ? 'Online' : 'Offline'"></span>
+                    </span>
+                </td>
+                <td class="break-word" th:text="${station.language}"></td>
+                <td th:text="${station.votes}"></td>
+                <td th:text="${station.clickcount}"></td>
+                <td>
+                    <span th:if="${station.clicktrend > 0}" class="trend up">▲ <span th:text="${station.clicktrend}"></span></span>
+                    <span th:if="${station.clicktrend < 0}" class="trend down">▼ <span th:text="${station.clicktrend}"></span></span>
+                    <span th:if="${station.clicktrend == 0}" class="trend flat">–</span>
+                </td>
+                <td>
+                    <a th:if="${station.geoLat != null and station.geoLat != 0}"
+                       th:href="'https://www.google.com/maps?q=' + ${station.geoLat} + ',' + ${station.geoLong}"
+                       target="_blank"
+                       rel="noopener"
+                       title="Ver no mapa">
+                        📍
+                    </a>
+                    <span th:if="${station.geoLat == null or station.geoLat == 0}" class="no-data">—</span>
+                </td>
+                <td th:text="${station.bitrate}"></td>
+                <td th:text="${station.codec}"></td>
+                <td>
+                    <div class="audio-container">
+                        <audio controls>
+                            <source th:src="${station.url}" type="audio/mpeg">
+                            Seu navegador não suporta o elemento audio.
+                        </audio>
+                    </div>
+                </td>
+            </tr>
+            <tr th:if="${#lists.isEmpty(stations)}">
+                <td colspan="15" style="text-align:center;">Nenhuma rádio encontrada para esses filtros.</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>
