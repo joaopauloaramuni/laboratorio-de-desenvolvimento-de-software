@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f1ec;
+    color: #222;
+}
+
+/* ---------- Cabeçalho ---------- */
+
+.topo {
+    background-color: #5b2a86;
+    color: #fff;
+    padding: 16px 24px;
+}
+
+.topo h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.subtitulo {
+    margin: 4px 0 0;
+    font-size: 13px;
+    opacity: 0.85;
+}
+
+/* ---------- Layout: painel lateral + conteúdo ---------- */
+
+.layout {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    gap: 20px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: start;
+}
+
+/* ---------- Painel de filtros ---------- */
+
+.painel-filtros {
+    position: sticky;
+    top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    padding: 16px;
+}
+
+.grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: 0 0 16px;
+    padding: 0;
+    border: none;
+}
+
+.grupo legend,
+.grupo > label:not(.opcao),
+.rotulo {
+    font-size: 13px;
+    font-weight: bold;
+    color: #5b2a86;
+    margin-bottom: 2px;
+}
+
+.opcao {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.grupo select,
+.faixa-idade input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.faixa-idade {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    color: #555;
+}
+
+.botoes {
+    display: flex;
+    gap: 8px;
+}
+
+.botoes button,
+.limpar {
+    flex: 1;
+    height: 38px;
+    border: 1px solid #5b2a86;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: inherit;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.botoes button {
+    background-color: #5b2a86;
+    color: #fff;
+}
+
+.botoes button:hover {
+    background-color: #43206a;
+}
+
+.limpar {
+    background-color: #fff;
+    color: #5b2a86;
+}
+
+/* ---------- Lista de candidatos ---------- */
+
+.resultado-info {
+    margin: 0 0 12px;
+    font-size: 14px;
+    color: #444;
+}
+
+.lista-candidatos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 12px;
+}
+
+/* card horizontal: foto à esquerda, dados à direita */
+.card-candidato {
+    display: flex;
+    gap: 12px;
+    background-color: #fff;
+    border-radius: 8px;
+    border-left: 4px solid #5b2a86;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+}
+
+.foto-candidato {
+    width: 90px;
+    flex-shrink: 0;
+    aspect-ratio: 161 / 225;
+    object-fit: cover;
+    border-radius: 4px;
+    background-color: #ddd;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+}
+
+.card-titulo {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.card-titulo h2 {
+    margin: 0;
+    font-size: 14px;
+    color: #222;
+}
+
+.numero {
+    font-size: 13px;
+    font-weight: bold;
+    color: #5b2a86;
+}
+
+.cargo-partido {
+    margin: 0;
+    font-size: 12px;
+    color: #555;
+}
+
+.etiquetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.etiqueta {
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px 8px;
+    border-radius: 10px;
+    background-color: #eee;
+    color: #444;
+}
+
+.etiqueta-f {
+    background-color: #f7e1f0;
+    color: #a0226f;
+}
+
+.etiqueta-m {
+    background-color: #e1ecf7;
+    color: #1f5c99;
+}
+
+.etiqueta-idade {
+    background-color: #fff3d6;
+    color: #8a5a00;
+}
+
+.extra {
+    margin: 0;
+    font-size: 11px;
+    color: #777;
+}
+
+.sem-resultado {
+    margin-top: 24px;
+    text-align: center;
+    color: #777;
+    font-size: 15px;
+}
+
+/* ---------- Telas estreitas: filtros acima da lista ---------- */
+
+@media (max-width: 800px) {
+    .layout {
+        grid-template-columns: 1fr;
+    }
+
+    .painel-filtros {
+        position: static;
+    }
+}
