@@ -1,0 +1,158 @@
+:root {
+    --primary: #4f46e5;
+    --primary-dark: #4338ca;
+    --bg: #f5f6fa;
+    --card-bg: #ffffff;
+    --border: #e2e4ea;
+    --text: #1f2430;
+    --muted: #6b7280;
+    --pending: #f59e0b;
+    --progress: #3b82f6;
+    --done: #22c55e;
+    --danger: #ef4444;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+}
+
+.app-header {
+    background: var(--primary);
+    color: white;
+    padding: 24px 32px;
+}
+
+.app-header h1 { margin: 0 0 4px 0; }
+.app-header p { margin: 0; opacity: 0.9; font-size: 14px; }
+
+.container {
+    max-width: 900px;
+    margin: 24px auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card h2 { margin-top: 0; font-size: 18px; }
+
+form { display: flex; flex-direction: column; gap: 6px; }
+
+label { font-size: 13px; color: var(--muted); margin-top: 6px; }
+
+input, textarea, button {
+    font-family: inherit;
+    font-size: 14px;
+}
+
+input, textarea {
+    padding: 8px 10px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+}
+
+textarea { resize: vertical; min-height: 60px; }
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 16px;
+    background: var(--primary);
+    color: white;
+    margin-top: 10px;
+    width: fit-content;
+}
+
+button:hover { background: var(--primary-dark); }
+
+#cancel-edit-btn {
+    background: var(--muted);
+    margin-left: 8px;
+}
+
+.list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.filters { display: flex; gap: 6px; }
+
+.filter-btn {
+    background: var(--bg);
+    color: var(--text);
+    border: 1px solid var(--border);
+    padding: 6px 12px;
+    margin: 0;
+}
+
+.filter-btn.active {
+    background: var(--primary);
+    color: white;
+}
+
+table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+
+th, td {
+    text-align: left;
+    padding: 10px 8px;
+    border-bottom: 1px solid var(--border);
+    font-size: 14px;
+}
+
+.status-badge {
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    color: white;
+}
+
+.status-PENDENTE { background: var(--pending); }
+.status-EM_ANDAMENTO { background: var(--progress); }
+.status-CONCLUIDA { background: var(--done); }
+
+.actions button {
+    padding: 5px 10px;
+    font-size: 12px;
+    margin: 0 4px 0 0;
+}
+
+.actions .delete-btn { background: var(--danger); }
+
+.report-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+}
+
+.report-item {
+    background: var(--bg);
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+}
+
+.report-item .value { font-size: 22px; font-weight: bold; }
+.report-item .label { font-size: 12px; color: var(--muted); }
+
+.app-footer {
+    text-align: center;
+    padding: 20px;
+    color: var(--muted);
+    font-size: 13px;
+}
