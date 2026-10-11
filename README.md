@@ -805,10 +805,22 @@ Exemplos de portfólio profissional:
 - 🌐 [Portfólio](https://portfolio-template-bohr-io.bohr.io/)
 - :octocat: [GitHub](https://github.com/bohr-io/portfolio-template)
 
+##### Abdul Momin
+- 🌐 [Portfólio](https://www.abdulmomin.dev/)
+- :octocat: [GitHub](https://github.com/Momin-786)
+
+##### Phas.dev
+- 🌐 [Portfólio](https://phas.dev/)
+- :octocat: [GitHub](https://github.com/pedrohqesilva)
+- :octocat: [Repositório do portfólio](https://github.com/pedrohqesilva/phas.dev)
+
 ##### Template para Terminal:
 - Componente React: [react-terminal-ui](https://github.com/jonmbake/react-terminal-ui)
 - Demonstração: [react-terminal-ui/demo](https://jonmbake.github.io/react-terminal-ui/demo/)
 - Styling: [ines/termynal](https://github.com/ines/termynal)
+
+##### Developer Portfolios
+- :octocat: [Repositório com exemplos de portfólios de desenvolvedores](https://github.com/emmabostian/developer-portfolios)
 
 ##### 📚 E-book: Building an Effective Dev Portfolio
 - [Building an Effective Dev Portfolio](https://storage.googleapis.com/joshwcomeau/building-an-effective-dev-portfolio.pdf)
