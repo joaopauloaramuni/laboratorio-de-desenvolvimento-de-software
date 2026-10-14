@@ -1,0 +1,1185 @@
+/* ==========================================================================
+   ESTILO DA PÁGINA (o mesmo do projeto React WakaTimeAPI)
+
+   Junta, nesta ordem, os três arquivos CSS do projeto React:
+     1. index.css           → reset, variáveis de cor e fundo da página
+     2. PageLayout.css      → card da página com a faixa azul (logo PUC + logo da API)
+     3. WakaTimeStats.css   → painel do WakaTime e cartão "Codando agora"
+   ========================================================================== */
+
+/* ##########################################################################
+   1. index.css
+   ########################################################################## */
+
+/* ==========================================================================
+   RESET
+   ========================================================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ==========================================================================
+   VARIÁVEIS (mesma paleta do SecureLoginPUC_React)
+   ========================================================================== */
+
+:root {
+  --brand: #005380;
+  --brand-deep: #00334f;
+  --brand-mid: #0a6ea6;
+  --brand-soft: #4fa8d8;
+
+  --background: #f8fafc;
+  --foreground: #171717;
+  --muted: #64748b;
+  --border: #e2e8f0;
+  --surface: #ffffff;
+  --surface-muted: #f1f5f9;
+  --input-background: #ffffff;
+  --placeholder: #94a3b8;
+
+  /* Mensagens */
+  --error-background: #fef2f2;
+  --error-border: #fecaca;
+  --error-text: #b91c1c;
+
+  --success-background: #e8f5e9;
+  --success-border: #a5d6a7;
+  --success-text: #2e7d32;
+
+  --warning-background: #fffbeb;
+  --warning-border: #fde68a;
+  --warning-text: #92400e;
+
+  --radius: 12px;
+}
+
+/* ==========================================================================
+   BODY
+   ========================================================================== */
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding: 2rem;
+
+  font-family: "Montserrat", sans-serif;
+
+  color: var(--foreground);
+
+  background:
+    radial-gradient(circle at 10% 10%, rgba(0, 83, 128, 0.08), transparent 30%),
+    radial-gradient(
+      circle at 90% 90%,
+      rgba(79, 168, 216, 0.1),
+      transparent 30%
+    ),
+    var(--background);
+}
+
+/* Inputs e botões herdam a fonte Montserrat */
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+}
+
+/* ==========================================================================
+   RESPONSIVIDADE
+   ========================================================================== */
+
+@media (max-width: 700px) {
+  body {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    padding: 0.75rem;
+  }
+}
+
+/* ##########################################################################
+   2. PageLayout.css
+   ########################################################################## */
+
+/* =========================================================
+   CONTAINER PRINCIPAL
+   ========================================================= */
+
+.page-container {
+  position: relative;
+
+  width: min(1080px, 94vw);
+
+  overflow: hidden;
+
+  background: #ffffff;
+
+  border: 1px solid rgba(0, 51, 79, 0.09);
+  border-radius: 20px;
+
+  box-shadow:
+    0 2px 4px rgba(0, 51, 79, 0.08),
+    0 24px 56px -12px rgba(0, 51, 79, 0.25);
+}
+
+/* =========================================================
+   FAIXA AZUL (LOGO PUC + LOGO DA API)
+   ========================================================= */
+
+.page-hero {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+
+  width: 100%;
+  height: 220px;
+
+  padding: 2rem;
+
+  overflow: hidden;
+
+  color: #ffffff;
+
+  background: linear-gradient(145deg, var(--brand-deep), var(--brand));
+}
+
+/* Círculo decorativo superior esquerdo */
+
+.page-hero::before {
+  content: "";
+
+  position: absolute;
+
+  width: 400px;
+  height: 400px;
+
+  top: -220px;
+  left: -100px;
+
+  border-radius: 50%;
+
+  background: rgba(79, 168, 216, 0.12);
+}
+
+/* Círculo decorativo inferior direito */
+
+.page-hero::after {
+  content: "";
+
+  position: absolute;
+
+  width: 320px;
+  height: 320px;
+
+  right: -100px;
+  bottom: -220px;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.page-hero-puc {
+  position: relative;
+  z-index: 1;
+
+  width: 170px;
+  max-width: 40%;
+  height: auto;
+
+  object-fit: contain;
+
+  transition: transform 0.3s ease;
+}
+
+.page-hero-puc:hover {
+  transform: scale(1.03);
+}
+
+.page-hero-divider {
+  position: relative;
+  z-index: 1;
+
+  width: 1px;
+  height: 110px;
+
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.page-hero-brand {
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.85rem;
+
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.page-hero-icon {
+  width: 96px;
+  height: 96px;
+
+  transition: transform 0.3s ease;
+}
+
+.page-hero-brand:hover .page-hero-icon {
+  transform: scale(1.06) rotate(-4deg);
+}
+
+/* =========================================================
+   TÍTULO
+   ========================================================= */
+
+.page-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 3rem 4rem 0;
+
+  text-align: center;
+}
+
+.page-label {
+  margin-bottom: 0.75rem;
+
+  color: var(--brand);
+
+  font-size: 0.75rem;
+  font-weight: 500;
+
+  letter-spacing: 0.12em;
+}
+
+.page-intro h1 {
+  color: var(--brand);
+
+  font-size: 2rem;
+  font-weight: 500;
+
+  line-height: 1.2;
+}
+
+.page-description {
+  max-width: 640px;
+
+  margin-top: 1rem;
+
+  color: var(--muted);
+
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.page-divider {
+  width: 60px;
+  height: 3px;
+
+  margin-top: 1.5rem;
+
+  background-color: var(--brand);
+
+  border-radius: 999px;
+}
+
+/* =========================================================
+   CONTEÚDO
+   ========================================================= */
+
+.page-content {
+  padding: 2.5rem 3rem 3rem;
+}
+
+.page-footer {
+  padding: 1.25rem;
+
+  color: var(--muted);
+
+  font-size: 0.8rem;
+
+  text-align: center;
+
+  border-top: 1px solid var(--border);
+}
+
+/* =========================================================
+   RESPONSIVIDADE
+   ========================================================= */
+
+@media (max-width: 700px) {
+  .page-container {
+    width: 100%;
+
+    border-radius: 16px;
+  }
+
+  .page-hero {
+    height: 180px;
+    gap: 1.5rem;
+  }
+
+  .page-hero-puc {
+    width: 120px;
+  }
+
+  .page-hero-icon {
+    width: 64px;
+    height: 64px;
+  }
+
+  .page-hero-divider {
+    height: 80px;
+  }
+
+  .page-intro {
+    padding: 2.5rem 2rem 0;
+  }
+
+  .page-intro h1 {
+    font-size: 1.7rem;
+  }
+
+  .page-content {
+    padding: 2rem 1.25rem 2.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .page-hero {
+    height: 150px;
+  }
+
+  .page-hero-brand span {
+    font-size: 0.85rem;
+  }
+
+  .page-intro h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* =========================================================
+   ACESSIBILIDADE
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  .page-hero-puc,
+  .page-hero-icon {
+    transition: none;
+  }
+}
+
+/* ##########################################################################
+   3. WakaTimeStats.css
+   ########################################################################## */
+
+/* =========================================================
+   WAKATIME STATS
+   As cores vêm das variáveis do index.css; se você copiar o
+   componente para outro projeto, os valores depois da vírgula
+   (fallback) garantem o mesmo visual.
+   ========================================================= */
+
+.waka {
+  --waka-brand: var(--brand, #005380);
+  --waka-brand-deep: var(--brand-deep, #00334f);
+  --waka-text: var(--foreground, #171717);
+  --waka-muted: var(--muted, #64748b);
+  --waka-border: var(--border, #e2e8f0);
+  --waka-surface: var(--surface-muted, #f1f5f9);
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  color: var(--waka-text);
+}
+
+/* =========================================================
+   BARRA DE PERÍODO
+   ========================================================= */
+
+.waka-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.waka-ranges {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 4px;
+
+  padding: 4px;
+
+  background: var(--waka-surface);
+
+  border-radius: 10px;
+}
+
+.waka-ranges button {
+  height: 36px;
+
+  padding: 0 0.9rem;
+
+  color: var(--waka-muted);
+
+  background: transparent;
+
+  border: none;
+  border-radius: 8px;
+
+  font-size: 0.85rem;
+  font-weight: 500;
+
+  white-space: nowrap;
+
+  cursor: pointer;
+
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.waka-ranges button:hover {
+  color: var(--waka-brand);
+}
+
+.waka-ranges button.active {
+  color: #ffffff;
+
+  background: var(--waka-brand);
+
+  box-shadow: 0 2px 4px rgba(0, 51, 79, 0.15);
+}
+
+.waka-profile {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+
+  color: var(--waka-brand);
+
+  font-size: 0.875rem;
+  font-weight: 500;
+
+  text-decoration: none;
+}
+
+.waka-profile:hover {
+  color: var(--waka-brand-deep);
+
+  text-decoration: underline;
+}
+
+/* =========================================================
+   CORPO (fica "apagado" enquanto troca de período)
+   ========================================================= */
+
+.waka-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  transition: opacity 0.2s ease;
+}
+
+.waka-body.updating {
+  opacity: 0.55;
+
+  pointer-events: none;
+}
+
+/* =========================================================
+   INDICADORES
+   ========================================================= */
+
+.waka-kpis {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+
+  list-style: none;
+}
+
+.waka-kpi {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+
+  padding: 1.1rem 1.2rem;
+
+  background: #ffffff;
+
+  border: 1px solid var(--waka-border);
+  border-radius: 12px;
+}
+
+.waka-kpi-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+
+  color: var(--waka-muted);
+
+  font-size: 0.75rem;
+  font-weight: 600;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.waka-kpi-label svg {
+  color: var(--waka-brand);
+
+  font-size: 1rem;
+}
+
+.waka-kpi-value {
+  color: var(--waka-brand);
+
+  font-size: 1.45rem;
+  font-weight: 600;
+
+  line-height: 1.2;
+}
+
+.waka-kpi-note {
+  color: var(--waka-muted);
+
+  font-size: 0.8rem;
+}
+
+/* =========================================================
+   BARRA DE LINGUAGENS (parte do todo)
+   ========================================================= */
+
+.waka-stack {
+  display: flex;
+  gap: 2px;
+
+  height: 12px;
+
+  overflow: hidden;
+
+  border-radius: 999px;
+}
+
+.waka-stack-seg {
+  min-width: 3px;
+}
+
+/* =========================================================
+   CARDS
+   ========================================================= */
+
+.waka-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  gap: 1.25rem;
+}
+
+.waka-card {
+  padding: 1.5rem;
+
+  background: #ffffff;
+
+  border: 1px solid var(--waka-border);
+  border-radius: 12px;
+}
+
+.waka-card h3 {
+  margin-bottom: 1.1rem;
+
+  color: var(--waka-brand);
+
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+/* =========================================================
+   LISTA DE LINGUAGENS
+   ========================================================= */
+
+.waka-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+
+  list-style: none;
+}
+
+.waka-row-head {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  align-items: center;
+  gap: 0.6rem;
+
+  font-size: 0.9rem;
+}
+
+.waka-dot {
+  width: 10px;
+  height: 10px;
+
+  background: var(--lang);
+
+  border-radius: 50%;
+}
+
+.waka-name {
+  overflow: hidden;
+
+  font-weight: 500;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.waka-time {
+  color: var(--waka-muted);
+
+  font-size: 0.82rem;
+}
+
+.waka-pct {
+  min-width: 52px;
+
+  color: var(--waka-brand);
+
+  font-size: 0.82rem;
+  font-weight: 600;
+
+  text-align: right;
+}
+
+.waka-bar {
+  height: 6px;
+
+  margin-top: 0.4rem;
+
+  overflow: hidden;
+
+  background: var(--waka-surface);
+
+  border-radius: 999px;
+}
+
+.waka-bar span {
+  display: block;
+
+  height: 100%;
+
+  background: var(--lang);
+
+  border-radius: inherit;
+
+  animation: waka-grow 0.6s ease both;
+}
+
+@keyframes waka-grow {
+  from {
+    width: 0;
+  }
+}
+
+.waka-row-rest {
+  color: var(--waka-muted);
+
+  font-size: 0.85rem;
+}
+
+/* =========================================================
+   MINI LISTAS (editores, sistemas, categorias)
+   ========================================================= */
+
+.waka-side {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.waka-mini h4 {
+  margin-bottom: 0.7rem;
+
+  color: var(--waka-brand);
+
+  font-size: 0.8rem;
+  font-weight: 600;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.waka-mini ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+
+  list-style: none;
+}
+
+.waka-mini li {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) 52px;
+  align-items: center;
+  gap: 0.6rem;
+
+  font-size: 0.85rem;
+}
+
+.waka-mini-name {
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.waka-mini-bar {
+  height: 6px;
+
+  overflow: hidden;
+
+  background: var(--waka-surface);
+
+  border-radius: 999px;
+}
+
+.waka-mini-bar span {
+  display: block;
+
+  height: 100%;
+
+  background: linear-gradient(90deg, var(--waka-brand-deep), var(--brand-soft, #4fa8d8));
+
+  border-radius: inherit;
+}
+
+.waka-mini-pct {
+  color: var(--waka-muted);
+
+  font-size: 0.8rem;
+
+  text-align: right;
+}
+
+/* =========================================================
+   PROJETOS
+   ========================================================= */
+
+.waka-projects ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+
+  list-style: none;
+}
+
+.waka-projects li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+
+  max-width: 100%;
+
+  padding: 0.45rem 0.85rem;
+
+  background: var(--waka-surface);
+
+  border-radius: 999px;
+
+  font-size: 0.85rem;
+}
+
+.waka-projects span {
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.waka-projects strong {
+  flex-shrink: 0;
+
+  color: var(--waka-brand);
+
+  font-weight: 600;
+
+  white-space: nowrap;
+}
+
+/* =========================================================
+   CODANDO AGORA (CodingNow.jsx)
+   ========================================================= */
+
+.waka-now {
+  --waka-live: var(--success-text, #2e7d32);
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+
+  padding: 1.1rem 1.25rem;
+
+  background: #ffffff;
+
+  border: 1px solid var(--waka-border);
+  border-left: 4px solid var(--waka-live);
+  border-radius: 12px;
+}
+
+.waka-now-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.waka-now-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  color: var(--waka-live);
+
+  font-size: 0.75rem;
+  font-weight: 600;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.waka-now-dot {
+  position: relative;
+
+  width: 10px;
+  height: 10px;
+
+  background: currentColor;
+
+  border-radius: 50%;
+}
+
+/* Onda saindo da bolinha enquanto está codando */
+.waka-now.active .waka-now-dot::after {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  background: currentColor;
+
+  border-radius: 50%;
+
+  animation: waka-pulse 1.6s ease-out infinite;
+}
+
+@keyframes waka-pulse {
+  from {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  to {
+    transform: scale(2.6);
+    opacity: 0;
+  }
+}
+
+.waka-now-ago {
+  color: var(--waka-muted);
+
+  font-size: 0.8rem;
+}
+
+.waka-now-project {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+
+  min-width: 0;
+
+  font-size: 1.15rem;
+}
+
+/* Ícone + nome ficam juntos; nome comprido termina em "..." */
+.waka-now-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  min-width: 0;
+  max-width: 100%;
+}
+
+.waka-now-name svg {
+  flex-shrink: 0;
+
+  color: var(--waka-brand);
+}
+
+.waka-now-project strong {
+  overflow: hidden;
+
+  color: var(--waka-brand);
+
+  font-weight: 600;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.waka-now-branch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+
+  max-width: 100%;
+
+  padding: 0.15rem 0.6rem;
+
+  overflow: hidden;
+
+  color: var(--waka-muted);
+
+  background: var(--waka-surface);
+
+  border-radius: 999px;
+
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.8rem;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.waka-now-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.1rem;
+
+  color: var(--waka-muted);
+
+  font-size: 0.85rem;
+
+  list-style: none;
+}
+
+.waka-now-meta li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.waka-now-meta svg {
+  color: var(--waka-brand);
+}
+
+/* Parado: uma linha só, sem destaque */
+.waka-now.idle {
+  --waka-live: var(--waka-muted);
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.9rem;
+
+  padding: 0.75rem 1.1rem;
+
+  background: var(--waka-surface);
+
+  border-left-color: var(--waka-border);
+}
+
+.waka-now-idle-text {
+  color: var(--waka-muted);
+
+  font-size: 0.85rem;
+}
+
+.waka-now-idle-text strong {
+  color: var(--waka-text);
+
+  font-weight: 500;
+}
+
+/* =========================================================
+   MENSAGENS, VAZIO, CARREGANDO
+   ========================================================= */
+
+.waka-message {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  padding: 12px;
+
+  border-radius: 8px;
+
+  font-size: 14px;
+
+  text-align: center;
+}
+
+.waka-message strong {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.waka-message.error {
+  color: var(--error-text, #b91c1c);
+
+  background: var(--error-background, #fef2f2);
+
+  border: 1px solid var(--error-border, #fecaca);
+}
+
+.waka-message.warning {
+  color: var(--warning-text, #92400e);
+
+  background: var(--warning-background, #fffbeb);
+
+  border: 1px solid var(--warning-border, #fde68a);
+}
+
+.waka-empty,
+.waka-source {
+  color: var(--waka-muted);
+
+  font-size: 0.85rem;
+
+  text-align: center;
+}
+
+.waka-skeleton {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.waka-skeleton-kpis {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.waka-skeleton span {
+  display: block;
+
+  height: 96px;
+
+  background: linear-gradient(90deg, #eef2f7 25%, #f8fafc 50%, #eef2f7 75%);
+  background-size: 200% 100%;
+
+  border-radius: 12px;
+
+  animation: waka-shimmer 1.2s linear infinite;
+}
+
+.waka-skeleton .waka-skeleton-bar {
+  height: 12px;
+}
+
+.waka-skeleton .waka-skeleton-block {
+  height: 320px;
+}
+
+@keyframes waka-shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}
+
+/* =========================================================
+   RESPONSIVIDADE
+   ========================================================= */
+
+@media (max-width: 900px) {
+  .waka-kpis,
+  .waka-skeleton-kpis {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .waka-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .waka-kpis {
+    gap: 0.75rem;
+  }
+
+  .waka-kpi {
+    padding: 0.9rem;
+  }
+
+  .waka-kpi-value {
+    font-size: 1.05rem;
+  }
+
+  .waka-card {
+    padding: 1.15rem;
+  }
+
+  .waka-now {
+    padding: 0.95rem 1rem;
+  }
+
+  .waka-now-project {
+    font-size: 1rem;
+  }
+
+  .waka-ranges {
+    width: 100%;
+  }
+
+  .waka-ranges button {
+    flex: 1 1 auto;
+
+    padding: 0 0.6rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .waka-kpis,
+  .waka-skeleton-kpis {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .waka-bar span,
+  .waka-skeleton span,
+  .waka-now.active .waka-now-dot::after {
+    animation: none;
+  }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<!--
+  Cartão "Codando agora": em que projeto você está mexendo no editor neste
+  momento, com branch, linguagem, editor e duração da sessão.
+
+  O controller devolve só este fragmento em GET /fragmentos/codando-agora, e a
+  página o busca a cada minuto (static/js/codando-agora.js). Os dados vêm dos
+  heartbeats do WakaTime, lidos no servidor com o token OAuth
+  (service/CodingNowService).
+-->
+<body>
+<th:block th:fragment="card" th:with="last=${now.last}, projectName=${now.last != null and now.last.isPublic ? now.last.project : 'projeto privado'}">
+
+	<!-- ---------- Parado: uma linha discreta ---------- -->
+	<section th:if="${!now.active}" class="waka-now idle" aria-label="Codando agora">
+		<span class="waka-now-status">
+			<span class="waka-now-dot" aria-hidden="true"></span>
+			Parado agora
+		</span>
+		<span class="waka-now-idle-text">
+			<th:block th:if="${last != null}">
+				Última atividade <th:block th:text="${@fmt.ago(last.at)}"></th:block>
+				em <strong th:text="${projectName}"></strong><th:block th:if="${last.language != null}" th:text="' · ' + ${last.language}"></th:block>
+			</th:block>
+			<th:block th:if="${last == null}">Nenhuma atividade no editor hoje</th:block>
+			<th:block th:if="${now.todaySeconds >= 60}" th:text="' · ' + ${@fmt.duration(now.todaySeconds)} + ' hoje'"></th:block>
+		</span>
+	</section>
+
+	<!-- ---------- Codando: cartão completo ---------- -->
+	<section th:if="${now.active}" class="waka-now active" aria-label="Codando agora" aria-live="polite">
+		<div class="waka-now-head">
+			<span class="waka-now-status">
+				<span class="waka-now-dot" aria-hidden="true"></span>
+				Codando agora
+			</span>
+			<span class="waka-now-ago" th:text="'último sinal ' + ${@fmt.ago(last.at)}"></span>
+		</div>
+
+		<p class="waka-now-project">
+			<span class="waka-now-name">
+				<!-- th:replace roda antes de th:if: por isso o if fica no th:block -->
+				<th:block th:if="${last.isPublic}"><svg th:replace="~{fragments/icons :: folder}"></svg></th:block>
+				<th:block th:unless="${last.isPublic}"><svg th:replace="~{fragments/icons :: lock}"></svg></th:block>
+				<strong th:title="${projectName}" th:text="${projectName}"></strong>
+			</span>
+			<span th:if="${last.isPublic and last.branch != null}" class="waka-now-branch">
+				<svg th:replace="~{fragments/icons :: gitBranch}"></svg>
+				<th:block th:text="${last.branch}"></th:block>
+			</span>
+		</p>
+
+		<ul class="waka-now-meta">
+			<li th:if="${last.language != null}">
+				<span class="waka-dot" th:style="'--lang: ' + ${@fmt.color(last.language)}" aria-hidden="true"></span>
+				<th:block th:text="${last.language}"></th:block>
+			</li>
+			<li th:if="${last.editor != null}">
+				<svg th:replace="~{fragments/icons :: monitor}"></svg>
+				<th:block th:text="${last.editor}"></th:block>
+			</li>
+			<li th:if="${last.sessionSeconds >= 60}">
+				<svg th:replace="~{fragments/icons :: clock}"></svg>
+				<th:block th:text="'sessão de ' + ${@fmt.duration(last.sessionSeconds)} + ' (desde ' + ${@fmt.time(last.sessionStart)} + ')'"></th:block>
+			</li>
+			<li th:if="${last.projectTodaySeconds >= 60}">
+				<svg th:replace="~{fragments/icons :: sun}"></svg>
+				<th:block th:text="${@fmt.duration(last.projectTodaySeconds)} + ' hoje neste projeto'"></th:block>
+			</li>
+		</ul>
+	</section>
+</th:block>
+</body>
+</html>
