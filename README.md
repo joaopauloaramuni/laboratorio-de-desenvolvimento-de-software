@@ -169,7 +169,7 @@ Ao se cadastrar no **GitHub Student Developer Pack**, você garante acesso gratu
 3️⃣ Ao acessar o [GitHub Student Developer Pack](https://education.github.com/pack), **permita que o navegador compartilhe sua localização atual** 🌍.  
 4️⃣ **Selecione "PUC Minas"** como sua instituição, envie um **print da sua carteirinha digital do app PUC Mobile** ou um **comprovante de matrícula recente** como forma de verificação. Depois, aguarde até **2 dias úteis** para que o selo **GitHub Pro** 🏅 seja ativado na sua conta.  
 5️⃣ Acesse: [https://www.jetbrains.com/shop/eform/students](https://www.jetbrains.com/shop/eform/students)  
- ➡ Vá até a aba **GitHub** e clique em **"Authorize with GitHub"** 🔑.  
+ ➡ Vá até a aba **GitHub** e clique em **"Authorize with GitHub"** 🔑.  
 6️⃣ **Instale o IntelliJ IDEA** e, ao abrir o programa, vá em **"Ativar licença"**. Escolha a opção **"Log in with GitHub"**, faça login com sua conta GitHub (que já possui o selo **GitHub Pro** 🏅 e que você autorizou previamente no site da JetBrains — [passo 5](https://www.jetbrains.com/shop/eform/students)), e a **licença Ultimate será ativada automaticamente** 🎉.
 
 🏁 Pronto! Agora você pode aproveitar todos os benefícios do **GitHub Pro** 🏅, incluindo:
@@ -185,6 +185,77 @@ Esses recursos ajudam a **elevar seu aprendizado, organizar seus projetos e turb
 
 🔗 Confira todos os detalhes do plano GitHub Pro para estudantes aqui:  
 - [https://docs.github.com/pt/get-started/learning-about-github/githubs-plans#github-pro](https://docs.github.com/pt/get-started/learning-about-github/githubs-plans#github-pro)
+
+-----
+
+###### 🌐 Como obter um domínio `.dev` gratuito no Name.com com o GitHub Pro
+Com o selo **GitHub Pro** 🏅 ativo na sua conta (obtido no passo a passo anterior do **GitHub Student Developer Pack**), você pode registrar **gratuitamente por 1 ano** um domínio próprio no [Name.com](https://www.name.com/pt-br/partner/github-faculty) — por exemplo, `seunome.dev` — e apontá-lo para o seu **portfólio hospedado na Vercel** 🚀. Um domínio próprio deixa seu portfólio e seu currículo muito mais profissionais! 💼
+
+> ⚠️ **Pré-requisito:** a sua conta do GitHub precisa estar com o selo **GitHub Pro** 🏅 já ativado. Se ainda não estiver, faça primeiro o passo a passo do **GitHub Student Developer Pack** acima.
+
+###### 🛒 Parte 1 — Registrando o domínio no Name.com
+
+1️⃣ Acesse o link do parceiro GitHub no Name.com: [https://www.name.com/pt-br/partner/github-faculty](https://www.name.com/pt-br/partner/github-faculty)  
+2️⃣ Clique na opção de **login com o GitHub** 🔑 e **autorize** o Name.com a acessar sua conta GitHub (é assim que o Name.com confirma que você possui o **GitHub Pro** 🏅). Se for seu primeiro acesso, complete o **cadastro da conta** no Name.com com seus dados.  
+3️⃣ Na busca de domínios, **pesquise o nome desejado** (ex.: `seunome`) e escolha a extensão **`.dev`**. Os domínios elegíveis ao benefício aparecerão com **preço zerado** (US$ 0,00 / R$ 0,00) no primeiro ano.  
+4️⃣ **Adicione o domínio ao carrinho** e siga para o **checkout**.  
+5️⃣ 💳 **Cadastre um cartão de crédito.** O Name.com **exige um cartão cadastrado** para finalizar a compra, **mas o valor cobrado será zero** (R$ 0,00). ✅ Antes de confirmar, **verifique se o total do pedido está zerado**. Se aparecer algum valor, revise o carrinho (às vezes são adicionados serviços extras opcionais, como e-mail ou proteção de privacidade paga — remova-os).  
+6️⃣ Finalize o pedido. O domínio aparecerá na sua conta em **My Domains / Meus Domínios** 🎉.  
+7️⃣ 🔁 **IMPORTANTE — Desative a renovação automática!** Depois que o domínio for adquirido, acesse **My Domains / Meus Domínios**, clique no seu domínio e **desmarque a opção de renovação automática (Auto Renew / Renovação automática)**.  
+ ➡ Se você não fizer isso, **após 1 ano o domínio será renovado automaticamente e o valor cheio será cobrado no seu cartão** 💸.  
+ ➡ Se quiser, depois disso você também pode **remover o cartão salvo** na área de pagamentos da sua conta.
+
+###### ▲ Parte 2 — Adicionando o domínio no projeto da Vercel
+
+8️⃣ Acesse o [painel da Vercel](https://vercel.com/dashboard), abra o **projeto do seu portfólio** e vá em **Settings → Domains** (aba **Domínios**).  
+9️⃣ Clique em **Add Domain**, digite seu domínio (ex.: `seunome.dev`) e confirme. A Vercel normalmente sugere adicionar também a versão **`www.seunome.dev`** com redirecionamento para o domínio principal — pode aceitar ✅.  
+🔟 Logo após adicionar, a Vercel exibirá o domínio com o status **"Invalid Configuration"** ⚠️ e uma tabelinha com os registros DNS que você precisa criar, com as colunas **Type**, **Name** e **Value**. Exemplo:
+
+| Type | Name | Value |
+|------|------|-------|
+| `A` | `@` | `216.198.79.1` |
+| `CNAME` | `www` | `a1b2c3d4e5f6g7h8.vercel-dns-017.com` |
+
+📋 **Como copiar os valores gerados pela Vercel:** na coluna **Value**, passe o mouse sobre o valor e **clique no ícone de copiar** 📄 que aparece ao lado dele (ou selecione o texto inteiro e use `Ctrl + C` / `Cmd + C`). Você vai copiar **dois valores**: o **IP** da linha `A` (para o domínio raiz) e o **endereço** da linha `CNAME` (para o `www`). O endereço do `CNAME` (no formato `xxxxxxxxxxxx.vercel-dns-0XX.com`) é **único para o seu projeto** — por isso **copie e cole exatamente o que aparece no seu painel**, sem digitar à mão e sem adicionar `https://`, `/` ou espaços.
+
+> 💡 Os valores da tabela acima são apenas **ilustrativos**. Use **sempre os valores que a Vercel mostrar para o seu projeto**.
+
+###### 🧭 Parte 3 — Configurando o DNS no Name.com
+
+1️⃣1️⃣ Volte ao Name.com, acesse **My Domains / Meus Domínios**, clique no seu domínio e entre em **Manage DNS Records / Gerenciar registros DNS**.  
+1️⃣2️⃣ 🧹 **Apague os registros padrão** que o Name.com cria automaticamente (normalmente registros `A`, `ANAME` ou `CNAME` apontando para a página de estacionamento/parking do Name.com, com host vazio, `www` ou `*`). Eles **entram em conflito** com os registros da Vercel.  
+1️⃣3️⃣ **Crie os novos registros** colando os valores copiados da Vercel:
+
+| Type (Tipo) | Host | Answer (Resposta / Valor) | TTL |
+|-------------|------|---------------------------|-----|
+| `A` | *(deixe em branco)* | IP copiado da Vercel (ex.: `216.198.79.1`) | `300` |
+| `CNAME` | `www` | endereço copiado da Vercel (ex.: `a1b2c3d4e5f6g7h8.vercel-dns-017.com`) | `300` |
+
+📝 **Entendendo cada campo:**
+
+- **Type (Tipo):** o tipo do registro DNS.
+  - **`A`** ✅ (recomendado) → usado no **domínio raiz** (`seunome.dev`, sem `www`). Aponta o domínio diretamente para o **IP da Vercel**. É exatamente o registro que a Vercel mostra na aba **Domains** para a raiz — basta copiar o IP da coluna **Value** e colar no campo **Answer**.
+  - **`CNAME`** → usado em **subdomínios**, como o `www`. Ele diz: "`www.seunome.dev` é um apelido para o endereço da Vercel". Aqui você cola o endereço `xxxx.vercel-dns-0XX.com` copiado da Vercel.
+  - **`ANAME`** (opcional, alternativa ao `A`) → pelas regras do DNS, **não é permitido criar um `CNAME` na raiz** do domínio. O `ANAME` funciona como um "CNAME para a raiz": em vez do IP, você coloca o endereço `xxxx.vercel-dns-0XX.com` e o Name.com o converte automaticamente em IP. Funciona, mas **não é necessário** — prefira o `A`, que é o que a Vercel indica. ⚠️ Use **ou** `A` **ou** `ANAME` na raiz — **nunca os dois**.
+- **Host:** é a parte que vem **antes** do seu domínio.
+  - **Em branco** = domínio raiz (`seunome.dev`). Na Vercel isso aparece como **`@`** — no Name.com basta **deixar o campo vazio**.
+  - **`www`** = `www.seunome.dev`.
+  - ⚠️ **Não digite o domínio completo no Host!** O Name.com já completa automaticamente com `.seunome.dev`. Se você escrever `www.seunome.dev`, o resultado será `www.seunome.dev.seunome.dev` ❌.
+- **Answer (Resposta / Valor):** o destino do registro — **cole aqui o valor copiado da aba Domains da Vercel**: o **IP** no registro `A` e o **endereço `xxxx.vercel-dns-0XX.com`** no registro `CNAME`. Sem `https://` e sem barra no final.
+- **TTL:** tempo (em segundos) que o registro fica em cache. Pode manter o padrão do Name.com (ex.: `300`).
+
+1️⃣4️⃣ Clique em **Add Record / Adicionar registro** para salvar cada um.
+
+###### ✅ Parte 4 — Validando
+
+1️⃣5️⃣ Volte à aba **Settings → Domains** do projeto na Vercel e clique em **Refresh** 🔄. A propagação do DNS costuma levar **de alguns minutos até algumas horas** (em casos raros, até 48h) ⏳.  
+1️⃣6️⃣ Quando tudo estiver certo, o status mudará para **"Valid Configuration"** ✅ e a Vercel **gerará automaticamente o certificado SSL (HTTPS)** 🔒.  
+ ➡ 💡 Domínios **`.dev` exigem HTTPS obrigatoriamente** (eles fazem parte da lista HSTS dos navegadores). Por isso, o site só abrirá depois que a Vercel emitir o certificado — isso é automático, basta aguardar.  
+1️⃣7️⃣ Para acompanhar a propagação, você pode usar o [DNS Checker](https://dnschecker.org/) 🌍, pesquisando por `seunome.dev` (tipo `A`) e `www.seunome.dev` (tipo `CNAME`).
+
+🏁 Pronto! Agora o seu portfólio está no ar com um **domínio próprio e profissional** 🎉 — perfeito para colocar no **currículo**, no **LinkedIn** e no **perfil do GitHub** 💼🚀
+
+> 🔁 **Lembrete final:** confira se a **renovação automática está desativada** no Name.com para evitar cobranças após o primeiro ano 💳❌.
 
 -----
 
