@@ -166,11 +166,13 @@ Ao se cadastrar no **GitHub Student Developer Pack**, você garante acesso gratu
 ###### ✅ Passo a passo:
 1️⃣ **Adicione seu e-mail institucional** da PUC Minas (terminado em `@pucminas.edu.br`) como **e-mail secundário** na sua conta do GitHub em [https://github.com/settings/emails](https://github.com/settings/emails)  
 2️⃣ Acesse a caixa de entrada do e-mail e **clique no link de confirmação** enviado pelo GitHub.  
-3️⃣ Ao acessar o [GitHub Student Developer Pack](https://education.github.com/pack), **permita que o navegador compartilhe sua localização atual** 🌍.  
-4️⃣ **Selecione "PUC Minas"** como sua instituição, envie um **print da sua carteirinha digital do app PUC Mobile** ou um **comprovante de matrícula recente** como forma de verificação. Depois, aguarde até **2 dias úteis** para que o selo **GitHub Pro** 🏅 seja ativado na sua conta.  
-5️⃣ Acesse: [https://www.jetbrains.com/shop/eform/students](https://www.jetbrains.com/shop/eform/students)  
+3️⃣ **Ative a autenticação de dois fatores (2FA)** 🔐 na sua conta do GitHub em [https://github.com/settings/security](https://github.com/settings/security). Esse passo é **obrigatório** antes de solicitar o GitHub Student Developer Pack. Você pode usar um app autenticador (como Google Authenticator, Microsoft Authenticator ou Authy) e **guarde os códigos de recuperação** em um lugar seguro.  
+4️⃣ Ao acessar o [GitHub Student Developer Pack](https://education.github.com/pack), **permita que o navegador compartilhe sua localização atual** 🌍.  
+ ⚠️ **Observação:** nos computadores dos **laboratórios da PUC** não há permissão para compartilhar a localização. Por isso, faça a solicitação pelo **seu próprio computador ou celular**.  
+5️⃣ **Selecione "PUC Minas"** como sua instituição, envie um **print da sua carteirinha digital do app PUC Mobile** ou um **comprovante de matrícula recente** como forma de verificação. Depois, aguarde até **2 dias úteis** para que o selo **GitHub Pro** 🏅 seja ativado na sua conta.  
+6️⃣ Acesse: [https://www.jetbrains.com/shop/eform/students](https://www.jetbrains.com/shop/eform/students)  
  ➡ Vá até a aba **GitHub** e clique em **"Authorize with GitHub"** 🔑.  
-6️⃣ **Instale o IntelliJ IDEA** e, ao abrir o programa, vá em **"Ativar licença"**. Escolha a opção **"Log in with GitHub"**, faça login com sua conta GitHub (que já possui o selo **GitHub Pro** 🏅 e que você autorizou previamente no site da JetBrains — [passo 5](https://www.jetbrains.com/shop/eform/students)), e a **licença Ultimate será ativada automaticamente** 🎉.
+7️⃣ **Instale o IntelliJ IDEA** e, ao abrir o programa, vá em **"Ativar licença"**. Escolha a opção **"Log in with GitHub"**, faça login com sua conta GitHub (que já possui o selo **GitHub Pro** 🏅 e que você autorizou previamente no site da JetBrains, conforme o [passo 6](https://www.jetbrains.com/shop/eform/students)), e a **licença Ultimate será ativada automaticamente** 🎉.
 
 🏁 Pronto! Agora você pode aproveitar todos os benefícios do **GitHub Pro** 🏅, incluindo:
 
