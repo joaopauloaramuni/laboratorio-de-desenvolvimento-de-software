@@ -1,34 +1,19 @@
 # 📊 Projeto Monitoring
 
-Projeto utilizando **Spring Boot** para demonstrar monitoramento de aplicações e acompanhamento da **saúde do sistema**.
+Projeto utilizando **Spring Boot** para demonstrar monitoramento
+de aplicações com:
 
-Em aplicações modernas, especialmente em ambientes de produção, é fundamental possuir mecanismos que permitam verificar se o sistema está funcionando corretamente, identificar problemas rapidamente e acompanhar métricas de desempenho.
+-   Spring Boot Actuator
+-   Micrometer
+-   Prometheus
 
-Nesse contexto, ferramentas de **observabilidade e monitoramento** são utilizadas para coletar informações sobre o comportamento da aplicação, como uso de memória, tempo de resposta, número de requisições e disponibilidade do sistema.
-
-Neste projeto são utilizadas as seguintes tecnologias:
-
-- **Spring Boot Actuator** → fornece endpoints prontos para monitoramento da aplicação, permitindo verificar informações como status da aplicação, métricas, logs e mapeamento de endpoints.
-
-- **Micrometer** → atua como uma camada de instrumentação de métricas, coletando dados da aplicação e formatando-os de forma compatível com diferentes sistemas de monitoramento.
-
-- **Prometheus** → é responsável por coletar, armazenar e consultar as métricas expostas pela aplicação, permitindo acompanhar o comportamento do sistema ao longo do tempo.
-
-Com essas ferramentas trabalhando em conjunto, é possível:
-
-- Monitorar a **saúde da aplicação** em tempo real
-- Coletar métricas de desempenho
-- Identificar possíveis gargalos ou falhas
-- Analisar o comportamento da aplicação ao longo do tempo
-- Criar alertas e dashboards de monitoramento
-
-A aplicação expõe métricas através do **Actuator**, que são coletadas periodicamente pelo **Prometheus**, permitindo acompanhar o funcionamento do sistema e facilitar a detecção de problemas.
+A aplicação expõe métricas através do **Actuator**, que são coletadas pelo **Prometheus** para monitoramento da aplicação.
 
 ----
 
 # 🚀 Tecnologias utilizadas
 
--   Java 17
+-   Java
 -   Spring Boot
 -   Spring Boot Actuator
 -   Micrometer
@@ -60,18 +45,21 @@ Documentação:
 
 ## Micrometer
 
-O **Micrometer** é uma biblioteca de métricas utilizada pelo Spring Boot.
+O **Micrometer** é uma biblioteca de métricas utilizada pelo Spring
+Boot.
 
-Ele funciona como uma **camada de abstração para sistemas de monitoramento**, permitindo enviar métricas para diferentes ferramentas como:
+Ele funciona como uma **camada de abstração para sistemas de
+monitoramento**, permitindo enviar métricas para diferentes ferramentas como:
 
 - Prometheus
 - Datadog
 - New Relic
 - Graphite
 
-No Spring Boot, o Micrometer é integrado automaticamente ao **Actuator**.
+No Spring Boot, o Micrometer é integrado automaticamente ao
+**Actuator**.
 
-Documentação: https://github.com/micrometer-metrics/micrometer
+Documentação: https://micrometer.io/
 
 ----
 
@@ -97,7 +85,8 @@ Site oficial: https://prometheus.io/
 
 # ⚙️ Configuração do Actuator
 
-No arquivo `application.properties`, os endpoints do Actuator são expostos:
+No arquivo `application.properties`, os endpoints do Actuator são
+expostos:
 
 ```
 management.endpoints.web.exposure.include=*
@@ -125,7 +114,8 @@ http://localhost:8080/actuator/prometheus
 
 # 📡 Arquivo prometheus.yml
 
-O arquivo **prometheus.yml** define como o Prometheus irá coletar métricas.
+O arquivo **prometheus.yml** define como o Prometheus irá coletar
+métricas.
 
 Exemplo do projeto:
 ```yml
@@ -227,9 +217,6 @@ Spring Boot Actuator
 Micrometer  
 - https://micrometer.io/  
 - https://github.com/micrometer-metrics/micrometer
-
-Micrometer Documentation
-- https://docs.micrometer.io/micrometer/reference/
 
 Prometheus  
 - https://prometheus.io/  

@@ -23,7 +23,7 @@ public class HuggingfaceApiWithUIService {
         headers.setContentType(MediaType.APPLICATION_JSON);
         headers.set("Authorization", "Bearer " + apiConfig.getApiToken());
         headers.setAccept(List.of(MediaType.IMAGE_PNG));
-        
+
         // Criar o corpo da requisição
         String jsonPayload = String.format("{\"inputs\":\"%s\"}", texto);
         HttpEntity<String> entity = new HttpEntity<>(jsonPayload, headers);
