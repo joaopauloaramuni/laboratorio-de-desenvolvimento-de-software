@@ -114,12 +114,12 @@ spring.mail.port=587
 spring.mail.username=joaopauloaramuni@gmail.com
 # https://myaccount.google.com/apppasswords
 # sua senha de app aqui (É necessário ativar a autenticação de dois fatores antes no Gmail)
-spring.mail.password=hzpjaczvuyuwnjmt
+spring.mail.password=${MAIL_PASSWORD:sua_senha_de_app_aqui}
 spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
 spring.mail.properties.mail.smtp.starttls.required=true
 recaptcha.site-key=6LeEwsItAAAAAB4wX5NCt_c72PDo2Vpvds0BOO5Y
-recaptcha.secret-key=6LeEwsItAAAAAKbWz-EEfZn1BxfoanhCeMPTvB_e
+recaptcha.secret-key=${RECAPTCHA_SECRET_KEY:sua_secret_key_aqui}
 ```
 
 ## Dependências
