@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 190" role="img" aria-label="Bode">
+  <ellipse cx="104" cy="176" rx="76" ry="7" fill="#000" opacity="0.2"/>
+  <g fill="#d6b48c">
+    <rect x="52" y="112" width="13" height="56" rx="5"/>
+    <rect x="72" y="116" width="13" height="52" rx="5"/>
+    <rect x="124" y="116" width="13" height="52" rx="5"/>
+    <rect x="144" y="112" width="13" height="56" rx="5"/>
+  </g>
+  <g fill="#5b4636">
+    <rect x="51" y="160" width="15" height="10" rx="3"/>
+    <rect x="71" y="160" width="15" height="10" rx="3"/>
+    <rect x="123" y="160" width="15" height="10" rx="3"/>
+    <rect x="143" y="160" width="15" height="10" rx="3"/>
+  </g>
+  <path d="M40 88 C26 80 24 66 34 62 C38 74 44 78 50 80 Z" fill="#e9cfae"/>
+  <ellipse cx="102" cy="100" rx="62" ry="36" fill="#f1dcc0"/>
+  <path d="M60 92 C80 84 120 84 146 92" stroke="#e2c49f" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M138 92 C140 72 146 58 156 50 L178 64 C172 80 162 94 150 104 Z" fill="#f1dcc0"/>
+  <path d="M156 40 C150 22 136 14 122 18 C134 22 144 32 148 46 Z" fill="#8d7b68"/>
+  <path d="M168 38 C170 20 162 8 150 6 C158 14 162 26 160 42 Z" fill="#a8957f"/>
+  <ellipse cx="166" cy="56" rx="22" ry="18" fill="#f1dcc0"/>
+  <path d="M176 60 C190 60 200 66 200 74 C200 82 190 86 180 84 C172 82 168 72 176 60 Z" fill="#e9cfae"/>
+  <ellipse cx="140" cy="52" rx="16" ry="7" transform="rotate(-20 140 52)" fill="#e2c49f"/>
+  <circle cx="170" cy="50" r="5.5" fill="#fff"/>
+  <circle cx="171.5" cy="50.5" r="3" fill="#1f2430"/>
+  <circle cx="194" cy="70" r="2" fill="#5b4636"/>
+  <path d="M184 80 C186 82 190 82 192 80" stroke="#5b4636" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M176 82 C176 96 180 106 186 112 C188 100 188 90 186 82 Z" fill="#fffdf7" stroke="#d6b48c" stroke-width="1.5"/>
+</svg>

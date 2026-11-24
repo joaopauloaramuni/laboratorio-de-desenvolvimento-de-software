@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 150" role="img" aria-label="Carro 0 km">
+  <ellipse cx="122" cy="134" rx="104" ry="8" fill="#000" opacity="0.2"/>
+  <path d="M10 50 l6 -12 l6 12 l12 4 l-12 4 l-6 12 l-6 -12 l-12 -4 z" fill="#ffd23f"/>
+  <path d="M214 22 l4 -9 l4 9 l9 3 l-9 3 l-4 9 l-4 -9 l-9 -3 z" fill="#ffd23f"/>
+  <path d="M18 106 C16 92 24 84 40 81 L80 76 C95 58 115 48 142 48 C166 48 184 60 198 74 L216 78 C228 81 232 90 230 104 L228 114 L20 114 Z" fill="#e63946"/>
+  <path d="M20 106 L228 106 L228 114 L20 114 Z" fill="#b5212d"/>
+  <path d="M92 76 C104 62 120 56 138 56 L140 76 Z" fill="#bfe6ff"/>
+  <path d="M148 56 C164 57 178 64 188 76 L148 76 Z" fill="#bfe6ff"/>
+  <path d="M100 74 C108 66 116 62 124 60" stroke="#fff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <path d="M32 90 L212 88" stroke="#ff8a93" stroke-width="4" stroke-linecap="round"/>
+  <path d="M143 78 L143 110" stroke="#b5212d" stroke-width="2.5"/>
+  <rect x="152" y="86" width="12" height="3.5" rx="1.7" fill="#b5212d"/>
+  <rect x="218" y="88" width="11" height="8" rx="3" fill="#ffd23f"/>
+  <rect x="18" y="90" width="10" height="7" rx="3" fill="#ffb4b4"/>
+  <circle cx="66" cy="112" r="21" fill="#1f2430"/>
+  <circle cx="66" cy="112" r="10" fill="#cfd6e0"/>
+  <circle cx="66" cy="112" r="3.5" fill="#1f2430"/>
+  <circle cx="184" cy="112" r="21" fill="#1f2430"/>
+  <circle cx="184" cy="112" r="10" fill="#cfd6e0"/>
+  <circle cx="184" cy="112" r="3.5" fill="#1f2430"/>
+  <rect x="112" y="18" width="62" height="24" rx="6" fill="#0a1f44"/>
+  <text x="143" y="36" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="15" fill="#ffd23f">0 KM</text>
+  <path d="M143 42 L143 48" stroke="#0a1f44" stroke-width="3"/>
+</svg>

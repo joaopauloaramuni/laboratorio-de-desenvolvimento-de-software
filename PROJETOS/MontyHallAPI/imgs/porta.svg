@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 80" role="img" aria-label="Porta">
+  <rect x="2" y="2" width="60" height="76" rx="6" fill="#ffffff"/>
+  <rect x="8" y="8" width="48" height="70" rx="3" fill="#ffd23f"/>
+  <circle cx="16" cy="18" r="3" fill="#e63946"/>
+  <circle cx="46" cy="26" r="3" fill="#1d8fe1"/>
+  <circle cx="20" cy="62" r="3" fill="#2fb36d"/>
+  <path d="M44 56 l2 -5 l2 5 l5 2 l-5 2 l-2 5 l-2 -5 l-5 -2 z" fill="#ff7a1a"/>
+  <text x="32" y="54" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="34" fill="#0a1f44">?</text>
+  <circle cx="49" cy="44" r="3.2" fill="#0a1f44"/>
+</svg>
